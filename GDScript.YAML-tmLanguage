@@ -1,6 +1,6 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 ---
-name: GDScript
+name: GDScript (Godot Engine)
 scopeName: source.gdscript
 fileTypes:
 - gd
