@@ -1,0 +1,15 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_bias(bias)",
+      "contents": "set_bias(${1:bias})"
+    },
+    "set_bias",
+    {
+      "trigger": "get_bias()",
+      "contents": "get_bias()"
+    },
+    "get_bias"
+  ]
+}
