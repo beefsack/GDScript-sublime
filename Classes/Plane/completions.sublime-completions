@@ -5,14 +5,17 @@
       "trigger": "center()",
       "contents": "center()"
     },
+    "center",
     {
       "trigger": "distance_to(point)",
       "contents": "distance_to(${1:point})"
     },
+    "distance_to",
     {
       "trigger": "get_any_point()",
       "contents": "get_any_point()"
     },
+    "get_any_point",
     {
       "trigger": "has_point(point, epsilon)",
       "contents": "has_point(${1:point}, ${2:epsilon})"
@@ -21,10 +24,12 @@
       "trigger": "intersect_3(b, c)",
       "contents": "intersect_3(${1:b}, ${2:c})"
     },
+    "intersect_3",
     {
       "trigger": "intersects_ray(from, dir)",
       "contents": "intersects_ray(${1:from}, ${2:dir})"
     },
+    "intersects_ray",
     {
       "trigger": "intersects_segment(begin, end)",
       "contents": "intersects_segment(${1:begin}, ${2:end})"
@@ -33,14 +38,17 @@
       "trigger": "is_point_over(point)",
       "contents": "is_point_over(${1:point})"
     },
+    "is_point_over",
     {
       "trigger": "normalized()",
       "contents": "normalized()"
     },
+    "normalized",
     {
       "trigger": "project(point)",
       "contents": "project(${1:point})"
     },
+    "project",
     {
       "trigger": "Plane(a, b, c, d)",
       "contents": "Plane(${1:a}, ${2:b}, ${3:c}, ${4:d})"

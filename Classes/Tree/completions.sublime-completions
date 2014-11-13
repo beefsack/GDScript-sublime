@@ -2,101 +2,104 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "clear()",
-      "contents": "clear()"
-    },
-    {
       "trigger": "create_item(parent)",
       "contents": "create_item(${1:parent})"
-    },
-    {
-      "trigger": "get_root()",
-      "contents": "get_root()"
     },
     {
       "trigger": "set_column_min_width(arg0, arg1)",
       "contents": "set_column_min_width(${1:arg0}, ${2:arg1})"
     },
+    "set_column_min_width",
     {
       "trigger": "set_column_expand(arg0, arg1)",
       "contents": "set_column_expand(${1:arg0}, ${2:arg1})"
     },
+    "set_column_expand",
     {
       "trigger": "get_column_width(arg0)",
       "contents": "get_column_width(${1:arg0})"
     },
+    "get_column_width",
     {
       "trigger": "set_hide_root(arg0)",
       "contents": "set_hide_root(${1:arg0})"
     },
+    "set_hide_root",
     {
       "trigger": "get_next_selected(from)",
       "contents": "get_next_selected(${1:from})"
     },
-    {
-      "trigger": "get_selected()",
-      "contents": "get_selected()"
-    },
+    "get_next_selected",
     {
       "trigger": "get_selected_column()",
       "contents": "get_selected_column()"
     },
-    {
-      "trigger": "get_pressed_button()",
-      "contents": "get_pressed_button()"
-    },
+    "get_selected_column",
     {
       "trigger": "set_select_mode(mode)",
       "contents": "set_select_mode(${1:mode})"
     },
+    "set_select_mode",
     {
       "trigger": "set_columns(amount)",
       "contents": "set_columns(${1:amount})"
     },
+    "set_columns",
     {
       "trigger": "get_columns()",
       "contents": "get_columns()"
     },
+    "get_columns",
     {
       "trigger": "get_edited()",
       "contents": "get_edited()"
     },
+    "get_edited",
     {
       "trigger": "get_edited_column()",
       "contents": "get_edited_column()"
     },
+    "get_edited_column",
     {
       "trigger": "get_custom_popup_rect()",
       "contents": "get_custom_popup_rect()"
     },
+    "get_custom_popup_rect",
     {
       "trigger": "get_item_area_rect(item, column)",
       "contents": "get_item_area_rect(${1:item}, ${2:column})"
     },
+    "get_item_area_rect",
     {
       "trigger": "ensure_cursor_is_visible()",
       "contents": "ensure_cursor_is_visible()"
     },
+    "ensure_cursor_is_visible",
     {
       "trigger": "set_column_titles_visible(visible)",
       "contents": "set_column_titles_visible(${1:visible})"
     },
+    "set_column_titles_visible",
     {
       "trigger": "are_column_titles_visible()",
       "contents": "are_column_titles_visible()"
     },
+    "are_column_titles_visible",
     {
       "trigger": "set_column_title(column, title)",
       "contents": "set_column_title(${1:column}, ${2:title})"
     },
+    "set_column_title",
     {
       "trigger": "get_column_title(column)",
       "contents": "get_column_title(${1:column})"
     },
+    "get_column_title",
     {
       "trigger": "get_scroll()",
       "contents": "get_scroll()"
     },
+    "get_scroll",
     "SELECT_SINGLE",
     "SELECT_ROW",
     "SELECT_MULTI"

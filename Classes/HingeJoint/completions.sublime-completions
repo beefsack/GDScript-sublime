@@ -2,20 +2,8 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_param(param, value)",
-      "contents": "set_param(${1:param}, ${2:value})"
-    },
-    {
-      "trigger": "get_param(param)",
-      "contents": "get_param(${1:param})"
-    },
-    {
       "trigger": "set_flag(flag, enabled)",
       "contents": "set_flag(${1:flag}, ${2:enabled})"
-    },
-    {
-      "trigger": "get_flag(flag)",
-      "contents": "get_flag(${1:flag})"
     },
     "PARAM_LIMIT_UPPER",
     "PARAM_LIMIT_LOWER",

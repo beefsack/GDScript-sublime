@@ -1,51 +1,69 @@
-###################################
+#########################################################
+#
 #   Gen 2014.11.12
 #
-#  This ruby script to update the completions
+#   This ruby script to update the completions
 #   Requirement ruby gems:
 #     HTTPClient
 #     Nokogiri
 #   $ ruby plugin_path/fetch_new_data.rb
-##################################
+#
+#########################################################
 require 'httpclient'
 require 'nokogiri'
 require 'fileutils'
 require 'json'
 
-base_url = 'https://github.com/okamstudio/godot/wiki/'
-client = HTTPClient.new
-response = nil
-begin
-  response = client.get(base_url+'class_list')
-rescue e
-  p "[Error] Get class failed : #{e}"
-  p "- Press [Enter] to try again."
-  STDIN.getc
-  retry
-end
-doc = Nokogiri.parse(response.body)
-path = File.dirname(__FILE__)
-FileUtils.mkdir(path+"/Classes") unless File.exist?(path+"/Classes")
-class_names = []
-caches = []
 
-doc.css('.markdown-body > table td a').each do |node|
-  class_name = node.content
-  p "Start to read #{class_name}..."
-  unless class_name[/^@/] || caches.include?(class_name)
-    class_names << class_name
-    caches << class_name
+BASE_URL = 'https://github.com/okamstudio/godot/wiki/'
+$client = HTTPClient.new
+$class_names = []
+$caches = []
+$path = File.dirname(__FILE__)
+
+def main(args)
+  if args.size == 0
+    $load_list = true
+    $load_class = true
+  else
+    args.each do |cmd|
+      case cmd
+        when 'list'
+          $load_list = true
+          $load_class = false
+        when 'all'
+          $load_list = true
+          $load_class = true
+        else
+          if (arr = cmd.split('=')).size == 2
+            case arr[0]
+              when 'class'
+                $load_class = arr[1]
+              when 'url'
+                $load_class_url = arr[1]
+              else
+            end
+          end
+      end
+    end
   end
-  sleep(5)
-  url = base_url + node["href"]
+  if $load_list
+    fetch_list
+  elsif $load_class
+    fetch_class $load_class, $load_class_url[/^https?:\/\//] ? $load_class_url : BASE_URL + $load_class_url
+  end
+end
+
+def fetch_class class_name, url
   s_completions = []
-  res_2 = nil
+  res_s = nil
   begin
-    res_s = client.get(url)
-  rescue e
+    res_s = $client.get(url)
+  rescue Exception => e
     p "[Error] Get #{class_name} failed : #{e}"
     p "- Press [Enter] to try again."
     STDIN.getc
+    p "retry..."
     retry
   end
   s_doc = Nokogiri.parse(res_s.body)
@@ -64,17 +82,20 @@ doc.css('.markdown-body > table td a').each do |node|
               method_name = 1
             elsif k[/^\w+$/] && method_name == 1
               method_name = k
-            elsif k[/\(|\)|,/] && arg_key == 0
+            elsif k[/\(|,/] && arg_key == 0
               arg_key = 1
             elsif k[/^\w+$/] && arg_key == 1
               arg_key = 2
             elsif k[/^\w+$/] && arg_key == 2
               args << k
               arg_key = 0
+            elsif k[/\)/]
+              break
             end
           end
-          unless method_name.include?("#{method_name}(#{args*', '})")
-            caches << "#{method_name}(#{args*', '})"
+          key = "#{method_name}(#{args*', '})"
+          unless $caches.include?(key)
+            $caches << key
             unless method_name[/^_/]
               count = 0
               s_completions << {
@@ -83,8 +104,8 @@ doc.css('.markdown-body > table td a').each do |node|
               }
             end
           end
-          unless method_name.include?(method_name)
-            caches << method_name
+          unless $caches.include?(method_name)
+            $caches << method_name
             s_completions << method_name
           end
 
@@ -99,13 +120,13 @@ doc.css('.markdown-body > table td a').each do |node|
           content = li.content
           arr = content.gsub(/\w+/)
           if arr.size == 2
-            unless caches.include?(arr[0])
-              caches << arr[0]
-              class_names << arr[0]
+            unless $caches.include?(arr[0])
+              $caches << arr[0]
+              $class_names << arr[0]
             end
             unless arr[0] == arr[1]
-              unless caches.include?(arr[1])
-                caches << arr[1]
+              unless $caches.include?(arr[1])
+                $caches << arr[1]
                 s_completions << arr[1]
               end
               p "  << Member: #{arr[1]}"
@@ -120,8 +141,8 @@ doc.css('.markdown-body > table td a').each do |node|
       if list['class'] == 'task-list'
         list.css('li').each do |li|
           if li.content[/^\w+/]
-            unless caches.include?(li.content[/^\w+/])
-              caches << li.content[/^\w+/]
+            unless $caches.include?(li.content[/^\w+/])
+              $caches << li.content[/^\w+/]
               s_completions << li.content[/^\w+/]
             end
             p "  << Numeric: #{li.content[/^\w+/]}"
@@ -132,21 +153,48 @@ doc.css('.markdown-body > table td a').each do |node|
   end
 
   if s_completions.size > 0
-    class_path = "#{path}/Classes/#{class_name.sub('@', 'G_')}"
+    class_path = "#{$path}/Classes/#{class_name.sub('@', 'G_')}"
     FileUtils.mkdir(class_path) unless File.exist?(class_path)
     File.open(class_path + "/completions.sublime-completions", 'wb') do |f|
       f.write JSON.pretty_unparse(scope: "source.gdscript", completions: s_completions)
     end
+  end 
+end #end fetch_class
+
+def fetch_list
+  response = nil
+  begin
+    response = $client.get(BASE_URL+'class_list')
+  rescue Exception => e
+    p "[Error] Get class failed : #{e}"
+    p "- Press [Enter] to try again."
+    STDIN.getc
+    p "retry..."
+    retry
+  end
+  doc = Nokogiri.parse(response.body)
+  FileUtils.mkdir($path+"/Classes") unless File.exist?($path+"/Classes")
+
+  doc.css('.markdown-body > table td a').each do |node|
+    class_name = node.content
+    p "Start to read #{class_name}..."
+    unless class_name[/^@/] || $caches.include?(class_name)
+      $class_names << class_name
+      $caches << class_name
+    end
+    if $load_class
+      sleep(5)
+      fetch_class class_name, BASE_URL + node["href"]
+    end
+  end
+
+  j_hash = {
+      scope: "source.gdscript",
+      completions: $class_names
+  }
+  File.open($path+"/Classes/Class.sublime-completions", 'wb') do |f|
+    f.write JSON.pretty_unparse(j_hash)
   end
 end
 
-
-
-j_hash = {
-    scope: "source.gdscript",
-    completions: class_names
-}
-File.open(path+"/Classes/Class.sublime-completions", 'wb') do |f|
-  f.write JSON.pretty_unparse(j_hash)
-end
-
+main(ARGV)

@@ -5,6 +5,7 @@
       "trigger": "input_event(arg0)",
       "contents": "input_event(${1:arg0})"
     },
+    "input_event",
     "NOTIFICATION_WM_FOCUS_IN",
     "NOTIFICATION_WM_FOCUS_OUT",
     "NOTIFICATION_WM_QUIT_REQUEST",

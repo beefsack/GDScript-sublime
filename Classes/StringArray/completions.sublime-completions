@@ -2,24 +2,12 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "get(idx)",
-      "contents": "get(${1:idx})"
-    },
-    {
       "trigger": "push_back(string)",
       "contents": "push_back(${1:string})"
     },
     {
-      "trigger": "resize(idx)",
-      "contents": "resize(${1:idx})"
-    },
-    {
       "trigger": "set(idx, string)",
       "contents": "set(${1:idx}, ${2:string})"
-    },
-    {
-      "trigger": "size()",
-      "contents": "size()"
     },
     {
       "trigger": "StringArray(from)",

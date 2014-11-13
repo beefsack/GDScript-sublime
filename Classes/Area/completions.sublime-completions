@@ -5,57 +5,71 @@
       "trigger": "set_space_override_mode(enable)",
       "contents": "set_space_override_mode(${1:enable})"
     },
+    "set_space_override_mode",
     {
       "trigger": "get_space_override_mode()",
       "contents": "get_space_override_mode()"
     },
+    "get_space_override_mode",
     {
       "trigger": "set_gravity_is_point(enable)",
       "contents": "set_gravity_is_point(${1:enable})"
     },
+    "set_gravity_is_point",
     {
       "trigger": "is_gravity_a_point()",
       "contents": "is_gravity_a_point()"
     },
+    "is_gravity_a_point",
     {
       "trigger": "set_gravity_vector(vector)",
       "contents": "set_gravity_vector(${1:vector})"
     },
+    "set_gravity_vector",
     {
       "trigger": "get_gravity_vector()",
       "contents": "get_gravity_vector()"
     },
+    "get_gravity_vector",
     {
       "trigger": "set_gravity(gravity)",
       "contents": "set_gravity(${1:gravity})"
     },
+    "set_gravity",
     {
       "trigger": "get_gravity()",
       "contents": "get_gravity()"
     },
+    "get_gravity",
     {
       "trigger": "set_density(density)",
       "contents": "set_density(${1:density})"
     },
+    "set_density",
     {
       "trigger": "get_density()",
       "contents": "get_density()"
     },
+    "get_density",
     {
       "trigger": "set_priority(priority)",
       "contents": "set_priority(${1:priority})"
     },
+    "set_priority",
     {
       "trigger": "get_priority()",
       "contents": "get_priority()"
     },
+    "get_priority",
     {
       "trigger": "set_enable_monitoring(enable)",
       "contents": "set_enable_monitoring(${1:enable})"
     },
+    "set_enable_monitoring",
     {
       "trigger": "is_monitoring_enabled()",
       "contents": "is_monitoring_enabled()"
-    }
+    },
+    "is_monitoring_enabled"
   ]
 }

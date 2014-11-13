@@ -5,9 +5,11 @@
       "trigger": "set_plane(plane)",
       "contents": "set_plane(${1:plane})"
     },
+    "set_plane",
     {
       "trigger": "get_plane()",
       "contents": "get_plane()"
-    }
+    },
+    "get_plane"
   ]
 }

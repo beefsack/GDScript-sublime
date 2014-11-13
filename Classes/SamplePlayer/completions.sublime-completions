@@ -5,18 +5,22 @@
       "trigger": "set_sample_library(library)",
       "contents": "set_sample_library(${1:library})"
     },
+    "set_sample_library",
     {
       "trigger": "get_sample_library()",
       "contents": "get_sample_library()"
     },
+    "get_sample_library",
     {
       "trigger": "set_voice_count(max_voices)",
       "contents": "set_voice_count(${1:max_voices})"
     },
+    "set_voice_count",
     {
       "trigger": "get_voice_count()",
       "contents": "get_voice_count()"
     },
+    "get_voice_count",
     {
       "trigger": "play(name, unique)",
       "contents": "play(${1:name}, ${2:unique})"
@@ -26,10 +30,6 @@
       "contents": "stop(${1:voice})"
     },
     {
-      "trigger": "stop_all()",
-      "contents": "stop_all()"
-    },
-    {
       "trigger": "set_mix_rate(voice, hz)",
       "contents": "set_mix_rate(${1:voice}, ${2:hz})"
     },
@@ -37,30 +37,37 @@
       "trigger": "set_pitch_scale(voice, ratio)",
       "contents": "set_pitch_scale(${1:voice}, ${2:ratio})"
     },
+    "set_pitch_scale",
     {
       "trigger": "set_volume(voice, nrg)",
       "contents": "set_volume(${1:voice}, ${2:nrg})"
     },
+    "set_volume",
     {
       "trigger": "set_volume_db(voice, nrg)",
       "contents": "set_volume_db(${1:voice}, ${2:nrg})"
     },
+    "set_volume_db",
     {
       "trigger": "set_pan(voice, pan, depth, height)",
       "contents": "set_pan(${1:voice}, ${2:pan}, ${3:depth}, ${4:height})"
     },
+    "set_pan",
     {
       "trigger": "set_filter(voice, type, cutoff_hz, resonance, gain)",
       "contents": "set_filter(${1:voice}, ${2:type}, ${3:cutoff_hz}, ${4:resonance}, ${5:gain})"
     },
+    "set_filter",
     {
       "trigger": "set_chorus(voice, send)",
       "contents": "set_chorus(${1:voice}, ${2:send})"
     },
+    "set_chorus",
     {
       "trigger": "set_reverb(voice, room_type, send)",
       "contents": "set_reverb(${1:voice}, ${2:room_type}, ${3:send})"
     },
+    "set_reverb",
     {
       "trigger": "get_mix_rate(voice)",
       "contents": "get_mix_rate(${1:voice})"
@@ -69,142 +76,172 @@
       "trigger": "get_pitch_scale(voice)",
       "contents": "get_pitch_scale(${1:voice})"
     },
+    "get_pitch_scale",
     {
       "trigger": "get_volume(voice)",
       "contents": "get_volume(${1:voice})"
     },
+    "get_volume",
     {
       "trigger": "get_volume_db(voice)",
       "contents": "get_volume_db(${1:voice})"
     },
+    "get_volume_db",
     {
       "trigger": "get_pan(voice)",
       "contents": "get_pan(${1:voice})"
     },
+    "get_pan",
     {
       "trigger": "get_pan_depth(voice)",
       "contents": "get_pan_depth(${1:voice})"
     },
+    "get_pan_depth",
     {
       "trigger": "get_pan_height(voice)",
       "contents": "get_pan_height(${1:voice})"
     },
+    "get_pan_height",
     {
       "trigger": "get_filter_type(voice)",
       "contents": "get_filter_type(${1:voice})"
     },
+    "get_filter_type",
     {
       "trigger": "get_filter_cutoff(voice)",
       "contents": "get_filter_cutoff(${1:voice})"
     },
+    "get_filter_cutoff",
     {
       "trigger": "get_filter_resonance(voice)",
       "contents": "get_filter_resonance(${1:voice})"
     },
+    "get_filter_resonance",
     {
       "trigger": "get_filter_gain(voice)",
       "contents": "get_filter_gain(${1:voice})"
     },
+    "get_filter_gain",
     {
       "trigger": "get_chorus(voice)",
       "contents": "get_chorus(${1:voice})"
     },
+    "get_chorus",
     {
       "trigger": "get_reverb_room(voice)",
       "contents": "get_reverb_room(${1:voice})"
     },
+    "get_reverb_room",
     {
       "trigger": "get_reverb(voice)",
       "contents": "get_reverb(${1:voice})"
     },
+    "get_reverb",
     {
       "trigger": "set_default_pitch_scale(ratio)",
       "contents": "set_default_pitch_scale(${1:ratio})"
     },
+    "set_default_pitch_scale",
     {
       "trigger": "set_default_volume(nrg)",
       "contents": "set_default_volume(${1:nrg})"
     },
+    "set_default_volume",
     {
       "trigger": "set_default_volume_db(db)",
       "contents": "set_default_volume_db(${1:db})"
     },
+    "set_default_volume_db",
     {
       "trigger": "set_default_pan(pan, depth, height)",
       "contents": "set_default_pan(${1:pan}, ${2:depth}, ${3:height})"
     },
+    "set_default_pan",
     {
       "trigger": "set_default_filter(type, cutoff_hz, resonance, gain)",
       "contents": "set_default_filter(${1:type}, ${2:cutoff_hz}, ${3:resonance}, ${4:gain})"
     },
+    "set_default_filter",
     {
       "trigger": "set_default_chorus(send)",
       "contents": "set_default_chorus(${1:send})"
     },
+    "set_default_chorus",
     {
       "trigger": "set_default_reverb(room_type, send)",
       "contents": "set_default_reverb(${1:room_type}, ${2:send})"
     },
+    "set_default_reverb",
     {
       "trigger": "get_default_pitch_scale()",
       "contents": "get_default_pitch_scale()"
     },
+    "get_default_pitch_scale",
     {
       "trigger": "get_default_volume()",
       "contents": "get_default_volume()"
     },
+    "get_default_volume",
     {
       "trigger": "get_default_volume_db()",
       "contents": "get_default_volume_db()"
     },
+    "get_default_volume_db",
     {
       "trigger": "get_default_pan()",
       "contents": "get_default_pan()"
     },
+    "get_default_pan",
     {
       "trigger": "get_default_pan_depth()",
       "contents": "get_default_pan_depth()"
     },
+    "get_default_pan_depth",
     {
       "trigger": "get_default_pan_height()",
       "contents": "get_default_pan_height()"
     },
+    "get_default_pan_height",
     {
       "trigger": "get_default_filter_type()",
       "contents": "get_default_filter_type()"
     },
+    "get_default_filter_type",
     {
       "trigger": "get_default_filter_cutoff()",
       "contents": "get_default_filter_cutoff()"
     },
+    "get_default_filter_cutoff",
     {
       "trigger": "get_default_filter_resonance()",
       "contents": "get_default_filter_resonance()"
     },
+    "get_default_filter_resonance",
     {
       "trigger": "get_default_filter_gain()",
       "contents": "get_default_filter_gain()"
     },
+    "get_default_filter_gain",
     {
       "trigger": "get_default_chorus()",
       "contents": "get_default_chorus()"
     },
+    "get_default_chorus",
     {
       "trigger": "get_default_reverb_room()",
       "contents": "get_default_reverb_room()"
     },
+    "get_default_reverb_room",
     {
       "trigger": "get_default_reverb()",
       "contents": "get_default_reverb()"
     },
-    {
-      "trigger": "is_active()",
-      "contents": "is_active()"
-    },
+    "get_default_reverb",
     {
       "trigger": "is_voice_active(voice)",
       "contents": "is_voice_active(${1:voice})"
     },
+    "is_voice_active",
     "FILTER_NONE",
     "FILTER_LOWPASS",
     "FILTER_BANDPASS",

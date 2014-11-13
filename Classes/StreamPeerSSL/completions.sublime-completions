@@ -5,6 +5,7 @@
       "trigger": "accept(stream)",
       "contents": "accept(${1:stream})"
     },
+    "accept",
     {
       "trigger": "connect(stream, validate_certs, for_hostname)",
       "contents": "connect(${1:stream}, ${2:validate_certs}, ${3:for_hostname})"
@@ -13,6 +14,7 @@
       "trigger": "get_status()",
       "contents": "get_status()"
     },
+    "get_status",
     {
       "trigger": "disconnect()",
       "contents": "disconnect()"

@@ -5,58 +5,57 @@
       "trigger": "clear_filters()",
       "contents": "clear_filters()"
     },
+    "clear_filters",
     {
       "trigger": "add_filter(filter)",
       "contents": "add_filter(${1:filter})"
     },
-    {
-      "trigger": "get_current_dir()",
-      "contents": "get_current_dir()"
-    },
+    "add_filter",
     {
       "trigger": "get_current_file()",
       "contents": "get_current_file()"
     },
+    "get_current_file",
     {
       "trigger": "get_current_path()",
       "contents": "get_current_path()"
     },
+    "get_current_path",
     {
       "trigger": "set_current_dir(dir)",
       "contents": "set_current_dir(${1:dir})"
     },
+    "set_current_dir",
     {
       "trigger": "set_current_file(file)",
       "contents": "set_current_file(${1:file})"
     },
+    "set_current_file",
     {
       "trigger": "set_current_path(path)",
       "contents": "set_current_path(${1:path})"
     },
-    {
-      "trigger": "set_mode(mode)",
-      "contents": "set_mode(${1:mode})"
-    },
-    {
-      "trigger": "get_mode()",
-      "contents": "get_mode()"
-    },
+    "set_current_path",
     {
       "trigger": "get_vbox()",
       "contents": "get_vbox()"
     },
+    "get_vbox",
     {
       "trigger": "set_access(access)",
       "contents": "set_access(${1:access})"
     },
+    "set_access",
     {
       "trigger": "get_access()",
       "contents": "get_access()"
     },
+    "get_access",
     {
       "trigger": "invalidate()",
       "contents": "invalidate()"
     },
+    "invalidate",
     "MODE_OPEN_FILE",
     "MODE_OPEN_FILES",
     "MODE_OPEN_DIR",

@@ -9,26 +9,32 @@
       "trigger": "get_name_count()",
       "contents": "get_name_count()"
     },
+    "get_name_count",
     {
       "trigger": "get_property()",
       "contents": "get_property()"
     },
+    "get_property",
     {
       "trigger": "get_subname(idx)",
       "contents": "get_subname(${1:idx})"
     },
+    "get_subname",
     {
       "trigger": "get_subname_count()",
       "contents": "get_subname_count()"
     },
+    "get_subname_count",
     {
       "trigger": "is_absolute()",
       "contents": "is_absolute()"
     },
+    "is_absolute",
     {
       "trigger": "is_empty()",
       "contents": "is_empty()"
     },
+    "is_empty",
     {
       "trigger": "NodePath(from)",
       "contents": "NodePath(${1:from})"

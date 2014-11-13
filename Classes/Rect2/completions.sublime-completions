@@ -5,6 +5,7 @@
       "trigger": "clip(b)",
       "contents": "clip(${1:b})"
     },
+    "clip",
     {
       "trigger": "encloses(b)",
       "contents": "encloses(${1:b})"
@@ -12,22 +13,6 @@
     {
       "trigger": "expand(to)",
       "contents": "expand(${1:to})"
-    },
-    {
-      "trigger": "get_area()",
-      "contents": "get_area()"
-    },
-    {
-      "trigger": "grow(by)",
-      "contents": "grow(${1:by})"
-    },
-    {
-      "trigger": "has_no_area()",
-      "contents": "has_no_area()"
-    },
-    {
-      "trigger": "has_point(point)",
-      "contents": "has_point(${1:point})"
     },
     {
       "trigger": "intersects(b)",

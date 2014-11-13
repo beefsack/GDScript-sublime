@@ -5,9 +5,11 @@
       "trigger": "set_remote_node(path)",
       "contents": "set_remote_node(${1:path})"
     },
+    "set_remote_node",
     {
       "trigger": "get_remote_node()",
       "contents": "get_remote_node()"
-    }
+    },
+    "get_remote_node"
   ]
 }

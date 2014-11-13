@@ -5,42 +5,12 @@
       "trigger": "set_texture(texture)",
       "contents": "set_texture(${1:texture})"
     },
+    "set_texture",
     {
       "trigger": "get_texture()",
       "contents": "get_texture()"
     },
-    {
-      "trigger": "set_centered(centered)",
-      "contents": "set_centered(${1:centered})"
-    },
-    {
-      "trigger": "is_centered()",
-      "contents": "is_centered()"
-    },
-    {
-      "trigger": "set_offset(offset)",
-      "contents": "set_offset(${1:offset})"
-    },
-    {
-      "trigger": "get_offset()",
-      "contents": "get_offset()"
-    },
-    {
-      "trigger": "set_flip_h(flip_h)",
-      "contents": "set_flip_h(${1:flip_h})"
-    },
-    {
-      "trigger": "is_flipped_h()",
-      "contents": "is_flipped_h()"
-    },
-    {
-      "trigger": "set_flip_v(flip_v)",
-      "contents": "set_flip_v(${1:flip_v})"
-    },
-    {
-      "trigger": "is_flipped_v()",
-      "contents": "is_flipped_v()"
-    },
+    "get_texture",
     {
       "trigger": "set_region(enabled)",
       "contents": "set_region(${1:enabled})"
@@ -49,45 +19,36 @@
       "trigger": "is_region()",
       "contents": "is_region()"
     },
+    "is_region",
     {
       "trigger": "set_region_rect(rect)",
       "contents": "set_region_rect(${1:rect})"
     },
+    "set_region_rect",
     {
       "trigger": "get_region_rect()",
       "contents": "get_region_rect()"
     },
-    {
-      "trigger": "set_frame(frame)",
-      "contents": "set_frame(${1:frame})"
-    },
-    {
-      "trigger": "get_frame()",
-      "contents": "get_frame()"
-    },
+    "get_region_rect",
     {
       "trigger": "set_vframes(vframes)",
       "contents": "set_vframes(${1:vframes})"
     },
+    "set_vframes",
     {
       "trigger": "get_vframes()",
       "contents": "get_vframes()"
     },
+    "get_vframes",
     {
       "trigger": "set_hframes(hframes)",
       "contents": "set_hframes(${1:hframes})"
     },
+    "set_hframes",
     {
       "trigger": "get_hframes()",
       "contents": "get_hframes()"
     },
-    {
-      "trigger": "set_modulate(modulate)",
-      "contents": "set_modulate(${1:modulate})"
-    },
-    {
-      "trigger": "get_modulate()",
-      "contents": "get_modulate()"
-    }
+    "get_hframes"
   ]
 }

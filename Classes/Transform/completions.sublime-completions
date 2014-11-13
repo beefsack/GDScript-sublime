@@ -2,40 +2,13 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "affine_inverse()",
-      "contents": "affine_inverse()"
-    },
-    {
-      "trigger": "inverse()",
-      "contents": "inverse()"
-    },
-    {
       "trigger": "looking_at(target, up)",
       "contents": "looking_at(${1:target}, ${2:up})"
     },
-    {
-      "trigger": "orthonormalized()",
-      "contents": "orthonormalized()"
-    },
-    {
-      "trigger": "rotated(axis, phi)",
-      "contents": "rotated(${1:axis}, ${2:phi})"
-    },
-    {
-      "trigger": "scaled(scale)",
-      "contents": "scaled(${1:scale})"
-    },
+    "looking_at",
     {
       "trigger": "translated(ofs)",
       "contents": "translated(${1:ofs})"
-    },
-    {
-      "trigger": "xform(v)",
-      "contents": "xform(${1:v})"
-    },
-    {
-      "trigger": "xform_inv(v)",
-      "contents": "xform_inv(${1:v})"
     },
     {
       "trigger": "Transform(x_axis, y_axis, z_axis, origin)",
@@ -44,14 +17,6 @@
     {
       "trigger": "Transform(basis, origin)",
       "contents": "Transform(${1:basis}, ${2:origin})"
-    },
-    {
-      "trigger": "Transform(from)",
-      "contents": "Transform(${1:from})"
-    },
-    {
-      "trigger": "Transform(from)",
-      "contents": "Transform(${1:from})"
     },
     {
       "trigger": "Transform(from)",

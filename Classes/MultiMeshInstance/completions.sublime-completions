@@ -5,9 +5,11 @@
       "trigger": "set_multimesh(multimesh)",
       "contents": "set_multimesh(${1:multimesh})"
     },
+    "set_multimesh",
     {
       "trigger": "get_multimesh()",
       "contents": "get_multimesh()"
-    }
+    },
+    "get_multimesh"
   ]
 }

@@ -5,65 +5,81 @@
       "trigger": "get_point_count()",
       "contents": "get_point_count()"
     },
+    "get_point_count",
     {
-      "trigger": "add_point(pos, in, 0, out, 0, atpos)",
-      "contents": "add_point(${1:pos}, ${2:in}, ${3:0}, ${4:out}, ${5:0}, ${6:atpos})"
+      "trigger": "add_point(pos, in, 0)",
+      "contents": "add_point(${1:pos}, ${2:in}, ${3:0})"
     },
+    "add_point",
     {
       "trigger": "set_point_pos(idx, pos)",
       "contents": "set_point_pos(${1:idx}, ${2:pos})"
     },
+    "set_point_pos",
     {
       "trigger": "get_point_pos(idx)",
       "contents": "get_point_pos(${1:idx})"
     },
+    "get_point_pos",
     {
       "trigger": "set_point_in(idx, pos)",
       "contents": "set_point_in(${1:idx}, ${2:pos})"
     },
+    "set_point_in",
     {
       "trigger": "get_point_in(idx)",
       "contents": "get_point_in(${1:idx})"
     },
+    "get_point_in",
     {
       "trigger": "set_point_out(idx, pos)",
       "contents": "set_point_out(${1:idx}, ${2:pos})"
     },
+    "set_point_out",
     {
       "trigger": "get_point_out(idx)",
       "contents": "get_point_out(${1:idx})"
     },
+    "get_point_out",
     {
       "trigger": "remove_point(idx)",
       "contents": "remove_point(${1:idx})"
     },
+    "remove_point",
     {
       "trigger": "interpolate(idx, t)",
       "contents": "interpolate(${1:idx}, ${2:t})"
     },
+    "interpolate",
     {
       "trigger": "interpolatef(fofs)",
       "contents": "interpolatef(${1:fofs})"
     },
+    "interpolatef",
     {
       "trigger": "set_bake_interval(distance)",
       "contents": "set_bake_interval(${1:distance})"
     },
+    "set_bake_interval",
     {
       "trigger": "get_bake_interval()",
       "contents": "get_bake_interval()"
     },
+    "get_bake_interval",
     {
       "trigger": "get_baked_length()",
       "contents": "get_baked_length()"
     },
+    "get_baked_length",
     {
       "trigger": "interpolate_baked(offset, cubic)",
       "contents": "interpolate_baked(${1:offset}, ${2:cubic})"
     },
+    "interpolate_baked",
     {
       "trigger": "get_baked_points()",
       "contents": "get_baked_points()"
-    }
+    },
+    "get_baked_points"
   ]
 }

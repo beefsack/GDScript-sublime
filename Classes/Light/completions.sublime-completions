@@ -5,66 +5,82 @@
       "trigger": "set_parameter(variable, value)",
       "contents": "set_parameter(${1:variable}, ${2:value})"
     },
+    "set_parameter",
     {
       "trigger": "get_parameter(arg0)",
       "contents": "get_parameter(${1:arg0})"
     },
+    "get_parameter",
     {
       "trigger": "set_color(color, value)",
       "contents": "set_color(${1:color}, ${2:value})"
     },
+    "set_color",
     {
       "trigger": "get_color(arg0)",
       "contents": "get_color(${1:arg0})"
     },
+    "get_color",
     {
       "trigger": "set_project_shadows(enable)",
       "contents": "set_project_shadows(${1:enable})"
     },
+    "set_project_shadows",
     {
       "trigger": "has_project_shadows()",
       "contents": "has_project_shadows()"
     },
+    "has_project_shadows",
     {
       "trigger": "set_projector(projector)",
       "contents": "set_projector(${1:projector})"
     },
+    "set_projector",
     {
       "trigger": "get_projector()",
       "contents": "get_projector()"
     },
+    "get_projector",
     {
       "trigger": "set_operator(operator)",
       "contents": "set_operator(${1:operator})"
     },
+    "set_operator",
     {
       "trigger": "get_operator()",
       "contents": "get_operator()"
     },
+    "get_operator",
     {
       "trigger": "set_bake_mode(bake_mode)",
       "contents": "set_bake_mode(${1:bake_mode})"
     },
+    "set_bake_mode",
     {
       "trigger": "get_bake_mode()",
       "contents": "get_bake_mode()"
     },
+    "get_bake_mode",
     {
       "trigger": "set_enabled(enabled)",
       "contents": "set_enabled(${1:enabled})"
     },
+    "set_enabled",
     {
       "trigger": "is_enabled()",
       "contents": "is_enabled()"
     },
+    "is_enabled",
     {
       "trigger": "set_editor_only(editor_only)",
       "contents": "set_editor_only(${1:editor_only})"
     },
+    "set_editor_only",
     {
       "trigger": "is_editor_only()",
       "contents": "is_editor_only()"
     },
+    "is_editor_only",
     "PARAM_RADIUS",
     "PARAM_ENERGY",
     "PARAM_ATTENUATION",

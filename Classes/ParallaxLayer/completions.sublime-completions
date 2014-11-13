@@ -5,17 +5,21 @@
       "trigger": "set_motion_scale(scale)",
       "contents": "set_motion_scale(${1:scale})"
     },
+    "set_motion_scale",
     {
       "trigger": "get_motion_scale()",
       "contents": "get_motion_scale()"
     },
+    "get_motion_scale",
     {
       "trigger": "set_mirroring(mirror)",
       "contents": "set_mirroring(${1:mirror})"
     },
+    "set_mirroring",
     {
       "trigger": "get_mirroring()",
       "contents": "get_mirroring()"
-    }
+    },
+    "get_mirroring"
   ]
 }

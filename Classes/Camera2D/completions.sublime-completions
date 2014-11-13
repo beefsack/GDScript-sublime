@@ -2,112 +2,109 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_offset(offset)",
-      "contents": "set_offset(${1:offset})"
-    },
-    {
-      "trigger": "get_offset()",
-      "contents": "get_offset()"
-    },
-    {
-      "trigger": "set_centered(centered)",
-      "contents": "set_centered(${1:centered})"
-    },
-    {
-      "trigger": "is_centered()",
-      "contents": "is_centered()"
-    },
-    {
       "trigger": "set_rotating(rotating)",
       "contents": "set_rotating(${1:rotating})"
     },
+    "set_rotating",
     {
       "trigger": "is_rotating()",
       "contents": "is_rotating()"
     },
-    {
-      "trigger": "make_current()",
-      "contents": "make_current()"
-    },
-    {
-      "trigger": "is_current()",
-      "contents": "is_current()"
-    },
+    "is_rotating",
     {
       "trigger": "set_limit(margin, limit)",
       "contents": "set_limit(${1:margin}, ${2:limit})"
     },
+    "set_limit",
     {
       "trigger": "get_limit(margin)",
       "contents": "get_limit(${1:margin})"
     },
+    "get_limit",
     {
       "trigger": "set_v_drag_enabled(enabled)",
       "contents": "set_v_drag_enabled(${1:enabled})"
     },
+    "set_v_drag_enabled",
     {
       "trigger": "is_v_drag_enabled()",
       "contents": "is_v_drag_enabled()"
     },
+    "is_v_drag_enabled",
     {
       "trigger": "set_h_drag_enabled(enabled)",
       "contents": "set_h_drag_enabled(${1:enabled})"
     },
+    "set_h_drag_enabled",
     {
       "trigger": "is_h_drag_enabled()",
       "contents": "is_h_drag_enabled()"
     },
+    "is_h_drag_enabled",
     {
       "trigger": "set_v_offset(ofs)",
       "contents": "set_v_offset(${1:ofs})"
     },
+    "set_v_offset",
     {
       "trigger": "get_v_offset()",
       "contents": "get_v_offset()"
     },
+    "get_v_offset",
     {
       "trigger": "set_h_offset(ofs)",
       "contents": "set_h_offset(${1:ofs})"
     },
+    "set_h_offset",
     {
       "trigger": "get_h_offset()",
       "contents": "get_h_offset()"
     },
+    "get_h_offset",
     {
       "trigger": "set_drag_margin(margin, drag_margin)",
       "contents": "set_drag_margin(${1:margin}, ${2:drag_margin})"
     },
+    "set_drag_margin",
     {
       "trigger": "get_drag_margin(margin)",
       "contents": "get_drag_margin(${1:margin})"
     },
+    "get_drag_margin",
     {
       "trigger": "get_camera_pos()",
       "contents": "get_camera_pos()"
     },
+    "get_camera_pos",
     {
       "trigger": "get_camera_screen_center()",
       "contents": "get_camera_screen_center()"
     },
+    "get_camera_screen_center",
     {
       "trigger": "set_zoom(arg0)",
       "contents": "set_zoom(${1:arg0})"
     },
+    "set_zoom",
     {
       "trigger": "get_zoom()",
       "contents": "get_zoom()"
     },
+    "get_zoom",
     {
       "trigger": "set_follow_smoothing(follow_smoothing)",
       "contents": "set_follow_smoothing(${1:follow_smoothing})"
     },
+    "set_follow_smoothing",
     {
       "trigger": "get_follow_smoothing()",
       "contents": "get_follow_smoothing()"
     },
+    "get_follow_smoothing",
     {
       "trigger": "force_update_scroll()",
       "contents": "force_update_scroll()"
-    }
+    },
+    "force_update_scroll"
   ]
 }

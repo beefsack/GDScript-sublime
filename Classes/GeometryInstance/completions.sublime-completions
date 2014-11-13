@@ -5,42 +5,46 @@
       "trigger": "set_material_override(material)",
       "contents": "set_material_override(${1:material})"
     },
+    "set_material_override",
     {
       "trigger": "get_material_override()",
       "contents": "get_material_override()"
     },
+    "get_material_override",
     {
       "trigger": "set_flag(flag, value)",
       "contents": "set_flag(${1:flag}, ${2:value})"
     },
     {
-      "trigger": "get_flag(flag)",
-      "contents": "get_flag(${1:flag})"
-    },
-    {
       "trigger": "set_draw_range_begin(mode)",
       "contents": "set_draw_range_begin(${1:mode})"
     },
+    "set_draw_range_begin",
     {
       "trigger": "get_draw_range_begin()",
       "contents": "get_draw_range_begin()"
     },
+    "get_draw_range_begin",
     {
       "trigger": "set_draw_range_end(mode)",
       "contents": "set_draw_range_end(${1:mode})"
     },
+    "set_draw_range_end",
     {
       "trigger": "get_draw_range_end()",
       "contents": "get_draw_range_end()"
     },
+    "get_draw_range_end",
     {
       "trigger": "set_baked_light_texture_id(id)",
       "contents": "set_baked_light_texture_id(${1:id})"
     },
+    "set_baked_light_texture_id",
     {
       "trigger": "get_baked_light_texture_id()",
       "contents": "get_baked_light_texture_id()"
     },
+    "get_baked_light_texture_id",
     "FLAG_CAST_SHADOW",
     "FLAG_RECEIVE_SHADOWS",
     "FLAG_BILLBOARD",

@@ -6,116 +6,118 @@
       "contents": "set_icon(${1:name}, ${2:type}, ${3:texture})"
     },
     {
-      "trigger": "get_icon(name, type)",
-      "contents": "get_icon(${1:name}, ${2:type})"
-    },
-    {
       "trigger": "has_icon(name, type)",
       "contents": "has_icon(${1:name}, ${2:type})"
     },
+    "has_icon",
     {
       "trigger": "clear_icon(name, type)",
       "contents": "clear_icon(${1:name}, ${2:type})"
     },
+    "clear_icon",
     {
       "trigger": "get_icon_list(arg0)",
       "contents": "get_icon_list(${1:arg0})"
     },
+    "get_icon_list",
     {
       "trigger": "set_stylebox(name, type, texture)",
       "contents": "set_stylebox(${1:name}, ${2:type}, ${3:texture})"
     },
-    {
-      "trigger": "get_stylebox(name, type)",
-      "contents": "get_stylebox(${1:name}, ${2:type})"
-    },
+    "set_stylebox",
     {
       "trigger": "has_stylebox(name, type)",
       "contents": "has_stylebox(${1:name}, ${2:type})"
     },
+    "has_stylebox",
     {
       "trigger": "clear_stylebox(name, type)",
       "contents": "clear_stylebox(${1:name}, ${2:type})"
     },
+    "clear_stylebox",
     {
       "trigger": "get_stylebox_list(arg0)",
       "contents": "get_stylebox_list(${1:arg0})"
     },
+    "get_stylebox_list",
     {
       "trigger": "set_font(name, type, font)",
       "contents": "set_font(${1:name}, ${2:type}, ${3:font})"
     },
-    {
-      "trigger": "get_font(name, type)",
-      "contents": "get_font(${1:name}, ${2:type})"
-    },
+    "set_font",
     {
       "trigger": "has_font(name, type)",
       "contents": "has_font(${1:name}, ${2:type})"
     },
+    "has_font",
     {
       "trigger": "clear_font(name, type)",
       "contents": "clear_font(${1:name}, ${2:type})"
     },
+    "clear_font",
     {
       "trigger": "get_font_list(arg0)",
       "contents": "get_font_list(${1:arg0})"
     },
+    "get_font_list",
     {
       "trigger": "set_color(name, type, color)",
       "contents": "set_color(${1:name}, ${2:type}, ${3:color})"
     },
     {
-      "trigger": "get_color(name, type)",
-      "contents": "get_color(${1:name}, ${2:type})"
-    },
-    {
       "trigger": "has_color(name, type)",
       "contents": "has_color(${1:name}, ${2:type})"
     },
+    "has_color",
     {
       "trigger": "clear_color(name, type)",
       "contents": "clear_color(${1:name}, ${2:type})"
     },
+    "clear_color",
     {
       "trigger": "get_color_list(arg0)",
       "contents": "get_color_list(${1:arg0})"
     },
+    "get_color_list",
     {
       "trigger": "set_constant(name, type, constant)",
       "contents": "set_constant(${1:name}, ${2:type}, ${3:constant})"
     },
-    {
-      "trigger": "get_constant(name, type)",
-      "contents": "get_constant(${1:name}, ${2:type})"
-    },
+    "set_constant",
     {
       "trigger": "has_constant(name, type)",
       "contents": "has_constant(${1:name}, ${2:type})"
     },
+    "has_constant",
     {
       "trigger": "clear_constant(name, type)",
       "contents": "clear_constant(${1:name}, ${2:type})"
     },
+    "clear_constant",
     {
       "trigger": "get_constant_list(arg0)",
       "contents": "get_constant_list(${1:arg0})"
     },
+    "get_constant_list",
     {
       "trigger": "set_default_font(font)",
       "contents": "set_default_font(${1:font})"
     },
+    "set_default_font",
     {
       "trigger": "get_default_font()",
       "contents": "get_default_font()"
     },
+    "get_default_font",
     {
       "trigger": "get_type_list(arg0)",
       "contents": "get_type_list(${1:arg0})"
     },
+    "get_type_list",
     {
       "trigger": "copy_default_theme()",
       "contents": "copy_default_theme()"
-    }
+    },
+    "copy_default_theme"
   ]
 }

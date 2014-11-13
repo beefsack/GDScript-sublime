@@ -2,21 +2,15 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_sample_library(library)",
-      "contents": "set_sample_library(${1:library})"
-    },
-    {
-      "trigger": "get_sample_library()",
-      "contents": "get_sample_library()"
-    },
-    {
       "trigger": "set_polyphony(voices)",
       "contents": "set_polyphony(${1:voices})"
     },
+    "set_polyphony",
     {
       "trigger": "get_polyphony()",
       "contents": "get_polyphony()"
     },
+    "get_polyphony",
     {
       "trigger": "play(sample, voice)",
       "contents": "play(${1:sample}, ${2:voice})"
@@ -25,30 +19,27 @@
       "trigger": "voice_set_pitch_scale(voice, ratio)",
       "contents": "voice_set_pitch_scale(${1:voice}, ${2:ratio})"
     },
+    "voice_set_pitch_scale",
     {
       "trigger": "voice_set_volume_scale_db(voice, db)",
       "contents": "voice_set_volume_scale_db(${1:voice}, ${2:db})"
     },
-    {
-      "trigger": "is_voice_active(voice)",
-      "contents": "is_voice_active(${1:voice})"
-    },
+    "voice_set_volume_scale_db",
     {
       "trigger": "stop_voice(voice)",
       "contents": "stop_voice(${1:voice})"
     },
-    {
-      "trigger": "stop_all()",
-      "contents": "stop_all()"
-    },
+    "stop_voice",
     {
       "trigger": "set_random_pitch_scale(val)",
       "contents": "set_random_pitch_scale(${1:val})"
     },
+    "set_random_pitch_scale",
     {
       "trigger": "get_random_pitch_scale()",
       "contents": "get_random_pitch_scale()"
     },
+    "get_random_pitch_scale",
     "INVALID_VOICE",
     "NEXT_VOICE"
   ]

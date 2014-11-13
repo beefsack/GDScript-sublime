@@ -2,28 +2,24 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_texture(texture)",
-      "contents": "set_texture(${1:texture})"
-    },
-    {
-      "trigger": "get_texture()",
-      "contents": "get_texture()"
-    },
-    {
       "trigger": "set_use_alpha(enable)",
       "contents": "set_use_alpha(${1:enable})"
     },
+    "set_use_alpha",
     {
       "trigger": "is_using_alpha()",
       "contents": "is_using_alpha()"
     },
+    "is_using_alpha",
     {
       "trigger": "set_use_color_array(enable)",
       "contents": "set_use_color_array(${1:enable})"
     },
+    "set_use_color_array",
     {
       "trigger": "is_using_color_array()",
       "contents": "is_using_color_array()"
-    }
+    },
+    "is_using_color_array"
   ]
 }

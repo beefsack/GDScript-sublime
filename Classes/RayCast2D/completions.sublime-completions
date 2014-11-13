@@ -2,68 +2,29 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_enabled(enabled)",
-      "contents": "set_enabled(${1:enabled})"
-    },
-    {
-      "trigger": "is_enabled()",
-      "contents": "is_enabled()"
-    },
-    {
-      "trigger": "set_cast_to(local_point)",
-      "contents": "set_cast_to(${1:local_point})"
-    },
-    {
-      "trigger": "get_cast_to()",
-      "contents": "get_cast_to()"
-    },
-    {
-      "trigger": "is_colliding()",
-      "contents": "is_colliding()"
-    },
-    {
-      "trigger": "get_collider()",
-      "contents": "get_collider()"
-    },
-    {
-      "trigger": "get_collider_shape()",
-      "contents": "get_collider_shape()"
-    },
-    {
-      "trigger": "get_collision_point()",
-      "contents": "get_collision_point()"
-    },
-    {
-      "trigger": "get_collision_normal()",
-      "contents": "get_collision_normal()"
-    },
-    {
       "trigger": "add_exception_rid(rid)",
       "contents": "add_exception_rid(${1:rid})"
     },
+    "add_exception_rid",
     {
       "trigger": "add_exception(node)",
       "contents": "add_exception(${1:node})"
     },
+    "add_exception",
     {
       "trigger": "remove_exception_rid(rid)",
       "contents": "remove_exception_rid(${1:rid})"
     },
+    "remove_exception_rid",
     {
       "trigger": "remove_exception(node)",
       "contents": "remove_exception(${1:node})"
     },
+    "remove_exception",
     {
       "trigger": "clear_exceptions()",
       "contents": "clear_exceptions()"
     },
-    {
-      "trigger": "set_layer_mask(mask)",
-      "contents": "set_layer_mask(${1:mask})"
-    },
-    {
-      "trigger": "get_layer_mask()",
-      "contents": "get_layer_mask()"
-    }
+    "clear_exceptions"
   ]
 }

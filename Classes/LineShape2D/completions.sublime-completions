@@ -5,17 +5,21 @@
       "trigger": "set_normal(normal)",
       "contents": "set_normal(${1:normal})"
     },
+    "set_normal",
     {
       "trigger": "get_normal()",
       "contents": "get_normal()"
     },
+    "get_normal",
     {
       "trigger": "set_d(d)",
       "contents": "set_d(${1:d})"
     },
+    "set_d",
     {
       "trigger": "get_d()",
       "contents": "get_d()"
-    }
+    },
+    "get_d"
   ]
 }

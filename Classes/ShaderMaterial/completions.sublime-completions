@@ -5,9 +5,11 @@
       "trigger": "set_shader(shader)",
       "contents": "set_shader(${1:shader})"
     },
+    "set_shader",
     {
       "trigger": "get_shader()",
       "contents": "get_shader()"
-    }
+    },
+    "get_shader"
   ]
 }

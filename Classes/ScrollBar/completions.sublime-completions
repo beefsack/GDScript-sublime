@@ -5,9 +5,11 @@
       "trigger": "set_custom_step(step)",
       "contents": "set_custom_step(${1:step})"
     },
+    "set_custom_step",
     {
       "trigger": "get_custom_step()",
       "contents": "get_custom_step()"
-    }
+    },
+    "get_custom_step"
   ]
 }

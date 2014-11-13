@@ -5,37 +5,40 @@
       "trigger": "set_wait_time(time_sec)",
       "contents": "set_wait_time(${1:time_sec})"
     },
+    "set_wait_time",
     {
       "trigger": "get_wait_time()",
       "contents": "get_wait_time()"
     },
+    "get_wait_time",
     {
       "trigger": "set_one_shot(enable)",
       "contents": "set_one_shot(${1:enable})"
     },
+    "set_one_shot",
     {
       "trigger": "is_one_shot()",
       "contents": "is_one_shot()"
     },
+    "is_one_shot",
     {
       "trigger": "set_autostart(enable)",
       "contents": "set_autostart(${1:enable})"
     },
+    "set_autostart",
     {
       "trigger": "has_autostart()",
       "contents": "has_autostart()"
     },
+    "has_autostart",
     {
       "trigger": "start()",
       "contents": "start()"
     },
     {
-      "trigger": "stop()",
-      "contents": "stop()"
-    },
-    {
       "trigger": "get_time_left()",
       "contents": "get_time_left()"
-    }
+    },
+    "get_time_left"
   ]
 }

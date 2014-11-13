@@ -5,21 +5,26 @@
       "trigger": "add_remap(from, to, locale)",
       "contents": "add_remap(${1:from}, ${2:to}, ${3:locale})"
     },
+    "add_remap",
     {
       "trigger": "has_remap(path)",
       "contents": "has_remap(${1:path})"
     },
+    "has_remap",
     {
       "trigger": "get_remap(path)",
       "contents": "get_remap(${1:path})"
     },
+    "get_remap",
     {
       "trigger": "erase_remap(path)",
       "contents": "erase_remap(${1:path})"
     },
+    "erase_remap",
     {
       "trigger": "clear_remaps()",
       "contents": "clear_remaps()"
-    }
+    },
+    "clear_remaps"
   ]
 }

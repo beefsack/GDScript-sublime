@@ -5,17 +5,11 @@
       "trigger": "set_navigation_mesh(navmesh)",
       "contents": "set_navigation_mesh(${1:navmesh})"
     },
+    "set_navigation_mesh",
     {
       "trigger": "get_navigation_mesh()",
       "contents": "get_navigation_mesh()"
     },
-    {
-      "trigger": "set_enabled(enabled)",
-      "contents": "set_enabled(${1:enabled})"
-    },
-    {
-      "trigger": "is_enabled()",
-      "contents": "is_enabled()"
-    }
+    "get_navigation_mesh"
   ]
 }

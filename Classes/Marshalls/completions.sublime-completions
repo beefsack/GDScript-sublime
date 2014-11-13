@@ -5,9 +5,11 @@
       "trigger": "variant_to_base64(variant)",
       "contents": "variant_to_base64(${1:variant})"
     },
+    "variant_to_base64",
     {
       "trigger": "base64_to_variant(base64_str)",
       "contents": "base64_to_variant(${1:base64_str})"
-    }
+    },
+    "base64_to_variant"
   ]
 }

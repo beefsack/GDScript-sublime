@@ -5,78 +5,86 @@
       "trigger": "add_item(label, id)",
       "contents": "add_item(${1:label}, ${2:id})"
     },
+    "add_item",
     {
       "trigger": "add_icon_item(texture, label, id)",
       "contents": "add_icon_item(${1:texture}, ${2:label}, ${3:id})"
     },
+    "add_icon_item",
     {
       "trigger": "set_item_text(idx, text)",
       "contents": "set_item_text(${1:idx}, ${2:text})"
     },
+    "set_item_text",
     {
       "trigger": "set_item_icon(idx, texture)",
       "contents": "set_item_icon(${1:idx}, ${2:texture})"
     },
+    "set_item_icon",
     {
       "trigger": "set_item_disabled(idx, disabled)",
       "contents": "set_item_disabled(${1:idx}, ${2:disabled})"
     },
+    "set_item_disabled",
     {
       "trigger": "set_item_ID(idx, id)",
       "contents": "set_item_ID(${1:idx}, ${2:id})"
     },
+    "set_item_ID",
     {
       "trigger": "set_item_metadata(idx, metadata)",
       "contents": "set_item_metadata(${1:idx}, ${2:metadata})"
     },
+    "set_item_metadata",
     {
       "trigger": "get_item_text(idx)",
       "contents": "get_item_text(${1:idx})"
     },
+    "get_item_text",
     {
       "trigger": "get_item_icon(idx)",
       "contents": "get_item_icon(${1:idx})"
     },
+    "get_item_icon",
     {
       "trigger": "get_item_ID(idx)",
       "contents": "get_item_ID(${1:idx})"
     },
+    "get_item_ID",
     {
       "trigger": "get_item_metadata(idx)",
       "contents": "get_item_metadata(${1:idx})"
     },
+    "get_item_metadata",
     {
       "trigger": "is_item_disabled(idx)",
       "contents": "is_item_disabled(${1:idx})"
     },
+    "is_item_disabled",
     {
       "trigger": "get_item_count()",
       "contents": "get_item_count()"
     },
+    "get_item_count",
     {
       "trigger": "add_separator()",
       "contents": "add_separator()"
     },
-    {
-      "trigger": "clear()",
-      "contents": "clear()"
-    },
+    "add_separator",
     {
       "trigger": "select(arg0)",
       "contents": "select(${1:arg0})"
     },
     {
-      "trigger": "get_selected()",
-      "contents": "get_selected()"
-    },
-    {
       "trigger": "get_selected_ID()",
       "contents": "get_selected_ID()"
     },
+    "get_selected_ID",
     {
       "trigger": "get_selected_metadata()",
       "contents": "get_selected_metadata()"
     },
+    "get_selected_metadata",
     {
       "trigger": "remove_item(idx)",
       "contents": "remove_item(${1:idx})"

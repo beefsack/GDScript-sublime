@@ -2,41 +2,25 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "is_active()",
-      "contents": "is_active()"
-    },
-    {
-      "trigger": "set_active(active)",
-      "contents": "set_active(${1:active})"
-    },
-    {
       "trigger": "is_repeat()",
       "contents": "is_repeat()"
     },
+    "is_repeat",
     {
       "trigger": "set_repeat(repeat)",
       "contents": "set_repeat(${1:repeat})"
     },
-    {
-      "trigger": "set_speed(speed)",
-      "contents": "set_speed(${1:speed})"
-    },
-    {
-      "trigger": "get_speed()",
-      "contents": "get_speed()"
-    },
+    "set_repeat",
     {
       "trigger": "set_tween_process_mode(mode)",
       "contents": "set_tween_process_mode(${1:mode})"
     },
+    "set_tween_process_mode",
     {
       "trigger": "get_tween_process_mode()",
       "contents": "get_tween_process_mode()"
     },
-    {
-      "trigger": "start()",
-      "contents": "start()"
-    },
+    "get_tween_process_mode",
     {
       "trigger": "reset(node, key)",
       "contents": "reset(${1:node}, ${2:key})"
@@ -45,22 +29,21 @@
       "trigger": "reset_all()",
       "contents": "reset_all()"
     },
+    "reset_all",
     {
       "trigger": "stop(node, key)",
       "contents": "stop(${1:node}, ${2:key})"
     },
     {
-      "trigger": "stop_all()",
-      "contents": "stop_all()"
-    },
-    {
       "trigger": "resume(node, key)",
       "contents": "resume(${1:node}, ${2:key})"
     },
+    "resume",
     {
       "trigger": "resume_all()",
       "contents": "resume_all()"
     },
+    "resume_all",
     {
       "trigger": "remove(node, key)",
       "contents": "remove(${1:node}, ${2:key})"
@@ -69,6 +52,7 @@
       "trigger": "remove_all()",
       "contents": "remove_all()"
     },
+    "remove_all",
     {
       "trigger": "seek(time)",
       "contents": "seek(${1:time})"
@@ -77,38 +61,47 @@
       "trigger": "tell()",
       "contents": "tell()"
     },
+    "tell",
     {
       "trigger": "get_runtime()",
       "contents": "get_runtime()"
     },
+    "get_runtime",
     {
       "trigger": "interpolate_property(node, property, initial_val, final_val, times_in_sec, trans_type, ease_type, delay)",
       "contents": "interpolate_property(${1:node}, ${2:property}, ${3:initial_val}, ${4:final_val}, ${5:times_in_sec}, ${6:trans_type}, ${7:ease_type}, ${8:delay})"
     },
+    "interpolate_property",
     {
       "trigger": "interpolate_method(node, method, initial_val, final_val, times_in_sec, trans_type, ease_type, delay)",
       "contents": "interpolate_method(${1:node}, ${2:method}, ${3:initial_val}, ${4:final_val}, ${5:times_in_sec}, ${6:trans_type}, ${7:ease_type}, ${8:delay})"
     },
+    "interpolate_method",
     {
       "trigger": "interpolate_callback(node, callback, times_in_sec, args)",
       "contents": "interpolate_callback(${1:node}, ${2:callback}, ${3:times_in_sec}, ${4:args})"
     },
+    "interpolate_callback",
     {
       "trigger": "follow_property(node, property, initial_val, target, target_property, times_in_sec, trans_type, ease_type, delay)",
       "contents": "follow_property(${1:node}, ${2:property}, ${3:initial_val}, ${4:target}, ${5:target_property}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
     },
+    "follow_property",
     {
       "trigger": "follow_method(node, method, initial_val, target, target_method, times_in_sec, trans_type, ease_type, delay)",
       "contents": "follow_method(${1:node}, ${2:method}, ${3:initial_val}, ${4:target}, ${5:target_method}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
     },
+    "follow_method",
     {
       "trigger": "targeting_property(node, property, initial, initial_val, final_val, times_in_sec, trans_type, ease_type, delay)",
       "contents": "targeting_property(${1:node}, ${2:property}, ${3:initial}, ${4:initial_val}, ${5:final_val}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
     },
+    "targeting_property",
     {
       "trigger": "targeting_method(node, method, initial, initial_method, final_val, times_in_sec, trans_type, ease_type, delay)",
       "contents": "targeting_method(${1:node}, ${2:method}, ${3:initial}, ${4:initial_method}, ${5:final_val}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
     },
+    "targeting_method",
     "TRANS_LINEAR",
     "TRANS_SINE",
     "TRANS_QUINT",

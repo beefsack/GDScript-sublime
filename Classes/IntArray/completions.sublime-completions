@@ -5,22 +5,27 @@
       "trigger": "get(idx)",
       "contents": "get(${1:idx})"
     },
+    "get",
     {
       "trigger": "push_back(integer)",
       "contents": "push_back(${1:integer})"
     },
+    "push_back",
     {
       "trigger": "resize(idx)",
       "contents": "resize(${1:idx})"
     },
+    "resize",
     {
       "trigger": "set(idx, integer)",
       "contents": "set(${1:idx}, ${2:integer})"
     },
+    "set",
     {
       "trigger": "size()",
       "contents": "size()"
     },
+    "size",
     {
       "trigger": "IntArray(from)",
       "contents": "IntArray(${1:from})"

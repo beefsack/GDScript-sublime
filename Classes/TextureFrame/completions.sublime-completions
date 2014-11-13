@@ -2,28 +2,13 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_texture(texture)",
-      "contents": "set_texture(${1:texture})"
-    },
-    {
-      "trigger": "get_texture()",
-      "contents": "get_texture()"
-    },
-    {
-      "trigger": "set_modulate(modulate)",
-      "contents": "set_modulate(${1:modulate})"
-    },
-    {
-      "trigger": "get_modulate()",
-      "contents": "get_modulate()"
-    },
-    {
       "trigger": "set_expand(enable)",
       "contents": "set_expand(${1:enable})"
     },
     {
       "trigger": "has_expand()",
       "contents": "has_expand()"
-    }
+    },
+    "has_expand"
   ]
 }

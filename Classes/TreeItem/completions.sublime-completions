@@ -5,18 +5,22 @@
       "trigger": "set_cell_mode(column, mode)",
       "contents": "set_cell_mode(${1:column}, ${2:mode})"
     },
+    "set_cell_mode",
     {
       "trigger": "get_cell_mode(column)",
       "contents": "get_cell_mode(${1:column})"
     },
+    "get_cell_mode",
     {
       "trigger": "set_checked(column, checked)",
       "contents": "set_checked(${1:column}, ${2:checked})"
     },
+    "set_checked",
     {
       "trigger": "is_checked(column)",
       "contents": "is_checked(${1:column})"
     },
+    "is_checked",
     {
       "trigger": "set_text(column, text)",
       "contents": "set_text(${1:column}, ${2:text})"
@@ -37,78 +41,76 @@
       "trigger": "set_icon_region(column, region)",
       "contents": "set_icon_region(${1:column}, ${2:region})"
     },
+    "set_icon_region",
     {
       "trigger": "get_icon_region(column)",
       "contents": "get_icon_region(${1:column})"
     },
+    "get_icon_region",
     {
       "trigger": "set_icon_max_width(column, width)",
       "contents": "set_icon_max_width(${1:column}, ${2:width})"
     },
+    "set_icon_max_width",
     {
       "trigger": "get_icon_max_width(column)",
       "contents": "get_icon_max_width(${1:column})"
     },
+    "get_icon_max_width",
     {
       "trigger": "set_range(column, value)",
       "contents": "set_range(${1:column}, ${2:value})"
     },
+    "set_range",
     {
       "trigger": "get_range(column)",
       "contents": "get_range(${1:column})"
     },
+    "get_range",
     {
       "trigger": "set_range_config(column, min, max, step, expr)",
       "contents": "set_range_config(${1:column}, ${2:min}, ${3:max}, ${4:step}, ${5:expr})"
     },
+    "set_range_config",
     {
       "trigger": "get_range_config(column)",
       "contents": "get_range_config(${1:column})"
     },
+    "get_range_config",
     {
       "trigger": "set_metadata(column, meta)",
       "contents": "set_metadata(${1:column}, ${2:meta})"
     },
+    "set_metadata",
     {
       "trigger": "get_metadata(column)",
       "contents": "get_metadata(${1:column})"
     },
+    "get_metadata",
     {
       "trigger": "set_custom_draw(column, object, callback)",
       "contents": "set_custom_draw(${1:column}, ${2:object}, ${3:callback})"
     },
+    "set_custom_draw",
     {
       "trigger": "set_collapsed(enable)",
       "contents": "set_collapsed(${1:enable})"
     },
     {
-      "trigger": "is_collapsed()",
-      "contents": "is_collapsed()"
-    },
-    {
-      "trigger": "get_next()",
-      "contents": "get_next()"
-    },
-    {
       "trigger": "get_prev()",
       "contents": "get_prev()"
     },
-    {
-      "trigger": "get_parent()",
-      "contents": "get_parent()"
-    },
-    {
-      "trigger": "get_children()",
-      "contents": "get_children()"
-    },
+    "get_prev",
     {
       "trigger": "get_next_visible()",
       "contents": "get_next_visible()"
     },
+    "get_next_visible",
     {
       "trigger": "get_prev_visible()",
       "contents": "get_prev_visible()"
     },
+    "get_prev_visible",
     {
       "trigger": "remove_child(child)",
       "contents": "remove_child(${1:child})"
@@ -117,14 +119,17 @@
       "trigger": "set_selectable(column, selectable)",
       "contents": "set_selectable(${1:column}, ${2:selectable})"
     },
+    "set_selectable",
     {
       "trigger": "is_selectable(column)",
       "contents": "is_selectable(${1:column})"
     },
+    "is_selectable",
     {
       "trigger": "is_selected(column)",
       "contents": "is_selected(${1:column})"
     },
+    "is_selected",
     {
       "trigger": "select(column)",
       "contents": "select(${1:column})"
@@ -133,6 +138,7 @@
       "trigger": "deselect(column)",
       "contents": "deselect(${1:column})"
     },
+    "deselect",
     {
       "trigger": "set_editable(column, enabled)",
       "contents": "set_editable(${1:column}, ${2:enabled})"
@@ -145,10 +151,12 @@
       "trigger": "set_custom_color(column, color)",
       "contents": "set_custom_color(${1:column}, ${2:color})"
     },
+    "set_custom_color",
     {
       "trigger": "clear_custom_color(column)",
       "contents": "clear_custom_color(${1:column})"
     },
+    "clear_custom_color",
     {
       "trigger": "set_custom_bg_color(column, color)",
       "contents": "set_custom_bg_color(${1:column}, ${2:color})"
@@ -157,10 +165,12 @@
       "trigger": "clear_custom_bg_color(column)",
       "contents": "clear_custom_bg_color(${1:column})"
     },
+    "clear_custom_bg_color",
     {
       "trigger": "get_custom_bg_color(column)",
       "contents": "get_custom_bg_color(${1:column})"
     },
+    "get_custom_bg_color",
     {
       "trigger": "add_button(column, button, arg2)",
       "contents": "add_button(${1:column}, ${2:button}, ${3:arg2})"
@@ -173,6 +183,7 @@
       "trigger": "get_button(column, button_idx)",
       "contents": "get_button(${1:column}, ${2:button_idx})"
     },
+    "get_button",
     {
       "trigger": "erase_button(column, button_idx)",
       "contents": "erase_button(${1:column}, ${2:button_idx})"
@@ -189,10 +200,12 @@
       "trigger": "move_to_top()",
       "contents": "move_to_top()"
     },
+    "move_to_top",
     {
       "trigger": "move_to_bottom()",
       "contents": "move_to_bottom()"
     },
+    "move_to_bottom",
     "CELL_MODE_STRING",
     "CELL_MODE_CHECK",
     "CELL_MODE_RANGE",

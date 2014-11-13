@@ -5,33 +5,36 @@
       "trigger": "add_piece(ofs, texture)",
       "contents": "add_piece(${1:ofs}, ${2:texture})"
     },
+    "add_piece",
     {
       "trigger": "set_piece_offset(idx, ofs)",
       "contents": "set_piece_offset(${1:idx}, ${2:ofs})"
     },
+    "set_piece_offset",
     {
       "trigger": "set_piece_texture(idx, texture)",
       "contents": "set_piece_texture(${1:idx}, ${2:texture})"
     },
+    "set_piece_texture",
     {
       "trigger": "set_size(size)",
       "contents": "set_size(${1:size})"
     },
-    {
-      "trigger": "clear()",
-      "contents": "clear()"
-    },
+    "set_size",
     {
       "trigger": "get_piece_count()",
       "contents": "get_piece_count()"
     },
+    "get_piece_count",
     {
       "trigger": "get_piece_offset(idx)",
       "contents": "get_piece_offset(${1:idx})"
     },
+    "get_piece_offset",
     {
       "trigger": "get_piece_texture(idx)",
       "contents": "get_piece_texture(${1:idx})"
-    }
+    },
+    "get_piece_texture"
   ]
 }

@@ -5,49 +5,61 @@
       "trigger": "set_bg_color(color)",
       "contents": "set_bg_color(${1:color})"
     },
+    "set_bg_color",
     {
       "trigger": "get_bg_color()",
       "contents": "get_bg_color()"
     },
+    "get_bg_color",
     {
       "trigger": "set_light_color(color)",
       "contents": "set_light_color(${1:color})"
     },
+    "set_light_color",
     {
       "trigger": "get_light_color()",
       "contents": "get_light_color()"
     },
+    "get_light_color",
     {
       "trigger": "set_dark_color(color)",
       "contents": "set_dark_color(${1:color})"
     },
+    "set_dark_color",
     {
       "trigger": "get_dark_color()",
       "contents": "get_dark_color()"
     },
+    "get_dark_color",
     {
       "trigger": "set_border_size(size)",
       "contents": "set_border_size(${1:size})"
     },
+    "set_border_size",
     {
       "trigger": "get_border_size()",
       "contents": "get_border_size()"
     },
+    "get_border_size",
     {
       "trigger": "set_border_blend(blend)",
       "contents": "set_border_blend(${1:blend})"
     },
+    "set_border_blend",
     {
       "trigger": "get_border_blend()",
       "contents": "get_border_blend()"
     },
+    "get_border_blend",
     {
       "trigger": "set_draw_center(size)",
       "contents": "set_draw_center(${1:size})"
     },
+    "set_draw_center",
     {
       "trigger": "get_draw_center()",
       "contents": "get_draw_center()"
-    }
+    },
+    "get_draw_center"
   ]
 }

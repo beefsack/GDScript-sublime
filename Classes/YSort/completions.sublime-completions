@@ -5,9 +5,11 @@
       "trigger": "set_sort_enabled(enabled)",
       "contents": "set_sort_enabled(${1:enabled})"
     },
+    "set_sort_enabled",
     {
       "trigger": "is_sort_enabled()",
       "contents": "is_sort_enabled()"
-    }
+    },
+    "is_sort_enabled"
   ]
 }

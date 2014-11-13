@@ -2,125 +2,25 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_mode(mode)",
-      "contents": "set_mode(${1:mode})"
-    },
-    {
-      "trigger": "get_mode()",
-      "contents": "get_mode()"
-    },
-    {
-      "trigger": "set_mass(mass)",
-      "contents": "set_mass(${1:mass})"
-    },
-    {
-      "trigger": "get_mass()",
-      "contents": "get_mass()"
-    },
-    {
-      "trigger": "set_weight(weight)",
-      "contents": "set_weight(${1:weight})"
-    },
-    {
-      "trigger": "get_weight()",
-      "contents": "get_weight()"
-    },
-    {
-      "trigger": "set_friction(friction)",
-      "contents": "set_friction(${1:friction})"
-    },
-    {
-      "trigger": "get_friction()",
-      "contents": "get_friction()"
-    },
-    {
-      "trigger": "set_bounce(bounce)",
-      "contents": "set_bounce(${1:bounce})"
-    },
-    {
-      "trigger": "get_bounce()",
-      "contents": "get_bounce()"
-    },
-    {
-      "trigger": "set_linear_velocity(linear_velocity)",
-      "contents": "set_linear_velocity(${1:linear_velocity})"
-    },
-    {
-      "trigger": "get_linear_velocity()",
-      "contents": "get_linear_velocity()"
-    },
-    {
-      "trigger": "set_angular_velocity(angular_velocity)",
-      "contents": "set_angular_velocity(${1:angular_velocity})"
-    },
-    {
-      "trigger": "get_angular_velocity()",
-      "contents": "get_angular_velocity()"
-    },
-    {
-      "trigger": "set_max_contacts_reported(amount)",
-      "contents": "set_max_contacts_reported(${1:amount})"
-    },
-    {
-      "trigger": "get_max_contacts_reported()",
-      "contents": "get_max_contacts_reported()"
-    },
-    {
-      "trigger": "set_use_custom_integrator(enable)",
-      "contents": "set_use_custom_integrator(${1:enable})"
-    },
-    {
-      "trigger": "is_using_custom_integrator()",
-      "contents": "is_using_custom_integrator()"
-    },
-    {
-      "trigger": "set_contact_monitor(enabled)",
-      "contents": "set_contact_monitor(${1:enabled})"
-    },
-    {
-      "trigger": "is_contact_monitor_enabled()",
-      "contents": "is_contact_monitor_enabled()"
-    },
-    {
       "trigger": "set_continuous_collision_detection_mode(mode)",
       "contents": "set_continuous_collision_detection_mode(${1:mode})"
     },
+    "set_continuous_collision_detection_mode",
     {
       "trigger": "get_continuous_collision_detection_mode()",
       "contents": "get_continuous_collision_detection_mode()"
     },
-    {
-      "trigger": "set_axis_velocity(axis_velocity)",
-      "contents": "set_axis_velocity(${1:axis_velocity})"
-    },
-    {
-      "trigger": "apply_impulse(pos, impulse)",
-      "contents": "apply_impulse(${1:pos}, ${2:impulse})"
-    },
+    "get_continuous_collision_detection_mode",
     {
       "trigger": "set_applied_force(force)",
       "contents": "set_applied_force(${1:force})"
     },
+    "set_applied_force",
     {
       "trigger": "get_applied_force()",
       "contents": "get_applied_force()"
     },
-    {
-      "trigger": "set_sleeping(sleeping)",
-      "contents": "set_sleeping(${1:sleeping})"
-    },
-    {
-      "trigger": "is_sleeping()",
-      "contents": "is_sleeping()"
-    },
-    {
-      "trigger": "set_can_sleep(able_to_sleep)",
-      "contents": "set_can_sleep(${1:able_to_sleep})"
-    },
-    {
-      "trigger": "is_able_to_sleep()",
-      "contents": "is_able_to_sleep()"
-    },
+    "get_applied_force",
     "CCD_MODE_DISABLED",
     "CCD_MODE_CAST_RAY",
     "CCD_MODE_CAST_SHAPE"

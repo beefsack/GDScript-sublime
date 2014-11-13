@@ -2,112 +2,13 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "get_total_gravity()",
-      "contents": "get_total_gravity()"
-    },
-    {
-      "trigger": "get_total_density()",
-      "contents": "get_total_density()"
-    },
-    {
-      "trigger": "get_inverse_mass()",
-      "contents": "get_inverse_mass()"
-    },
-    {
-      "trigger": "get_inverse_inertia()",
-      "contents": "get_inverse_inertia()"
-    },
-    {
-      "trigger": "set_linear_velocity(velocity)",
-      "contents": "set_linear_velocity(${1:velocity})"
-    },
-    {
-      "trigger": "get_linear_velocity()",
-      "contents": "get_linear_velocity()"
-    },
-    {
-      "trigger": "set_angular_velocity(velocity)",
-      "contents": "set_angular_velocity(${1:velocity})"
-    },
-    {
-      "trigger": "get_angular_velocity()",
-      "contents": "get_angular_velocity()"
-    },
-    {
-      "trigger": "set_transform(transform)",
-      "contents": "set_transform(${1:transform})"
-    },
-    {
-      "trigger": "get_transform()",
-      "contents": "get_transform()"
-    },
-    {
       "trigger": "add_force(force, pos)",
       "contents": "add_force(${1:force}, ${2:pos})"
     },
+    "add_force",
     {
       "trigger": "apply_impulse(pos, j)",
       "contents": "apply_impulse(${1:pos}, ${2:j})"
-    },
-    {
-      "trigger": "set_sleep_state(enabled)",
-      "contents": "set_sleep_state(${1:enabled})"
-    },
-    {
-      "trigger": "is_sleeping()",
-      "contents": "is_sleeping()"
-    },
-    {
-      "trigger": "get_contact_count()",
-      "contents": "get_contact_count()"
-    },
-    {
-      "trigger": "get_contact_local_pos(contact_idx)",
-      "contents": "get_contact_local_pos(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_local_normal(contact_idx)",
-      "contents": "get_contact_local_normal(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_local_shape(contact_idx)",
-      "contents": "get_contact_local_shape(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_collider(contact_idx)",
-      "contents": "get_contact_collider(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_collider_pos(contact_idx)",
-      "contents": "get_contact_collider_pos(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_collider_id(contact_idx)",
-      "contents": "get_contact_collider_id(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_collider_object(contact_idx)",
-      "contents": "get_contact_collider_object(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_collider_shape(contact_idx)",
-      "contents": "get_contact_collider_shape(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_contact_collider_velocity_at_pos(contact_idx)",
-      "contents": "get_contact_collider_velocity_at_pos(${1:contact_idx})"
-    },
-    {
-      "trigger": "get_step()",
-      "contents": "get_step()"
-    },
-    {
-      "trigger": "integrate_forces()",
-      "contents": "integrate_forces()"
-    },
-    {
-      "trigger": "get_space_state()",
-      "contents": "get_space_state()"
     }
   ]
 }

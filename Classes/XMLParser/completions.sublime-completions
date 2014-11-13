@@ -5,58 +5,67 @@
       "trigger": "read()",
       "contents": "read()"
     },
+    "read",
     {
       "trigger": "get_node_type()",
       "contents": "get_node_type()"
     },
+    "get_node_type",
     {
       "trigger": "get_node_name()",
       "contents": "get_node_name()"
     },
+    "get_node_name",
     {
       "trigger": "get_node_data()",
       "contents": "get_node_data()"
     },
+    "get_node_data",
     {
       "trigger": "get_node_offset()",
       "contents": "get_node_offset()"
     },
+    "get_node_offset",
     {
       "trigger": "get_attribute_count()",
       "contents": "get_attribute_count()"
     },
+    "get_attribute_count",
     {
       "trigger": "get_attribute_name(arg0)",
       "contents": "get_attribute_name(${1:arg0})"
     },
+    "get_attribute_name",
     {
       "trigger": "get_attribute_value(arg0)",
       "contents": "get_attribute_value(${1:arg0})"
     },
+    "get_attribute_value",
     {
       "trigger": "has_attribute(arg0)",
       "contents": "has_attribute(${1:arg0})"
     },
+    "has_attribute",
     {
       "trigger": "get_named_attribute_value(arg0)",
       "contents": "get_named_attribute_value(${1:arg0})"
     },
+    "get_named_attribute_value",
     {
       "trigger": "get_named_attribute_value_safe(arg0)",
       "contents": "get_named_attribute_value_safe(${1:arg0})"
     },
-    {
-      "trigger": "is_empty()",
-      "contents": "is_empty()"
-    },
+    "get_named_attribute_value_safe",
     {
       "trigger": "get_current_line()",
       "contents": "get_current_line()"
     },
+    "get_current_line",
     {
       "trigger": "skip_section()",
       "contents": "skip_section()"
     },
+    "skip_section",
     {
       "trigger": "seek(arg0)",
       "contents": "seek(${1:arg0})"
@@ -69,6 +78,7 @@
       "trigger": "open_buffer(buffer)",
       "contents": "open_buffer(${1:buffer})"
     },
+    "open_buffer",
     "NODE_NONE",
     "NODE_ELEMENT",
     "NODE_ELEMENT_END",

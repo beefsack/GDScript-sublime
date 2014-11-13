@@ -5,9 +5,11 @@
       "trigger": "set_file(name)",
       "contents": "set_file(${1:name})"
     },
+    "set_file",
     {
       "trigger": "get_file()",
       "contents": "get_file()"
-    }
+    },
+    "get_file"
   ]
 }

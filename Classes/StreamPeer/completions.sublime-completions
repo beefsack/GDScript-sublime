@@ -5,10 +5,12 @@
       "trigger": "put_data(data)",
       "contents": "put_data(${1:data})"
     },
+    "put_data",
     {
       "trigger": "put_partial_data(data)",
       "contents": "put_partial_data(${1:data})"
     },
+    "put_partial_data",
     {
       "trigger": "get_data(bytes)",
       "contents": "get_data(${1:bytes})"
@@ -16,6 +18,7 @@
     {
       "trigger": "get_partial_data(bytes)",
       "contents": "get_partial_data(${1:bytes})"
-    }
+    },
+    "get_partial_data"
   ]
 }

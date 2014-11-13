@@ -5,10 +5,12 @@
       "trigger": "set_enabler(enabler, enabled)",
       "contents": "set_enabler(${1:enabler}, ${2:enabled})"
     },
+    "set_enabler",
     {
       "trigger": "is_enabler_enabled(enabler)",
       "contents": "is_enabler_enabled(${1:enabler})"
     },
+    "is_enabler_enabled",
     "ENABLER_FREEZE_BODIES",
     "ENABLER_PAUSE_ANIMATIONS",
     "ENABLER_MAX"

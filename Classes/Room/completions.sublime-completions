@@ -5,21 +5,26 @@
       "trigger": "set_room(room)",
       "contents": "set_room(${1:room})"
     },
+    "set_room",
     {
       "trigger": "get_room()",
       "contents": "get_room()"
     },
+    "get_room",
     {
       "trigger": "compute_room_from_subtree()",
       "contents": "compute_room_from_subtree()"
     },
+    "compute_room_from_subtree",
     {
       "trigger": "set_simulate_acoustics(enable)",
       "contents": "set_simulate_acoustics(${1:enable})"
     },
+    "set_simulate_acoustics",
     {
       "trigger": "is_simulating_acoustics()",
       "contents": "is_simulating_acoustics()"
-    }
+    },
+    "is_simulating_acoustics"
   ]
 }

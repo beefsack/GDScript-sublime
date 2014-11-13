@@ -1,14 +1,6 @@
 {
   "scope": "source.gdscript",
   "completions": [
-    {
-      "trigger": "set_param(param, value)",
-      "contents": "set_param(${1:param}, ${2:value})"
-    },
-    {
-      "trigger": "get_param(param)",
-      "contents": "get_param(${1:param})"
-    },
     "PARAM_VOLUME_DB",
     "PARAM_PITCH_SCALE",
     "PARAM_ATTENUATION_MIN_DISTANCE",

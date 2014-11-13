@@ -5,33 +5,41 @@
       "trigger": "set_enable_h_scroll(enable)",
       "contents": "set_enable_h_scroll(${1:enable})"
     },
+    "set_enable_h_scroll",
     {
       "trigger": "is_h_scroll_enabled()",
       "contents": "is_h_scroll_enabled()"
     },
+    "is_h_scroll_enabled",
     {
       "trigger": "set_enable_v_scroll(enable)",
       "contents": "set_enable_v_scroll(${1:enable})"
     },
+    "set_enable_v_scroll",
     {
       "trigger": "is_v_scroll_enabled()",
       "contents": "is_v_scroll_enabled()"
     },
+    "is_v_scroll_enabled",
     {
       "trigger": "set_h_scroll(val)",
       "contents": "set_h_scroll(${1:val})"
     },
+    "set_h_scroll",
     {
       "trigger": "get_h_scroll()",
       "contents": "get_h_scroll()"
     },
+    "get_h_scroll",
     {
       "trigger": "set_v_scroll(val)",
       "contents": "set_v_scroll(${1:val})"
     },
+    "set_v_scroll",
     {
       "trigger": "get_v_scroll()",
       "contents": "get_v_scroll()"
-    }
+    },
+    "get_v_scroll"
   ]
 }

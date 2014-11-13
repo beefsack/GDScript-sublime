@@ -5,25 +5,31 @@
       "trigger": "set_vertices(vertices)",
       "contents": "set_vertices(${1:vertices})"
     },
+    "set_vertices",
     {
       "trigger": "get_vertices()",
       "contents": "get_vertices()"
     },
+    "get_vertices",
     {
       "trigger": "add_polygon(polygon)",
       "contents": "add_polygon(${1:polygon})"
     },
+    "add_polygon",
     {
       "trigger": "get_polygon_count()",
       "contents": "get_polygon_count()"
     },
+    "get_polygon_count",
     {
       "trigger": "get_polygon(idx)",
       "contents": "get_polygon(${1:idx})"
     },
+    "get_polygon",
     {
       "trigger": "clear_polygons()",
       "contents": "clear_polygons()"
-    }
+    },
+    "clear_polygons"
   ]
 }

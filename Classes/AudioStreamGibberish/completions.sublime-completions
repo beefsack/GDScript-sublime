@@ -5,10 +5,12 @@
       "trigger": "set_phonemes(phonemes)",
       "contents": "set_phonemes(${1:phonemes})"
     },
+    "set_phonemes",
     {
       "trigger": "get_phonemes()",
       "contents": "get_phonemes()"
     },
+    "get_phonemes",
     {
       "trigger": "set_pitch_scale(pitch_scale)",
       "contents": "set_pitch_scale(${1:pitch_scale})"
@@ -21,17 +23,21 @@
       "trigger": "set_pitch_random_scale(pitch_random_scale)",
       "contents": "set_pitch_random_scale(${1:pitch_random_scale})"
     },
+    "set_pitch_random_scale",
     {
       "trigger": "get_pitch_random_scale()",
       "contents": "get_pitch_random_scale()"
     },
+    "get_pitch_random_scale",
     {
       "trigger": "set_xfade_time(sec)",
       "contents": "set_xfade_time(${1:sec})"
     },
+    "set_xfade_time",
     {
       "trigger": "get_xfade_time()",
       "contents": "get_xfade_time()"
-    }
+    },
+    "get_xfade_time"
   ]
 }

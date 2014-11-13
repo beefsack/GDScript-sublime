@@ -5,29 +5,31 @@
       "trigger": "set_locale(locale)",
       "contents": "set_locale(${1:locale})"
     },
-    {
-      "trigger": "get_locale()",
-      "contents": "get_locale()"
-    },
+    "set_locale",
     {
       "trigger": "add_message(src_message, xlated_message)",
       "contents": "add_message(${1:src_message}, ${2:xlated_message})"
     },
+    "add_message",
     {
       "trigger": "get_message(src_message)",
       "contents": "get_message(${1:src_message})"
     },
+    "get_message",
     {
       "trigger": "erase_message(src_message)",
       "contents": "erase_message(${1:src_message})"
     },
+    "erase_message",
     {
       "trigger": "get_message_list()",
       "contents": "get_message_list()"
     },
+    "get_message_list",
     {
       "trigger": "get_message_count()",
       "contents": "get_message_count()"
-    }
+    },
+    "get_message_count"
   ]
 }

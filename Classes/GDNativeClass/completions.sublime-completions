@@ -4,6 +4,7 @@
     {
       "trigger": "new()",
       "contents": "new()"
-    }
+    },
+    "new"
   ]
 }

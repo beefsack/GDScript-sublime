@@ -2,24 +2,12 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "get(idx)",
-      "contents": "get(${1:idx})"
-    },
-    {
       "trigger": "push_back(vector2)",
       "contents": "push_back(${1:vector2})"
     },
     {
-      "trigger": "resize(idx)",
-      "contents": "resize(${1:idx})"
-    },
-    {
       "trigger": "set(idx, vector2)",
       "contents": "set(${1:idx}, ${2:vector2})"
-    },
-    {
-      "trigger": "size()",
-      "contents": "size()"
     },
     {
       "trigger": "Vector2Array(from)",

@@ -5,37 +5,46 @@
       "trigger": "get_ok()",
       "contents": "get_ok()"
     },
+    "get_ok",
     {
       "trigger": "get_label()",
       "contents": "get_label()"
     },
+    "get_label",
     {
       "trigger": "set_hide_on_ok(enabled)",
       "contents": "set_hide_on_ok(${1:enabled})"
     },
+    "set_hide_on_ok",
     {
       "trigger": "get_hide_on_ok()",
       "contents": "get_hide_on_ok()"
     },
+    "get_hide_on_ok",
     {
       "trigger": "add_button(text)",
       "contents": "add_button(${1:text})"
     },
+    "add_button",
     {
       "trigger": "add_cancel(name)",
       "contents": "add_cancel(${1:name})"
     },
+    "add_cancel",
     {
       "trigger": "register_text_enter(line_edit)",
       "contents": "register_text_enter(${1:line_edit})"
     },
+    "register_text_enter",
     {
       "trigger": "set_text(text)",
       "contents": "set_text(${1:text})"
     },
+    "set_text",
     {
       "trigger": "get_text()",
       "contents": "get_text()"
-    }
+    },
+    "get_text"
   ]
 }

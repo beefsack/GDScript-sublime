@@ -5,34 +5,42 @@
       "trigger": "set_background(bgmode)",
       "contents": "set_background(${1:bgmode})"
     },
+    "set_background",
     {
       "trigger": "get_background()",
       "contents": "get_background()"
     },
+    "get_background",
     {
       "trigger": "set_background_param(param, value)",
       "contents": "set_background_param(${1:param}, ${2:value})"
     },
+    "set_background_param",
     {
       "trigger": "get_background_param(param)",
       "contents": "get_background_param(${1:param})"
     },
+    "get_background_param",
     {
       "trigger": "set_enable_fx(effect, enabled)",
       "contents": "set_enable_fx(${1:effect}, ${2:enabled})"
     },
+    "set_enable_fx",
     {
       "trigger": "is_fx_enabled(effect)",
       "contents": "is_fx_enabled(${1:effect})"
     },
+    "is_fx_enabled",
     {
       "trigger": "fx_set_param(param, value)",
       "contents": "fx_set_param(${1:param}, ${2:value})"
     },
+    "fx_set_param",
     {
       "trigger": "fx_get_param(param)",
       "contents": "fx_get_param(${1:param})"
     },
+    "fx_get_param",
     "BG_KEEP",
     "BG_DEFAULT_COLOR",
     "BG_COLOR",

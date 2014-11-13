@@ -8,6 +8,7 @@
     {
       "trigger": "is_valid()",
       "contents": "is_valid()"
-    }
+    },
+    "is_valid"
   ]
 }

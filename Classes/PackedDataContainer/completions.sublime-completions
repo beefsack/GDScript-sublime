@@ -5,9 +5,6 @@
       "trigger": "pack(value)",
       "contents": "pack(${1:value})"
     },
-    {
-      "trigger": "size()",
-      "contents": "size()"
-    }
+    "pack"
   ]
 }

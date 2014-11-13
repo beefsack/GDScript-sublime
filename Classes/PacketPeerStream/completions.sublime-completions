@@ -4,6 +4,7 @@
     {
       "trigger": "set_stream_peer(peer)",
       "contents": "set_stream_peer(${1:peer})"
-    }
+    },
+    "set_stream_peer"
   ]
 }

@@ -5,10 +5,12 @@
       "trigger": "queue_sort()",
       "contents": "queue_sort()"
     },
+    "queue_sort",
     {
       "trigger": "fit_child_in_rect(child, rect)",
       "contents": "fit_child_in_rect(${1:child}, ${2:rect})"
     },
+    "fit_child_in_rect",
     "NOTIFICATION_SORT_CHILDREN"
   ]
 }

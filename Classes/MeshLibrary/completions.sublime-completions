@@ -5,45 +5,51 @@
       "trigger": "create_item(id)",
       "contents": "create_item(${1:id})"
     },
+    "create_item",
     {
       "trigger": "set_item_name(id, name)",
       "contents": "set_item_name(${1:id}, ${2:name})"
     },
+    "set_item_name",
     {
       "trigger": "set_item_mesh(id, mesh)",
       "contents": "set_item_mesh(${1:id}, ${2:mesh})"
     },
+    "set_item_mesh",
     {
       "trigger": "set_item_shape(id, shape)",
       "contents": "set_item_shape(${1:id}, ${2:shape})"
     },
+    "set_item_shape",
     {
       "trigger": "get_item_name(id)",
       "contents": "get_item_name(${1:id})"
     },
+    "get_item_name",
     {
       "trigger": "get_item_mesh(id)",
       "contents": "get_item_mesh(${1:id})"
     },
+    "get_item_mesh",
     {
       "trigger": "get_item_shape(id)",
       "contents": "get_item_shape(${1:id})"
     },
+    "get_item_shape",
     {
       "trigger": "remove_item(id)",
       "contents": "remove_item(${1:id})"
     },
-    {
-      "trigger": "clear()",
-      "contents": "clear()"
-    },
+    "remove_item",
     {
       "trigger": "get_item_list()",
       "contents": "get_item_list()"
     },
+    "get_item_list",
     {
       "trigger": "get_last_unused_item_id()",
       "contents": "get_last_unused_item_id()"
-    }
+    },
+    "get_last_unused_item_id"
   ]
 }

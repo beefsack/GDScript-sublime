@@ -5,226 +5,277 @@
       "trigger": "sin(s)",
       "contents": "sin(${1:s})"
     },
+    "sin",
     {
       "trigger": "cos(s)",
       "contents": "cos(${1:s})"
     },
+    "cos",
     {
       "trigger": "tan(s)",
       "contents": "tan(${1:s})"
     },
+    "tan",
     {
       "trigger": "sinh(s)",
       "contents": "sinh(${1:s})"
     },
+    "sinh",
     {
       "trigger": "cosh(s)",
       "contents": "cosh(${1:s})"
     },
+    "cosh",
     {
       "trigger": "tanh(s)",
       "contents": "tanh(${1:s})"
     },
+    "tanh",
     {
       "trigger": "asin(s)",
       "contents": "asin(${1:s})"
     },
+    "asin",
     {
       "trigger": "acos(s)",
       "contents": "acos(${1:s})"
     },
+    "acos",
     {
       "trigger": "atan(s)",
       "contents": "atan(${1:s})"
     },
+    "atan",
     {
       "trigger": "atan2(x, y)",
       "contents": "atan2(${1:x}, ${2:y})"
     },
+    "atan2",
     {
       "trigger": "sqrt(s)",
       "contents": "sqrt(${1:s})"
     },
+    "sqrt",
     {
       "trigger": "fmod(x, y)",
       "contents": "fmod(${1:x}, ${2:y})"
     },
+    "fmod",
     {
       "trigger": "fposmod(x, y)",
       "contents": "fposmod(${1:x}, ${2:y})"
     },
+    "fposmod",
     {
       "trigger": "floor(s)",
       "contents": "floor(${1:s})"
     },
+    "floor",
     {
       "trigger": "ceil(s)",
       "contents": "ceil(${1:s})"
     },
+    "ceil",
     {
       "trigger": "round(s)",
       "contents": "round(${1:s})"
     },
+    "round",
     {
       "trigger": "abs(s)",
       "contents": "abs(${1:s})"
     },
+    "abs",
     {
       "trigger": "sign(s)",
       "contents": "sign(${1:s})"
     },
+    "sign",
     {
       "trigger": "pow(x, y)",
       "contents": "pow(${1:x}, ${2:y})"
     },
+    "pow",
     {
       "trigger": "log(s)",
       "contents": "log(${1:s})"
     },
+    "log",
     {
       "trigger": "exp(s)",
       "contents": "exp(${1:s})"
     },
+    "exp",
     {
       "trigger": "isnan(s)",
       "contents": "isnan(${1:s})"
     },
+    "isnan",
     {
       "trigger": "isinf(s)",
       "contents": "isinf(${1:s})"
     },
+    "isinf",
     {
       "trigger": "ease(s, curve)",
       "contents": "ease(${1:s}, ${2:curve})"
     },
+    "ease",
     {
       "trigger": "decimals(step)",
       "contents": "decimals(${1:step})"
     },
+    "decimals",
     {
       "trigger": "stepify(s, step)",
       "contents": "stepify(${1:s}, ${2:step})"
     },
+    "stepify",
     {
       "trigger": "lerp(a, b, c)",
       "contents": "lerp(${1:a}, ${2:b}, ${3:c})"
     },
+    "lerp",
     {
       "trigger": "dectime(value, amount, step)",
       "contents": "dectime(${1:value}, ${2:amount}, ${3:step})"
     },
+    "dectime",
     {
       "trigger": "randomize()",
       "contents": "randomize()"
     },
+    "randomize",
     {
       "trigger": "randi()",
       "contents": "randi()"
     },
+    "randi",
     {
       "trigger": "randf()",
       "contents": "randf()"
     },
+    "randf",
     {
       "trigger": "rand_range(from, to)",
       "contents": "rand_range(${1:from}, ${2:to})"
     },
+    "rand_range",
     {
       "trigger": "rand_seed(seed)",
       "contents": "rand_seed(${1:seed})"
     },
+    "rand_seed",
     {
       "trigger": "deg2rad(deg)",
       "contents": "deg2rad(${1:deg})"
     },
+    "deg2rad",
     {
       "trigger": "rad2deg(rad)",
       "contents": "rad2deg(${1:rad})"
     },
+    "rad2deg",
     {
       "trigger": "linear2db(nrg)",
       "contents": "linear2db(${1:nrg})"
     },
+    "linear2db",
     {
       "trigger": "db2linear(db)",
       "contents": "db2linear(${1:db})"
     },
+    "db2linear",
     {
       "trigger": "max(a, b)",
       "contents": "max(${1:a}, ${2:b})"
     },
+    "max",
     {
       "trigger": "min(a, b)",
       "contents": "min(${1:a}, ${2:b})"
     },
+    "min",
     {
       "trigger": "clamp(val, min, max)",
       "contents": "clamp(${1:val}, ${2:min}, ${3:max})"
     },
+    "clamp",
     {
       "trigger": "nearest_po2(val)",
       "contents": "nearest_po2(${1:val})"
     },
+    "nearest_po2",
     {
       "trigger": "weakref(obj)",
       "contents": "weakref(${1:obj})"
     },
+    "weakref",
     {
       "trigger": "funcref(instance, funcname)",
       "contents": "funcref(${1:instance}, ${2:funcname})"
     },
+    "funcref",
     {
       "trigger": "convert(what, type)",
       "contents": "convert(${1:what}, ${2:type})"
     },
+    "convert",
     {
       "trigger": "str(what)",
       "contents": "str(${1:what})"
     },
-    {
-      "trigger": "str(what)",
-      "contents": "str(${1:what})"
-    },
+    "str",
     {
       "trigger": "print(what)",
       "contents": "print(${1:what})"
     },
+    "print",
     {
       "trigger": "printt(what)",
       "contents": "printt(${1:what})"
     },
+    "printt",
     {
       "trigger": "printerr(what)",
       "contents": "printerr(${1:what})"
     },
+    "printerr",
     {
       "trigger": "printraw(what)",
       "contents": "printraw(${1:what})"
     },
+    "printraw",
     {
       "trigger": "range()",
       "contents": "range()"
     },
+    "range",
     {
       "trigger": "load(path)",
       "contents": "load(${1:path})"
     },
+    "load",
     {
       "trigger": "inst2dict(inst)",
       "contents": "inst2dict(${1:inst})"
     },
+    "inst2dict",
     {
       "trigger": "dict2inst(dict)",
       "contents": "dict2inst(${1:dict})"
     },
+    "dict2inst",
     {
       "trigger": "hash(var)",
       "contents": "hash(${1:var})"
     },
+    "hash",
     {
       "trigger": "print_stack()",
       "contents": "print_stack()"
     },
+    "print_stack",
     "PI"
   ]
 }

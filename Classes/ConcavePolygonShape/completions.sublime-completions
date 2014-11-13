@@ -5,9 +5,11 @@
       "trigger": "set_faces(faces)",
       "contents": "set_faces(${1:faces})"
     },
+    "set_faces",
     {
       "trigger": "get_faces()",
       "contents": "get_faces()"
-    }
+    },
+    "get_faces"
   ]
 }

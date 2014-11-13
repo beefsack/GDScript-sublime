@@ -5,13 +5,16 @@
       "trigger": "set_baked_light(baked_light)",
       "contents": "set_baked_light(${1:baked_light})"
     },
+    "set_baked_light",
     {
       "trigger": "get_baked_light()",
       "contents": "get_baked_light()"
     },
+    "get_baked_light",
     {
       "trigger": "get_baked_light_instance()",
       "contents": "get_baked_light_instance()"
-    }
+    },
+    "get_baked_light_instance"
   ]
 }

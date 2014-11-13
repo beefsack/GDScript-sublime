@@ -5,34 +5,42 @@
       "trigger": "blend(over)",
       "contents": "blend(${1:over})"
     },
+    "blend",
     {
       "trigger": "contrasted()",
       "contents": "contrasted()"
     },
+    "contrasted",
     {
       "trigger": "gray()",
       "contents": "gray()"
     },
+    "gray",
     {
       "trigger": "inverted()",
       "contents": "inverted()"
     },
+    "inverted",
     {
       "trigger": "linear_interpolate(b, t)",
       "contents": "linear_interpolate(${1:b}, ${2:t})"
     },
+    "linear_interpolate",
     {
       "trigger": "to_32()",
       "contents": "to_32()"
     },
+    "to_32",
     {
       "trigger": "to_ARGB32()",
       "contents": "to_ARGB32()"
     },
+    "to_ARGB32",
     {
       "trigger": "to_html(with_alpha)",
       "contents": "to_html(${1:with_alpha})"
     },
+    "to_html",
     {
       "trigger": "Color(r, g, b, a)",
       "contents": "Color(${1:r}, ${2:g}, ${3:b}, ${4:a})"
@@ -40,10 +48,6 @@
     {
       "trigger": "Color(r, g, b)",
       "contents": "Color(${1:r}, ${2:g}, ${3:b})"
-    },
-    {
-      "trigger": "Color(from)",
-      "contents": "Color(${1:from})"
     },
     {
       "trigger": "Color(from)",

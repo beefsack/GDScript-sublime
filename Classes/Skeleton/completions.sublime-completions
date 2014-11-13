@@ -5,74 +5,92 @@
       "trigger": "add_bone(name)",
       "contents": "add_bone(${1:name})"
     },
+    "add_bone",
     {
       "trigger": "find_bone(name)",
       "contents": "find_bone(${1:name})"
     },
+    "find_bone",
     {
       "trigger": "get_bone_name(bone_idx)",
       "contents": "get_bone_name(${1:bone_idx})"
     },
+    "get_bone_name",
     {
       "trigger": "get_bone_parent(bone_idx)",
       "contents": "get_bone_parent(${1:bone_idx})"
     },
+    "get_bone_parent",
     {
       "trigger": "set_bone_parent(bone_idx, parent_idx)",
       "contents": "set_bone_parent(${1:bone_idx}, ${2:parent_idx})"
     },
+    "set_bone_parent",
     {
       "trigger": "get_bone_count()",
       "contents": "get_bone_count()"
     },
+    "get_bone_count",
     {
       "trigger": "get_bone_rest(bone_idx)",
       "contents": "get_bone_rest(${1:bone_idx})"
     },
+    "get_bone_rest",
     {
       "trigger": "set_bone_rest(bone_idx, rest)",
       "contents": "set_bone_rest(${1:bone_idx}, ${2:rest})"
     },
+    "set_bone_rest",
     {
       "trigger": "bind_child_node_to_bone(bone_idx, node)",
       "contents": "bind_child_node_to_bone(${1:bone_idx}, ${2:node})"
     },
+    "bind_child_node_to_bone",
     {
       "trigger": "unbind_child_node_from_bone(bone_idx, node)",
       "contents": "unbind_child_node_from_bone(${1:bone_idx}, ${2:node})"
     },
+    "unbind_child_node_from_bone",
     {
       "trigger": "get_bound_child_nodes_to_bone(bone_idx)",
       "contents": "get_bound_child_nodes_to_bone(${1:bone_idx})"
     },
+    "get_bound_child_nodes_to_bone",
     {
       "trigger": "clear_bones()",
       "contents": "clear_bones()"
     },
+    "clear_bones",
     {
       "trigger": "get_bone_pose(bone_idx)",
       "contents": "get_bone_pose(${1:bone_idx})"
     },
+    "get_bone_pose",
     {
       "trigger": "set_bone_pose(bone_idx, pose)",
       "contents": "set_bone_pose(${1:bone_idx}, ${2:pose})"
     },
+    "set_bone_pose",
     {
       "trigger": "get_bone_global_pose(bone_idx)",
       "contents": "get_bone_global_pose(${1:bone_idx})"
     },
+    "get_bone_global_pose",
     {
       "trigger": "get_bone_custom_pose(bone_idx)",
       "contents": "get_bone_custom_pose(${1:bone_idx})"
     },
+    "get_bone_custom_pose",
     {
       "trigger": "set_bone_custom_pose(bone_idx, custom_pose)",
       "contents": "set_bone_custom_pose(${1:bone_idx}, ${2:custom_pose})"
     },
+    "set_bone_custom_pose",
     {
       "trigger": "get_bone_transform(bone_idx)",
       "contents": "get_bone_transform(${1:bone_idx})"
     },
+    "get_bone_transform",
     "NOTIFICATION_UPDATE_SKELETON"
   ]
 }

@@ -10,20 +10,14 @@
       "contents": "get_color()"
     },
     {
-      "trigger": "set_mode(mode)",
-      "contents": "set_mode(${1:mode})"
-    },
-    {
-      "trigger": "get_mode()",
-      "contents": "get_mode()"
-    },
-    {
       "trigger": "set_edit_alpha(show)",
       "contents": "set_edit_alpha(${1:show})"
     },
+    "set_edit_alpha",
     {
       "trigger": "is_editing_alpha()",
       "contents": "is_editing_alpha()"
-    }
+    },
+    "is_editing_alpha"
   ]
 }

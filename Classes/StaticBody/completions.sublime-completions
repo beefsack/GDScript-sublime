@@ -5,33 +5,21 @@
       "trigger": "set_constant_linear_velocity(vel)",
       "contents": "set_constant_linear_velocity(${1:vel})"
     },
+    "set_constant_linear_velocity",
     {
       "trigger": "set_constant_angular_velocity(vel)",
       "contents": "set_constant_angular_velocity(${1:vel})"
     },
+    "set_constant_angular_velocity",
     {
       "trigger": "get_constant_linear_velocity()",
       "contents": "get_constant_linear_velocity()"
     },
+    "get_constant_linear_velocity",
     {
       "trigger": "get_constant_angular_velocity()",
       "contents": "get_constant_angular_velocity()"
     },
-    {
-      "trigger": "set_friction(friction)",
-      "contents": "set_friction(${1:friction})"
-    },
-    {
-      "trigger": "get_friction()",
-      "contents": "get_friction()"
-    },
-    {
-      "trigger": "set_bounce(bounce)",
-      "contents": "set_bounce(${1:bounce})"
-    },
-    {
-      "trigger": "get_bounce()",
-      "contents": "get_bounce()"
-    }
+    "get_constant_angular_velocity"
   ]
 }

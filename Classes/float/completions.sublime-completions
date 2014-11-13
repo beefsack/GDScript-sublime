@@ -4,14 +4,6 @@
     {
       "trigger": "float(from)",
       "contents": "float(${1:from})"
-    },
-    {
-      "trigger": "float(from)",
-      "contents": "float(${1:from})"
-    },
-    {
-      "trigger": "float(from)",
-      "contents": "float(${1:from})"
     }
   ]
 }

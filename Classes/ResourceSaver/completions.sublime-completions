@@ -5,10 +5,12 @@
       "trigger": "save(path, resource, arg2)",
       "contents": "save(${1:path}, ${2:resource}, ${3:arg2})"
     },
+    "save",
     {
       "trigger": "get_recognized_extensions(type)",
       "contents": "get_recognized_extensions(${1:type})"
     },
+    "get_recognized_extensions",
     "FLAG_RELATIVE_PATHS",
     "FLAG_BUNDLE_RESOURCES",
     "FLAG_CHANGE_PATH",

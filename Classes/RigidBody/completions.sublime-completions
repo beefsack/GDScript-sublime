@@ -1,126 +1,157 @@
 {
   "scope": "source.gdscript",
   "completions": [
+    "_integrate_forces",
     {
       "trigger": "set_mode(mode)",
       "contents": "set_mode(${1:mode})"
     },
+    "set_mode",
     {
       "trigger": "get_mode()",
       "contents": "get_mode()"
     },
+    "get_mode",
     {
       "trigger": "set_mass(mass)",
       "contents": "set_mass(${1:mass})"
     },
+    "set_mass",
     {
       "trigger": "get_mass()",
       "contents": "get_mass()"
     },
+    "get_mass",
     {
       "trigger": "set_weight(weight)",
       "contents": "set_weight(${1:weight})"
     },
+    "set_weight",
     {
       "trigger": "get_weight()",
       "contents": "get_weight()"
     },
+    "get_weight",
     {
       "trigger": "set_friction(friction)",
       "contents": "set_friction(${1:friction})"
     },
+    "set_friction",
     {
       "trigger": "get_friction()",
       "contents": "get_friction()"
     },
+    "get_friction",
     {
       "trigger": "set_bounce(bounce)",
       "contents": "set_bounce(${1:bounce})"
     },
+    "set_bounce",
     {
       "trigger": "get_bounce()",
       "contents": "get_bounce()"
     },
+    "get_bounce",
     {
       "trigger": "set_linear_velocity(linear_velocity)",
       "contents": "set_linear_velocity(${1:linear_velocity})"
     },
+    "set_linear_velocity",
     {
       "trigger": "get_linear_velocity()",
       "contents": "get_linear_velocity()"
     },
+    "get_linear_velocity",
     {
       "trigger": "set_angular_velocity(angular_velocity)",
       "contents": "set_angular_velocity(${1:angular_velocity})"
     },
+    "set_angular_velocity",
     {
       "trigger": "get_angular_velocity()",
       "contents": "get_angular_velocity()"
     },
+    "get_angular_velocity",
     {
       "trigger": "set_max_contacts_reported(amount)",
       "contents": "set_max_contacts_reported(${1:amount})"
     },
+    "set_max_contacts_reported",
     {
       "trigger": "get_max_contacts_reported()",
       "contents": "get_max_contacts_reported()"
     },
+    "get_max_contacts_reported",
     {
       "trigger": "set_use_custom_integrator(enable)",
       "contents": "set_use_custom_integrator(${1:enable})"
     },
+    "set_use_custom_integrator",
     {
       "trigger": "is_using_custom_integrator()",
       "contents": "is_using_custom_integrator()"
     },
+    "is_using_custom_integrator",
     {
       "trigger": "set_contact_monitor(enabled)",
       "contents": "set_contact_monitor(${1:enabled})"
     },
+    "set_contact_monitor",
     {
       "trigger": "is_contact_monitor_enabled()",
       "contents": "is_contact_monitor_enabled()"
     },
+    "is_contact_monitor_enabled",
     {
       "trigger": "set_use_continuous_collision_detection(enable)",
       "contents": "set_use_continuous_collision_detection(${1:enable})"
     },
+    "set_use_continuous_collision_detection",
     {
       "trigger": "is_using_continuous_collision_detection()",
       "contents": "is_using_continuous_collision_detection()"
     },
+    "is_using_continuous_collision_detection",
     {
       "trigger": "set_axis_velocity(axis_velocity)",
       "contents": "set_axis_velocity(${1:axis_velocity})"
     },
+    "set_axis_velocity",
     {
       "trigger": "apply_impulse(pos, impulse)",
       "contents": "apply_impulse(${1:pos}, ${2:impulse})"
     },
+    "apply_impulse",
     {
       "trigger": "set_sleeping(sleeping)",
       "contents": "set_sleeping(${1:sleeping})"
     },
+    "set_sleeping",
     {
       "trigger": "is_sleeping()",
       "contents": "is_sleeping()"
     },
+    "is_sleeping",
     {
       "trigger": "set_can_sleep(able_to_sleep)",
       "contents": "set_can_sleep(${1:able_to_sleep})"
     },
+    "set_can_sleep",
     {
       "trigger": "is_able_to_sleep()",
       "contents": "is_able_to_sleep()"
     },
+    "is_able_to_sleep",
     {
       "trigger": "set_axis_lock(axis_lock)",
       "contents": "set_axis_lock(${1:axis_lock})"
     },
+    "set_axis_lock",
     {
       "trigger": "get_axis_lock()",
       "contents": "get_axis_lock()"
     },
+    "get_axis_lock",
     "MODE_STATIC",
     "MODE_KINEMATIC",
     "MODE_RIGID",

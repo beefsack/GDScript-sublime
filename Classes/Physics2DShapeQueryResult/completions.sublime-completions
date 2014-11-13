@@ -5,21 +5,26 @@
       "trigger": "get_result_count()",
       "contents": "get_result_count()"
     },
+    "get_result_count",
     {
       "trigger": "get_result_rid(idx)",
       "contents": "get_result_rid(${1:idx})"
     },
+    "get_result_rid",
     {
       "trigger": "get_result_object_id(idx)",
       "contents": "get_result_object_id(${1:idx})"
     },
+    "get_result_object_id",
     {
       "trigger": "get_result_object(idx)",
       "contents": "get_result_object(${1:idx})"
     },
+    "get_result_object",
     {
       "trigger": "get_result_object_shape(idx)",
       "contents": "get_result_object_shape(${1:idx})"
-    }
+    },
+    "get_result_object_shape"
   ]
 }

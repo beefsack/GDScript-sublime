@@ -2,41 +2,10 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_stream(stream)",
-      "contents": "set_stream(${1:stream})"
-    },
-    {
-      "trigger": "get_stream()",
-      "contents": "get_stream()"
-    },
-    {
-      "trigger": "play()",
-      "contents": "play()"
-    },
-    {
-      "trigger": "stop()",
-      "contents": "stop()"
-    },
-    {
-      "trigger": "is_playing()",
-      "contents": "is_playing()"
-    },
-    {
       "trigger": "set_paused(paused)",
       "contents": "set_paused(${1:paused})"
     },
-    {
-      "trigger": "is_paused()",
-      "contents": "is_paused()"
-    },
-    {
-      "trigger": "set_loop(enabled)",
-      "contents": "set_loop(${1:enabled})"
-    },
-    {
-      "trigger": "has_loop()",
-      "contents": "has_loop()"
-    },
+    "set_paused",
     {
       "trigger": "set_volume(volume)",
       "contents": "set_volume(${1:volume})"
@@ -54,22 +23,6 @@
       "contents": "get_volume_db()"
     },
     {
-      "trigger": "get_stream_name()",
-      "contents": "get_stream_name()"
-    },
-    {
-      "trigger": "get_loop_count()",
-      "contents": "get_loop_count()"
-    },
-    {
-      "trigger": "get_pos()",
-      "contents": "get_pos()"
-    },
-    {
-      "trigger": "seek_pos(time)",
-      "contents": "seek_pos(${1:time})"
-    },
-    {
       "trigger": "set_autoplay(enabled)",
       "contents": "set_autoplay(${1:enabled})"
     },
@@ -77,9 +30,6 @@
       "trigger": "has_autoplay()",
       "contents": "has_autoplay()"
     },
-    {
-      "trigger": "get_length()",
-      "contents": "get_length()"
-    }
+    "has_autoplay"
   ]
 }

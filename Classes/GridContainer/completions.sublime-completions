@@ -4,10 +4,6 @@
     {
       "trigger": "set_columns(columns)",
       "contents": "set_columns(${1:columns})"
-    },
-    {
-      "trigger": "get_columns()",
-      "contents": "get_columns()"
     }
   ]
 }

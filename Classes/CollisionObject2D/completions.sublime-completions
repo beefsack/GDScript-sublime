@@ -4,46 +4,6 @@
     {
       "trigger": "add_shape(shape, transform, 0, 0)",
       "contents": "add_shape(${1:shape}, ${2:transform}, ${3:0}, ${4:0})"
-    },
-    {
-      "trigger": "get_shape_count()",
-      "contents": "get_shape_count()"
-    },
-    {
-      "trigger": "set_shape(shape_idx, shape)",
-      "contents": "set_shape(${1:shape_idx}, ${2:shape})"
-    },
-    {
-      "trigger": "set_shape_transform(shape_idx, transform)",
-      "contents": "set_shape_transform(${1:shape_idx}, ${2:transform})"
-    },
-    {
-      "trigger": "set_shape_as_trigger(shape_idx, enable)",
-      "contents": "set_shape_as_trigger(${1:shape_idx}, ${2:enable})"
-    },
-    {
-      "trigger": "get_shape(shape_idx)",
-      "contents": "get_shape(${1:shape_idx})"
-    },
-    {
-      "trigger": "get_shape_transform(shape_idx)",
-      "contents": "get_shape_transform(${1:shape_idx})"
-    },
-    {
-      "trigger": "is_shape_set_as_trigger(shape_idx)",
-      "contents": "is_shape_set_as_trigger(${1:shape_idx})"
-    },
-    {
-      "trigger": "remove_shape(shape_idx)",
-      "contents": "remove_shape(${1:shape_idx})"
-    },
-    {
-      "trigger": "clear_shapes()",
-      "contents": "clear_shapes()"
-    },
-    {
-      "trigger": "get_rid()",
-      "contents": "get_rid()"
     }
   ]
 }

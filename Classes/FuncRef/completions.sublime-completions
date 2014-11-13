@@ -5,13 +5,16 @@
       "trigger": "call_func(method, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9)",
       "contents": "call_func(${1:method}, ${2:arg0}, ${3:arg1}, ${4:arg2}, ${5:arg3}, ${6:arg4}, ${7:arg5}, ${8:arg6}, ${9:arg7}, ${10:arg8}, ${11:arg9})"
     },
+    "call_func",
     {
       "trigger": "set_instance(instance)",
       "contents": "set_instance(${1:instance})"
     },
+    "set_instance",
     {
       "trigger": "set_function(name)",
       "contents": "set_function(${1:name})"
-    }
+    },
+    "set_function"
   ]
 }

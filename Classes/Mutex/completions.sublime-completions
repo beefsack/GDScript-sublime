@@ -5,13 +5,16 @@
       "trigger": "lock()",
       "contents": "lock()"
     },
+    "lock",
     {
       "trigger": "try_lock()",
       "contents": "try_lock()"
     },
+    "try_lock",
     {
       "trigger": "unlock()",
       "contents": "unlock()"
-    }
+    },
+    "unlock"
   ]
 }

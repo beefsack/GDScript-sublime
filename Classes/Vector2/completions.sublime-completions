@@ -5,10 +5,12 @@
       "trigger": "angle_to(to)",
       "contents": "angle_to(${1:to})"
     },
+    "angle_to",
     {
       "trigger": "angle_to_point(to)",
       "contents": "angle_to_point(${1:to})"
     },
+    "angle_to_point",
     {
       "trigger": "atan2()",
       "contents": "atan2()"
@@ -17,10 +19,12 @@
       "trigger": "cubic_interpolate(b, pre_a, post_b, t)",
       "contents": "cubic_interpolate(${1:b}, ${2:pre_a}, ${3:post_b}, ${4:t})"
     },
+    "cubic_interpolate",
     {
       "trigger": "distance_squared_to(to)",
       "contents": "distance_squared_to(${1:to})"
     },
+    "distance_squared_to",
     {
       "trigger": "distance_to(to)",
       "contents": "distance_to(${1:to})"
@@ -29,6 +33,7 @@
       "trigger": "dot(with)",
       "contents": "dot(${1:with})"
     },
+    "dot",
     {
       "trigger": "floor()",
       "contents": "floor()"
@@ -37,46 +42,37 @@
       "trigger": "floorf()",
       "contents": "floorf()"
     },
+    "floorf",
     {
       "trigger": "get_aspect()",
       "contents": "get_aspect()"
     },
-    {
-      "trigger": "length()",
-      "contents": "length()"
-    },
+    "get_aspect",
     {
       "trigger": "length_squared()",
       "contents": "length_squared()"
     },
-    {
-      "trigger": "linear_interpolate(b, t)",
-      "contents": "linear_interpolate(${1:b}, ${2:t})"
-    },
-    {
-      "trigger": "normalized()",
-      "contents": "normalized()"
-    },
+    "length_squared",
     {
       "trigger": "reflect(vec)",
       "contents": "reflect(${1:vec})"
     },
-    {
-      "trigger": "rotated(phi)",
-      "contents": "rotated(${1:phi})"
-    },
+    "reflect",
     {
       "trigger": "slide(vec)",
       "contents": "slide(${1:vec})"
     },
+    "slide",
     {
       "trigger": "snapped(by)",
       "contents": "snapped(${1:by})"
     },
+    "snapped",
     {
       "trigger": "tangent()",
       "contents": "tangent()"
     },
+    "tangent",
     {
       "trigger": "Vector2(x, y)",
       "contents": "Vector2(${1:x}, ${2:y})"

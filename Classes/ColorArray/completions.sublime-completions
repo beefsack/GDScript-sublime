@@ -2,24 +2,12 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "get(idx)",
-      "contents": "get(${1:idx})"
-    },
-    {
       "trigger": "push_back(color)",
       "contents": "push_back(${1:color})"
     },
     {
-      "trigger": "resize(idx)",
-      "contents": "resize(${1:idx})"
-    },
-    {
       "trigger": "set(idx, color)",
       "contents": "set(${1:idx}, ${2:color})"
-    },
-    {
-      "trigger": "size()",
-      "contents": "size()"
     },
     {
       "trigger": "ColorArray(from)",

@@ -5,6 +5,7 @@
       "trigger": "get_val()",
       "contents": "get_val()"
     },
+    "get_val",
     {
       "trigger": "get_value()",
       "contents": "get_value()"
@@ -13,30 +14,32 @@
       "trigger": "get_min()",
       "contents": "get_min()"
     },
+    "get_min",
     {
       "trigger": "get_max()",
       "contents": "get_max()"
     },
-    {
-      "trigger": "get_step()",
-      "contents": "get_step()"
-    },
+    "get_max",
     {
       "trigger": "get_page()",
       "contents": "get_page()"
     },
+    "get_page",
     {
       "trigger": "get_unit_value()",
       "contents": "get_unit_value()"
     },
+    "get_unit_value",
     {
       "trigger": "get_rounded_values()",
       "contents": "get_rounded_values()"
     },
+    "get_rounded_values",
     {
       "trigger": "set_val(value)",
       "contents": "set_val(${1:value})"
     },
+    "set_val",
     {
       "trigger": "set_value(value)",
       "contents": "set_value(${1:value})"
@@ -45,10 +48,12 @@
       "trigger": "set_min(minimum)",
       "contents": "set_min(${1:minimum})"
     },
+    "set_min",
     {
       "trigger": "set_max(maximum)",
       "contents": "set_max(${1:maximum})"
     },
+    "set_max",
     {
       "trigger": "set_step(step)",
       "contents": "set_step(${1:step})"
@@ -57,29 +62,36 @@
       "trigger": "set_page(pagesize)",
       "contents": "set_page(${1:pagesize})"
     },
+    "set_page",
     {
       "trigger": "set_unit_value(value)",
       "contents": "set_unit_value(${1:value})"
     },
+    "set_unit_value",
     {
       "trigger": "set_rounded_values(arg0)",
       "contents": "set_rounded_values(${1:arg0})"
     },
+    "set_rounded_values",
     {
       "trigger": "set_exp_unit_value(enabled)",
       "contents": "set_exp_unit_value(${1:enabled})"
     },
+    "set_exp_unit_value",
     {
       "trigger": "is_unit_value_exp()",
       "contents": "is_unit_value_exp()"
     },
+    "is_unit_value_exp",
     {
       "trigger": "share(with)",
       "contents": "share(${1:with})"
     },
+    "share",
     {
       "trigger": "unshare()",
       "contents": "unshare()"
-    }
+    },
+    "unshare"
   ]
 }

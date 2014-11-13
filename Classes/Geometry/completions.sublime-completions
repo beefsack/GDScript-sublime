@@ -5,30 +5,37 @@
       "trigger": "build_box_planes(extents)",
       "contents": "build_box_planes(${1:extents})"
     },
+    "build_box_planes",
     {
       "trigger": "build_cylinder_planes(radius, height, sides, axis)",
       "contents": "build_cylinder_planes(${1:radius}, ${2:height}, ${3:sides}, ${4:axis})"
     },
+    "build_cylinder_planes",
     {
       "trigger": "build_capsule_planes(radius, height, sides, lats, axis)",
       "contents": "build_capsule_planes(${1:radius}, ${2:height}, ${3:sides}, ${4:lats}, ${5:axis})"
     },
+    "build_capsule_planes",
     {
       "trigger": "segment_intersects_circle(segment_from, segment_to, circle_pos, circle_radius)",
       "contents": "segment_intersects_circle(${1:segment_from}, ${2:segment_to}, ${3:circle_pos}, ${4:circle_radius})"
     },
+    "segment_intersects_circle",
     {
       "trigger": "segment_intersects_segment_2d(from_a, to_a, from_b, to_b)",
       "contents": "segment_intersects_segment_2d(${1:from_a}, ${2:to_a}, ${3:from_b}, ${4:to_b})"
     },
+    "segment_intersects_segment_2d",
     {
       "trigger": "get_closest_points_between_segments_2d(p1, q1, p2, q2)",
       "contents": "get_closest_points_between_segments_2d(${1:p1}, ${2:q1}, ${3:p2}, ${4:q2})"
     },
+    "get_closest_points_between_segments_2d",
     {
       "trigger": "get_closest_points_between_segments(p1, p2, q1, q2)",
       "contents": "get_closest_points_between_segments(${1:p1}, ${2:p2}, ${3:q1}, ${4:q2})"
     },
+    "get_closest_points_between_segments",
     {
       "trigger": "get_closest_point_to_segment(point, s1, s2)",
       "contents": "get_closest_point_to_segment(${1:point}, ${2:s1}, ${3:s2})"
@@ -37,33 +44,41 @@
       "trigger": "get_uv84_normal_bit(normal)",
       "contents": "get_uv84_normal_bit(${1:normal})"
     },
+    "get_uv84_normal_bit",
     {
       "trigger": "ray_intersects_triangle(from, dir, a, b, c)",
       "contents": "ray_intersects_triangle(${1:from}, ${2:dir}, ${3:a}, ${4:b}, ${5:c})"
     },
+    "ray_intersects_triangle",
     {
       "trigger": "segment_intersects_triangle(from, to, a, b, c)",
       "contents": "segment_intersects_triangle(${1:from}, ${2:to}, ${3:a}, ${4:b}, ${5:c})"
     },
+    "segment_intersects_triangle",
     {
       "trigger": "segment_intersects_sphere(from, to, spos, sradius)",
       "contents": "segment_intersects_sphere(${1:from}, ${2:to}, ${3:spos}, ${4:sradius})"
     },
+    "segment_intersects_sphere",
     {
       "trigger": "segment_intersects_cylinder(from, to, height, radius)",
       "contents": "segment_intersects_cylinder(${1:from}, ${2:to}, ${3:height}, ${4:radius})"
     },
+    "segment_intersects_cylinder",
     {
       "trigger": "segment_intersects_convex(from, to, planes)",
       "contents": "segment_intersects_convex(${1:from}, ${2:to}, ${3:planes})"
     },
+    "segment_intersects_convex",
     {
       "trigger": "triangulate_polygon(polygon)",
       "contents": "triangulate_polygon(${1:polygon})"
     },
+    "triangulate_polygon",
     {
       "trigger": "make_atlas(sizes)",
       "contents": "make_atlas(${1:sizes})"
-    }
+    },
+    "make_atlas"
   ]
 }

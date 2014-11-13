@@ -5,34 +5,42 @@
       "trigger": "set_flag(flag, enable)",
       "contents": "set_flag(${1:flag}, ${2:enable})"
     },
+    "set_flag",
     {
       "trigger": "get_flag(flag)",
       "contents": "get_flag(${1:flag})"
     },
+    "get_flag",
     {
       "trigger": "set_blend_mode(mode)",
       "contents": "set_blend_mode(${1:mode})"
     },
+    "set_blend_mode",
     {
       "trigger": "get_blend_mode()",
       "contents": "get_blend_mode()"
     },
+    "get_blend_mode",
     {
       "trigger": "set_line_width(width)",
       "contents": "set_line_width(${1:width})"
     },
+    "set_line_width",
     {
       "trigger": "get_line_width()",
       "contents": "get_line_width()"
     },
+    "get_line_width",
     {
       "trigger": "set_depth_draw_mode(mode)",
       "contents": "set_depth_draw_mode(${1:mode})"
     },
+    "set_depth_draw_mode",
     {
       "trigger": "get_depth_draw_mode()",
       "contents": "get_depth_draw_mode()"
     },
+    "get_depth_draw_mode",
     "FLAG_VISIBLE",
     "FLAG_DOUBLE_SIDED",
     "FLAG_INVERT_FACES",

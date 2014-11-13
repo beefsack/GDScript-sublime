@@ -4,6 +4,7 @@
     {
       "trigger": "post_import(scene)",
       "contents": "post_import(${1:scene})"
-    }
+    },
+    "post_import"
   ]
 }

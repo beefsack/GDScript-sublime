@@ -2,28 +2,19 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_locale(locale)",
-      "contents": "set_locale(${1:locale})"
-    },
-    {
-      "trigger": "get_locale()",
-      "contents": "get_locale()"
-    },
-    {
       "trigger": "translate(arg0)",
       "contents": "translate(${1:arg0})"
     },
+    "translate",
     {
       "trigger": "add_translation(arg0)",
       "contents": "add_translation(${1:arg0})"
     },
+    "add_translation",
     {
       "trigger": "remove_translation(arg0)",
       "contents": "remove_translation(${1:arg0})"
     },
-    {
-      "trigger": "clear()",
-      "contents": "clear()"
-    }
+    "remove_translation"
   ]
 }

@@ -5,6 +5,7 @@
       "trigger": "get_monitor(monitor)",
       "contents": "get_monitor(${1:monitor})"
     },
+    "get_monitor",
     "TIME_FPS",
     "TIME_PROCESS",
     "TIME_FIXED_PROCESS",

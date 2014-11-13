@@ -5,234 +5,286 @@
       "trigger": "add_node(type, id)",
       "contents": "add_node(${1:type}, ${2:id})"
     },
+    "add_node",
     {
       "trigger": "node_exists(node)",
       "contents": "node_exists(${1:node})"
     },
+    "node_exists",
     {
       "trigger": "node_rename(node, new_name)",
       "contents": "node_rename(${1:node}, ${2:new_name})"
     },
+    "node_rename",
     {
       "trigger": "node_get_type(id)",
       "contents": "node_get_type(${1:id})"
     },
+    "node_get_type",
     {
       "trigger": "node_get_input_count(id)",
       "contents": "node_get_input_count(${1:id})"
     },
+    "node_get_input_count",
     {
       "trigger": "node_get_input_sourcre(id, idx)",
       "contents": "node_get_input_sourcre(${1:id}, ${2:idx})"
     },
+    "node_get_input_sourcre",
     {
       "trigger": "animation_node_set_animation(id, animation)",
       "contents": "animation_node_set_animation(${1:id}, ${2:animation})"
     },
+    "animation_node_set_animation",
     {
       "trigger": "animation_node_get_animation(id)",
       "contents": "animation_node_get_animation(${1:id})"
     },
+    "animation_node_get_animation",
     {
       "trigger": "animation_node_set_master_animation(id, source)",
       "contents": "animation_node_set_master_animation(${1:id}, ${2:source})"
     },
+    "animation_node_set_master_animation",
     {
       "trigger": "animation_node_get_master_animation(id)",
       "contents": "animation_node_get_master_animation(${1:id})"
     },
+    "animation_node_get_master_animation",
     {
       "trigger": "oneshot_node_set_fadein_time(id, time_sec)",
       "contents": "oneshot_node_set_fadein_time(${1:id}, ${2:time_sec})"
     },
+    "oneshot_node_set_fadein_time",
     {
       "trigger": "oneshot_node_get_fadein_time(id)",
       "contents": "oneshot_node_get_fadein_time(${1:id})"
     },
+    "oneshot_node_get_fadein_time",
     {
       "trigger": "oneshot_node_set_fadeout_time(id, time_sec)",
       "contents": "oneshot_node_set_fadeout_time(${1:id}, ${2:time_sec})"
     },
+    "oneshot_node_set_fadeout_time",
     {
       "trigger": "oneshot_node_get_fadeout_time(id)",
       "contents": "oneshot_node_get_fadeout_time(${1:id})"
     },
+    "oneshot_node_get_fadeout_time",
     {
       "trigger": "oneshot_node_set_autorestart(id, enable)",
       "contents": "oneshot_node_set_autorestart(${1:id}, ${2:enable})"
     },
+    "oneshot_node_set_autorestart",
     {
       "trigger": "oneshot_node_set_autorestart_delay(id, delay_sec)",
       "contents": "oneshot_node_set_autorestart_delay(${1:id}, ${2:delay_sec})"
     },
+    "oneshot_node_set_autorestart_delay",
     {
       "trigger": "oneshot_node_set_autorestart_random_delay(id, rand_sec)",
       "contents": "oneshot_node_set_autorestart_random_delay(${1:id}, ${2:rand_sec})"
     },
+    "oneshot_node_set_autorestart_random_delay",
     {
       "trigger": "oneshot_node_has_autorestart(id)",
       "contents": "oneshot_node_has_autorestart(${1:id})"
     },
+    "oneshot_node_has_autorestart",
     {
       "trigger": "oneshot_node_get_autorestart_delay(id)",
       "contents": "oneshot_node_get_autorestart_delay(${1:id})"
     },
+    "oneshot_node_get_autorestart_delay",
     {
       "trigger": "oneshot_node_get_autorestart_random_delay(id)",
       "contents": "oneshot_node_get_autorestart_random_delay(${1:id})"
     },
+    "oneshot_node_get_autorestart_random_delay",
     {
       "trigger": "oneshot_node_start(id)",
       "contents": "oneshot_node_start(${1:id})"
     },
+    "oneshot_node_start",
     {
       "trigger": "oneshot_node_stop(id)",
       "contents": "oneshot_node_stop(${1:id})"
     },
+    "oneshot_node_stop",
     {
       "trigger": "oneshot_node_is_active(id)",
       "contents": "oneshot_node_is_active(${1:id})"
     },
+    "oneshot_node_is_active",
     {
       "trigger": "oneshot_node_set_filter_path(id, path, enable)",
       "contents": "oneshot_node_set_filter_path(${1:id}, ${2:path}, ${3:enable})"
     },
+    "oneshot_node_set_filter_path",
     {
       "trigger": "mix_node_set_amount(id, ratio)",
       "contents": "mix_node_set_amount(${1:id}, ${2:ratio})"
     },
+    "mix_node_set_amount",
     {
       "trigger": "mix_node_get_amount(id)",
       "contents": "mix_node_get_amount(${1:id})"
     },
+    "mix_node_get_amount",
     {
       "trigger": "blend2_node_set_amount(id, blend)",
       "contents": "blend2_node_set_amount(${1:id}, ${2:blend})"
     },
+    "blend2_node_set_amount",
     {
       "trigger": "blend2_node_get_amount(id)",
       "contents": "blend2_node_get_amount(${1:id})"
     },
+    "blend2_node_get_amount",
     {
       "trigger": "blend2_node_set_filter_path(id, path, enable)",
       "contents": "blend2_node_set_filter_path(${1:id}, ${2:path}, ${3:enable})"
     },
+    "blend2_node_set_filter_path",
     {
       "trigger": "blend3_node_set_amount(id, blend)",
       "contents": "blend3_node_set_amount(${1:id}, ${2:blend})"
     },
+    "blend3_node_set_amount",
     {
       "trigger": "blend3_node_get_amount(id)",
       "contents": "blend3_node_get_amount(${1:id})"
     },
+    "blend3_node_get_amount",
     {
       "trigger": "blend4_node_set_amount(id, blend)",
       "contents": "blend4_node_set_amount(${1:id}, ${2:blend})"
     },
+    "blend4_node_set_amount",
     {
       "trigger": "blend4_node_get_amount(id)",
       "contents": "blend4_node_get_amount(${1:id})"
     },
+    "blend4_node_get_amount",
     {
       "trigger": "timescale_node_set_scale(id, scale)",
       "contents": "timescale_node_set_scale(${1:id}, ${2:scale})"
     },
+    "timescale_node_set_scale",
     {
       "trigger": "timescale_node_get_scale(id)",
       "contents": "timescale_node_get_scale(${1:id})"
     },
+    "timescale_node_get_scale",
     {
       "trigger": "timeseek_node_seek(id, pos_sec)",
       "contents": "timeseek_node_seek(${1:id}, ${2:pos_sec})"
     },
+    "timeseek_node_seek",
     {
       "trigger": "transition_node_set_input_count(id, count)",
       "contents": "transition_node_set_input_count(${1:id}, ${2:count})"
     },
+    "transition_node_set_input_count",
     {
       "trigger": "transition_node_get_input_count(id)",
       "contents": "transition_node_get_input_count(${1:id})"
     },
+    "transition_node_get_input_count",
     {
       "trigger": "transition_node_delete_input(id, input_idx)",
       "contents": "transition_node_delete_input(${1:id}, ${2:input_idx})"
     },
+    "transition_node_delete_input",
     {
       "trigger": "transition_node_set_input_auto_advance(id, input_idx, enable)",
       "contents": "transition_node_set_input_auto_advance(${1:id}, ${2:input_idx}, ${3:enable})"
     },
+    "transition_node_set_input_auto_advance",
     {
       "trigger": "transition_node_has_input_auto_advance(id, input_idx)",
       "contents": "transition_node_has_input_auto_advance(${1:id}, ${2:input_idx})"
     },
+    "transition_node_has_input_auto_advance",
     {
       "trigger": "transition_node_set_xfade_time(id, time_sec)",
       "contents": "transition_node_set_xfade_time(${1:id}, ${2:time_sec})"
     },
+    "transition_node_set_xfade_time",
     {
       "trigger": "transition_node_get_xfade_time(id)",
       "contents": "transition_node_get_xfade_time(${1:id})"
     },
+    "transition_node_get_xfade_time",
     {
       "trigger": "transition_node_set_current(id, input_idx)",
       "contents": "transition_node_set_current(${1:id}, ${2:input_idx})"
     },
+    "transition_node_set_current",
     {
       "trigger": "transition_node_get_current(id)",
       "contents": "transition_node_get_current(${1:id})"
     },
+    "transition_node_get_current",
     {
       "trigger": "node_set_pos(id, screen_pos)",
       "contents": "node_set_pos(${1:id}, ${2:screen_pos})"
     },
+    "node_set_pos",
     {
       "trigger": "node_get_pos(id)",
       "contents": "node_get_pos(${1:id})"
     },
+    "node_get_pos",
     {
       "trigger": "remove_node(id)",
       "contents": "remove_node(${1:id})"
     },
+    "remove_node",
     {
       "trigger": "connect(id, dst_id, dst_input_idx)",
       "contents": "connect(${1:id}, ${2:dst_id}, ${3:dst_input_idx})"
     },
+    "connect",
     {
       "trigger": "is_connected(id, dst_id, dst_input_idx)",
       "contents": "is_connected(${1:id}, ${2:dst_id}, ${3:dst_input_idx})"
     },
+    "is_connected",
     {
       "trigger": "disconnect(id, dst_input_idx)",
       "contents": "disconnect(${1:id}, ${2:dst_input_idx})"
     },
+    "disconnect",
     {
       "trigger": "set_active(enabled)",
       "contents": "set_active(${1:enabled})"
     },
     {
-      "trigger": "is_active()",
-      "contents": "is_active()"
-    },
-    {
       "trigger": "set_base_path(path)",
       "contents": "set_base_path(${1:path})"
     },
+    "set_base_path",
     {
       "trigger": "get_base_path()",
       "contents": "get_base_path()"
     },
+    "get_base_path",
     {
       "trigger": "get_node_list()",
       "contents": "get_node_list()"
     },
+    "get_node_list",
     {
       "trigger": "reset()",
       "contents": "reset()"
     },
+    "reset",
     {
       "trigger": "recompute_caches()",
       "contents": "recompute_caches()"
     },
+    "recompute_caches",
     "NODE_OUTPUT",
     "NODE_ANIMATION",
     "NODE_ONESHOT",

@@ -6,20 +6,14 @@
       "contents": "get_resource()"
     },
     {
-      "trigger": "poll()",
-      "contents": "poll()"
-    },
-    {
-      "trigger": "wait()",
-      "contents": "wait()"
-    },
-    {
       "trigger": "get_stage()",
       "contents": "get_stage()"
     },
+    "get_stage",
     {
       "trigger": "get_stage_count()",
       "contents": "get_stage_count()"
-    }
+    },
+    "get_stage_count"
   ]
 }

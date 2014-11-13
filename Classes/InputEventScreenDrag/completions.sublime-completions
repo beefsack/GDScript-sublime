@@ -5,14 +5,17 @@
       "trigger": "is_action(action)",
       "contents": "is_action(${1:action})"
     },
+    "is_action",
     {
       "trigger": "is_echo()",
       "contents": "is_echo()"
     },
+    "is_echo",
     {
       "trigger": "is_pressed()",
       "contents": "is_pressed()"
     },
+    "is_pressed",
     "NONE",
     "KEY",
     "MOUSE_MOTION",

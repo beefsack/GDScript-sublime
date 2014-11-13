@@ -5,25 +5,31 @@
       "trigger": "set_bounds(bsp_tree)",
       "contents": "set_bounds(${1:bsp_tree})"
     },
+    "set_bounds",
     {
       "trigger": "get_bounds()",
       "contents": "get_bounds()"
     },
+    "get_bounds",
     {
       "trigger": "set_geometry_hint(triangles)",
       "contents": "set_geometry_hint(${1:triangles})"
     },
+    "set_geometry_hint",
     {
       "trigger": "get_geometry_hint()",
       "contents": "get_geometry_hint()"
     },
+    "get_geometry_hint",
     {
       "trigger": "regenerate_bsp()",
       "contents": "regenerate_bsp()"
     },
+    "regenerate_bsp",
     {
       "trigger": "regenerate_bsp_cubic()",
       "contents": "regenerate_bsp_cubic()"
-    }
+    },
+    "regenerate_bsp_cubic"
   ]
 }

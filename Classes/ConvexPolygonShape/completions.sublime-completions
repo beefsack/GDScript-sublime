@@ -5,9 +5,11 @@
       "trigger": "set_points(points)",
       "contents": "set_points(${1:points})"
     },
+    "set_points",
     {
       "trigger": "get_points()",
       "contents": "get_points()"
-    }
+    },
+    "get_points"
   ]
 }

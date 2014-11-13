@@ -5,49 +5,61 @@
       "trigger": "set_normal_texture(texture)",
       "contents": "set_normal_texture(${1:texture})"
     },
+    "set_normal_texture",
     {
       "trigger": "set_pressed_texture(texture)",
       "contents": "set_pressed_texture(${1:texture})"
     },
+    "set_pressed_texture",
     {
       "trigger": "set_hover_texture(texture)",
       "contents": "set_hover_texture(${1:texture})"
     },
+    "set_hover_texture",
     {
       "trigger": "set_disabled_texture(texture)",
       "contents": "set_disabled_texture(${1:texture})"
     },
+    "set_disabled_texture",
     {
       "trigger": "set_focused_texture(texture)",
       "contents": "set_focused_texture(${1:texture})"
     },
+    "set_focused_texture",
     {
       "trigger": "set_click_mask(mask)",
       "contents": "set_click_mask(${1:mask})"
     },
+    "set_click_mask",
     {
       "trigger": "get_normal_texture()",
       "contents": "get_normal_texture()"
     },
+    "get_normal_texture",
     {
       "trigger": "get_pressed_texture()",
       "contents": "get_pressed_texture()"
     },
+    "get_pressed_texture",
     {
       "trigger": "get_hover_texture()",
       "contents": "get_hover_texture()"
     },
+    "get_hover_texture",
     {
       "trigger": "get_disabled_texture()",
       "contents": "get_disabled_texture()"
     },
+    "get_disabled_texture",
     {
       "trigger": "get_focused_texture()",
       "contents": "get_focused_texture()"
     },
+    "get_focused_texture",
     {
       "trigger": "get_click_mask()",
       "contents": "get_click_mask()"
-    }
+    },
+    "get_click_mask"
   ]
 }

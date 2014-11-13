@@ -5,9 +5,11 @@
       "trigger": "set_minsize(minsize)",
       "contents": "set_minsize(${1:minsize})"
     },
+    "set_minsize",
     {
       "trigger": "get_minsize()",
       "contents": "get_minsize()"
-    }
+    },
+    "get_minsize"
   ]
 }

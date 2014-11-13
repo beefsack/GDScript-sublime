@@ -5,34 +5,17 @@
       "trigger": "cubic_slerp(b, pre_a, post_b, t)",
       "contents": "cubic_slerp(${1:b}, ${2:pre_a}, ${3:post_b}, ${4:t})"
     },
-    {
-      "trigger": "dot(b)",
-      "contents": "dot(${1:b})"
-    },
-    {
-      "trigger": "inverse()",
-      "contents": "inverse()"
-    },
-    {
-      "trigger": "length()",
-      "contents": "length()"
-    },
-    {
-      "trigger": "length_squared()",
-      "contents": "length_squared()"
-    },
-    {
-      "trigger": "normalized()",
-      "contents": "normalized()"
-    },
+    "cubic_slerp",
     {
       "trigger": "slerp(b, t)",
       "contents": "slerp(${1:b}, ${2:t})"
     },
+    "slerp",
     {
       "trigger": "slerpni(b, t)",
       "contents": "slerpni(${1:b}, ${2:t})"
     },
+    "slerpni",
     {
       "trigger": "Quat(x, y, z, w)",
       "contents": "Quat(${1:x}, ${2:y}, ${3:z}, ${4:w})"

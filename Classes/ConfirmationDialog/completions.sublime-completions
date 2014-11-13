@@ -4,6 +4,7 @@
     {
       "trigger": "get_cancel()",
       "contents": "get_cancel()"
-    }
+    },
+    "get_cancel"
   ]
 }

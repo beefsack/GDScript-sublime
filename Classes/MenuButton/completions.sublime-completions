@@ -4,6 +4,7 @@
     {
       "trigger": "get_popup()",
       "contents": "get_popup()"
-    }
+    },
+    "get_popup"
   ]
 }

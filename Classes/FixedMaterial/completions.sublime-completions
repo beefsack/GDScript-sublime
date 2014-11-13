@@ -21,42 +21,52 @@
       "trigger": "set_texcoord_mode(param, mode)",
       "contents": "set_texcoord_mode(${1:param}, ${2:mode})"
     },
+    "set_texcoord_mode",
     {
       "trigger": "get_texcoord_mode(param)",
       "contents": "get_texcoord_mode(${1:param})"
     },
+    "get_texcoord_mode",
     {
       "trigger": "set_fixed_flag(flag, value)",
       "contents": "set_fixed_flag(${1:flag}, ${2:value})"
     },
+    "set_fixed_flag",
     {
       "trigger": "get_fixed_flag(flag)",
       "contents": "get_fixed_flag(${1:flag})"
     },
+    "get_fixed_flag",
     {
       "trigger": "set_uv_transform(transform)",
       "contents": "set_uv_transform(${1:transform})"
     },
+    "set_uv_transform",
     {
       "trigger": "get_uv_transform()",
       "contents": "get_uv_transform()"
     },
+    "get_uv_transform",
     {
       "trigger": "set_light_shader(shader)",
       "contents": "set_light_shader(${1:shader})"
     },
+    "set_light_shader",
     {
       "trigger": "get_light_shader()",
       "contents": "get_light_shader()"
     },
+    "get_light_shader",
     {
       "trigger": "set_point_size(size)",
       "contents": "set_point_size(${1:size})"
     },
+    "set_point_size",
     {
       "trigger": "get_point_size()",
       "contents": "get_point_size()"
     },
+    "get_point_size",
     "PARAM_DIFFUSE",
     "PARAM_DETAIL",
     "PARAM_SPECULAR",

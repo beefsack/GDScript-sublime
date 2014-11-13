@@ -5,58 +5,67 @@
       "trigger": "create(format, stereo, length)",
       "contents": "create(${1:format}, ${2:stereo}, ${3:length})"
     },
+    "create",
     {
       "trigger": "get_format()",
       "contents": "get_format()"
     },
+    "get_format",
     {
       "trigger": "is_stereo()",
       "contents": "is_stereo()"
     },
-    {
-      "trigger": "get_length()",
-      "contents": "get_length()"
-    },
+    "is_stereo",
     {
       "trigger": "set_data(data)",
       "contents": "set_data(${1:data})"
     },
+    "set_data",
     {
       "trigger": "get_data()",
       "contents": "get_data()"
     },
+    "get_data",
     {
       "trigger": "set_mix_rate(hz)",
       "contents": "set_mix_rate(${1:hz})"
     },
+    "set_mix_rate",
     {
       "trigger": "get_mix_rate()",
       "contents": "get_mix_rate()"
     },
+    "get_mix_rate",
     {
       "trigger": "set_loop_format(format)",
       "contents": "set_loop_format(${1:format})"
     },
+    "set_loop_format",
     {
       "trigger": "get_loop_format()",
       "contents": "get_loop_format()"
     },
+    "get_loop_format",
     {
       "trigger": "set_loop_begin(pos)",
       "contents": "set_loop_begin(${1:pos})"
     },
+    "set_loop_begin",
     {
       "trigger": "get_loop_begin()",
       "contents": "get_loop_begin()"
     },
+    "get_loop_begin",
     {
       "trigger": "set_loop_end(pos)",
       "contents": "set_loop_end(${1:pos})"
     },
+    "set_loop_end",
     {
       "trigger": "get_loop_end()",
       "contents": "get_loop_end()"
     },
+    "get_loop_end",
     "FORMAT_PCM8",
     "FORMAT_PCM16",
     "FORMAT_IMA_ADPCM",

@@ -9,25 +9,31 @@
       "trigger": "create_from_image_alpha(image)",
       "contents": "create_from_image_alpha(${1:image})"
     },
+    "create_from_image_alpha",
     {
       "trigger": "set_bit(pos, bit)",
       "contents": "set_bit(${1:pos}, ${2:bit})"
     },
+    "set_bit",
     {
       "trigger": "get_bit(pos)",
       "contents": "get_bit(${1:pos})"
     },
+    "get_bit",
     {
       "trigger": "set_bit_rect(p_rect, bit)",
       "contents": "set_bit_rect(${1:p_rect}, ${2:bit})"
     },
+    "set_bit_rect",
     {
       "trigger": "get_true_bit_count()",
       "contents": "get_true_bit_count()"
     },
+    "get_true_bit_count",
     {
       "trigger": "get_size()",
       "contents": "get_size()"
-    }
+    },
+    "get_size"
   ]
 }

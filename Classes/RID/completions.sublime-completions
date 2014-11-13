@@ -2,10 +2,6 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "get_id()",
-      "contents": "get_id()"
-    },
-    {
       "trigger": "RID(from)",
       "contents": "RID(${1:from})"
     }

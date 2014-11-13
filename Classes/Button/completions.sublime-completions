@@ -2,44 +2,44 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_text(text)",
-      "contents": "set_text(${1:text})"
-    },
-    {
-      "trigger": "get_text()",
-      "contents": "get_text()"
-    },
-    {
       "trigger": "set_button_icon(texture)",
       "contents": "set_button_icon(${1:texture})"
     },
+    "set_button_icon",
     {
       "trigger": "get_button_icon()",
       "contents": "get_button_icon()"
     },
+    "get_button_icon",
     {
       "trigger": "set_flat(enabled)",
       "contents": "set_flat(${1:enabled})"
     },
+    "set_flat",
     {
       "trigger": "set_clip_text(enabled)",
       "contents": "set_clip_text(${1:enabled})"
     },
+    "set_clip_text",
     {
       "trigger": "get_clip_text()",
       "contents": "get_clip_text()"
     },
+    "get_clip_text",
     {
       "trigger": "set_text_align(align)",
       "contents": "set_text_align(${1:align})"
     },
+    "set_text_align",
     {
       "trigger": "get_text_align()",
       "contents": "get_text_align()"
     },
+    "get_text_align",
     {
       "trigger": "is_flat()",
       "contents": "is_flat()"
-    }
+    },
+    "is_flat"
   ]
 }

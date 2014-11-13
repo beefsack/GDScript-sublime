@@ -5,13 +5,6 @@
       "trigger": "set_base(base)",
       "contents": "set_base(${1:base})"
     },
-    {
-      "trigger": "set_layer_mask(mask)",
-      "contents": "set_layer_mask(${1:mask})"
-    },
-    {
-      "trigger": "get_layer_mask()",
-      "contents": "get_layer_mask()"
-    }
+    "set_base"
   ]
 }

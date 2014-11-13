@@ -5,90 +5,102 @@
       "trigger": "set_transform(local)",
       "contents": "set_transform(${1:local})"
     },
+    "set_transform",
     {
       "trigger": "get_transform()",
       "contents": "get_transform()"
     },
+    "get_transform",
     {
       "trigger": "set_translation(translation)",
       "contents": "set_translation(${1:translation})"
     },
+    "set_translation",
     {
       "trigger": "get_translation()",
       "contents": "get_translation()"
     },
+    "get_translation",
     {
       "trigger": "set_rotation(rotation)",
       "contents": "set_rotation(${1:rotation})"
     },
-    {
-      "trigger": "get_rotation()",
-      "contents": "get_rotation()"
-    },
+    "set_rotation",
     {
       "trigger": "set_scale(scale)",
       "contents": "set_scale(${1:scale})"
     },
-    {
-      "trigger": "get_scale()",
-      "contents": "get_scale()"
-    },
+    "set_scale",
     {
       "trigger": "set_global_transform(global)",
       "contents": "set_global_transform(${1:global})"
     },
+    "set_global_transform",
     {
       "trigger": "get_global_transform()",
       "contents": "get_global_transform()"
     },
+    "get_global_transform",
     {
       "trigger": "get_parent_spatial()",
       "contents": "get_parent_spatial()"
     },
+    "get_parent_spatial",
     {
       "trigger": "set_ignore_transform_notification(enabled)",
       "contents": "set_ignore_transform_notification(${1:enabled})"
     },
+    "set_ignore_transform_notification",
     {
       "trigger": "set_as_toplevel(enable)",
       "contents": "set_as_toplevel(${1:enable})"
     },
+    "set_as_toplevel",
     {
       "trigger": "is_set_as_toplevel()",
       "contents": "is_set_as_toplevel()"
     },
+    "is_set_as_toplevel",
     {
       "trigger": "get_world()",
       "contents": "get_world()"
     },
+    "get_world",
     {
       "trigger": "update_gizmo()",
       "contents": "update_gizmo()"
     },
+    "update_gizmo",
     {
       "trigger": "set_gizmo(gizmo)",
       "contents": "set_gizmo(${1:gizmo})"
     },
+    "set_gizmo",
     {
       "trigger": "get_gizmo()",
       "contents": "get_gizmo()"
     },
+    "get_gizmo",
     {
       "trigger": "show()",
       "contents": "show()"
     },
+    "show",
     {
       "trigger": "hide()",
       "contents": "hide()"
     },
+    "hide",
     {
       "trigger": "is_visible()",
       "contents": "is_visible()"
     },
+    "is_visible",
     {
       "trigger": "is_hidden()",
       "contents": "is_hidden()"
     },
+    "is_hidden",
     "NOTIFICATION_TRANSFORM_CHANGED",
     "NOTIFICATION_ENTER_WORLD",
     "NOTIFICATION_EXIT_WORLD",

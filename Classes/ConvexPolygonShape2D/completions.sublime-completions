@@ -5,13 +5,6 @@
       "trigger": "set_point_cloud(point_cloud)",
       "contents": "set_point_cloud(${1:point_cloud})"
     },
-    {
-      "trigger": "set_points(points)",
-      "contents": "set_points(${1:points})"
-    },
-    {
-      "trigger": "get_points()",
-      "contents": "get_points()"
-    }
+    "set_point_cloud"
   ]
 }

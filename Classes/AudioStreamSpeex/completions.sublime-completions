@@ -4,10 +4,6 @@
     {
       "trigger": "set_file(file)",
       "contents": "set_file(${1:file})"
-    },
-    {
-      "trigger": "get_file()",
-      "contents": "get_file()"
     }
   ]
 }

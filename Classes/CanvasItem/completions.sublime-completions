@@ -1,166 +1,156 @@
 {
   "scope": "source.gdscript",
   "completions": [
+    "_draw",
     {
       "trigger": "edit_set_state(state)",
       "contents": "edit_set_state(${1:state})"
     },
+    "edit_set_state",
     {
       "trigger": "edit_get()",
       "contents": "edit_get()"
     },
+    "edit_get",
     {
       "trigger": "edit_set_rect(rect)",
       "contents": "edit_set_rect(${1:rect})"
     },
+    "edit_set_rect",
     {
       "trigger": "edit_rotate(degrees)",
       "contents": "edit_rotate(${1:degrees})"
     },
+    "edit_rotate",
     {
       "trigger": "get_item_rect()",
       "contents": "get_item_rect()"
     },
+    "get_item_rect",
     {
       "trigger": "get_canvas_item()",
       "contents": "get_canvas_item()"
     },
-    {
-      "trigger": "is_visible()",
-      "contents": "is_visible()"
-    },
-    {
-      "trigger": "is_hidden()",
-      "contents": "is_hidden()"
-    },
-    {
-      "trigger": "show()",
-      "contents": "show()"
-    },
-    {
-      "trigger": "hide()",
-      "contents": "hide()"
-    },
-    {
-      "trigger": "update()",
-      "contents": "update()"
-    },
-    {
-      "trigger": "set_as_toplevel(enable)",
-      "contents": "set_as_toplevel(${1:enable})"
-    },
-    {
-      "trigger": "is_set_as_toplevel()",
-      "contents": "is_set_as_toplevel()"
-    },
+    "get_canvas_item",
     {
       "trigger": "set_blend_mode(blend_mode)",
       "contents": "set_blend_mode(${1:blend_mode})"
     },
     {
-      "trigger": "get_blend_mode()",
-      "contents": "get_blend_mode()"
-    },
-    {
       "trigger": "set_opacity(opacity)",
       "contents": "set_opacity(${1:opacity})"
     },
+    "set_opacity",
     {
       "trigger": "get_opacity()",
       "contents": "get_opacity()"
     },
+    "get_opacity",
     {
       "trigger": "set_self_opacity(self_opacity)",
       "contents": "set_self_opacity(${1:self_opacity})"
     },
+    "set_self_opacity",
     {
       "trigger": "get_self_opacity()",
       "contents": "get_self_opacity()"
     },
+    "get_self_opacity",
     {
       "trigger": "set_draw_behind_parent(enabe)",
       "contents": "set_draw_behind_parent(${1:enabe})"
     },
+    "set_draw_behind_parent",
     {
       "trigger": "is_draw_behind_parent_enabled()",
       "contents": "is_draw_behind_parent_enabled()"
     },
+    "is_draw_behind_parent_enabled",
     {
       "trigger": "draw_line(from, to, color, width)",
       "contents": "draw_line(${1:from}, ${2:to}, ${3:color}, ${4:width})"
     },
+    "draw_line",
     {
       "trigger": "draw_rect(rect, color)",
       "contents": "draw_rect(${1:rect}, ${2:color})"
     },
+    "draw_rect",
     {
       "trigger": "draw_circle(pos, radius, color)",
       "contents": "draw_circle(${1:pos}, ${2:radius}, ${3:color})"
     },
+    "draw_circle",
     {
       "trigger": "draw_texture(texture, pos)",
       "contents": "draw_texture(${1:texture}, ${2:pos})"
     },
+    "draw_texture",
     {
       "trigger": "draw_texture_rect(texture, rect, tile, modulate, 1, 1)",
       "contents": "draw_texture_rect(${1:texture}, ${2:rect}, ${3:tile}, ${4:modulate}, ${5:1}, ${6:1})"
     },
+    "draw_texture_rect",
     {
       "trigger": "draw_texture_rect_region(texture, rect, src_rect, modulate, 1, 1)",
       "contents": "draw_texture_rect_region(${1:texture}, ${2:rect}, ${3:src_rect}, ${4:modulate}, ${5:1}, ${6:1})"
     },
+    "draw_texture_rect_region",
     {
       "trigger": "draw_style_box(style_box, rect)",
       "contents": "draw_style_box(${1:style_box}, ${2:rect})"
     },
+    "draw_style_box",
     {
-      "trigger": "draw_primitive(points, colors, uvs, texture, width)",
-      "contents": "draw_primitive(${1:points}, ${2:colors}, ${3:uvs}, ${4:texture}, ${5:width})"
+      "trigger": "draw_primitive(points, colors, uvs)",
+      "contents": "draw_primitive(${1:points}, ${2:colors}, ${3:uvs})"
     },
+    "draw_primitive",
     {
-      "trigger": "draw_polygon(points, colors, uvs, texture)",
-      "contents": "draw_polygon(${1:points}, ${2:colors}, ${3:uvs}, ${4:texture})"
+      "trigger": "draw_polygon(points, colors, uvs)",
+      "contents": "draw_polygon(${1:points}, ${2:colors}, ${3:uvs})"
     },
+    "draw_polygon",
     {
-      "trigger": "draw_colored_polygon(points, color, uvs, texture)",
-      "contents": "draw_colored_polygon(${1:points}, ${2:color}, ${3:uvs}, ${4:texture})"
+      "trigger": "draw_colored_polygon(points, color, uvs)",
+      "contents": "draw_colored_polygon(${1:points}, ${2:color}, ${3:uvs})"
     },
+    "draw_colored_polygon",
     {
-      "trigger": "draw_string(font, pos, text, modulate, 1, 1, clip_w)",
-      "contents": "draw_string(${1:font}, ${2:pos}, ${3:text}, ${4:modulate}, ${5:1}, ${6:1}, ${7:clip_w})"
+      "trigger": "draw_string(font, pos, text, modulate, 1, 1)",
+      "contents": "draw_string(${1:font}, ${2:pos}, ${3:text}, ${4:modulate}, ${5:1}, ${6:1})"
     },
+    "draw_string",
     {
       "trigger": "draw_char(font, pos, char, next, modulate, 1, 1)",
       "contents": "draw_char(${1:font}, ${2:pos}, ${3:char}, ${4:next}, ${5:modulate}, ${6:1}, ${7:1})"
     },
+    "draw_char",
     {
       "trigger": "draw_set_transform(pos, rot, scale)",
       "contents": "draw_set_transform(${1:pos}, ${2:rot}, ${3:scale})"
     },
-    {
-      "trigger": "get_transform()",
-      "contents": "get_transform()"
-    },
-    {
-      "trigger": "get_global_transform()",
-      "contents": "get_global_transform()"
-    },
+    "draw_set_transform",
     {
       "trigger": "get_viewport_transform()",
       "contents": "get_viewport_transform()"
     },
+    "get_viewport_transform",
     {
       "trigger": "get_viewport_rect()",
       "contents": "get_viewport_rect()"
     },
+    "get_viewport_rect",
     {
       "trigger": "get_canvas()",
       "contents": "get_canvas()"
     },
+    "get_canvas",
     {
       "trigger": "get_world_2d()",
       "contents": "get_world_2d()"
     },
+    "get_world_2d",
     "NOTIFICATION_DRAW",
     "NOTIFICATION_ENTER_CANVAS",
     "NOTIFICATION_EXIT_CANVAS"

@@ -2,40 +2,24 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "clear()",
-      "contents": "clear()"
-    },
-    {
-      "trigger": "empty()",
-      "contents": "empty()"
-    },
-    {
-      "trigger": "erase(value)",
-      "contents": "erase(${1:value})"
-    },
-    {
       "trigger": "has(value)",
       "contents": "has(${1:value})"
     },
-    {
-      "trigger": "hash()",
-      "contents": "hash()"
-    },
+    "has",
     {
       "trigger": "keys()",
       "contents": "keys()"
     },
+    "keys",
     {
       "trigger": "parse_json(json)",
       "contents": "parse_json(${1:json})"
     },
-    {
-      "trigger": "size()",
-      "contents": "size()"
-    },
+    "parse_json",
     {
       "trigger": "to_json()",
       "contents": "to_json()"
-    }
+    },
+    "to_json"
   ]
 }

@@ -5,6 +5,7 @@
       "trigger": "compile(pattern)",
       "contents": "compile(${1:pattern})"
     },
+    "compile",
     {
       "trigger": "find(text, start, end)",
       "contents": "find(${1:text}, ${2:start}, ${3:end})"
@@ -12,6 +13,7 @@
     {
       "trigger": "get_captures()",
       "contents": "get_captures()"
-    }
+    },
+    "get_captures"
   ]
 }

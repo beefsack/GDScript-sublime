@@ -2,33 +2,30 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "set_mode(mode)",
-      "contents": "set_mode(${1:mode})"
-    },
-    {
-      "trigger": "get_mode()",
-      "contents": "get_mode()"
-    },
-    {
       "trigger": "set_code(vcode, fcode, lcode, fofs, lofs)",
       "contents": "set_code(${1:vcode}, ${2:fcode}, ${3:lcode}, ${4:fofs}, ${5:lofs})"
     },
+    "set_code",
     {
       "trigger": "get_vertex_code()",
       "contents": "get_vertex_code()"
     },
+    "get_vertex_code",
     {
       "trigger": "get_fragment_code()",
       "contents": "get_fragment_code()"
     },
+    "get_fragment_code",
     {
       "trigger": "get_light_code()",
       "contents": "get_light_code()"
     },
+    "get_light_code",
     {
       "trigger": "has_param(name)",
       "contents": "has_param(${1:name})"
     },
+    "has_param",
     "MODE_MATERIAL",
     "MODE_CANVAS_ITEM",
     "MODE_POST_PROCESS"

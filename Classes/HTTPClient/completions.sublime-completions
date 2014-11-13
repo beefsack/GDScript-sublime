@@ -9,66 +9,72 @@
       "trigger": "set_connection(connection)",
       "contents": "set_connection(${1:connection})"
     },
+    "set_connection",
     {
       "trigger": "request(method, url, headers, body)",
       "contents": "request(${1:method}, ${2:url}, ${3:headers}, ${4:body})"
     },
+    "request",
     {
       "trigger": "send_body_text(body)",
       "contents": "send_body_text(${1:body})"
     },
+    "send_body_text",
     {
       "trigger": "send_body_data(body)",
       "contents": "send_body_data(${1:body})"
     },
-    {
-      "trigger": "close()",
-      "contents": "close()"
-    },
+    "send_body_data",
     {
       "trigger": "has_response()",
       "contents": "has_response()"
     },
+    "has_response",
     {
       "trigger": "is_response_chunked()",
       "contents": "is_response_chunked()"
     },
+    "is_response_chunked",
     {
       "trigger": "get_response_code()",
       "contents": "get_response_code()"
     },
+    "get_response_code",
     {
       "trigger": "get_response_headers()",
       "contents": "get_response_headers()"
     },
+    "get_response_headers",
     {
       "trigger": "get_response_headers_as_dictionary()",
       "contents": "get_response_headers_as_dictionary()"
     },
+    "get_response_headers_as_dictionary",
     {
       "trigger": "get_response_body_length()",
       "contents": "get_response_body_length()"
     },
+    "get_response_body_length",
     {
       "trigger": "read_response_body_chunk()",
       "contents": "read_response_body_chunk()"
     },
+    "read_response_body_chunk",
     {
       "trigger": "set_blocking_mode(enabled)",
       "contents": "set_blocking_mode(${1:enabled})"
     },
+    "set_blocking_mode",
     {
       "trigger": "is_blocking_mode_enabled()",
       "contents": "is_blocking_mode_enabled()"
     },
-    {
-      "trigger": "get_status()",
-      "contents": "get_status()"
-    },
+    "is_blocking_mode_enabled",
     {
       "trigger": "poll()",
       "contents": "poll()"
     },
+    "poll",
     "METHOD_GET",
     "METHOD_HEAD",
     "METHOD_POST",

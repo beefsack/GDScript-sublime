@@ -5,9 +5,11 @@
       "trigger": "set_extents(extents)",
       "contents": "set_extents(${1:extents})"
     },
+    "set_extents",
     {
       "trigger": "get_extents()",
       "contents": "get_extents()"
-    }
+    },
+    "get_extents"
   ]
 }

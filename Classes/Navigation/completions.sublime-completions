@@ -5,37 +5,46 @@
       "trigger": "navmesh_create(mesh, xform, owner)",
       "contents": "navmesh_create(${1:mesh}, ${2:xform}, ${3:owner})"
     },
+    "navmesh_create",
     {
       "trigger": "navmesh_set_transform(id, xform)",
       "contents": "navmesh_set_transform(${1:id}, ${2:xform})"
     },
+    "navmesh_set_transform",
     {
       "trigger": "navmesh_remove(id)",
       "contents": "navmesh_remove(${1:id})"
     },
+    "navmesh_remove",
     {
       "trigger": "get_simple_path(start, end, optimize)",
       "contents": "get_simple_path(${1:start}, ${2:end}, ${3:optimize})"
     },
+    "get_simple_path",
     {
       "trigger": "get_closest_point_to_segment(start, end)",
       "contents": "get_closest_point_to_segment(${1:start}, ${2:end})"
     },
+    "get_closest_point_to_segment",
     {
       "trigger": "get_closest_point(to_point)",
       "contents": "get_closest_point(${1:to_point})"
     },
+    "get_closest_point",
     {
       "trigger": "get_closest_point_normal(to_point)",
       "contents": "get_closest_point_normal(${1:to_point})"
     },
+    "get_closest_point_normal",
     {
       "trigger": "set_up_vector(up)",
       "contents": "set_up_vector(${1:up})"
     },
+    "set_up_vector",
     {
       "trigger": "get_up_vector()",
       "contents": "get_up_vector()"
-    }
+    },
+    "get_up_vector"
   ]
 }

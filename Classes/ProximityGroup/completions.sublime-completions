@@ -5,21 +5,26 @@
       "trigger": "set_group_name(name)",
       "contents": "set_group_name(${1:name})"
     },
+    "set_group_name",
     {
       "trigger": "broadcast(name, parameters)",
       "contents": "broadcast(${1:name}, ${2:parameters})"
     },
+    "broadcast",
     {
       "trigger": "set_dispatch_mode(mode)",
       "contents": "set_dispatch_mode(${1:mode})"
     },
+    "set_dispatch_mode",
     {
       "trigger": "set_grid_radius(radius)",
       "contents": "set_grid_radius(${1:radius})"
     },
+    "set_grid_radius",
     {
       "trigger": "get_grid_radius()",
       "contents": "get_grid_radius()"
-    }
+    },
+    "get_grid_radius"
   ]
 }

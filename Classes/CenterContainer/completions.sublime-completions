@@ -5,9 +5,11 @@
       "trigger": "set_use_top_left(enable)",
       "contents": "set_use_top_left(${1:enable})"
     },
+    "set_use_top_left",
     {
       "trigger": "is_using_top_left()",
       "contents": "is_using_top_left()"
-    }
+    },
+    "is_using_top_left"
   ]
 }

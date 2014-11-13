@@ -4,6 +4,7 @@
     {
       "trigger": "generate(from)",
       "contents": "generate(${1:from})"
-    }
+    },
+    "generate"
   ]
 }

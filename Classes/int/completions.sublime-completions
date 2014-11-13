@@ -4,14 +4,6 @@
     {
       "trigger": "int(from)",
       "contents": "int(${1:from})"
-    },
-    {
-      "trigger": "int(from)",
-      "contents": "int(${1:from})"
-    },
-    {
-      "trigger": "int(from)",
-      "contents": "int(${1:from})"
     }
   ]
 }

@@ -5,9 +5,11 @@
       "trigger": "wait()",
       "contents": "wait()"
     },
+    "wait",
     {
       "trigger": "post()",
       "contents": "post()"
-    }
+    },
+    "post"
   ]
 }

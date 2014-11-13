@@ -5,17 +5,21 @@
       "trigger": "set_radius(radius)",
       "contents": "set_radius(${1:radius})"
     },
+    "set_radius",
     {
       "trigger": "get_radius()",
       "contents": "get_radius()"
     },
+    "get_radius",
     {
       "trigger": "set_height(height)",
       "contents": "set_height(${1:height})"
     },
+    "set_height",
     {
       "trigger": "get_height()",
       "contents": "get_height()"
-    }
+    },
+    "get_height"
   ]
 }

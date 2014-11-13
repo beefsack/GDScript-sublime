@@ -5,13 +5,16 @@
       "trigger": "set_title(title)",
       "contents": "set_title(${1:title})"
     },
+    "set_title",
     {
       "trigger": "get_title()",
       "contents": "get_title()"
     },
+    "get_title",
     {
       "trigger": "get_close_button()",
       "contents": "get_close_button()"
-    }
+    },
+    "get_close_button"
   ]
 }

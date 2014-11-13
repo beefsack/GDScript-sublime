@@ -2,96 +2,8 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "shape_create(type)",
-      "contents": "shape_create(${1:type})"
-    },
-    {
-      "trigger": "shape_set_data(shape, data)",
-      "contents": "shape_set_data(${1:shape}, ${2:data})"
-    },
-    {
-      "trigger": "shape_get_type(shape)",
-      "contents": "shape_get_type(${1:shape})"
-    },
-    {
-      "trigger": "shape_get_data(shape)",
-      "contents": "shape_get_data(${1:shape})"
-    },
-    {
-      "trigger": "space_create()",
-      "contents": "space_create()"
-    },
-    {
-      "trigger": "space_set_active(space, active)",
-      "contents": "space_set_active(${1:space}, ${2:active})"
-    },
-    {
-      "trigger": "space_is_active(space)",
-      "contents": "space_is_active(${1:space})"
-    },
-    {
-      "trigger": "space_set_param(space, param, value)",
-      "contents": "space_set_param(${1:space}, ${2:param}, ${3:value})"
-    },
-    {
-      "trigger": "space_get_param(space, param)",
-      "contents": "space_get_param(${1:space}, ${2:param})"
-    },
-    {
-      "trigger": "space_get_direct_state(space)",
-      "contents": "space_get_direct_state(${1:space})"
-    },
-    {
-      "trigger": "area_create()",
-      "contents": "area_create()"
-    },
-    {
-      "trigger": "area_set_space(area, space)",
-      "contents": "area_set_space(${1:area}, ${2:space})"
-    },
-    {
-      "trigger": "area_get_space(area)",
-      "contents": "area_get_space(${1:area})"
-    },
-    {
-      "trigger": "area_set_space_override_mode(area, mode)",
-      "contents": "area_set_space_override_mode(${1:area}, ${2:mode})"
-    },
-    {
-      "trigger": "area_get_space_override_mode(area)",
-      "contents": "area_get_space_override_mode(${1:area})"
-    },
-    {
       "trigger": "area_add_shape(area, shape, transform)",
       "contents": "area_add_shape(${1:area}, ${2:shape}, ${3:transform})"
-    },
-    {
-      "trigger": "area_set_shape(area, shape_idx)",
-      "contents": "area_set_shape(${1:area}, ${2:shape_idx})"
-    },
-    {
-      "trigger": "area_set_shape_transform(area, shape_idx, transform)",
-      "contents": "area_set_shape_transform(${1:area}, ${2:shape_idx}, ${3:transform})"
-    },
-    {
-      "trigger": "area_get_shape_count(area)",
-      "contents": "area_get_shape_count(${1:area})"
-    },
-    {
-      "trigger": "area_get_shape(area, shape_idx)",
-      "contents": "area_get_shape(${1:area}, ${2:shape_idx})"
-    },
-    {
-      "trigger": "area_get_shape_transform(area, shape_idx)",
-      "contents": "area_get_shape_transform(${1:area}, ${2:shape_idx})"
-    },
-    {
-      "trigger": "area_remove_shape(area, shape_idx)",
-      "contents": "area_remove_shape(${1:area}, ${2:shape_idx})"
-    },
-    {
-      "trigger": "area_clear_shapes(area)",
-      "contents": "area_clear_shapes(${1:area})"
     },
     {
       "trigger": "area_set_param(area, param)",
@@ -102,49 +14,15 @@
       "contents": "area_set_transform(${1:area})"
     },
     {
-      "trigger": "area_get_param(area, param)",
-      "contents": "area_get_param(${1:area}, ${2:param})"
-    },
-    {
-      "trigger": "area_get_transform(area)",
-      "contents": "area_get_transform(${1:area})"
-    },
-    {
-      "trigger": "area_attach_object_instance_ID(area, id)",
-      "contents": "area_attach_object_instance_ID(${1:area}, ${2:id})"
-    },
-    {
-      "trigger": "area_get_object_instance_ID(area)",
-      "contents": "area_get_object_instance_ID(${1:area})"
-    },
-    {
-      "trigger": "area_set_monitor_callback(receiver, method, arg2)",
-      "contents": "area_set_monitor_callback(${1:receiver}, ${2:method}, ${3:arg2})"
-    },
-    {
       "trigger": "area_set_ray_pickable(area, enable)",
       "contents": "area_set_ray_pickable(${1:area}, ${2:enable})"
     },
+    "area_set_ray_pickable",
     {
       "trigger": "area_is_ray_pickable(area)",
       "contents": "area_is_ray_pickable(${1:area})"
     },
-    {
-      "trigger": "body_create(mode, init_sleeping)",
-      "contents": "body_create(${1:mode}, ${2:init_sleeping})"
-    },
-    {
-      "trigger": "body_set_space(body, space)",
-      "contents": "body_set_space(${1:body}, ${2:space})"
-    },
-    {
-      "trigger": "body_get_space(body)",
-      "contents": "body_get_space(${1:body})"
-    },
-    {
-      "trigger": "body_set_mode(body, mode)",
-      "contents": "body_set_mode(${1:body}, ${2:mode})"
-    },
+    "area_is_ray_pickable",
     {
       "trigger": "body_get_mode(body, arg1)",
       "contents": "body_get_mode(${1:body}, ${2:arg1})"
@@ -154,105 +32,25 @@
       "contents": "body_add_shape(${1:body}, ${2:shape}, ${3:transform})"
     },
     {
-      "trigger": "body_set_shape(body, shape_idx, shape)",
-      "contents": "body_set_shape(${1:body}, ${2:shape_idx}, ${3:shape})"
-    },
-    {
-      "trigger": "body_set_shape_transform(body, shape_idx, transform)",
-      "contents": "body_set_shape_transform(${1:body}, ${2:shape_idx}, ${3:transform})"
-    },
-    {
-      "trigger": "body_get_shape_count(body)",
-      "contents": "body_get_shape_count(${1:body})"
-    },
-    {
-      "trigger": "body_get_shape(body, shape_idx)",
-      "contents": "body_get_shape(${1:body}, ${2:shape_idx})"
-    },
-    {
-      "trigger": "body_get_shape_transform(body, shape_idx)",
-      "contents": "body_get_shape_transform(${1:body}, ${2:shape_idx})"
-    },
-    {
-      "trigger": "body_remove_shape(body, shape_idx)",
-      "contents": "body_remove_shape(${1:body}, ${2:shape_idx})"
-    },
-    {
-      "trigger": "body_clear_shapes(body)",
-      "contents": "body_clear_shapes(${1:body})"
-    },
-    {
-      "trigger": "body_attach_object_instance_ID(body, id)",
-      "contents": "body_attach_object_instance_ID(${1:body}, ${2:id})"
-    },
-    {
-      "trigger": "body_get_object_instance_ID(body)",
-      "contents": "body_get_object_instance_ID(${1:body})"
-    },
-    {
       "trigger": "body_set_enable_continuous_collision_detection(body, enable)",
       "contents": "body_set_enable_continuous_collision_detection(${1:body}, ${2:enable})"
     },
+    "body_set_enable_continuous_collision_detection",
     {
       "trigger": "body_is_continuous_collision_detection_enabled(body)",
       "contents": "body_is_continuous_collision_detection_enabled(${1:body})"
     },
-    {
-      "trigger": "body_set_param(body, param, value)",
-      "contents": "body_set_param(${1:body}, ${2:param}, ${3:value})"
-    },
-    {
-      "trigger": "body_get_param(body, param)",
-      "contents": "body_get_param(${1:body}, ${2:param})"
-    },
-    {
-      "trigger": "body_set_state(body, state, value)",
-      "contents": "body_set_state(${1:body}, ${2:state}, ${3:value})"
-    },
-    {
-      "trigger": "body_get_state(body, state)",
-      "contents": "body_get_state(${1:body}, ${2:state})"
-    },
-    {
-      "trigger": "body_apply_impulse(body, pos, impulse)",
-      "contents": "body_apply_impulse(${1:body}, ${2:pos}, ${3:impulse})"
-    },
-    {
-      "trigger": "body_set_axis_velocity(body, axis_velocity)",
-      "contents": "body_set_axis_velocity(${1:body}, ${2:axis_velocity})"
-    },
+    "body_is_continuous_collision_detection_enabled",
     {
       "trigger": "body_set_axis_lock(body, axis)",
       "contents": "body_set_axis_lock(${1:body}, ${2:axis})"
     },
+    "body_set_axis_lock",
     {
       "trigger": "body_get_axis_lock(body, arg1)",
       "contents": "body_get_axis_lock(${1:body}, ${2:arg1})"
     },
-    {
-      "trigger": "body_add_collision_exception(body, excepted_body)",
-      "contents": "body_add_collision_exception(${1:body}, ${2:excepted_body})"
-    },
-    {
-      "trigger": "body_remove_collision_exception(body, excepted_body)",
-      "contents": "body_remove_collision_exception(${1:body}, ${2:excepted_body})"
-    },
-    {
-      "trigger": "body_set_max_contacts_reported(body, amount)",
-      "contents": "body_set_max_contacts_reported(${1:body}, ${2:amount})"
-    },
-    {
-      "trigger": "body_get_max_contacts_reported(body)",
-      "contents": "body_get_max_contacts_reported(${1:body})"
-    },
-    {
-      "trigger": "body_set_omit_force_integration(body, enable)",
-      "contents": "body_set_omit_force_integration(${1:body}, ${2:enable})"
-    },
-    {
-      "trigger": "body_is_omitting_force_integration(body)",
-      "contents": "body_is_omitting_force_integration(${1:body})"
-    },
+    "body_get_axis_lock",
     {
       "trigger": "body_set_force_integration_callback(body, receiver, method, userdata)",
       "contents": "body_set_force_integration_callback(${1:body}, ${2:receiver}, ${3:method}, ${4:userdata})"
@@ -261,126 +59,137 @@
       "trigger": "body_set_ray_pickable(body, enable)",
       "contents": "body_set_ray_pickable(${1:body}, ${2:enable})"
     },
+    "body_set_ray_pickable",
     {
       "trigger": "body_is_ray_pickable(body)",
       "contents": "body_is_ray_pickable(${1:body})"
     },
+    "body_is_ray_pickable",
     {
       "trigger": "joint_create_pin(body_A, local_A, body_B, local_B)",
       "contents": "joint_create_pin(${1:body_A}, ${2:local_A}, ${3:body_B}, ${4:local_B})"
     },
+    "joint_create_pin",
     {
       "trigger": "pin_joint_set_param(joint, param, value)",
       "contents": "pin_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
+    "pin_joint_set_param",
     {
       "trigger": "pin_joint_get_param(joint, param)",
       "contents": "pin_joint_get_param(${1:joint}, ${2:param})"
     },
+    "pin_joint_get_param",
     {
       "trigger": "pin_joint_set_local_A(joint, local_A)",
       "contents": "pin_joint_set_local_A(${1:joint}, ${2:local_A})"
     },
+    "pin_joint_set_local_A",
     {
       "trigger": "pin_joint_get_local_A(joint)",
       "contents": "pin_joint_get_local_A(${1:joint})"
     },
+    "pin_joint_get_local_A",
     {
       "trigger": "pin_joint_set_local_B(joint, local_B)",
       "contents": "pin_joint_set_local_B(${1:joint}, ${2:local_B})"
     },
+    "pin_joint_set_local_B",
     {
       "trigger": "pin_joint_get_local_B(joint)",
       "contents": "pin_joint_get_local_B(${1:joint})"
     },
+    "pin_joint_get_local_B",
     {
       "trigger": "joint_create_hinge(body_A, hinge_A, body_B, hinge_B)",
       "contents": "joint_create_hinge(${1:body_A}, ${2:hinge_A}, ${3:body_B}, ${4:hinge_B})"
     },
+    "joint_create_hinge",
     {
       "trigger": "hinge_joint_set_param(joint, param, value)",
       "contents": "hinge_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
+    "hinge_joint_set_param",
     {
       "trigger": "hinge_joint_get_param(joint, param)",
       "contents": "hinge_joint_get_param(${1:joint}, ${2:param})"
     },
+    "hinge_joint_get_param",
     {
       "trigger": "hinge_joint_set_flag(joint, flag, enabled)",
       "contents": "hinge_joint_set_flag(${1:joint}, ${2:flag}, ${3:enabled})"
     },
+    "hinge_joint_set_flag",
     {
       "trigger": "hinge_joint_get_flag(joint, flag)",
       "contents": "hinge_joint_get_flag(${1:joint}, ${2:flag})"
     },
+    "hinge_joint_get_flag",
     {
       "trigger": "joint_create_slider(body_A, local_ref_A, body_B, local_ref_B)",
       "contents": "joint_create_slider(${1:body_A}, ${2:local_ref_A}, ${3:body_B}, ${4:local_ref_B})"
     },
+    "joint_create_slider",
     {
       "trigger": "slider_joint_set_param(joint, param, value)",
       "contents": "slider_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
+    "slider_joint_set_param",
     {
       "trigger": "slider_joint_get_param(joint, param)",
       "contents": "slider_joint_get_param(${1:joint}, ${2:param})"
     },
+    "slider_joint_get_param",
     {
       "trigger": "joint_create_cone_twist(body_A, local_ref_A, body_B, local_ref_B)",
       "contents": "joint_create_cone_twist(${1:body_A}, ${2:local_ref_A}, ${3:body_B}, ${4:local_ref_B})"
     },
+    "joint_create_cone_twist",
     {
       "trigger": "cone_twist_joint_set_param(joint, param, value)",
       "contents": "cone_twist_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
+    "cone_twist_joint_set_param",
     {
       "trigger": "cone_twist_joint_get_param(joint, param)",
       "contents": "cone_twist_joint_get_param(${1:joint}, ${2:param})"
     },
-    {
-      "trigger": "joint_get_type(joint)",
-      "contents": "joint_get_type(${1:joint})"
-    },
+    "cone_twist_joint_get_param",
     {
       "trigger": "joint_set_solver_priority(joint, priority)",
       "contents": "joint_set_solver_priority(${1:joint}, ${2:priority})"
     },
+    "joint_set_solver_priority",
     {
       "trigger": "joint_get_solver_priority(joint)",
       "contents": "joint_get_solver_priority(${1:joint})"
     },
+    "joint_get_solver_priority",
     {
       "trigger": "joint_create_generic_6dof(body_A, local_ref_A, body_B, local_ref_B)",
       "contents": "joint_create_generic_6dof(${1:body_A}, ${2:local_ref_A}, ${3:body_B}, ${4:local_ref_B})"
     },
+    "joint_create_generic_6dof",
     {
       "trigger": "generic_6dof_joint_set_param(joint, axis, param, value)",
       "contents": "generic_6dof_joint_set_param(${1:joint}, ${2:axis}, ${3:param}, ${4:value})"
     },
+    "generic_6dof_joint_set_param",
     {
       "trigger": "generic_6dof_joint_get_param(joint, axis, param)",
       "contents": "generic_6dof_joint_get_param(${1:joint}, ${2:axis}, ${3:param})"
     },
+    "generic_6dof_joint_get_param",
     {
       "trigger": "generic_6dof_joint_set_flag(joint, axis, flag, enable)",
       "contents": "generic_6dof_joint_set_flag(${1:joint}, ${2:axis}, ${3:flag}, ${4:enable})"
     },
+    "generic_6dof_joint_set_flag",
     {
       "trigger": "generic_6dof_joint_get_flag(joint, axis, flag)",
       "contents": "generic_6dof_joint_get_flag(${1:joint}, ${2:axis}, ${3:flag})"
     },
-    {
-      "trigger": "free(rid)",
-      "contents": "free(${1:rid})"
-    },
-    {
-      "trigger": "set_active(active)",
-      "contents": "set_active(${1:active})"
-    },
-    {
-      "trigger": "get_process_info(arg0)",
-      "contents": "get_process_info(${1:arg0})"
-    },
+    "generic_6dof_joint_get_flag",
     "JOINT_HINGE",
     "JOINT_SLIDER",
     "JOINT_CONE_TWIST",

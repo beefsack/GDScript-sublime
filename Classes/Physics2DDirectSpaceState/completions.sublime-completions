@@ -2,25 +2,30 @@
   "scope": "source.gdscript",
   "completions": [
     {
-      "trigger": "intersect_ray(from, to, exclude, layer_mask, type_mask)",
-      "contents": "intersect_ray(${1:from}, ${2:to}, ${3:exclude}, ${4:layer_mask}, ${5:type_mask})"
+      "trigger": "intersect_ray(from, to, exclude)",
+      "contents": "intersect_ray(${1:from}, ${2:to}, ${3:exclude})"
     },
+    "intersect_ray",
     {
       "trigger": "intersect_shape(shape, max_results)",
       "contents": "intersect_shape(${1:shape}, ${2:max_results})"
     },
+    "intersect_shape",
     {
       "trigger": "cast_motion(shape)",
       "contents": "cast_motion(${1:shape})"
     },
+    "cast_motion",
     {
       "trigger": "collide_shape(shape, max_results)",
       "contents": "collide_shape(${1:shape}, ${2:max_results})"
     },
+    "collide_shape",
     {
       "trigger": "get_rest_info(shape)",
       "contents": "get_rest_info(${1:shape})"
     },
+    "get_rest_info",
     "TYPE_MASK_STATIC_BODY",
     "TYPE_MASK_KINEMATIC_BODY",
     "TYPE_MASK_RIGID_BODY",
