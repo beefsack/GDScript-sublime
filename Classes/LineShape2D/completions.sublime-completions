@@ -1,0 +1,21 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_normal(normal)",
+      "contents": "set_normal(${1:normal})"
+    },
+    {
+      "trigger": "get_normal()",
+      "contents": "get_normal()"
+    },
+    {
+      "trigger": "set_d(d)",
+      "contents": "set_d(${1:d})"
+    },
+    {
+      "trigger": "get_d()",
+      "contents": "get_d()"
+    }
+  ]
+}

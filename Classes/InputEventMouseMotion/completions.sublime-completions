@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "is_action(action)",
+      "contents": "is_action(${1:action})"
+    },
+    {
+      "trigger": "is_echo()",
+      "contents": "is_echo()"
+    },
+    {
+      "trigger": "is_pressed()",
+      "contents": "is_pressed()"
+    }
+  ]
+}

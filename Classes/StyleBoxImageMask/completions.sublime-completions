@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_image(image)",
+      "contents": "set_image(${1:image})"
+    },
+    {
+      "trigger": "get_image()",
+      "contents": "get_image()"
+    },
+    {
+      "trigger": "set_expand(expand)",
+      "contents": "set_expand(${1:expand})"
+    },
+    {
+      "trigger": "get_expand()",
+      "contents": "get_expand()"
+    },
+    {
+      "trigger": "set_expand_margin_size(margin, size)",
+      "contents": "set_expand_margin_size(${1:margin}, ${2:size})"
+    },
+    {
+      "trigger": "get_expand_margin_size(arg0)",
+      "contents": "get_expand_margin_size(${1:arg0})"
+    }
+  ]
+}

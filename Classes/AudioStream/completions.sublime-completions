@@ -1,0 +1,56 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "play()",
+      "contents": "play()"
+    },
+    {
+      "trigger": "stop()",
+      "contents": "stop()"
+    },
+    {
+      "trigger": "is_playing()",
+      "contents": "is_playing()"
+    },
+    {
+      "trigger": "set_loop(enabled)",
+      "contents": "set_loop(${1:enabled})"
+    },
+    {
+      "trigger": "has_loop()",
+      "contents": "has_loop()"
+    },
+    {
+      "trigger": "get_stream_name()",
+      "contents": "get_stream_name()"
+    },
+    {
+      "trigger": "get_loop_count()",
+      "contents": "get_loop_count()"
+    },
+    {
+      "trigger": "seek_pos(pos)",
+      "contents": "seek_pos(${1:pos})"
+    },
+    {
+      "trigger": "get_pos()",
+      "contents": "get_pos()"
+    },
+    {
+      "trigger": "get_length()",
+      "contents": "get_length()"
+    },
+    {
+      "trigger": "get_update_mode()",
+      "contents": "get_update_mode()"
+    },
+    {
+      "trigger": "update()",
+      "contents": "update()"
+    },
+    "UPDATE_NONE",
+    "UPDATE_IDLE",
+    "UPDATE_THREAD"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_multimesh(multimesh)",
+      "contents": "set_multimesh(${1:multimesh})"
+    },
+    {
+      "trigger": "get_multimesh()",
+      "contents": "get_multimesh()"
+    }
+  ]
+}

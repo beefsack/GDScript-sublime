@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_custom_step(step)",
+      "contents": "set_custom_step(${1:step})"
+    },
+    {
+      "trigger": "get_custom_step()",
+      "contents": "get_custom_step()"
+    }
+  ]
+}

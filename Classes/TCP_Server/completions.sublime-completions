@@ -1,0 +1,21 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "listen(port, accepted_hosts)",
+      "contents": "listen(${1:port}, ${2:accepted_hosts})"
+    },
+    {
+      "trigger": "is_connection_available()",
+      "contents": "is_connection_available()"
+    },
+    {
+      "trigger": "take_connection()",
+      "contents": "take_connection()"
+    },
+    {
+      "trigger": "stop()",
+      "contents": "stop()"
+    }
+  ]
+}

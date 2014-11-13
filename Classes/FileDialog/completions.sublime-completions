@@ -1,0 +1,68 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "clear_filters()",
+      "contents": "clear_filters()"
+    },
+    {
+      "trigger": "add_filter(filter)",
+      "contents": "add_filter(${1:filter})"
+    },
+    {
+      "trigger": "get_current_dir()",
+      "contents": "get_current_dir()"
+    },
+    {
+      "trigger": "get_current_file()",
+      "contents": "get_current_file()"
+    },
+    {
+      "trigger": "get_current_path()",
+      "contents": "get_current_path()"
+    },
+    {
+      "trigger": "set_current_dir(dir)",
+      "contents": "set_current_dir(${1:dir})"
+    },
+    {
+      "trigger": "set_current_file(file)",
+      "contents": "set_current_file(${1:file})"
+    },
+    {
+      "trigger": "set_current_path(path)",
+      "contents": "set_current_path(${1:path})"
+    },
+    {
+      "trigger": "set_mode(mode)",
+      "contents": "set_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_mode()",
+      "contents": "get_mode()"
+    },
+    {
+      "trigger": "get_vbox()",
+      "contents": "get_vbox()"
+    },
+    {
+      "trigger": "set_access(access)",
+      "contents": "set_access(${1:access})"
+    },
+    {
+      "trigger": "get_access()",
+      "contents": "get_access()"
+    },
+    {
+      "trigger": "invalidate()",
+      "contents": "invalidate()"
+    },
+    "MODE_OPEN_FILE",
+    "MODE_OPEN_FILES",
+    "MODE_OPEN_DIR",
+    "MODE_SAVE_FILE",
+    "ACCESS_RESOURCES",
+    "ACCESS_USERDATA",
+    "ACCESS_FILESYSTEM"
+  ]
+}

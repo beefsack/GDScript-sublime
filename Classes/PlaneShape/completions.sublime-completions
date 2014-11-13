@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_plane(plane)",
+      "contents": "set_plane(${1:plane})"
+    },
+    {
+      "trigger": "get_plane()",
+      "contents": "get_plane()"
+    }
+  ]
+}

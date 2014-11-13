@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "add_resource(name, resource)",
+      "contents": "add_resource(${1:name}, ${2:resource})"
+    },
+    {
+      "trigger": "remove_resource(name)",
+      "contents": "remove_resource(${1:name})"
+    },
+    {
+      "trigger": "rename_resource(name, newname)",
+      "contents": "rename_resource(${1:name}, ${2:newname})"
+    },
+    {
+      "trigger": "has_resource(name)",
+      "contents": "has_resource(${1:name})"
+    },
+    {
+      "trigger": "get_resource(name)",
+      "contents": "get_resource(${1:name})"
+    },
+    {
+      "trigger": "get_resource_list()",
+      "contents": "get_resource_list()"
+    }
+  ]
+}

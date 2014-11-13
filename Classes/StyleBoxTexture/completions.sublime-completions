@@ -1,0 +1,37 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_texture(texture)",
+      "contents": "set_texture(${1:texture})"
+    },
+    {
+      "trigger": "get_texture()",
+      "contents": "get_texture()"
+    },
+    {
+      "trigger": "set_margin_size(margin, size)",
+      "contents": "set_margin_size(${1:margin}, ${2:size})"
+    },
+    {
+      "trigger": "get_margin_size(arg0)",
+      "contents": "get_margin_size(${1:arg0})"
+    },
+    {
+      "trigger": "set_expand_margin_size(margin, size)",
+      "contents": "set_expand_margin_size(${1:margin}, ${2:size})"
+    },
+    {
+      "trigger": "get_expand_margin_size(arg0)",
+      "contents": "get_expand_margin_size(${1:arg0})"
+    },
+    {
+      "trigger": "set_draw_center(enable)",
+      "contents": "set_draw_center(${1:enable})"
+    },
+    {
+      "trigger": "get_draw_center()",
+      "contents": "get_draw_center()"
+    }
+  ]
+}

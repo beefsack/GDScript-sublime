@@ -1,0 +1,9 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "post_import(scene)",
+      "contents": "post_import(${1:scene})"
+    }
+  ]
+}

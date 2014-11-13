@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "add_root_node(node)",
+      "contents": "add_root_node(${1:node})"
+    },
+    {
+      "trigger": "get_scene()",
+      "contents": "get_scene()"
+    }
+  ]
+}

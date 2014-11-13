@@ -1,0 +1,89 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "append(value)",
+      "contents": "append(${1:value})"
+    },
+    {
+      "trigger": "clear()",
+      "contents": "clear()"
+    },
+    {
+      "trigger": "empty()",
+      "contents": "empty()"
+    },
+    {
+      "trigger": "erase(value)",
+      "contents": "erase(${1:value})"
+    },
+    {
+      "trigger": "find(value)",
+      "contents": "find(${1:value})"
+    },
+    {
+      "trigger": "hash()",
+      "contents": "hash()"
+    },
+    {
+      "trigger": "insert(pos, value)",
+      "contents": "insert(${1:pos}, ${2:value})"
+    },
+    {
+      "trigger": "invert()",
+      "contents": "invert()"
+    },
+    {
+      "trigger": "push_back(value)",
+      "contents": "push_back(${1:value})"
+    },
+    {
+      "trigger": "remove(pos)",
+      "contents": "remove(${1:pos})"
+    },
+    {
+      "trigger": "resize(pos)",
+      "contents": "resize(${1:pos})"
+    },
+    {
+      "trigger": "size()",
+      "contents": "size()"
+    },
+    {
+      "trigger": "sort()",
+      "contents": "sort()"
+    },
+    {
+      "trigger": "sort_custom(obj, func)",
+      "contents": "sort_custom(${1:obj}, ${2:func})"
+    },
+    {
+      "trigger": "Array(from)",
+      "contents": "Array(${1:from})"
+    },
+    {
+      "trigger": "Array(from)",
+      "contents": "Array(${1:from})"
+    },
+    {
+      "trigger": "Array(from)",
+      "contents": "Array(${1:from})"
+    },
+    {
+      "trigger": "Array(from)",
+      "contents": "Array(${1:from})"
+    },
+    {
+      "trigger": "Array(from)",
+      "contents": "Array(${1:from})"
+    },
+    {
+      "trigger": "Array(from)",
+      "contents": "Array(${1:from})"
+    },
+    {
+      "trigger": "Array(from)",
+      "contents": "Array(${1:from})"
+    }
+  ]
+}

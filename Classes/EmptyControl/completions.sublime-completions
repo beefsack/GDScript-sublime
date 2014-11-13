@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_minsize(minsize)",
+      "contents": "set_minsize(${1:minsize})"
+    },
+    {
+      "trigger": "get_minsize()",
+      "contents": "get_minsize()"
+    }
+  ]
+}

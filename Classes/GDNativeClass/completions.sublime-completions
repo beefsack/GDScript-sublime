@@ -1,0 +1,9 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "new()",
+      "contents": "new()"
+    }
+  ]
+}

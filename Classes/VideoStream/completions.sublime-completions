@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_pending_frame_count()",
+      "contents": "get_pending_frame_count()"
+    },
+    {
+      "trigger": "pop_frame()",
+      "contents": "pop_frame()"
+    },
+    {
+      "trigger": "peek_frame()",
+      "contents": "peek_frame()"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_transform(local)",
+      "contents": "set_transform(${1:local})"
+    },
+    {
+      "trigger": "get_transform()",
+      "contents": "get_transform()"
+    },
+    {
+      "trigger": "set_translation(translation)",
+      "contents": "set_translation(${1:translation})"
+    },
+    {
+      "trigger": "get_translation()",
+      "contents": "get_translation()"
+    },
+    {
+      "trigger": "set_rotation(rotation)",
+      "contents": "set_rotation(${1:rotation})"
+    },
+    {
+      "trigger": "get_rotation()",
+      "contents": "get_rotation()"
+    },
+    {
+      "trigger": "set_scale(scale)",
+      "contents": "set_scale(${1:scale})"
+    },
+    {
+      "trigger": "get_scale()",
+      "contents": "get_scale()"
+    },
+    {
+      "trigger": "set_global_transform(global)",
+      "contents": "set_global_transform(${1:global})"
+    },
+    {
+      "trigger": "get_global_transform()",
+      "contents": "get_global_transform()"
+    },
+    {
+      "trigger": "get_parent_spatial()",
+      "contents": "get_parent_spatial()"
+    },
+    {
+      "trigger": "set_ignore_transform_notification(enabled)",
+      "contents": "set_ignore_transform_notification(${1:enabled})"
+    },
+    {
+      "trigger": "set_as_toplevel(enable)",
+      "contents": "set_as_toplevel(${1:enable})"
+    },
+    {
+      "trigger": "is_set_as_toplevel()",
+      "contents": "is_set_as_toplevel()"
+    },
+    {
+      "trigger": "get_world()",
+      "contents": "get_world()"
+    },
+    {
+      "trigger": "update_gizmo()",
+      "contents": "update_gizmo()"
+    },
+    {
+      "trigger": "set_gizmo(gizmo)",
+      "contents": "set_gizmo(${1:gizmo})"
+    },
+    {
+      "trigger": "get_gizmo()",
+      "contents": "get_gizmo()"
+    },
+    {
+      "trigger": "show()",
+      "contents": "show()"
+    },
+    {
+      "trigger": "hide()",
+      "contents": "hide()"
+    },
+    {
+      "trigger": "is_visible()",
+      "contents": "is_visible()"
+    },
+    {
+      "trigger": "is_hidden()",
+      "contents": "is_hidden()"
+    },
+    "NOTIFICATION_TRANSFORM_CHANGED",
+    "NOTIFICATION_ENTER_WORLD",
+    "NOTIFICATION_EXIT_WORLD",
+    "NOTIFICATION_VISIBILITY_CHANGED"
+  ]
+}

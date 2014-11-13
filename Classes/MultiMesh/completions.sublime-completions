@@ -1,0 +1,49 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_mesh(mesh)",
+      "contents": "set_mesh(${1:mesh})"
+    },
+    {
+      "trigger": "get_mesh()",
+      "contents": "get_mesh()"
+    },
+    {
+      "trigger": "set_instance_count(arg0)",
+      "contents": "set_instance_count(${1:arg0})"
+    },
+    {
+      "trigger": "get_instance_count()",
+      "contents": "get_instance_count()"
+    },
+    {
+      "trigger": "set_instance_transform(arg0, arg1)",
+      "contents": "set_instance_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "get_instance_transform(arg0)",
+      "contents": "get_instance_transform(${1:arg0})"
+    },
+    {
+      "trigger": "set_instance_color(arg0, arg1)",
+      "contents": "set_instance_color(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "get_instance_color(arg0)",
+      "contents": "get_instance_color(${1:arg0})"
+    },
+    {
+      "trigger": "set_aabb(arg0)",
+      "contents": "set_aabb(${1:arg0})"
+    },
+    {
+      "trigger": "get_aabb()",
+      "contents": "get_aabb()"
+    },
+    {
+      "trigger": "generate_aabb()",
+      "contents": "generate_aabb()"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_width()",
+      "contents": "get_width()"
+    },
+    {
+      "trigger": "get_height()",
+      "contents": "get_height()"
+    },
+    {
+      "trigger": "get_size()",
+      "contents": "get_size()"
+    },
+    {
+      "trigger": "get_rid()",
+      "contents": "get_rid()"
+    },
+    {
+      "trigger": "has_alpha()",
+      "contents": "has_alpha()"
+    },
+    {
+      "trigger": "set_flags(flags)",
+      "contents": "set_flags(${1:flags})"
+    },
+    {
+      "trigger": "get_flags()",
+      "contents": "get_flags()"
+    },
+    {
+      "trigger": "draw(canvas_item, pos, modulate, 1, 1)",
+      "contents": "draw(${1:canvas_item}, ${2:pos}, ${3:modulate}, ${4:1}, ${5:1})"
+    },
+    {
+      "trigger": "draw_rect(canvas_item, rect, tile, modulate, 1, 1)",
+      "contents": "draw_rect(${1:canvas_item}, ${2:rect}, ${3:tile}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    {
+      "trigger": "draw_rect_region(canvas_item, rect, src_rect, modulate, 1, 1)",
+      "contents": "draw_rect_region(${1:canvas_item}, ${2:rect}, ${3:src_rect}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    "FLAG_VIDEO_SURFACE",
+    "FLAG_ANISOTROPIC_FILTER",
+    "FLAG_CONVERT_TO_LINEAR"
+  ]
+}

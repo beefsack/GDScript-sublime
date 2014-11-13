@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "pack(path)",
+      "contents": "pack(${1:path})"
+    },
+    {
+      "trigger": "instance(arg0)",
+      "contents": "instance(${1:arg0})"
+    },
+    {
+      "trigger": "can_instance()",
+      "contents": "can_instance()"
+    }
+  ]
+}

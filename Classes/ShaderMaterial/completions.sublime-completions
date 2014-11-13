@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_shader(shader)",
+      "contents": "set_shader(${1:shader})"
+    },
+    {
+      "trigger": "get_shader()",
+      "contents": "get_shader()"
+    }
+  ]
+}

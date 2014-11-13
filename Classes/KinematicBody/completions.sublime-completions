@@ -1,0 +1,81 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "move(rel_vec)",
+      "contents": "move(${1:rel_vec})"
+    },
+    {
+      "trigger": "move_to(position)",
+      "contents": "move_to(${1:position})"
+    },
+    {
+      "trigger": "can_move_to(position, arg1)",
+      "contents": "can_move_to(${1:position}, ${2:arg1})"
+    },
+    {
+      "trigger": "is_colliding()",
+      "contents": "is_colliding()"
+    },
+    {
+      "trigger": "get_collision_pos()",
+      "contents": "get_collision_pos()"
+    },
+    {
+      "trigger": "get_collision_normal()",
+      "contents": "get_collision_normal()"
+    },
+    {
+      "trigger": "get_collider_velocity()",
+      "contents": "get_collider_velocity()"
+    },
+    {
+      "trigger": "get_collider()",
+      "contents": "get_collider()"
+    },
+    {
+      "trigger": "get_collider_shape()",
+      "contents": "get_collider_shape()"
+    },
+    {
+      "trigger": "set_collide_with_static_bodies(enable)",
+      "contents": "set_collide_with_static_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_static_bodies()",
+      "contents": "can_collide_with_static_bodies()"
+    },
+    {
+      "trigger": "set_collide_with_kinematic_bodies(enable)",
+      "contents": "set_collide_with_kinematic_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_kinematic_bodies()",
+      "contents": "can_collide_with_kinematic_bodies()"
+    },
+    {
+      "trigger": "set_collide_with_rigid_bodies(enable)",
+      "contents": "set_collide_with_rigid_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_rigid_bodies()",
+      "contents": "can_collide_with_rigid_bodies()"
+    },
+    {
+      "trigger": "set_collide_with_character_bodies(enable)",
+      "contents": "set_collide_with_character_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_character_bodies()",
+      "contents": "can_collide_with_character_bodies()"
+    },
+    {
+      "trigger": "set_collision_margin(pixels)",
+      "contents": "set_collision_margin(${1:pixels})"
+    },
+    {
+      "trigger": "get_collision_margin()",
+      "contents": "get_collision_margin()"
+    }
+  ]
+}

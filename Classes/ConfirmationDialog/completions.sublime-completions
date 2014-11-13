@@ -1,0 +1,9 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_cancel()",
+      "contents": "get_cancel()"
+    }
+  ]
+}

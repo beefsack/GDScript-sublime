@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "wait()",
+      "contents": "wait()"
+    },
+    {
+      "trigger": "post()",
+      "contents": "post()"
+    }
+  ]
+}

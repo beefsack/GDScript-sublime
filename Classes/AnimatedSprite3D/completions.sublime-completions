@@ -1,0 +1,21 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_sprite_frames(sprite_frames)",
+      "contents": "set_sprite_frames(${1:sprite_frames})"
+    },
+    {
+      "trigger": "get_sprite_frames()",
+      "contents": "get_sprite_frames()"
+    },
+    {
+      "trigger": "set_frame(frame)",
+      "contents": "set_frame(${1:frame})"
+    },
+    {
+      "trigger": "get_frame()",
+      "contents": "get_frame()"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "add_sample(name, sample)",
+      "contents": "add_sample(${1:name}, ${2:sample})"
+    },
+    {
+      "trigger": "get_sample(name)",
+      "contents": "get_sample(${1:name})"
+    },
+    {
+      "trigger": "has_sample(name)",
+      "contents": "has_sample(${1:name})"
+    },
+    {
+      "trigger": "remove_sample(name)",
+      "contents": "remove_sample(${1:name})"
+    },
+    {
+      "trigger": "sample_set_volume_db(name, db)",
+      "contents": "sample_set_volume_db(${1:name}, ${2:db})"
+    },
+    {
+      "trigger": "sample_get_volume_db(name)",
+      "contents": "sample_get_volume_db(${1:name})"
+    },
+    {
+      "trigger": "sample_set_pitch_scale(name, pitch)",
+      "contents": "sample_set_pitch_scale(${1:name}, ${2:pitch})"
+    },
+    {
+      "trigger": "sample_get_pitch_scale(name)",
+      "contents": "sample_get_pitch_scale(${1:name})"
+    }
+  ]
+}

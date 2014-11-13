@@ -1,0 +1,85 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_val()",
+      "contents": "get_val()"
+    },
+    {
+      "trigger": "get_value()",
+      "contents": "get_value()"
+    },
+    {
+      "trigger": "get_min()",
+      "contents": "get_min()"
+    },
+    {
+      "trigger": "get_max()",
+      "contents": "get_max()"
+    },
+    {
+      "trigger": "get_step()",
+      "contents": "get_step()"
+    },
+    {
+      "trigger": "get_page()",
+      "contents": "get_page()"
+    },
+    {
+      "trigger": "get_unit_value()",
+      "contents": "get_unit_value()"
+    },
+    {
+      "trigger": "get_rounded_values()",
+      "contents": "get_rounded_values()"
+    },
+    {
+      "trigger": "set_val(value)",
+      "contents": "set_val(${1:value})"
+    },
+    {
+      "trigger": "set_value(value)",
+      "contents": "set_value(${1:value})"
+    },
+    {
+      "trigger": "set_min(minimum)",
+      "contents": "set_min(${1:minimum})"
+    },
+    {
+      "trigger": "set_max(maximum)",
+      "contents": "set_max(${1:maximum})"
+    },
+    {
+      "trigger": "set_step(step)",
+      "contents": "set_step(${1:step})"
+    },
+    {
+      "trigger": "set_page(pagesize)",
+      "contents": "set_page(${1:pagesize})"
+    },
+    {
+      "trigger": "set_unit_value(value)",
+      "contents": "set_unit_value(${1:value})"
+    },
+    {
+      "trigger": "set_rounded_values(arg0)",
+      "contents": "set_rounded_values(${1:arg0})"
+    },
+    {
+      "trigger": "set_exp_unit_value(enabled)",
+      "contents": "set_exp_unit_value(${1:enabled})"
+    },
+    {
+      "trigger": "is_unit_value_exp()",
+      "contents": "is_unit_value_exp()"
+    },
+    {
+      "trigger": "share(with)",
+      "contents": "share(${1:with})"
+    },
+    {
+      "trigger": "unshare()",
+      "contents": "unshare()"
+    }
+  ]
+}

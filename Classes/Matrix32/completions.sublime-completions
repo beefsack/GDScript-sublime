@@ -1,0 +1,65 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "affine_inverse()",
+      "contents": "affine_inverse()"
+    },
+    {
+      "trigger": "basis_xform(v)",
+      "contents": "basis_xform(${1:v})"
+    },
+    {
+      "trigger": "basis_xform_inv(v)",
+      "contents": "basis_xform_inv(${1:v})"
+    },
+    {
+      "trigger": "get_origin()",
+      "contents": "get_origin()"
+    },
+    {
+      "trigger": "get_rotation()",
+      "contents": "get_rotation()"
+    },
+    {
+      "trigger": "get_scale()",
+      "contents": "get_scale()"
+    },
+    {
+      "trigger": "interpolate_with(m, c)",
+      "contents": "interpolate_with(${1:m}, ${2:c})"
+    },
+    {
+      "trigger": "inverse()",
+      "contents": "inverse()"
+    },
+    {
+      "trigger": "orthonormalized()",
+      "contents": "orthonormalized()"
+    },
+    {
+      "trigger": "rotated(phi)",
+      "contents": "rotated(${1:phi})"
+    },
+    {
+      "trigger": "scaled(scale)",
+      "contents": "scaled(${1:scale})"
+    },
+    {
+      "trigger": "translated(offset)",
+      "contents": "translated(${1:offset})"
+    },
+    {
+      "trigger": "xform(v)",
+      "contents": "xform(${1:v})"
+    },
+    {
+      "trigger": "xform_inv(v)",
+      "contents": "xform_inv(${1:v})"
+    },
+    {
+      "trigger": "Matrix32(x_axis, y_axis, origin)",
+      "contents": "Matrix32(${1:x_axis}, ${2:y_axis}, ${3:origin})"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_param(param, value)",
+      "contents": "set_param(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_param(param)",
+      "contents": "get_param(${1:param})"
+    },
+    {
+      "trigger": "set_reverb_mode(reverb_mode)",
+      "contents": "set_reverb_mode(${1:reverb_mode})"
+    },
+    {
+      "trigger": "get_reverb_mode()",
+      "contents": "get_reverb_mode()"
+    },
+    {
+      "trigger": "set_force_params_to_all_sources(enabled)",
+      "contents": "set_force_params_to_all_sources(${1:enabled})"
+    },
+    {
+      "trigger": "is_forcing_params_to_all_sources()",
+      "contents": "is_forcing_params_to_all_sources()"
+    }
+  ]
+}

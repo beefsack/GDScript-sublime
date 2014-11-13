@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "pck_start(pck_name, alignment)",
+      "contents": "pck_start(${1:pck_name}, ${2:alignment})"
+    },
+    {
+      "trigger": "add_file(pck_path, source_path)",
+      "contents": "add_file(${1:pck_path}, ${2:source_path})"
+    },
+    {
+      "trigger": "flush(arg0)",
+      "contents": "flush(${1:arg0})"
+    }
+  ]
+}

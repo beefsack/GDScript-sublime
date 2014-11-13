@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "resume(arg)",
+      "contents": "resume(${1:arg})"
+    },
+    {
+      "trigger": "is_valid()",
+      "contents": "is_valid()"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_a(a)",
+      "contents": "set_a(${1:a})"
+    },
+    {
+      "trigger": "get_a()",
+      "contents": "get_a()"
+    },
+    {
+      "trigger": "set_b(b)",
+      "contents": "set_b(${1:b})"
+    },
+    {
+      "trigger": "get_b()",
+      "contents": "get_b()"
+    }
+  ]
+}

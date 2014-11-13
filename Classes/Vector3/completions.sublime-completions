@@ -1,0 +1,80 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "abs()",
+      "contents": "abs()"
+    },
+    {
+      "trigger": "cross(b)",
+      "contents": "cross(${1:b})"
+    },
+    {
+      "trigger": "cubic_interpolate(b, pre_a, post_b, t)",
+      "contents": "cubic_interpolate(${1:b}, ${2:pre_a}, ${3:post_b}, ${4:t})"
+    },
+    {
+      "trigger": "distance_squared_to(b)",
+      "contents": "distance_squared_to(${1:b})"
+    },
+    {
+      "trigger": "distance_to(b)",
+      "contents": "distance_to(${1:b})"
+    },
+    {
+      "trigger": "dot(b)",
+      "contents": "dot(${1:b})"
+    },
+    {
+      "trigger": "inverse()",
+      "contents": "inverse()"
+    },
+    {
+      "trigger": "length()",
+      "contents": "length()"
+    },
+    {
+      "trigger": "length_squared()",
+      "contents": "length_squared()"
+    },
+    {
+      "trigger": "linear_interpolate(b, t)",
+      "contents": "linear_interpolate(${1:b}, ${2:t})"
+    },
+    {
+      "trigger": "max_axis()",
+      "contents": "max_axis()"
+    },
+    {
+      "trigger": "min_axis()",
+      "contents": "min_axis()"
+    },
+    {
+      "trigger": "normalized()",
+      "contents": "normalized()"
+    },
+    {
+      "trigger": "reflect(by)",
+      "contents": "reflect(${1:by})"
+    },
+    {
+      "trigger": "rotated(axis, phi)",
+      "contents": "rotated(${1:axis}, ${2:phi})"
+    },
+    {
+      "trigger": "slide(by)",
+      "contents": "slide(${1:by})"
+    },
+    {
+      "trigger": "snapped(by)",
+      "contents": "snapped(${1:by})"
+    },
+    {
+      "trigger": "Vector3(x, y, z)",
+      "contents": "Vector3(${1:x}, ${2:y}, ${3:z})"
+    },
+    "AXIS_X",
+    "AXIS_Y",
+    "AXIS_Z"
+  ]
+}

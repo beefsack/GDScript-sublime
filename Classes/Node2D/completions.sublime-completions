@@ -1,0 +1,61 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_pos(pos)",
+      "contents": "set_pos(${1:pos})"
+    },
+    {
+      "trigger": "set_rot(rot)",
+      "contents": "set_rot(${1:rot})"
+    },
+    {
+      "trigger": "set_scale(scale)",
+      "contents": "set_scale(${1:scale})"
+    },
+    {
+      "trigger": "get_pos()",
+      "contents": "get_pos()"
+    },
+    {
+      "trigger": "get_rot()",
+      "contents": "get_rot()"
+    },
+    {
+      "trigger": "get_scale()",
+      "contents": "get_scale()"
+    },
+    {
+      "trigger": "rotate(degrees)",
+      "contents": "rotate(${1:degrees})"
+    },
+    {
+      "trigger": "move_local_x(delta, scaled)",
+      "contents": "move_local_x(${1:delta}, ${2:scaled})"
+    },
+    {
+      "trigger": "move_local_y(delta, scaled)",
+      "contents": "move_local_y(${1:delta}, ${2:scaled})"
+    },
+    {
+      "trigger": "get_global_pos()",
+      "contents": "get_global_pos()"
+    },
+    {
+      "trigger": "set_global_pos(arg0)",
+      "contents": "set_global_pos(${1:arg0})"
+    },
+    {
+      "trigger": "set_transform(xform)",
+      "contents": "set_transform(${1:xform})"
+    },
+    {
+      "trigger": "set_global_transform(xform)",
+      "contents": "set_global_transform(${1:xform})"
+    },
+    {
+      "trigger": "edit_set_pivot(arg0)",
+      "contents": "edit_set_pivot(${1:arg0})"
+    }
+  ]
+}

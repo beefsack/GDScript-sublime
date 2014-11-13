@@ -1,0 +1,37 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "add_piece(ofs, texture)",
+      "contents": "add_piece(${1:ofs}, ${2:texture})"
+    },
+    {
+      "trigger": "set_piece_offset(idx, ofs)",
+      "contents": "set_piece_offset(${1:idx}, ${2:ofs})"
+    },
+    {
+      "trigger": "set_piece_texture(idx, texture)",
+      "contents": "set_piece_texture(${1:idx}, ${2:texture})"
+    },
+    {
+      "trigger": "set_size(size)",
+      "contents": "set_size(${1:size})"
+    },
+    {
+      "trigger": "clear()",
+      "contents": "clear()"
+    },
+    {
+      "trigger": "get_piece_count()",
+      "contents": "get_piece_count()"
+    },
+    {
+      "trigger": "get_piece_offset(idx)",
+      "contents": "get_piece_offset(${1:idx})"
+    },
+    {
+      "trigger": "get_piece_texture(idx)",
+      "contents": "get_piece_texture(${1:idx})"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "custom_export(path)",
+      "contents": "custom_export(${1:path})"
+    },
+    {
+      "trigger": "get_name()",
+      "contents": "get_name()"
+    },
+    {
+      "trigger": "get_visible_name()",
+      "contents": "get_visible_name()"
+    },
+    {
+      "trigger": "import(path, from)",
+      "contents": "import(${1:path}, ${2:from})"
+    },
+    {
+      "trigger": "import_dialog(from)",
+      "contents": "import_dialog(${1:from})"
+    }
+  ]
+}

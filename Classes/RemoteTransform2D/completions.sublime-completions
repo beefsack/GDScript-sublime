@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_remote_node(path)",
+      "contents": "set_remote_node(${1:path})"
+    },
+    {
+      "trigger": "get_remote_node()",
+      "contents": "get_remote_node()"
+    }
+  ]
+}

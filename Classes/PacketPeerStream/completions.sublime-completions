@@ -1,0 +1,9 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_stream_peer(peer)",
+      "contents": "set_stream_peer(${1:peer})"
+    }
+  ]
+}

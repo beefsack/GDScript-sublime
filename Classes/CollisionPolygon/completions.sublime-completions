@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_polygon(polygon)",
+      "contents": "set_polygon(${1:polygon})"
+    },
+    {
+      "trigger": "get_polygon()",
+      "contents": "get_polygon()"
+    },
+    {
+      "trigger": "set_depth(depth)",
+      "contents": "set_depth(${1:depth})"
+    },
+    {
+      "trigger": "get_depth()",
+      "contents": "get_depth()"
+    },
+    {
+      "trigger": "set_build_mode(arg0)",
+      "contents": "set_build_mode(${1:arg0})"
+    },
+    {
+      "trigger": "get_build_mode()",
+      "contents": "get_build_mode()"
+    }
+  ]
+}

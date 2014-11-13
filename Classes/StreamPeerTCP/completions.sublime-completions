@@ -1,0 +1,32 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "connect(host, ip)",
+      "contents": "connect(${1:host}, ${2:ip})"
+    },
+    {
+      "trigger": "is_connected()",
+      "contents": "is_connected()"
+    },
+    {
+      "trigger": "get_status()",
+      "contents": "get_status()"
+    },
+    {
+      "trigger": "get_connected_host()",
+      "contents": "get_connected_host()"
+    },
+    {
+      "trigger": "get_connected_port()",
+      "contents": "get_connected_port()"
+    },
+    {
+      "trigger": "disconnect()",
+      "contents": "disconnect()"
+    },
+    "STATUS_NONE",
+    "STATUS_CONNECTING",
+    "STATUS_ERROR"
+  ]
+}

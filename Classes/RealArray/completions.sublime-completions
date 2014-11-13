@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get(idx)",
+      "contents": "get(${1:idx})"
+    },
+    {
+      "trigger": "push_back(value)",
+      "contents": "push_back(${1:value})"
+    },
+    {
+      "trigger": "resize(idx)",
+      "contents": "resize(${1:idx})"
+    },
+    {
+      "trigger": "set(idx, value)",
+      "contents": "set(${1:idx}, ${2:value})"
+    },
+    {
+      "trigger": "size()",
+      "contents": "size()"
+    },
+    {
+      "trigger": "RealArray(from)",
+      "contents": "RealArray(${1:from})"
+    }
+  ]
+}

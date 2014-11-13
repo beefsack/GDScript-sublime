@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "load_interactive(path, type_hint)",
+      "contents": "load_interactive(${1:path}, ${2:type_hint})"
+    },
+    {
+      "trigger": "load(path, type_hint)",
+      "contents": "load(${1:path}, ${2:type_hint})"
+    },
+    {
+      "trigger": "get_recognized_extensions_for_type(type)",
+      "contents": "get_recognized_extensions_for_type(${1:type})"
+    },
+    {
+      "trigger": "set_abort_on_missing_resources(abort)",
+      "contents": "set_abort_on_missing_resources(${1:abort})"
+    },
+    {
+      "trigger": "get_dependencies(arg0)",
+      "contents": "get_dependencies(${1:arg0})"
+    },
+    {
+      "trigger": "has(arg0)",
+      "contents": "has(${1:arg0})"
+    }
+  ]
+}

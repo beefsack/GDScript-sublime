@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "compile(pattern)",
+      "contents": "compile(${1:pattern})"
+    },
+    {
+      "trigger": "find(text, start, end)",
+      "contents": "find(${1:text}, ${2:start}, ${3:end})"
+    },
+    {
+      "trigger": "get_captures()",
+      "contents": "get_captures()"
+    }
+  ]
+}

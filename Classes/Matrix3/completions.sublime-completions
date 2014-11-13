@@ -1,0 +1,73 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "determinant()",
+      "contents": "determinant()"
+    },
+    {
+      "trigger": "get_euler()",
+      "contents": "get_euler()"
+    },
+    {
+      "trigger": "get_orthogonal_index()",
+      "contents": "get_orthogonal_index()"
+    },
+    {
+      "trigger": "get_scale()",
+      "contents": "get_scale()"
+    },
+    {
+      "trigger": "inverse()",
+      "contents": "inverse()"
+    },
+    {
+      "trigger": "orthonormalized()",
+      "contents": "orthonormalized()"
+    },
+    {
+      "trigger": "rotated(axis, phi)",
+      "contents": "rotated(${1:axis}, ${2:phi})"
+    },
+    {
+      "trigger": "scaled(scale)",
+      "contents": "scaled(${1:scale})"
+    },
+    {
+      "trigger": "tdotx(with)",
+      "contents": "tdotx(${1:with})"
+    },
+    {
+      "trigger": "tdoty(with)",
+      "contents": "tdoty(${1:with})"
+    },
+    {
+      "trigger": "tdotz(with)",
+      "contents": "tdotz(${1:with})"
+    },
+    {
+      "trigger": "transposed()",
+      "contents": "transposed()"
+    },
+    {
+      "trigger": "xform(v)",
+      "contents": "xform(${1:v})"
+    },
+    {
+      "trigger": "xform_inv(v)",
+      "contents": "xform_inv(${1:v})"
+    },
+    {
+      "trigger": "Matrix3(x_axis, y_axis, z_axis)",
+      "contents": "Matrix3(${1:x_axis}, ${2:y_axis}, ${3:z_axis})"
+    },
+    {
+      "trigger": "Matrix3(axis, phi)",
+      "contents": "Matrix3(${1:axis}, ${2:phi})"
+    },
+    {
+      "trigger": "Matrix3(from)",
+      "contents": "Matrix3(${1:from})"
+    }
+  ]
+}

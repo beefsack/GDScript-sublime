@@ -1,0 +1,181 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_emitting(active)",
+      "contents": "set_emitting(${1:active})"
+    },
+    {
+      "trigger": "is_emitting()",
+      "contents": "is_emitting()"
+    },
+    {
+      "trigger": "set_amount(amount)",
+      "contents": "set_amount(${1:amount})"
+    },
+    {
+      "trigger": "get_amount()",
+      "contents": "get_amount()"
+    },
+    {
+      "trigger": "set_lifetime(lifetime)",
+      "contents": "set_lifetime(${1:lifetime})"
+    },
+    {
+      "trigger": "get_lifetime()",
+      "contents": "get_lifetime()"
+    },
+    {
+      "trigger": "set_time_scale(time_scale)",
+      "contents": "set_time_scale(${1:time_scale})"
+    },
+    {
+      "trigger": "get_time_scale()",
+      "contents": "get_time_scale()"
+    },
+    {
+      "trigger": "set_pre_process_time(time)",
+      "contents": "set_pre_process_time(${1:time})"
+    },
+    {
+      "trigger": "get_pre_process_time()",
+      "contents": "get_pre_process_time()"
+    },
+    {
+      "trigger": "set_emit_timeout(value)",
+      "contents": "set_emit_timeout(${1:value})"
+    },
+    {
+      "trigger": "get_emit_timeout()",
+      "contents": "get_emit_timeout()"
+    },
+    {
+      "trigger": "set_param(param, value)",
+      "contents": "set_param(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_param(param)",
+      "contents": "get_param(${1:param})"
+    },
+    {
+      "trigger": "set_randomness(param, value)",
+      "contents": "set_randomness(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_randomness(param)",
+      "contents": "get_randomness(${1:param})"
+    },
+    {
+      "trigger": "set_texture(texture)",
+      "contents": "set_texture(${1:texture})"
+    },
+    {
+      "trigger": "get_texture()",
+      "contents": "get_texture()"
+    },
+    {
+      "trigger": "set_emissor_offset(offset)",
+      "contents": "set_emissor_offset(${1:offset})"
+    },
+    {
+      "trigger": "get_emissor_offset()",
+      "contents": "get_emissor_offset()"
+    },
+    {
+      "trigger": "set_flip_h(enable)",
+      "contents": "set_flip_h(${1:enable})"
+    },
+    {
+      "trigger": "is_flipped_h()",
+      "contents": "is_flipped_h()"
+    },
+    {
+      "trigger": "set_flip_v(enable)",
+      "contents": "set_flip_v(${1:enable})"
+    },
+    {
+      "trigger": "is_flipped_v()",
+      "contents": "is_flipped_v()"
+    },
+    {
+      "trigger": "set_emission_half_extents(extents)",
+      "contents": "set_emission_half_extents(${1:extents})"
+    },
+    {
+      "trigger": "get_emission_half_extents()",
+      "contents": "get_emission_half_extents()"
+    },
+    {
+      "trigger": "set_color_phases(phases)",
+      "contents": "set_color_phases(${1:phases})"
+    },
+    {
+      "trigger": "get_color_phases()",
+      "contents": "get_color_phases()"
+    },
+    {
+      "trigger": "set_color_phase_color(phase, color)",
+      "contents": "set_color_phase_color(${1:phase}, ${2:color})"
+    },
+    {
+      "trigger": "get_color_phase_color(phase)",
+      "contents": "get_color_phase_color(${1:phase})"
+    },
+    {
+      "trigger": "set_color_phase_pos(phase, pos)",
+      "contents": "set_color_phase_pos(${1:phase}, ${2:pos})"
+    },
+    {
+      "trigger": "get_color_phase_pos(phase)",
+      "contents": "get_color_phase_pos(${1:phase})"
+    },
+    {
+      "trigger": "pre_process(time)",
+      "contents": "pre_process(${1:time})"
+    },
+    {
+      "trigger": "set_use_local_space(enable)",
+      "contents": "set_use_local_space(${1:enable})"
+    },
+    {
+      "trigger": "is_using_local_space()",
+      "contents": "is_using_local_space()"
+    },
+    {
+      "trigger": "set_initial_velocity(velocity)",
+      "contents": "set_initial_velocity(${1:velocity})"
+    },
+    {
+      "trigger": "get_initial_velocity()",
+      "contents": "get_initial_velocity()"
+    },
+    {
+      "trigger": "set_explosiveness(amount)",
+      "contents": "set_explosiveness(${1:amount})"
+    },
+    {
+      "trigger": "get_explosiveness()",
+      "contents": "get_explosiveness()"
+    },
+    {
+      "trigger": "set_emission_points(points)",
+      "contents": "set_emission_points(${1:points})"
+    },
+    {
+      "trigger": "get_emission_points()",
+      "contents": "get_emission_points()"
+    },
+    "PARAM_DIRECTION",
+    "PARAM_SPREAD",
+    "PARAM_LINEAR_VELOCITY",
+    "PARAM_SPIN_VELOCITY",
+    "PARAM_GRAVITY_DIRECTION",
+    "PARAM_GRAVITY_STRENGTH",
+    "PARAM_RADIAL_ACCEL",
+    "PARAM_TANGENTIAL_ACCEL",
+    "PARAM_INITIAL_SIZE",
+    "PARAM_FINAL_SIZE",
+    "PARAM_HUE_VARIATION",
+    "MAX_COLOR_PHASES"
+  ]
+}

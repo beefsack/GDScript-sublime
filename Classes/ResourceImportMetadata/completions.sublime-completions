@@ -1,0 +1,45 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_editor(name)",
+      "contents": "set_editor(${1:name})"
+    },
+    {
+      "trigger": "get_editor()",
+      "contents": "get_editor()"
+    },
+    {
+      "trigger": "add_source(path, md5)",
+      "contents": "add_source(${1:path}, ${2:md5})"
+    },
+    {
+      "trigger": "get_source_path(idx)",
+      "contents": "get_source_path(${1:idx})"
+    },
+    {
+      "trigger": "get_source_md5(idx)",
+      "contents": "get_source_md5(${1:idx})"
+    },
+    {
+      "trigger": "remove_source(idx)",
+      "contents": "remove_source(${1:idx})"
+    },
+    {
+      "trigger": "get_source_count()",
+      "contents": "get_source_count()"
+    },
+    {
+      "trigger": "set_option(key, value)",
+      "contents": "set_option(${1:key}, ${2:value})"
+    },
+    {
+      "trigger": "get_option(key)",
+      "contents": "get_option(${1:key})"
+    },
+    {
+      "trigger": "get_options()",
+      "contents": "get_options()"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_texture(texture)",
+      "contents": "set_texture(${1:texture})"
+    },
+    {
+      "trigger": "get_texture()",
+      "contents": "get_texture()"
+    }
+  ]
+}

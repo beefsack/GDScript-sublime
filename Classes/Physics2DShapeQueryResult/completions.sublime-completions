@@ -1,0 +1,25 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_result_count()",
+      "contents": "get_result_count()"
+    },
+    {
+      "trigger": "get_result_rid(idx)",
+      "contents": "get_result_rid(${1:idx})"
+    },
+    {
+      "trigger": "get_result_object_id(idx)",
+      "contents": "get_result_object_id(${1:idx})"
+    },
+    {
+      "trigger": "get_result_object(idx)",
+      "contents": "get_result_object(${1:idx})"
+    },
+    {
+      "trigger": "get_result_object_shape(idx)",
+      "contents": "get_result_object_shape(${1:idx})"
+    }
+  ]
+}

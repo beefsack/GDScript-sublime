@@ -1,0 +1,33 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_target_path(target_path)",
+      "contents": "set_target_path(${1:target_path})"
+    },
+    {
+      "trigger": "get_target_path()",
+      "contents": "get_target_path()"
+    },
+    {
+      "trigger": "set_target(target)",
+      "contents": "set_target(${1:target})"
+    },
+    {
+      "trigger": "set_speed(speed)",
+      "contents": "set_speed(${1:speed})"
+    },
+    {
+      "trigger": "get_speed()",
+      "contents": "get_speed()"
+    },
+    {
+      "trigger": "set_interpolation_enabled(target_path)",
+      "contents": "set_interpolation_enabled(${1:target_path})"
+    },
+    {
+      "trigger": "is_interpolation_enabled()",
+      "contents": "is_interpolation_enabled()"
+    }
+  ]
+}

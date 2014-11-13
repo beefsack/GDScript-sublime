@@ -1,0 +1,54 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_flag(flag, enable)",
+      "contents": "set_flag(${1:flag}, ${2:enable})"
+    },
+    {
+      "trigger": "get_flag(flag)",
+      "contents": "get_flag(${1:flag})"
+    },
+    {
+      "trigger": "set_blend_mode(mode)",
+      "contents": "set_blend_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_blend_mode()",
+      "contents": "get_blend_mode()"
+    },
+    {
+      "trigger": "set_line_width(width)",
+      "contents": "set_line_width(${1:width})"
+    },
+    {
+      "trigger": "get_line_width()",
+      "contents": "get_line_width()"
+    },
+    {
+      "trigger": "set_depth_draw_mode(mode)",
+      "contents": "set_depth_draw_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_depth_draw_mode()",
+      "contents": "get_depth_draw_mode()"
+    },
+    "FLAG_VISIBLE",
+    "FLAG_DOUBLE_SIDED",
+    "FLAG_INVERT_FACES",
+    "FLAG_UNSHADED",
+    "FLAG_ONTOP",
+    "FLAG_LIGHTMAP_ON_UV2",
+    "FLAG_COLOR_ARRAY_SRGB",
+    "FLAG_MAX",
+    "DEPTH_DRAW_ALWAYS",
+    "DEPTH_DRAW_OPAQUE_ONLY",
+    "DEPTH_DRAW_OPAQUE_PRE_PASS_ALPHA",
+    "DEPTH_DRAW_NEVER",
+    "BLEND_MODE_MIX",
+    "BLEND_MODE_ADD",
+    "BLEND_MODE_SUB",
+    "BLEND_MODE_MUL",
+    "BLEND_MODE_PREMULT_ALPHA"
+  ]
+}

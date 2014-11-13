@@ -1,0 +1,24 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "start(instance, method, userdata, priority)",
+      "contents": "start(${1:instance}, ${2:method}, ${3:userdata}, ${4:priority})"
+    },
+    {
+      "trigger": "get_id()",
+      "contents": "get_id()"
+    },
+    {
+      "trigger": "is_active()",
+      "contents": "is_active()"
+    },
+    {
+      "trigger": "wait_to_finish()",
+      "contents": "wait_to_finish()"
+    },
+    "PRIORITY_LOW",
+    "PRIORITY_NORMAL",
+    "PRIORITY_HIGH"
+  ]
+}

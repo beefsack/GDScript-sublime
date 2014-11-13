@@ -1,0 +1,49 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_stream(stream)",
+      "contents": "set_stream(${1:stream})"
+    },
+    {
+      "trigger": "get_stream()",
+      "contents": "get_stream()"
+    },
+    {
+      "trigger": "play()",
+      "contents": "play()"
+    },
+    {
+      "trigger": "stop()",
+      "contents": "stop()"
+    },
+    {
+      "trigger": "is_playing()",
+      "contents": "is_playing()"
+    },
+    {
+      "trigger": "set_loop(enabled)",
+      "contents": "set_loop(${1:enabled})"
+    },
+    {
+      "trigger": "has_loop()",
+      "contents": "has_loop()"
+    },
+    {
+      "trigger": "get_stream_name()",
+      "contents": "get_stream_name()"
+    },
+    {
+      "trigger": "get_loop_count()",
+      "contents": "get_loop_count()"
+    },
+    {
+      "trigger": "get_pos()",
+      "contents": "get_pos()"
+    },
+    {
+      "trigger": "seek_pos(time)",
+      "contents": "seek_pos(${1:time})"
+    }
+  ]
+}

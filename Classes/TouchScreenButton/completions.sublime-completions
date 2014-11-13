@@ -1,0 +1,57 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_texture(texture)",
+      "contents": "set_texture(${1:texture})"
+    },
+    {
+      "trigger": "get_texture()",
+      "contents": "get_texture()"
+    },
+    {
+      "trigger": "set_texture_pressed(texture_pressed)",
+      "contents": "set_texture_pressed(${1:texture_pressed})"
+    },
+    {
+      "trigger": "get_texture_pressed()",
+      "contents": "get_texture_pressed()"
+    },
+    {
+      "trigger": "set_bitmask(bitmask)",
+      "contents": "set_bitmask(${1:bitmask})"
+    },
+    {
+      "trigger": "get_bitmask()",
+      "contents": "get_bitmask()"
+    },
+    {
+      "trigger": "set_action(action)",
+      "contents": "set_action(${1:action})"
+    },
+    {
+      "trigger": "get_action()",
+      "contents": "get_action()"
+    },
+    {
+      "trigger": "set_visibility_mode(mode)",
+      "contents": "set_visibility_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_visibility_mode()",
+      "contents": "get_visibility_mode()"
+    },
+    {
+      "trigger": "set_passby_press(enabled)",
+      "contents": "set_passby_press(${1:enabled})"
+    },
+    {
+      "trigger": "is_passby_press_enabled()",
+      "contents": "is_passby_press_enabled()"
+    },
+    {
+      "trigger": "is_pressed()",
+      "contents": "is_pressed()"
+    }
+  ]
+}

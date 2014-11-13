@@ -1,0 +1,41 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_pressed(pressed)",
+      "contents": "set_pressed(${1:pressed})"
+    },
+    {
+      "trigger": "is_pressed()",
+      "contents": "is_pressed()"
+    },
+    {
+      "trigger": "is_hovered()",
+      "contents": "is_hovered()"
+    },
+    {
+      "trigger": "set_toggle_mode(enabled)",
+      "contents": "set_toggle_mode(${1:enabled})"
+    },
+    {
+      "trigger": "is_toggle_mode()",
+      "contents": "is_toggle_mode()"
+    },
+    {
+      "trigger": "set_disabled(disabled)",
+      "contents": "set_disabled(${1:disabled})"
+    },
+    {
+      "trigger": "is_disabled()",
+      "contents": "is_disabled()"
+    },
+    {
+      "trigger": "set_click_on_press(enable)",
+      "contents": "set_click_on_press(${1:enable})"
+    },
+    {
+      "trigger": "get_click_on_press()",
+      "contents": "get_click_on_press()"
+    }
+  ]
+}

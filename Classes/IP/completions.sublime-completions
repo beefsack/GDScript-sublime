@@ -1,0 +1,35 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "resolve_hostname(host)",
+      "contents": "resolve_hostname(${1:host})"
+    },
+    {
+      "trigger": "resolve_hostname_queue_item(host)",
+      "contents": "resolve_hostname_queue_item(${1:host})"
+    },
+    {
+      "trigger": "get_resolve_item_status(id)",
+      "contents": "get_resolve_item_status(${1:id})"
+    },
+    {
+      "trigger": "get_resolve_item_address(id)",
+      "contents": "get_resolve_item_address(${1:id})"
+    },
+    {
+      "trigger": "erase_resolve_item(id)",
+      "contents": "erase_resolve_item(${1:id})"
+    },
+    {
+      "trigger": "get_local_addresses()",
+      "contents": "get_local_addresses()"
+    },
+    "RESOLVER_STATUS_NONE",
+    "RESOLVER_STATUS_WAITING",
+    "RESOLVER_STATUS_DONE",
+    "RESOLVER_STATUS_ERROR",
+    "RESOLVER_MAX_QUERIES",
+    "RESOLVER_INVALID_ID"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "test_mask(point, rect)",
+      "contents": "test_mask(${1:point}, ${2:rect})"
+    },
+    {
+      "trigger": "set_default_margin(margin, offset)",
+      "contents": "set_default_margin(${1:margin}, ${2:offset})"
+    },
+    {
+      "trigger": "get_default_margin(margin)",
+      "contents": "get_default_margin(${1:margin})"
+    },
+    {
+      "trigger": "get_margin(margin)",
+      "contents": "get_margin(${1:margin})"
+    },
+    {
+      "trigger": "get_minimum_size()",
+      "contents": "get_minimum_size()"
+    },
+    {
+      "trigger": "get_center_size()",
+      "contents": "get_center_size()"
+    },
+    {
+      "trigger": "get_offset()",
+      "contents": "get_offset()"
+    },
+    {
+      "trigger": "draw(arg0, arg1)",
+      "contents": "draw(${1:arg0}, ${2:arg1})"
+    }
+  ]
+}

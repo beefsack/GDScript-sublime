@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_title(title)",
+      "contents": "set_title(${1:title})"
+    },
+    {
+      "trigger": "get_title()",
+      "contents": "get_title()"
+    },
+    {
+      "trigger": "get_close_button()",
+      "contents": "get_close_button()"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_color(color)",
+      "contents": "set_color(${1:color})"
+    },
+    {
+      "trigger": "get_color()",
+      "contents": "get_color()"
+    },
+    {
+      "trigger": "set_edit_alpha(show)",
+      "contents": "set_edit_alpha(${1:show})"
+    },
+    {
+      "trigger": "is_editing_alpha()",
+      "contents": "is_editing_alpha()"
+    }
+  ]
+}

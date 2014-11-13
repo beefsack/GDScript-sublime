@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get(idx)",
+      "contents": "get(${1:idx})"
+    },
+    {
+      "trigger": "push_back(vector3)",
+      "contents": "push_back(${1:vector3})"
+    },
+    {
+      "trigger": "resize(idx)",
+      "contents": "resize(${1:idx})"
+    },
+    {
+      "trigger": "set(idx, vector3)",
+      "contents": "set(${1:idx}, ${2:vector3})"
+    },
+    {
+      "trigger": "size()",
+      "contents": "size()"
+    },
+    {
+      "trigger": "Vector3Array(from)",
+      "contents": "Vector3Array(${1:from})"
+    }
+  ]
+}

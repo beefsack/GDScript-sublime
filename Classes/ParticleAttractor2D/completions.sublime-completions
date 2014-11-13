@@ -1,0 +1,53 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_enabled(enabled)",
+      "contents": "set_enabled(${1:enabled})"
+    },
+    {
+      "trigger": "is_enabled()",
+      "contents": "is_enabled()"
+    },
+    {
+      "trigger": "set_radius(radius)",
+      "contents": "set_radius(${1:radius})"
+    },
+    {
+      "trigger": "get_radius()",
+      "contents": "get_radius()"
+    },
+    {
+      "trigger": "set_disable_radius(radius)",
+      "contents": "set_disable_radius(${1:radius})"
+    },
+    {
+      "trigger": "get_disable_radius()",
+      "contents": "get_disable_radius()"
+    },
+    {
+      "trigger": "set_gravity(gravity)",
+      "contents": "set_gravity(${1:gravity})"
+    },
+    {
+      "trigger": "get_gravity()",
+      "contents": "get_gravity()"
+    },
+    {
+      "trigger": "set_absorption(absorption)",
+      "contents": "set_absorption(${1:absorption})"
+    },
+    {
+      "trigger": "get_absorption()",
+      "contents": "get_absorption()"
+    },
+    {
+      "trigger": "set_particles_path(path)",
+      "contents": "set_particles_path(${1:path})"
+    },
+    {
+      "trigger": "get_particles_path()",
+      "contents": "get_particles_path()"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_texture(texture)",
+      "contents": "set_texture(${1:texture})"
+    },
+    {
+      "trigger": "get_texture()",
+      "contents": "get_texture()"
+    },
+    {
+      "trigger": "set_region(enabled)",
+      "contents": "set_region(${1:enabled})"
+    },
+    {
+      "trigger": "is_region()",
+      "contents": "is_region()"
+    },
+    {
+      "trigger": "set_region_rect(rect)",
+      "contents": "set_region_rect(${1:rect})"
+    },
+    {
+      "trigger": "get_region_rect()",
+      "contents": "get_region_rect()"
+    },
+    {
+      "trigger": "set_frame(frame)",
+      "contents": "set_frame(${1:frame})"
+    },
+    {
+      "trigger": "get_frame()",
+      "contents": "get_frame()"
+    },
+    {
+      "trigger": "set_vframes(vframes)",
+      "contents": "set_vframes(${1:vframes})"
+    },
+    {
+      "trigger": "get_vframes()",
+      "contents": "get_vframes()"
+    },
+    {
+      "trigger": "set_hframes(hframes)",
+      "contents": "set_hframes(${1:hframes})"
+    },
+    {
+      "trigger": "get_hframes()",
+      "contents": "get_hframes()"
+    }
+  ]
+}

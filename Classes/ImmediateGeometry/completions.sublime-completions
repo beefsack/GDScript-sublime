@@ -1,0 +1,45 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "begin(primitive, texture)",
+      "contents": "begin(${1:primitive}, ${2:texture})"
+    },
+    {
+      "trigger": "set_normal(normal)",
+      "contents": "set_normal(${1:normal})"
+    },
+    {
+      "trigger": "set_tangent(tangent)",
+      "contents": "set_tangent(${1:tangent})"
+    },
+    {
+      "trigger": "set_color(color)",
+      "contents": "set_color(${1:color})"
+    },
+    {
+      "trigger": "set_uv(uv)",
+      "contents": "set_uv(${1:uv})"
+    },
+    {
+      "trigger": "set_uv2(uv)",
+      "contents": "set_uv2(${1:uv})"
+    },
+    {
+      "trigger": "add_vertex(color)",
+      "contents": "add_vertex(${1:color})"
+    },
+    {
+      "trigger": "add_sphere(lats, lons, radius)",
+      "contents": "add_sphere(${1:lats}, ${2:lons}, ${3:radius})"
+    },
+    {
+      "trigger": "end()",
+      "contents": "end()"
+    },
+    {
+      "trigger": "clear()",
+      "contents": "clear()"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_align(align)",
+      "contents": "set_align(${1:align})"
+    },
+    {
+      "trigger": "get_align()",
+      "contents": "get_align()"
+    },
+    {
+      "trigger": "set_valign(valign)",
+      "contents": "set_valign(${1:valign})"
+    },
+    {
+      "trigger": "get_valign()",
+      "contents": "get_valign()"
+    },
+    {
+      "trigger": "set_text(text)",
+      "contents": "set_text(${1:text})"
+    },
+    {
+      "trigger": "get_text()",
+      "contents": "get_text()"
+    },
+    {
+      "trigger": "set_autowrap(enable)",
+      "contents": "set_autowrap(${1:enable})"
+    },
+    {
+      "trigger": "has_autowrap()",
+      "contents": "has_autowrap()"
+    },
+    {
+      "trigger": "set_uppercase(enable)",
+      "contents": "set_uppercase(${1:enable})"
+    },
+    {
+      "trigger": "is_uppercase()",
+      "contents": "is_uppercase()"
+    },
+    {
+      "trigger": "get_line_height()",
+      "contents": "get_line_height()"
+    },
+    {
+      "trigger": "get_line_count()",
+      "contents": "get_line_count()"
+    },
+    {
+      "trigger": "get_total_character_count()",
+      "contents": "get_total_character_count()"
+    },
+    {
+      "trigger": "set_visible_characters(arg0)",
+      "contents": "set_visible_characters(${1:arg0})"
+    },
+    {
+      "trigger": "set_percent_visible(percent_visible)",
+      "contents": "set_percent_visible(${1:percent_visible})"
+    },
+    {
+      "trigger": "get_percent_visible()",
+      "contents": "get_percent_visible()"
+    },
+    "VALIGN_FILL"
+  ]
+}

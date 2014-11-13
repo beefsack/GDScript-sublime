@@ -1,0 +1,25 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_space()",
+      "contents": "get_space()"
+    },
+    {
+      "trigger": "get_scenario()",
+      "contents": "get_scenario()"
+    },
+    {
+      "trigger": "get_sound_space()",
+      "contents": "get_sound_space()"
+    },
+    {
+      "trigger": "set_environment(env)",
+      "contents": "set_environment(${1:env})"
+    },
+    {
+      "trigger": "get_environment()",
+      "contents": "get_environment()"
+    }
+  ]
+}

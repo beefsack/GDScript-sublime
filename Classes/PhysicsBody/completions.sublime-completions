@@ -1,0 +1,21 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_layer_mask(mask)",
+      "contents": "set_layer_mask(${1:mask})"
+    },
+    {
+      "trigger": "get_layer_mask()",
+      "contents": "get_layer_mask()"
+    },
+    {
+      "trigger": "add_collision_exception_with(body)",
+      "contents": "add_collision_exception_with(${1:body})"
+    },
+    {
+      "trigger": "remove_collision_exception_with(body)",
+      "contents": "remove_collision_exception_with(${1:body})"
+    }
+  ]
+}

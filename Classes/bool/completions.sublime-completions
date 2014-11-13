@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "bool(from)",
+      "contents": "bool(${1:from})"
+    },
+    {
+      "trigger": "bool(from)",
+      "contents": "bool(${1:from})"
+    },
+    {
+      "trigger": "bool(from)",
+      "contents": "bool(${1:from})"
+    }
+  ]
+}

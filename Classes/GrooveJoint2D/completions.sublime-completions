@@ -1,0 +1,21 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_length(length)",
+      "contents": "set_length(${1:length})"
+    },
+    {
+      "trigger": "get_length()",
+      "contents": "get_length()"
+    },
+    {
+      "trigger": "set_initial_offset(offset)",
+      "contents": "set_initial_offset(${1:offset})"
+    },
+    {
+      "trigger": "get_initial_offset()",
+      "contents": "get_initial_offset()"
+    }
+  ]
+}

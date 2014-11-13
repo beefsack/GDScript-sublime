@@ -1,0 +1,9 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_popup()",
+      "contents": "get_popup()"
+    }
+  ]
+}

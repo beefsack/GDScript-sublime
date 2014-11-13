@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get_var()",
+      "contents": "get_var()"
+    },
+    {
+      "trigger": "put_var(var)",
+      "contents": "put_var(${1:var})"
+    },
+    {
+      "trigger": "get_available_packet_count()",
+      "contents": "get_available_packet_count()"
+    }
+  ]
+}

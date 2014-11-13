@@ -1,0 +1,29 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "can_instance()",
+      "contents": "can_instance()"
+    },
+    {
+      "trigger": "instance_has(base_object)",
+      "contents": "instance_has(${1:base_object})"
+    },
+    {
+      "trigger": "has_source_code()",
+      "contents": "has_source_code()"
+    },
+    {
+      "trigger": "get_source_code()",
+      "contents": "get_source_code()"
+    },
+    {
+      "trigger": "set_source_code(source)",
+      "contents": "set_source_code(${1:source})"
+    },
+    {
+      "trigger": "reload()",
+      "contents": "reload()"
+    }
+  ]
+}

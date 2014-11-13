@@ -1,0 +1,17 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_aabb(rect)",
+      "contents": "set_aabb(${1:rect})"
+    },
+    {
+      "trigger": "get_aabb()",
+      "contents": "get_aabb()"
+    },
+    {
+      "trigger": "is_on_screen()",
+      "contents": "is_on_screen()"
+    }
+  ]
+}

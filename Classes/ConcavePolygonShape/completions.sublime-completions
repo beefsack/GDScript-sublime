@@ -1,0 +1,13 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "set_faces(faces)",
+      "contents": "set_faces(${1:faces})"
+    },
+    {
+      "trigger": "get_faces()",
+      "contents": "get_faces()"
+    }
+  ]
+}

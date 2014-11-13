@@ -1,0 +1,37 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "get(idx)",
+      "contents": "get(${1:idx})"
+    },
+    {
+      "trigger": "get_string_from_ascii()",
+      "contents": "get_string_from_ascii()"
+    },
+    {
+      "trigger": "get_string_from_utf8()",
+      "contents": "get_string_from_utf8()"
+    },
+    {
+      "trigger": "push_back(byte)",
+      "contents": "push_back(${1:byte})"
+    },
+    {
+      "trigger": "resize(idx)",
+      "contents": "resize(${1:idx})"
+    },
+    {
+      "trigger": "set(idx, byte)",
+      "contents": "set(${1:idx}, ${2:byte})"
+    },
+    {
+      "trigger": "size()",
+      "contents": "size()"
+    },
+    {
+      "trigger": "RawArray(from)",
+      "contents": "RawArray(${1:from})"
+    }
+  ]
+}

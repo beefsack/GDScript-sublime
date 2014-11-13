@@ -1,0 +1,119 @@
+{
+  "scope": "source.gdscript",
+  "completions": [
+    {
+      "trigger": "add_text(text)",
+      "contents": "add_text(${1:text})"
+    },
+    {
+      "trigger": "add_image(image)",
+      "contents": "add_image(${1:image})"
+    },
+    {
+      "trigger": "newline()",
+      "contents": "newline()"
+    },
+    {
+      "trigger": "push_font(font)",
+      "contents": "push_font(${1:font})"
+    },
+    {
+      "trigger": "push_color(color)",
+      "contents": "push_color(${1:color})"
+    },
+    {
+      "trigger": "push_align(align)",
+      "contents": "push_align(${1:align})"
+    },
+    {
+      "trigger": "push_indent(level)",
+      "contents": "push_indent(${1:level})"
+    },
+    {
+      "trigger": "push_list(type)",
+      "contents": "push_list(${1:type})"
+    },
+    {
+      "trigger": "push_meta(data)",
+      "contents": "push_meta(${1:data})"
+    },
+    {
+      "trigger": "push_underline()",
+      "contents": "push_underline()"
+    },
+    {
+      "trigger": "pop()",
+      "contents": "pop()"
+    },
+    {
+      "trigger": "clear()",
+      "contents": "clear()"
+    },
+    {
+      "trigger": "set_meta_underline(enable)",
+      "contents": "set_meta_underline(${1:enable})"
+    },
+    {
+      "trigger": "is_meta_underlined()",
+      "contents": "is_meta_underlined()"
+    },
+    {
+      "trigger": "set_scroll_active(active)",
+      "contents": "set_scroll_active(${1:active})"
+    },
+    {
+      "trigger": "is_scroll_active()",
+      "contents": "is_scroll_active()"
+    },
+    {
+      "trigger": "set_scroll_follow(follow)",
+      "contents": "set_scroll_follow(${1:follow})"
+    },
+    {
+      "trigger": "is_scroll_following()",
+      "contents": "is_scroll_following()"
+    },
+    {
+      "trigger": "set_tab_size(spaces)",
+      "contents": "set_tab_size(${1:spaces})"
+    },
+    {
+      "trigger": "get_tab_size()",
+      "contents": "get_tab_size()"
+    },
+    {
+      "trigger": "set_selection_enabled(enabled)",
+      "contents": "set_selection_enabled(${1:enabled})"
+    },
+    {
+      "trigger": "is_selection_enabled()",
+      "contents": "is_selection_enabled()"
+    },
+    {
+      "trigger": "parse_bbcode(bbcode)",
+      "contents": "parse_bbcode(${1:bbcode})"
+    },
+    {
+      "trigger": "append_bbcode(bbcode)",
+      "contents": "append_bbcode(${1:bbcode})"
+    },
+    "ALIGN_LEFT",
+    "ALIGN_CENTER",
+    "ALIGN_RIGHT",
+    "ALIGN_FILL",
+    "LIST_NUMBERS",
+    "LIST_LETTERS",
+    "LIST_DOTS",
+    "ITEM_MAIN",
+    "ITEM_TEXT",
+    "ITEM_IMAGE",
+    "ITEM_NEWLINE",
+    "ITEM_FONT",
+    "ITEM_COLOR",
+    "ITEM_UNDERLINE",
+    "ITEM_ALIGN",
+    "ITEM_INDENT",
+    "ITEM_LIST",
+    "ITEM_META"
+  ]
+}
