@@ -1,5 +1,5 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     "PARAM_VOLUME_DB",
     "PARAM_PITCH_SCALE",

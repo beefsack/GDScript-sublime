@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_flag(flag, enabled)",
+      "trigger": "set_flag(...)",
       "contents": "set_flag(${1:flag}, ${2:enabled})"
     },
     "PARAM_LIMIT_UPPER",

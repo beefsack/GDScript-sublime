@@ -1,0 +1,24 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_point_count",
+    "add_point",
+    "set_point_pos",
+    "get_point_pos",
+    "set_point_tilt",
+    "get_point_tilt",
+    "set_point_in",
+    "get_point_in",
+    "set_point_out",
+    "get_point_out",
+    "remove_point",
+    "interpolate",
+    "interpolatef",
+    "set_bake_interval",
+    "get_bake_interval",
+    "get_baked_length",
+    "interpolate_baked",
+    "get_baked_points",
+    "get_baked_tilts"
+  ]
+}

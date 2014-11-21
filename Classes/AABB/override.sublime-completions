@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "encloses",
+    "expand",
+    "get_area",
+    "get_endpoint",
+    "get_longest_axis",
+    "get_longest_axis_index",
+    "get_longest_axis_size",
+    "get_shortest_axis",
+    "get_shortest_axis_index",
+    "get_shortest_axis_size",
+    "get_support",
+    "grow",
+    "has_no_area",
+    "has_no_surface",
+    "has_point",
+    "intersection",
+    "intersects",
+    "intersects_plane",
+    "intersects_segment",
+    "merge"
+  ]
+}

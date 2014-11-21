@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "accept",
+    "connect",
+    "get_status",
+    "disconnect"
+  ]
+}

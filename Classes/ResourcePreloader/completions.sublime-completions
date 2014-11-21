@@ -1,35 +1,29 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "add_resource(name, resource)",
+      "trigger": "add_resource(...)",
       "contents": "add_resource(${1:name}, ${2:resource})"
     },
-    "add_resource",
     {
-      "trigger": "remove_resource(name)",
+      "trigger": "remove_resource(...)",
       "contents": "remove_resource(${1:name})"
     },
-    "remove_resource",
     {
-      "trigger": "rename_resource(name, newname)",
+      "trigger": "rename_resource(...)",
       "contents": "rename_resource(${1:name}, ${2:newname})"
     },
-    "rename_resource",
     {
-      "trigger": "has_resource(name)",
+      "trigger": "has_resource(...)",
       "contents": "has_resource(${1:name})"
     },
-    "has_resource",
     {
-      "trigger": "get_resource(name)",
+      "trigger": "get_resource(...)",
       "contents": "get_resource(${1:name})"
     },
-    "get_resource",
     {
       "trigger": "get_resource_list()",
       "contents": "get_resource_list()"
-    },
-    "get_resource_list"
+    }
   ]
 }

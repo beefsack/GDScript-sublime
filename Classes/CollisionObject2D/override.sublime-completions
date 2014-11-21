@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_shape",
+    "get_shape_count",
+    "set_shape",
+    "set_shape_transform",
+    "set_shape_as_trigger",
+    "get_shape",
+    "get_shape_transform",
+    "is_shape_set_as_trigger",
+    "remove_shape",
+    "clear_shapes",
+    "get_rid"
+  ]
+}

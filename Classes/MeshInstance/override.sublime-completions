@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_mesh",
+    "get_mesh",
+    "set_skeleton_path",
+    "get_skeleton_path",
+    "get_aabb",
+    "create_trimesh_collision",
+    "create_convex_collision"
+  ]
+}

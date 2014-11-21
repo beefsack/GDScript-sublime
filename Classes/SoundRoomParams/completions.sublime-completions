@@ -1,25 +1,21 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_reverb_mode(reverb_mode)",
+      "trigger": "set_reverb_mode(...)",
       "contents": "set_reverb_mode(${1:reverb_mode})"
     },
-    "set_reverb_mode",
     {
       "trigger": "get_reverb_mode()",
       "contents": "get_reverb_mode()"
     },
-    "get_reverb_mode",
     {
-      "trigger": "set_force_params_to_all_sources(enabled)",
+      "trigger": "set_force_params_to_all_sources(...)",
       "contents": "set_force_params_to_all_sources(${1:enabled})"
     },
-    "set_force_params_to_all_sources",
     {
       "trigger": "is_forcing_params_to_all_sources()",
       "contents": "is_forcing_params_to_all_sources()"
-    },
-    "is_forcing_params_to_all_sources"
+    }
   ]
 }

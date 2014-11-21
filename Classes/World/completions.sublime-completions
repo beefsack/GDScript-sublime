@@ -1,20 +1,17 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "get_space()",
       "contents": "get_space()"
     },
-    "get_space",
     {
       "trigger": "get_scenario()",
       "contents": "get_scenario()"
     },
-    "get_scenario",
     {
       "trigger": "get_sound_space()",
       "contents": "get_sound_space()"
-    },
-    "get_sound_space"
+    }
   ]
 }

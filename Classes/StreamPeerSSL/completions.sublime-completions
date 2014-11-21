@@ -1,26 +1,18 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "accept(stream)",
+      "trigger": "accept(...)",
       "contents": "accept(${1:stream})"
     },
-    "accept",
     {
-      "trigger": "connect(stream, validate_certs, for_hostname)",
+      "trigger": "connect(...)",
       "contents": "connect(${1:stream}, ${2:validate_certs}, ${3:for_hostname})"
     },
-    {
-      "trigger": "get_status()",
-      "contents": "get_status()"
-    },
-    "get_status",
     {
       "trigger": "disconnect()",
       "contents": "disconnect()"
     },
-    "STATUS_DISCONNECTED",
-    "STATUS_CONNECTED",
     "STATUS_ERROR_NO_CERTIFICATE",
     "STATUS_ERROR_HOSTNAME_MISMATCH"
   ]

@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_vertices",
+    "get_vertices",
+    "add_polygon",
+    "get_polygon_count",
+    "get_polygon",
+    "clear_polygons"
+  ]
+}

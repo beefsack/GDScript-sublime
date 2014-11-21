@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "connect(host, ip)",
+      "trigger": "connect(...)",
       "contents": "connect(${1:host}, ${2:ip})"
     },
     {
@@ -13,14 +13,11 @@
       "trigger": "get_connected_host()",
       "contents": "get_connected_host()"
     },
-    "get_connected_host",
     {
       "trigger": "get_connected_port()",
       "contents": "get_connected_port()"
     },
-    "get_connected_port",
     "STATUS_NONE",
-    "STATUS_CONNECTING",
     "STATUS_ERROR"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_shadow_mode",
+    "get_shadow_mode",
+    "set_shadow_param",
+    "get_shadow_param"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_length",
+    "get_length",
+    "set_rest_length",
+    "get_rest_length",
+    "set_stiffness",
+    "get_stiffness",
+    "set_damping",
+    "get_damping"
+  ]
+}

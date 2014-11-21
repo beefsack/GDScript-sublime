@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_file(file)",
+      "trigger": "set_file(...)",
       "contents": "set_file(${1:file})"
     }
   ]

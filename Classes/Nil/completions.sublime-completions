@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "Nil(from)",
+      "trigger": "Nil(...)",
       "contents": "Nil(${1:from})"
     }
   ]

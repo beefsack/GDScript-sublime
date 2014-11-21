@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "intersect_ray",
+    "intersect_shape",
+    "cast_motion",
+    "collide_shape",
+    "get_rest_info"
+  ]
+}

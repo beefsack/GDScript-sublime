@@ -1,31 +1,28 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "create(width, height, format, flags)",
+      "trigger": "create(...)",
       "contents": "create(${1:width}, ${2:height}, ${3:format}, ${4:flags})"
     },
     {
-      "trigger": "create_from_image(image, flags)",
+      "trigger": "create_from_image(...)",
       "contents": "create_from_image(${1:image}, ${2:flags})"
     },
-    "create_from_image",
     {
-      "trigger": "set_data(image)",
+      "trigger": "set_data(...)",
       "contents": "set_data(${1:image})"
     },
     {
       "trigger": "fix_alpha_edges()",
       "contents": "fix_alpha_edges()"
     },
-    "fix_alpha_edges",
     {
       "trigger": "premultiply_alpha()",
       "contents": "premultiply_alpha()"
     },
-    "premultiply_alpha",
     {
-      "trigger": "set_size_override(size)",
+      "trigger": "set_size_override(...)",
       "contents": "set_size_override(${1:size})"
     }
   ]

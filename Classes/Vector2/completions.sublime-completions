@@ -1,39 +1,34 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "angle_to(to)",
+      "trigger": "angle_to(...)",
       "contents": "angle_to(${1:to})"
     },
-    "angle_to",
     {
-      "trigger": "angle_to_point(to)",
+      "trigger": "angle_to_point(...)",
       "contents": "angle_to_point(${1:to})"
     },
-    "angle_to_point",
     {
       "trigger": "atan2()",
       "contents": "atan2()"
     },
     {
-      "trigger": "cubic_interpolate(b, pre_a, post_b, t)",
+      "trigger": "cubic_interpolate(...)",
       "contents": "cubic_interpolate(${1:b}, ${2:pre_a}, ${3:post_b}, ${4:t})"
     },
-    "cubic_interpolate",
     {
-      "trigger": "distance_squared_to(to)",
+      "trigger": "distance_squared_to(...)",
       "contents": "distance_squared_to(${1:to})"
     },
-    "distance_squared_to",
     {
-      "trigger": "distance_to(to)",
+      "trigger": "distance_to(...)",
       "contents": "distance_to(${1:to})"
     },
     {
-      "trigger": "dot(with)",
+      "trigger": "dot(...)",
       "contents": "dot(${1:with})"
     },
-    "dot",
     {
       "trigger": "floor()",
       "contents": "floor()"
@@ -42,39 +37,28 @@
       "trigger": "floorf()",
       "contents": "floorf()"
     },
-    "floorf",
     {
       "trigger": "get_aspect()",
       "contents": "get_aspect()"
     },
-    "get_aspect",
     {
-      "trigger": "length_squared()",
-      "contents": "length_squared()"
-    },
-    "length_squared",
-    {
-      "trigger": "reflect(vec)",
+      "trigger": "reflect(...)",
       "contents": "reflect(${1:vec})"
     },
-    "reflect",
     {
-      "trigger": "slide(vec)",
+      "trigger": "slide(...)",
       "contents": "slide(${1:vec})"
     },
-    "slide",
     {
-      "trigger": "snapped(by)",
+      "trigger": "snapped(...)",
       "contents": "snapped(${1:by})"
     },
-    "snapped",
     {
       "trigger": "tangent()",
       "contents": "tangent()"
     },
-    "tangent",
     {
-      "trigger": "Vector2(x, y)",
+      "trigger": "Vector2(...)",
       "contents": "Vector2(${1:x}, ${2:y})"
     }
   ]

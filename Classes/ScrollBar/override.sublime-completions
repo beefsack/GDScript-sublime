@@ -1,0 +1,7 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_custom_step",
+    "get_custom_step"
+  ]
+}

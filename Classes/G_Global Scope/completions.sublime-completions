@@ -1,5 +1,5 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     "MARGIN_LEFT",
     "MARGIN_TOP",

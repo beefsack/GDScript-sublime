@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "float(from)",
+      "trigger": "float(...)",
       "contents": "float(${1:from})"
     }
   ]

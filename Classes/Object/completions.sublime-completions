@@ -1,156 +1,126 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
-    "_get",
-    "_get_property_list",
-    "_init",
-    "_notification",
-    "_set",
     {
       "trigger": "get_type()",
       "contents": "get_type()"
     },
-    "get_type",
     {
-      "trigger": "is_type(type)",
+      "trigger": "is_type(...)",
       "contents": "is_type(${1:type})"
     },
-    "is_type",
     {
-      "trigger": "set(property, value)",
+      "trigger": "set(...)",
       "contents": "set(${1:property}, ${2:value})"
     },
     {
-      "trigger": "get(property)",
+      "trigger": "get(...)",
       "contents": "get(${1:property})"
     },
     {
       "trigger": "get_property_list()",
       "contents": "get_property_list()"
     },
-    "get_property_list",
     {
-      "trigger": "notification(what, arg1)",
+      "trigger": "notification(...)",
       "contents": "notification(${1:what}, ${2:arg1})"
     },
-    "notification",
     {
       "trigger": "get_instance_ID()",
       "contents": "get_instance_ID()"
     },
-    "get_instance_ID",
     {
-      "trigger": "set_script(script)",
+      "trigger": "set_script(...)",
       "contents": "set_script(${1:script})"
     },
-    "set_script",
     {
       "trigger": "get_script()",
       "contents": "get_script()"
     },
-    "get_script",
     {
-      "trigger": "set_meta(name, value)",
+      "trigger": "set_meta(...)",
       "contents": "set_meta(${1:name}, ${2:value})"
     },
-    "set_meta",
     {
-      "trigger": "get_meta(name)",
+      "trigger": "get_meta(...)",
       "contents": "get_meta(${1:name})"
     },
-    "get_meta",
     {
-      "trigger": "has_meta(name)",
+      "trigger": "has_meta(...)",
       "contents": "has_meta(${1:name})"
     },
-    "has_meta",
     {
       "trigger": "get_meta_list()",
       "contents": "get_meta_list()"
     },
-    "get_meta_list",
     {
-      "trigger": "add_user_signal(signal, arguments)",
+      "trigger": "add_user_signal(...)",
       "contents": "add_user_signal(${1:signal}, ${2:arguments})"
     },
-    "add_user_signal",
     {
-      "trigger": "emit_signal(signal, arg0, arg1, arg2, arg3, arg4)",
+      "trigger": "emit_signal(...)",
       "contents": "emit_signal(${1:signal}, ${2:arg0}, ${3:arg1}, ${4:arg2}, ${5:arg3}, ${6:arg4})"
     },
-    "emit_signal",
     {
-      "trigger": "call(method, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9)",
+      "trigger": "call(...)",
       "contents": "call(${1:method}, ${2:arg0}, ${3:arg1}, ${4:arg2}, ${5:arg3}, ${6:arg4}, ${7:arg5}, ${8:arg6}, ${9:arg7}, ${10:arg8}, ${11:arg9})"
     },
-    "call",
     {
-      "trigger": "call_deferred(method, arg0, arg1, arg2, arg3, arg4)",
+      "trigger": "call_deferred(...)",
       "contents": "call_deferred(${1:method}, ${2:arg0}, ${3:arg1}, ${4:arg2}, ${5:arg3}, ${6:arg4})"
     },
-    "call_deferred",
     {
-      "trigger": "callv(method, arg_array)",
+      "trigger": "callv(...)",
       "contents": "callv(${1:method}, ${2:arg_array})"
     },
-    "callv",
     {
-      "trigger": "has_method(arg0)",
+      "trigger": "has_method(...)",
       "contents": "has_method(${1:arg0})"
     },
-    "has_method",
     {
       "trigger": "get_signal_list()",
       "contents": "get_signal_list()"
     },
-    "get_signal_list",
     {
-      "trigger": "connect(signal, target, method, binds)",
+      "trigger": "connect(...)",
       "contents": "connect(${1:signal}, ${2:target}, ${3:method}, ${4:binds})"
     },
     {
-      "trigger": "disconnect(signal, target, method)",
+      "trigger": "disconnect(...)",
       "contents": "disconnect(${1:signal}, ${2:target}, ${3:method})"
     },
     {
-      "trigger": "is_connected(signal, target, method)",
+      "trigger": "is_connected(...)",
       "contents": "is_connected(${1:signal}, ${2:target}, ${3:method})"
     },
     {
-      "trigger": "set_block_signals(enable)",
+      "trigger": "set_block_signals(...)",
       "contents": "set_block_signals(${1:enable})"
     },
-    "set_block_signals",
     {
       "trigger": "is_blocking_signals()",
       "contents": "is_blocking_signals()"
     },
-    "is_blocking_signals",
     {
-      "trigger": "set_message_translation(enable)",
+      "trigger": "set_message_translation(...)",
       "contents": "set_message_translation(${1:enable})"
     },
-    "set_message_translation",
     {
-      "trigger": "can_translate_messages(arg0)",
-      "contents": "can_translate_messages(${1:arg0})"
+      "trigger": "can_translate_messages()",
+      "contents": "can_translate_messages()"
     },
-    "can_translate_messages",
     {
       "trigger": "property_list_changed_notify()",
       "contents": "property_list_changed_notify()"
     },
-    "property_list_changed_notify",
     {
-      "trigger": "XL_MESSAGE(message)",
+      "trigger": "XL_MESSAGE(...)",
       "contents": "XL_MESSAGE(${1:message})"
     },
-    "XL_MESSAGE",
     {
-      "trigger": "tr(message)",
+      "trigger": "tr(...)",
       "contents": "tr(${1:message})"
     },
-    "tr",
     "NOTIFICATION_POSTINITIALIZE",
     "NOTIFICATION_PREDELETE",
     "CONNECT_DEFERRED",

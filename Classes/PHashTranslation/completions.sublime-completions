@@ -1,10 +1,9 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "generate(from)",
+      "trigger": "generate(...)",
       "contents": "generate(${1:from})"
-    },
-    "generate"
+    }
   ]
 }

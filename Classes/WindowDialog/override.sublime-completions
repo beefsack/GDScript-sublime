@@ -1,0 +1,8 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_title",
+    "get_title",
+    "get_close_button"
+  ]
+}

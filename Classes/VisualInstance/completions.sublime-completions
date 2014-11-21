@@ -1,10 +1,9 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_base(base)",
+      "trigger": "set_base(...)",
       "contents": "set_base(${1:base})"
-    },
-    "set_base"
+    }
   ]
 }

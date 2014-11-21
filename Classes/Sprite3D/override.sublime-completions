@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_texture",
+    "get_texture",
+    "set_region",
+    "is_region",
+    "set_region_rect",
+    "get_region_rect",
+    "set_frame",
+    "get_frame",
+    "set_vframes",
+    "get_vframes",
+    "set_hframes",
+    "get_hframes"
+  ]
+}

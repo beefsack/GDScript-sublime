@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_name",
+    "get_name_count",
+    "get_property",
+    "get_subname",
+    "get_subname_count",
+    "is_absolute",
+    "is_empty"
+  ]
+}

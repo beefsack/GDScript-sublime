@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_wait_time",
+    "get_wait_time",
+    "set_one_shot",
+    "is_one_shot",
+    "set_autostart",
+    "has_autostart",
+    "start",
+    "stop",
+    "get_time_left"
+  ]
+}

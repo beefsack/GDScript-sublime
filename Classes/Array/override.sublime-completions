@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "append",
+    "clear",
+    "empty",
+    "erase",
+    "find",
+    "hash",
+    "insert",
+    "invert",
+    "push_back",
+    "remove",
+    "resize",
+    "size",
+    "sort",
+    "sort_custom"
+  ]
+}

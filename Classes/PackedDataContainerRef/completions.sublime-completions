@@ -1,9 +1,0 @@
-{
-  "scope": "source.gdscript",
-  "completions": [
-    {
-      "trigger": "size()",
-      "contents": "size()"
-    }
-  ]
-}

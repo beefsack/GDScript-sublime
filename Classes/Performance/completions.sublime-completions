@@ -1,11 +1,10 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "get_monitor(monitor)",
+      "trigger": "get_monitor(...)",
       "contents": "get_monitor(${1:monitor})"
     },
-    "get_monitor",
     "TIME_FPS",
     "TIME_PROCESS",
     "TIME_FIXED_PROCESS",

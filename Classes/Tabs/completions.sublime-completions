@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "remove_tab(tab_idx)",
+      "trigger": "remove_tab(...)",
       "contents": "remove_tab(${1:tab_idx})"
     },
-    "remove_tab",
     {
-      "trigger": "add_tab(title, icon)",
+      "trigger": "add_tab(...)",
       "contents": "add_tab(${1:title}, ${2:icon})"
-    },
-    "add_tab"
+    }
   ]
 }

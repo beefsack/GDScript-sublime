@@ -1,61 +1,50 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "clear_filters()",
       "contents": "clear_filters()"
     },
-    "clear_filters",
     {
-      "trigger": "add_filter(filter)",
+      "trigger": "add_filter(...)",
       "contents": "add_filter(${1:filter})"
     },
-    "add_filter",
     {
       "trigger": "get_current_file()",
       "contents": "get_current_file()"
     },
-    "get_current_file",
     {
       "trigger": "get_current_path()",
       "contents": "get_current_path()"
     },
-    "get_current_path",
     {
-      "trigger": "set_current_dir(dir)",
+      "trigger": "set_current_dir(...)",
       "contents": "set_current_dir(${1:dir})"
     },
-    "set_current_dir",
     {
-      "trigger": "set_current_file(file)",
+      "trigger": "set_current_file(...)",
       "contents": "set_current_file(${1:file})"
     },
-    "set_current_file",
     {
-      "trigger": "set_current_path(path)",
+      "trigger": "set_current_path(...)",
       "contents": "set_current_path(${1:path})"
     },
-    "set_current_path",
     {
       "trigger": "get_vbox()",
       "contents": "get_vbox()"
     },
-    "get_vbox",
     {
-      "trigger": "set_access(access)",
+      "trigger": "set_access(...)",
       "contents": "set_access(${1:access})"
     },
-    "set_access",
     {
       "trigger": "get_access()",
       "contents": "get_access()"
     },
-    "get_access",
     {
       "trigger": "invalidate()",
       "contents": "invalidate()"
     },
-    "invalidate",
     "MODE_OPEN_FILE",
     "MODE_OPEN_FILES",
     "MODE_OPEN_DIR",

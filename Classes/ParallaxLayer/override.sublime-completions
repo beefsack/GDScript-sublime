@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_motion_scale",
+    "get_motion_scale",
+    "set_mirroring",
+    "get_mirroring"
+  ]
+}

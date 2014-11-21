@@ -1,28 +1,25 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "add_frame(frame, atpos)",
+      "trigger": "add_frame(...)",
       "contents": "add_frame(${1:frame}, ${2:atpos})"
     },
-    "add_frame",
     {
       "trigger": "get_frame_count()",
       "contents": "get_frame_count()"
     },
-    "get_frame_count",
     {
-      "trigger": "get_frame(idx)",
+      "trigger": "get_frame(...)",
       "contents": "get_frame(${1:idx})"
     },
     {
-      "trigger": "set_frame(idx, txt)",
+      "trigger": "set_frame(...)",
       "contents": "set_frame(${1:idx}, ${2:txt})"
     },
     {
-      "trigger": "remove_frame(idx)",
+      "trigger": "remove_frame(...)",
       "contents": "remove_frame(${1:idx})"
-    },
-    "remove_frame"
+    }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "has",
+    "set_order",
+    "get_order",
+    "set_persisting",
+    "is_persisting",
+    "clear",
+    "localize_path",
+    "globalize_path",
+    "save",
+    "has_singleton",
+    "get_singleton",
+    "load_resource_pack"
+  ]
+}

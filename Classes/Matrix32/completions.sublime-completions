@@ -1,47 +1,32 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "affine_inverse()",
-      "contents": "affine_inverse()"
-    },
-    "affine_inverse",
-    {
-      "trigger": "basis_xform(v)",
+      "trigger": "basis_xform(...)",
       "contents": "basis_xform(${1:v})"
     },
-    "basis_xform",
     {
-      "trigger": "basis_xform_inv(v)",
+      "trigger": "basis_xform_inv(...)",
       "contents": "basis_xform_inv(${1:v})"
     },
-    "basis_xform_inv",
     {
       "trigger": "get_origin()",
       "contents": "get_origin()"
     },
-    "get_origin",
     {
-      "trigger": "get_rotation()",
-      "contents": "get_rotation()"
-    },
-    "get_rotation",
-    {
-      "trigger": "interpolate_with(m, c)",
+      "trigger": "interpolate_with(...)",
       "contents": "interpolate_with(${1:m}, ${2:c})"
     },
-    "interpolate_with",
     {
-      "trigger": "rotated(phi)",
+      "trigger": "rotated(...)",
       "contents": "rotated(${1:phi})"
     },
     {
-      "trigger": "translated(offset)",
+      "trigger": "translated(...)",
       "contents": "translated(${1:offset})"
     },
-    "translated",
     {
-      "trigger": "Matrix32(x_axis, y_axis, origin)",
+      "trigger": "Matrix32(...)",
       "contents": "Matrix32(${1:x_axis}, ${2:y_axis}, ${3:origin})"
     }
   ]

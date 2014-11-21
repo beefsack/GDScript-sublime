@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_atlas",
+    "get_atlas",
+    "set_region",
+    "get_region",
+    "set_margin",
+    "get_margin"
+  ]
+}

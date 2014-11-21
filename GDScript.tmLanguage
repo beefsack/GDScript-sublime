@@ -11,18 +11,18 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>captures</key>
+			<!-- <key>captures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.comment.gdscript</string>
 				</dict>
-			</dict>
+			</dict> -->
 			<key>match</key>
 			<string>(#).*$\n?</string>
 			<key>name</key>
-			<string>comment.line.number-sign.gdscript</string>
+			<string>punctuation.definition.comment.gdscript</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -170,9 +170,14 @@
 					<key>name</key>
 					<string>storage.type.const.gdscript</string>
 				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.other.gdscript</string>
+				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*\b(?i:(const))\b</string>
+			<string>\b(?i:(const))\s+([a-zA-Z_][a-zA-Z_0-9]*)</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -194,9 +199,50 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:static|export|tool)\b</string>
+			<string>\b(?i:static|export|tool|yield)\b</string>
 			<key>name</key>
 			<string>storage.modifier.static.gdscript</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>([A-Z][a-zA-Z_0-9]*)</string>
+			<key>name</key>
+			<string>entity.name.type.class-type.gdscript</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>([a-z][a-zA-Z_0-9]*)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.type.variant.gdscript</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>([a-z][a-zA-Z_0-9]*)\s*\(</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.reference.gdscript</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>[a-zA-Z_][a-zA-Z_0-9]*</string>
+					<key>name</key>
+					<string>variable.parameter.gdscript</string>
+				</dict>
+			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>

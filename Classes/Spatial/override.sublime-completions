@@ -1,0 +1,27 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_transform",
+    "get_transform",
+    "set_translation",
+    "get_translation",
+    "set_rotation",
+    "get_rotation",
+    "set_scale",
+    "get_scale",
+    "set_global_transform",
+    "get_global_transform",
+    "get_parent_spatial",
+    "set_ignore_transform_notification",
+    "set_as_toplevel",
+    "is_set_as_toplevel",
+    "get_world",
+    "update_gizmo",
+    "set_gizmo",
+    "get_gizmo",
+    "show",
+    "hide",
+    "is_visible",
+    "is_hidden"
+  ]
+}

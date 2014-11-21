@@ -1,20 +1,17 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "listen(port, accepted_hosts)",
+      "trigger": "listen(...)",
       "contents": "listen(${1:port}, ${2:accepted_hosts})"
     },
-    "listen",
     {
       "trigger": "is_connection_available()",
       "contents": "is_connection_available()"
     },
-    "is_connection_available",
     {
       "trigger": "take_connection()",
       "contents": "take_connection()"
-    },
-    "take_connection"
+    }
   ]
 }

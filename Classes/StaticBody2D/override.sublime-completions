@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_constant_linear_velocity",
+    "set_constant_angular_velocity",
+    "get_constant_linear_velocity",
+    "get_constant_angular_velocity",
+    "set_friction",
+    "get_friction",
+    "set_bounce",
+    "get_bounce"
+  ]
+}

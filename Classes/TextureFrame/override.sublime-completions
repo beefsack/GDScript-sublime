@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_texture",
+    "get_texture",
+    "set_modulate",
+    "get_modulate",
+    "set_expand",
+    "has_expand"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get",
+    "push_back",
+    "resize",
+    "set",
+    "size"
+  ]
+}

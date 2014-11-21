@@ -1,81 +1,65 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
-    "_input_event",
     {
-      "trigger": "add_shape(shape, transform)",
+      "trigger": "add_shape(...)",
       "contents": "add_shape(${1:shape}, ${2:transform})"
     },
-    "add_shape",
     {
       "trigger": "get_shape_count()",
       "contents": "get_shape_count()"
     },
-    "get_shape_count",
     {
-      "trigger": "set_shape(shape_idx, shape)",
+      "trigger": "set_shape(...)",
       "contents": "set_shape(${1:shape_idx}, ${2:shape})"
     },
-    "set_shape",
     {
-      "trigger": "set_shape_transform(shape_idx, transform)",
+      "trigger": "set_shape_transform(...)",
       "contents": "set_shape_transform(${1:shape_idx}, ${2:transform})"
     },
-    "set_shape_transform",
     {
-      "trigger": "set_shape_as_trigger(shape_idx, enable)",
+      "trigger": "set_shape_as_trigger(...)",
       "contents": "set_shape_as_trigger(${1:shape_idx}, ${2:enable})"
     },
-    "set_shape_as_trigger",
     {
-      "trigger": "is_shape_set_as_trigger(shape_idx)",
+      "trigger": "is_shape_set_as_trigger(...)",
       "contents": "is_shape_set_as_trigger(${1:shape_idx})"
     },
-    "is_shape_set_as_trigger",
     {
-      "trigger": "get_shape(shape_idx)",
+      "trigger": "get_shape(...)",
       "contents": "get_shape(${1:shape_idx})"
     },
-    "get_shape",
     {
-      "trigger": "get_shape_transform(shape_idx)",
+      "trigger": "get_shape_transform(...)",
       "contents": "get_shape_transform(${1:shape_idx})"
     },
-    "get_shape_transform",
     {
-      "trigger": "remove_shape(shape_idx)",
+      "trigger": "remove_shape(...)",
       "contents": "remove_shape(${1:shape_idx})"
     },
-    "remove_shape",
     {
       "trigger": "clear_shapes()",
       "contents": "clear_shapes()"
     },
-    "clear_shapes",
     {
-      "trigger": "set_ray_pickable(ray_pickable)",
+      "trigger": "set_ray_pickable(...)",
       "contents": "set_ray_pickable(${1:ray_pickable})"
     },
-    "set_ray_pickable",
     {
       "trigger": "is_ray_pickable()",
       "contents": "is_ray_pickable()"
     },
-    "is_ray_pickable",
     {
-      "trigger": "set_capture_input_on_drag(enable)",
+      "trigger": "set_capture_input_on_drag(...)",
       "contents": "set_capture_input_on_drag(${1:enable})"
     },
-    "set_capture_input_on_drag",
     {
       "trigger": "get_capture_input_on_drag()",
       "contents": "get_capture_input_on_drag()"
     },
-    "get_capture_input_on_drag",
     {
       "trigger": "get_rid()",
       "contents": "get_rid()"
-    },
-    "get_rid"
+    }
   ]
 }

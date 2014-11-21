@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_path",
+    "take_over_path",
+    "get_path",
+    "set_name",
+    "get_name",
+    "get_rid",
+    "set_import_metadata",
+    "get_import_metadata",
+    "duplicate"
+  ]
+}

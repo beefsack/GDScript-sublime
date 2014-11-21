@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "custom_export",
+    "get_name",
+    "get_visible_name",
+    "import",
+    "import_dialog"
+  ]
+}

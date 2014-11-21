@@ -1,25 +1,21 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "custom_export(path)",
+      "trigger": "custom_export(...)",
       "contents": "custom_export(${1:path})"
     },
-    "custom_export",
     {
       "trigger": "get_visible_name()",
       "contents": "get_visible_name()"
     },
-    "get_visible_name",
     {
-      "trigger": "import(path, from)",
+      "trigger": "import(...)",
       "contents": "import(${1:path}, ${2:from})"
     },
-    "import",
     {
-      "trigger": "import_dialog(from)",
+      "trigger": "import_dialog(...)",
       "contents": "import_dialog(${1:from})"
-    },
-    "import_dialog"
+    }
   ]
 }

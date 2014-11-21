@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "create",
+    "create_from_image_alpha",
+    "set_bit",
+    "get_bit",
+    "set_bit_rect",
+    "get_true_bit_count",
+    "get_size"
+  ]
+}

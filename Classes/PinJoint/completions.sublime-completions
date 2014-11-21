@@ -1,7 +1,0 @@
-{
-  "scope": "source.gdscript",
-  "completions": [
-    "PARAM_DAMPING",
-    "PARAM_IMPULSE_CLAMP"
-  ]
-}

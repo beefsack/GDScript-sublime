@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_pressed_button",
+    "get_pressed_button_index",
+    "get_focused_button",
+    "get_button_list",
+    "set_pressed_button"
+  ]
+}

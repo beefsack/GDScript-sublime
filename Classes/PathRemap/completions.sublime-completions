@@ -1,30 +1,25 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "add_remap(from, to, locale)",
+      "trigger": "add_remap(...)",
       "contents": "add_remap(${1:from}, ${2:to}, ${3:locale})"
     },
-    "add_remap",
     {
-      "trigger": "has_remap(path)",
+      "trigger": "has_remap(...)",
       "contents": "has_remap(${1:path})"
     },
-    "has_remap",
     {
-      "trigger": "get_remap(path)",
+      "trigger": "get_remap(...)",
       "contents": "get_remap(${1:path})"
     },
-    "get_remap",
     {
-      "trigger": "erase_remap(path)",
+      "trigger": "erase_remap(...)",
       "contents": "erase_remap(${1:path})"
     },
-    "erase_remap",
     {
       "trigger": "clear_remaps()",
       "contents": "clear_remaps()"
-    },
-    "clear_remaps"
+    }
   ]
 }

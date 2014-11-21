@@ -1,75 +1,65 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "begin(primitive)",
+      "trigger": "begin(...)",
       "contents": "begin(${1:primitive})"
     },
-    "begin",
     {
-      "trigger": "add_vertex(vertex)",
+      "trigger": "add_vertex(...)",
       "contents": "add_vertex(${1:vertex})"
     },
-    "add_vertex",
     {
-      "trigger": "add_color(color)",
+      "trigger": "add_color(...)",
       "contents": "add_color(${1:color})"
     },
-    "add_color",
     {
-      "trigger": "add_normal(normal)",
+      "trigger": "add_normal(...)",
       "contents": "add_normal(${1:normal})"
     },
-    "add_normal",
     {
-      "trigger": "add_tangent(tangent)",
+      "trigger": "add_tangent(...)",
       "contents": "add_tangent(${1:tangent})"
     },
-    "add_tangent",
     {
-      "trigger": "add_uv(uv)",
+      "trigger": "add_uv(...)",
       "contents": "add_uv(${1:uv})"
     },
-    "add_uv",
     {
-      "trigger": "add_uv2(uv2)",
+      "trigger": "add_uv2(...)",
       "contents": "add_uv2(${1:uv2})"
     },
-    "add_uv2",
     {
-      "trigger": "add_bones(bones)",
+      "trigger": "add_bones(...)",
       "contents": "add_bones(${1:bones})"
     },
-    "add_bones",
     {
-      "trigger": "add_weights(weights)",
+      "trigger": "add_weights(...)",
       "contents": "add_weights(${1:weights})"
     },
-    "add_weights",
     {
-      "trigger": "add_smooth_group(smooth)",
+      "trigger": "add_smooth_group(...)",
       "contents": "add_smooth_group(${1:smooth})"
     },
-    "add_smooth_group",
+    {
+      "trigger": "set_material(...)",
+      "contents": "set_material(${1:material})"
+    },
     {
       "trigger": "index()",
       "contents": "index()"
     },
-    "index",
     {
       "trigger": "deindex()",
       "contents": "deindex()"
     },
-    "deindex",
     {
       "trigger": "generate_normals()",
       "contents": "generate_normals()"
     },
-    "generate_normals",
     {
-      "trigger": "commit(existing)",
+      "trigger": "commit(...)",
       "contents": "commit(${1:existing})"
-    },
-    "commit"
+    }
   ]
 }

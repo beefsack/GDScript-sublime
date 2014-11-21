@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_custom_solver_bias",
+    "get_custom_solver_bias",
+    "collide",
+    "collide_with_motion",
+    "collide_and_get_contacts",
+    "collide_with_motion_and_get_contacts"
+  ]
+}

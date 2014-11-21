@@ -1,0 +1,18 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_texture",
+    "get_texture",
+    "set_texture_pressed",
+    "get_texture_pressed",
+    "set_bitmask",
+    "get_bitmask",
+    "set_action",
+    "get_action",
+    "set_visibility_mode",
+    "get_visibility_mode",
+    "set_passby_press",
+    "is_passby_press_enabled",
+    "is_pressed"
+  ]
+}

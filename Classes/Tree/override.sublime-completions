@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "clear",
+    "create_item",
+    "get_root",
+    "set_column_min_width",
+    "set_column_expand",
+    "get_column_width",
+    "set_hide_root",
+    "get_next_selected",
+    "get_selected",
+    "get_selected_column",
+    "get_pressed_button",
+    "set_select_mode",
+    "set_columns",
+    "get_columns",
+    "get_edited",
+    "get_edited_column",
+    "get_custom_popup_rect",
+    "get_item_area_rect",
+    "ensure_cursor_is_visible",
+    "set_column_titles_visible",
+    "are_column_titles_visible",
+    "set_column_title",
+    "get_column_title",
+    "get_scroll"
+  ]
+}

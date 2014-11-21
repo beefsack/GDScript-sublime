@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "bool(from)",
+      "trigger": "bool(...)",
       "contents": "bool(${1:from})"
     }
   ]

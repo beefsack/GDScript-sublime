@@ -1,45 +1,49 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_pressed(pressed)",
+      "trigger": "set_pressed(...)",
       "contents": "set_pressed(${1:pressed})"
     },
-    "set_pressed",
+    {
+      "trigger": "is_pressed()",
+      "contents": "is_pressed()"
+    },
     {
       "trigger": "is_hovered()",
       "contents": "is_hovered()"
     },
-    "is_hovered",
     {
-      "trigger": "set_toggle_mode(enabled)",
+      "trigger": "set_toggle_mode(...)",
       "contents": "set_toggle_mode(${1:enabled})"
     },
-    "set_toggle_mode",
     {
       "trigger": "is_toggle_mode()",
       "contents": "is_toggle_mode()"
     },
-    "is_toggle_mode",
     {
-      "trigger": "set_disabled(disabled)",
+      "trigger": "set_disabled(...)",
       "contents": "set_disabled(${1:disabled})"
     },
-    "set_disabled",
     {
       "trigger": "is_disabled()",
       "contents": "is_disabled()"
     },
-    "is_disabled",
     {
-      "trigger": "set_click_on_press(enable)",
+      "trigger": "set_click_on_press(...)",
       "contents": "set_click_on_press(${1:enable})"
     },
-    "set_click_on_press",
     {
       "trigger": "get_click_on_press()",
       "contents": "get_click_on_press()"
     },
-    "get_click_on_press"
+    {
+      "trigger": "get_draw_mode()",
+      "contents": "get_draw_mode()"
+    },
+    "DRAW_NORMAL",
+    "DRAW_PRESSED",
+    "DRAW_HOVER",
+    "DRAW_DISABLED"
   ]
 }

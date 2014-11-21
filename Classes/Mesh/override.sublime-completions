@@ -1,0 +1,26 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_morph_target",
+    "get_morph_target_count",
+    "get_morph_target_name",
+    "clear_morph_targets",
+    "set_morph_target_mode",
+    "get_morph_target_mode",
+    "add_surface",
+    "get_surface_count",
+    "surface_remove",
+    "surface_get_array_len",
+    "surface_get_array_index_len",
+    "surface_get_format",
+    "surface_get_primitive_type",
+    "surface_set_material",
+    "surface_get_material",
+    "surface_set_name",
+    "surface_get_name",
+    "center_geometry",
+    "regen_normalmaps",
+    "set_custom_aabb",
+    "get_custom_aabb"
+  ]
+}

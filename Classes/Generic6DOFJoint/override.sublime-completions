@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_param_x",
+    "get_param_x",
+    "set_param_y",
+    "get_param_y",
+    "set_param_z",
+    "get_param_z",
+    "set_flag_x",
+    "get_flag_x",
+    "set_flag_y",
+    "get_flag_y",
+    "set_flag_z",
+    "get_flag_z"
+  ]
+}

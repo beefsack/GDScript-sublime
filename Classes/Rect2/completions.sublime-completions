@@ -1,33 +1,32 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "clip(b)",
+      "trigger": "clip(...)",
       "contents": "clip(${1:b})"
     },
-    "clip",
     {
-      "trigger": "encloses(b)",
+      "trigger": "encloses(...)",
       "contents": "encloses(${1:b})"
     },
     {
-      "trigger": "expand(to)",
+      "trigger": "expand(...)",
       "contents": "expand(${1:to})"
     },
     {
-      "trigger": "intersects(b)",
+      "trigger": "intersects(...)",
       "contents": "intersects(${1:b})"
     },
     {
-      "trigger": "merge(b)",
+      "trigger": "merge(...)",
       "contents": "merge(${1:b})"
     },
     {
-      "trigger": "Rect2(pos, size)",
+      "trigger": "Rect2(...)",
       "contents": "Rect2(${1:pos}, ${2:size})"
     },
     {
-      "trigger": "Rect2(x, y, width, height)",
+      "trigger": "Rect2(...)",
       "contents": "Rect2(${1:x}, ${2:y}, ${3:width}, ${4:height})"
     }
   ]

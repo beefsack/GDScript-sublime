@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_enabled",
+    "is_enabled",
+    "set_cast_to",
+    "get_cast_to",
+    "is_colliding",
+    "get_collider",
+    "get_collider_shape",
+    "get_collision_point",
+    "get_collision_normal"
+  ]
+}

@@ -1,16 +1,16 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "push_back(string)",
+      "trigger": "push_back(...)",
       "contents": "push_back(${1:string})"
     },
     {
-      "trigger": "set(idx, string)",
+      "trigger": "set(...)",
       "contents": "set(${1:idx}, ${2:string})"
     },
     {
-      "trigger": "StringArray(from)",
+      "trigger": "StringArray(...)",
       "contents": "StringArray(${1:from})"
     }
   ]

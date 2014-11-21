@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "clear",
+    "empty",
+    "erase",
+    "has",
+    "hash",
+    "keys",
+    "parse_json",
+    "size",
+    "to_json"
+  ]
+}

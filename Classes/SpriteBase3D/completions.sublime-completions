@@ -1,46 +1,30 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_pixel_size(pixel_size)",
+      "trigger": "set_pixel_size(...)",
       "contents": "set_pixel_size(${1:pixel_size})"
     },
-    "set_pixel_size",
     {
       "trigger": "get_pixel_size()",
       "contents": "get_pixel_size()"
     },
-    "get_pixel_size",
     {
-      "trigger": "set_axis(axis)",
-      "contents": "set_axis(${1:axis})"
-    },
-    "set_axis",
-    {
-      "trigger": "get_axis()",
-      "contents": "get_axis()"
-    },
-    "get_axis",
-    {
-      "trigger": "set_draw_flag(flag, enabled)",
+      "trigger": "set_draw_flag(...)",
       "contents": "set_draw_flag(${1:flag}, ${2:enabled})"
     },
-    "set_draw_flag",
     {
-      "trigger": "get_draw_flag(flag)",
+      "trigger": "get_draw_flag(...)",
       "contents": "get_draw_flag(${1:flag})"
     },
-    "get_draw_flag",
     {
-      "trigger": "set_alpha_cut_mode(mode)",
+      "trigger": "set_alpha_cut_mode(...)",
       "contents": "set_alpha_cut_mode(${1:mode})"
     },
-    "set_alpha_cut_mode",
     {
       "trigger": "get_alpha_cut_mode()",
       "contents": "get_alpha_cut_mode()"
     },
-    "get_alpha_cut_mode",
     "FLAG_TRANSPARENT",
     "FLAG_SHADED",
     "ALPHA_CUT_DISABLED",

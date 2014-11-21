@@ -1,45 +1,37 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_button_icon(texture)",
+      "trigger": "set_button_icon(...)",
       "contents": "set_button_icon(${1:texture})"
     },
-    "set_button_icon",
     {
       "trigger": "get_button_icon()",
       "contents": "get_button_icon()"
     },
-    "get_button_icon",
     {
-      "trigger": "set_flat(enabled)",
+      "trigger": "set_flat(...)",
       "contents": "set_flat(${1:enabled})"
     },
-    "set_flat",
     {
-      "trigger": "set_clip_text(enabled)",
+      "trigger": "set_clip_text(...)",
       "contents": "set_clip_text(${1:enabled})"
     },
-    "set_clip_text",
     {
       "trigger": "get_clip_text()",
       "contents": "get_clip_text()"
     },
-    "get_clip_text",
     {
-      "trigger": "set_text_align(align)",
+      "trigger": "set_text_align(...)",
       "contents": "set_text_align(${1:align})"
     },
-    "set_text_align",
     {
       "trigger": "get_text_align()",
       "contents": "get_text_align()"
     },
-    "get_text_align",
     {
       "trigger": "is_flat()",
       "contents": "is_flat()"
-    },
-    "is_flat"
+    }
   ]
 }

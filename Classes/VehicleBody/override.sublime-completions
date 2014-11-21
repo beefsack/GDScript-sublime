@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_mass",
+    "get_mass",
+    "set_friction",
+    "get_friction",
+    "set_engine_force",
+    "get_engine_force",
+    "set_brake",
+    "get_brake",
+    "set_steering",
+    "get_steering"
+  ]
+}

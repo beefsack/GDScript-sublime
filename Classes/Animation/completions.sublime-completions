@@ -1,181 +1,142 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "add_track(type, at_pos)",
+      "trigger": "add_track(...)",
       "contents": "add_track(${1:type}, ${2:at_pos})"
     },
-    "add_track",
     {
-      "trigger": "remove_track(idx)",
+      "trigger": "remove_track(...)",
       "contents": "remove_track(${1:idx})"
     },
-    "remove_track",
     {
       "trigger": "get_track_count()",
       "contents": "get_track_count()"
     },
-    "get_track_count",
     {
-      "trigger": "track_get_type(idx)",
+      "trigger": "track_get_type(...)",
       "contents": "track_get_type(${1:idx})"
     },
-    "track_get_type",
     {
-      "trigger": "track_get_path(idx)",
+      "trigger": "track_get_path(...)",
       "contents": "track_get_path(${1:idx})"
     },
-    "track_get_path",
     {
-      "trigger": "track_set_path(idx, path)",
+      "trigger": "track_set_path(...)",
       "contents": "track_set_path(${1:idx}, ${2:path})"
     },
-    "track_set_path",
     {
-      "trigger": "find_track(path)",
+      "trigger": "find_track(...)",
       "contents": "find_track(${1:path})"
     },
-    "find_track",
     {
-      "trigger": "track_move_up(idx)",
+      "trigger": "track_move_up(...)",
       "contents": "track_move_up(${1:idx})"
     },
-    "track_move_up",
     {
-      "trigger": "track_move_down(idx)",
+      "trigger": "track_move_down(...)",
       "contents": "track_move_down(${1:idx})"
     },
-    "track_move_down",
     {
-      "trigger": "transform_track_insert_key(idx, time, loc, rot, scale)",
+      "trigger": "transform_track_insert_key(...)",
       "contents": "transform_track_insert_key(${1:idx}, ${2:time}, ${3:loc}, ${4:rot}, ${5:scale})"
     },
-    "transform_track_insert_key",
     {
-      "trigger": "track_insert_key(idx, time, key, transition)",
+      "trigger": "track_insert_key(...)",
       "contents": "track_insert_key(${1:idx}, ${2:time}, ${3:key}, ${4:transition})"
     },
-    "track_insert_key",
     {
-      "trigger": "track_remove_key(idx, key_idx)",
+      "trigger": "track_remove_key(...)",
       "contents": "track_remove_key(${1:idx}, ${2:key_idx})"
     },
-    "track_remove_key",
     {
-      "trigger": "track_remove_key_at_pos(idx, pos)",
+      "trigger": "track_remove_key_at_pos(...)",
       "contents": "track_remove_key_at_pos(${1:idx}, ${2:pos})"
     },
-    "track_remove_key_at_pos",
     {
-      "trigger": "track_set_key_value(idx, key, value)",
+      "trigger": "track_set_key_value(...)",
       "contents": "track_set_key_value(${1:idx}, ${2:key}, ${3:value})"
     },
-    "track_set_key_value",
     {
-      "trigger": "track_set_key_transition(idx, key_idx, transition)",
+      "trigger": "track_set_key_transition(...)",
       "contents": "track_set_key_transition(${1:idx}, ${2:key_idx}, ${3:transition})"
     },
-    "track_set_key_transition",
     {
-      "trigger": "track_get_key_transition(idx, key_idx)",
+      "trigger": "track_get_key_transition(...)",
       "contents": "track_get_key_transition(${1:idx}, ${2:key_idx})"
     },
-    "track_get_key_transition",
     {
-      "trigger": "track_get_key_count(idx)",
+      "trigger": "track_get_key_count(...)",
       "contents": "track_get_key_count(${1:idx})"
     },
-    "track_get_key_count",
     {
-      "trigger": "track_get_key_value(idx, key_idx)",
+      "trigger": "track_get_key_value(...)",
       "contents": "track_get_key_value(${1:idx}, ${2:key_idx})"
     },
-    "track_get_key_value",
     {
-      "trigger": "track_get_key_time(idx, key_idx)",
+      "trigger": "track_get_key_time(...)",
       "contents": "track_get_key_time(${1:idx}, ${2:key_idx})"
     },
-    "track_get_key_time",
     {
-      "trigger": "track_find_key(idx, time, exact)",
+      "trigger": "track_find_key(...)",
       "contents": "track_find_key(${1:idx}, ${2:time}, ${3:exact})"
     },
-    "track_find_key",
     {
-      "trigger": "track_set_interpolation_type(idx, interpolation)",
+      "trigger": "track_set_interpolation_type(...)",
       "contents": "track_set_interpolation_type(${1:idx}, ${2:interpolation})"
     },
-    "track_set_interpolation_type",
     {
-      "trigger": "track_get_interpolation_type(idx)",
+      "trigger": "track_get_interpolation_type(...)",
       "contents": "track_get_interpolation_type(${1:idx})"
     },
-    "track_get_interpolation_type",
     {
-      "trigger": "transform_track_interpolate(idx, time_sec)",
+      "trigger": "transform_track_interpolate(...)",
       "contents": "transform_track_interpolate(${1:idx}, ${2:time_sec})"
     },
-    "transform_track_interpolate",
     {
-      "trigger": "value_track_set_continuous(idx, continuous)",
+      "trigger": "value_track_set_continuous(...)",
       "contents": "value_track_set_continuous(${1:idx}, ${2:continuous})"
     },
-    "value_track_set_continuous",
     {
-      "trigger": "value_track_is_continuous(idx)",
+      "trigger": "value_track_is_continuous(...)",
       "contents": "value_track_is_continuous(${1:idx})"
     },
-    "value_track_is_continuous",
     {
-      "trigger": "value_track_get_key_indices(idx, time_sec, delta)",
+      "trigger": "value_track_get_key_indices(...)",
       "contents": "value_track_get_key_indices(${1:idx}, ${2:time_sec}, ${3:delta})"
     },
-    "value_track_get_key_indices",
     {
-      "trigger": "method_track_get_key_indices(idx, time_sec, delta)",
+      "trigger": "method_track_get_key_indices(...)",
       "contents": "method_track_get_key_indices(${1:idx}, ${2:time_sec}, ${3:delta})"
     },
-    "method_track_get_key_indices",
     {
-      "trigger": "method_track_get_name(idx, key_idx)",
+      "trigger": "method_track_get_name(...)",
       "contents": "method_track_get_name(${1:idx}, ${2:key_idx})"
     },
-    "method_track_get_name",
     {
-      "trigger": "method_track_get_params(idx, key_idx)",
+      "trigger": "method_track_get_params(...)",
       "contents": "method_track_get_params(${1:idx}, ${2:key_idx})"
     },
-    "method_track_get_params",
     {
-      "trigger": "set_length(time_sec)",
+      "trigger": "set_length(...)",
       "contents": "set_length(${1:time_sec})"
     },
-    "set_length",
     {
       "trigger": "get_length()",
       "contents": "get_length()"
     },
-    "get_length",
     {
-      "trigger": "set_loop(enabled)",
+      "trigger": "set_loop(...)",
       "contents": "set_loop(${1:enabled})"
     },
-    "set_loop",
     {
-      "trigger": "has_loop()",
-      "contents": "has_loop()"
-    },
-    "has_loop",
-    {
-      "trigger": "set_step(size_sec)",
+      "trigger": "set_step(...)",
       "contents": "set_step(${1:size_sec})"
     },
-    "set_step",
     {
-      "trigger": "get_step()",
-      "contents": "get_step()"
+      "trigger": "clear()",
+      "contents": "clear()"
     },
-    "get_step",
     "TYPE_VALUE",
     "TYPE_METHOD",
     "INTERPOLATION_NEAREST",

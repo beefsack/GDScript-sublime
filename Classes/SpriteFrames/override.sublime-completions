@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_frame",
+    "get_frame_count",
+    "get_frame",
+    "set_frame",
+    "remove_frame",
+    "clear"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_color",
+    "get_color",
+    "set_mode",
+    "get_mode",
+    "set_edit_alpha",
+    "is_editing_alpha"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_enable_h_scroll",
+    "is_h_scroll_enabled",
+    "set_enable_v_scroll",
+    "is_v_scroll_enabled",
+    "set_h_scroll",
+    "get_h_scroll",
+    "set_v_scroll",
+    "get_v_scroll"
+  ]
+}

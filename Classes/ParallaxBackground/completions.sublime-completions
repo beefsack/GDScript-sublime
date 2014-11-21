@@ -1,55 +1,45 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_scroll_offset(ofs)",
+      "trigger": "set_scroll_offset(...)",
       "contents": "set_scroll_offset(${1:ofs})"
     },
-    "set_scroll_offset",
     {
       "trigger": "get_scroll_offset()",
       "contents": "get_scroll_offset()"
     },
-    "get_scroll_offset",
     {
-      "trigger": "set_scroll_base_offset(ofs)",
+      "trigger": "set_scroll_base_offset(...)",
       "contents": "set_scroll_base_offset(${1:ofs})"
     },
-    "set_scroll_base_offset",
     {
       "trigger": "get_scroll_base_offset()",
       "contents": "get_scroll_base_offset()"
     },
-    "get_scroll_base_offset",
     {
-      "trigger": "set_scroll_base_scale(scale)",
+      "trigger": "set_scroll_base_scale(...)",
       "contents": "set_scroll_base_scale(${1:scale})"
     },
-    "set_scroll_base_scale",
     {
       "trigger": "get_scroll_base_scale()",
       "contents": "get_scroll_base_scale()"
     },
-    "get_scroll_base_scale",
     {
-      "trigger": "set_limit_begin(ofs)",
+      "trigger": "set_limit_begin(...)",
       "contents": "set_limit_begin(${1:ofs})"
     },
-    "set_limit_begin",
     {
       "trigger": "get_limit_begin()",
       "contents": "get_limit_begin()"
     },
-    "get_limit_begin",
     {
-      "trigger": "set_limit_end(ofs)",
+      "trigger": "set_limit_end(...)",
       "contents": "set_limit_end(${1:ofs})"
     },
-    "set_limit_end",
     {
       "trigger": "get_limit_end()",
       "contents": "get_limit_end()"
-    },
-    "get_limit_end"
+    }
   ]
 }

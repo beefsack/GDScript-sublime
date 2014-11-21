@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_under_texture",
+    "get_under_texture",
+    "set_progress_texture",
+    "get_progress_texture",
+    "set_over_texture",
+    "get_over_texture"
+  ]
+}

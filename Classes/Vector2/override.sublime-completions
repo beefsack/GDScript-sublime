@@ -1,0 +1,24 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "angle_to",
+    "angle_to_point",
+    "atan2",
+    "cubic_interpolate",
+    "distance_squared_to",
+    "distance_to",
+    "dot",
+    "floor",
+    "floorf",
+    "get_aspect",
+    "length",
+    "length_squared",
+    "linear_interpolate",
+    "normalized",
+    "reflect",
+    "rotated",
+    "slide",
+    "snapped",
+    "tangent"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_stream",
+    "get_stream",
+    "play",
+    "stop",
+    "is_playing",
+    "set_paused",
+    "is_paused",
+    "set_loop",
+    "has_loop",
+    "set_volume",
+    "get_volume",
+    "set_pitch_scale",
+    "get_pitch_scale",
+    "set_tempo_scale",
+    "get_tempo_scale",
+    "set_volume_db",
+    "get_volume_db",
+    "get_stream_name",
+    "get_loop_count",
+    "get_pos",
+    "seek_pos",
+    "set_autoplay",
+    "has_autoplay",
+    "set_channel_volume",
+    "get_channel_volumeidx",
+    "get_length",
+    "get_channel_last_note_time"
+  ]
+}

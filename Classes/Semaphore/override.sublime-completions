@@ -1,0 +1,7 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "wait",
+    "post"
+  ]
+}

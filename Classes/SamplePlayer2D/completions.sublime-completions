@@ -1,45 +1,38 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_polyphony(voices)",
+      "trigger": "set_polyphony(...)",
       "contents": "set_polyphony(${1:voices})"
     },
-    "set_polyphony",
     {
       "trigger": "get_polyphony()",
       "contents": "get_polyphony()"
     },
-    "get_polyphony",
     {
-      "trigger": "play(sample, voice)",
+      "trigger": "play(...)",
       "contents": "play(${1:sample}, ${2:voice})"
     },
     {
-      "trigger": "voice_set_pitch_scale(voice, ratio)",
+      "trigger": "voice_set_pitch_scale(...)",
       "contents": "voice_set_pitch_scale(${1:voice}, ${2:ratio})"
     },
-    "voice_set_pitch_scale",
     {
-      "trigger": "voice_set_volume_scale_db(voice, db)",
+      "trigger": "voice_set_volume_scale_db(...)",
       "contents": "voice_set_volume_scale_db(${1:voice}, ${2:db})"
     },
-    "voice_set_volume_scale_db",
     {
-      "trigger": "stop_voice(voice)",
+      "trigger": "stop_voice(...)",
       "contents": "stop_voice(${1:voice})"
     },
-    "stop_voice",
     {
-      "trigger": "set_random_pitch_scale(val)",
+      "trigger": "set_random_pitch_scale(...)",
       "contents": "set_random_pitch_scale(${1:val})"
     },
-    "set_random_pitch_scale",
     {
       "trigger": "get_random_pitch_scale()",
       "contents": "get_random_pitch_scale()"
     },
-    "get_random_pitch_scale",
     "INVALID_VOICE",
     "NEXT_VOICE"
   ]

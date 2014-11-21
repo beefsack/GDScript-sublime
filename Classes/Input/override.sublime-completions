@@ -1,0 +1,18 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "is_key_pressed",
+    "is_mouse_button_pressed",
+    "is_joy_button_pressed",
+    "is_action_pressed",
+    "get_joy_axis",
+    "get_joy_name",
+    "get_accelerometer",
+    "get_mouse_pos",
+    "get_mouse_speed",
+    "get_mouse_button_mask",
+    "set_mouse_mode",
+    "get_mouse_mode",
+    "warp_mouse_pos"
+  ]
+}

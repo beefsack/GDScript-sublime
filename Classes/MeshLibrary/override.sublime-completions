@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "create_item",
+    "set_item_name",
+    "set_item_mesh",
+    "set_item_shape",
+    "get_item_name",
+    "get_item_mesh",
+    "get_item_shape",
+    "remove_item",
+    "clear",
+    "get_item_list",
+    "get_last_unused_item_id"
+  ]
+}

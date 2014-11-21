@@ -1,160 +1,138 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "insert_text_at_cursor(text)",
+      "trigger": "insert_text_at_cursor(...)",
       "contents": "insert_text_at_cursor(${1:text})"
     },
-    "insert_text_at_cursor",
     {
-      "trigger": "get_line(arg0)",
+      "trigger": "get_line_count()",
+      "contents": "get_line_count()"
+    },
+    {
+      "trigger": "get_line(...)",
       "contents": "get_line(${1:arg0})"
     },
-    "get_line",
     {
-      "trigger": "cursor_set_column(column)",
+      "trigger": "cursor_set_column(...)",
       "contents": "cursor_set_column(${1:column})"
     },
-    "cursor_set_column",
     {
-      "trigger": "cursor_set_line(line)",
+      "trigger": "cursor_set_line(...)",
       "contents": "cursor_set_line(${1:line})"
     },
-    "cursor_set_line",
     {
       "trigger": "cursor_get_column()",
       "contents": "cursor_get_column()"
     },
-    "cursor_get_column",
     {
       "trigger": "cursor_get_line()",
       "contents": "cursor_get_line()"
     },
-    "cursor_get_line",
     {
-      "trigger": "set_readonly(enable)",
+      "trigger": "set_readonly(...)",
       "contents": "set_readonly(${1:enable})"
     },
-    "set_readonly",
     {
-      "trigger": "set_wrap(enable)",
+      "trigger": "set_wrap(...)",
       "contents": "set_wrap(${1:enable})"
     },
-    "set_wrap",
     {
-      "trigger": "set_max_chars(amount)",
+      "trigger": "set_max_chars(...)",
       "contents": "set_max_chars(${1:amount})"
     },
-    "set_max_chars",
     {
       "trigger": "cut()",
       "contents": "cut()"
     },
-    "cut",
     {
       "trigger": "copy()",
       "contents": "copy()"
     },
-    "copy",
     {
       "trigger": "paste()",
       "contents": "paste()"
     },
-    "paste",
     {
-      "trigger": "select(from_line, from_column, to_line, to_column)",
+      "trigger": "select_all()",
+      "contents": "select_all()"
+    },
+    {
+      "trigger": "select(...)",
       "contents": "select(${1:from_line}, ${2:from_column}, ${3:to_line}, ${4:to_column})"
     },
     {
       "trigger": "is_selection_active()",
       "contents": "is_selection_active()"
     },
-    "is_selection_active",
     {
       "trigger": "get_selection_from_line()",
       "contents": "get_selection_from_line()"
     },
-    "get_selection_from_line",
     {
       "trigger": "get_selection_from_column()",
       "contents": "get_selection_from_column()"
     },
-    "get_selection_from_column",
     {
       "trigger": "get_selection_to_line()",
       "contents": "get_selection_to_line()"
     },
-    "get_selection_to_line",
     {
       "trigger": "get_selection_to_column()",
       "contents": "get_selection_to_column()"
     },
-    "get_selection_to_column",
     {
       "trigger": "get_selection_text()",
       "contents": "get_selection_text()"
     },
-    "get_selection_text",
     {
       "trigger": "get_word_under_cursor()",
       "contents": "get_word_under_cursor()"
     },
-    "get_word_under_cursor",
     {
-      "trigger": "search(flags, from_line, from_column, to_line)",
+      "trigger": "search(...)",
       "contents": "search(${1:flags}, ${2:from_line}, ${3:from_column}, ${4:to_line})"
     },
-    "search",
     {
       "trigger": "undo()",
       "contents": "undo()"
     },
-    "undo",
     {
       "trigger": "redo()",
       "contents": "redo()"
     },
-    "redo",
     {
       "trigger": "clear_undo_history()",
       "contents": "clear_undo_history()"
     },
-    "clear_undo_history",
     {
-      "trigger": "set_syntax_coloring(enable)",
+      "trigger": "set_syntax_coloring(...)",
       "contents": "set_syntax_coloring(${1:enable})"
     },
-    "set_syntax_coloring",
     {
       "trigger": "is_syntax_coloring_enabled()",
       "contents": "is_syntax_coloring_enabled()"
     },
-    "is_syntax_coloring_enabled",
     {
-      "trigger": "add_keyword_color(keyword, color)",
+      "trigger": "add_keyword_color(...)",
       "contents": "add_keyword_color(${1:keyword}, ${2:color})"
     },
-    "add_keyword_color",
     {
-      "trigger": "add_color_region(begin_key, end_key, color, line_only)",
+      "trigger": "add_color_region(...)",
       "contents": "add_color_region(${1:begin_key}, ${2:end_key}, ${3:color}, ${4:line_only})"
     },
-    "add_color_region",
     {
-      "trigger": "set_symbol_color(color)",
+      "trigger": "set_symbol_color(...)",
       "contents": "set_symbol_color(${1:color})"
     },
-    "set_symbol_color",
     {
-      "trigger": "set_custom_bg_color(color)",
+      "trigger": "set_custom_bg_color(...)",
       "contents": "set_custom_bg_color(${1:color})"
     },
-    "set_custom_bg_color",
     {
       "trigger": "clear_colors()",
       "contents": "clear_colors()"
     },
-    "clear_colors",
     "SEARCH_MATCH_CASE",
     "SEARCH_WHOLE_WORDS",
     "SEARCH_BACKWARDS"

@@ -1,20 +1,17 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "pck_start(pck_name, alignment)",
+      "trigger": "pck_start(...)",
       "contents": "pck_start(${1:pck_name}, ${2:alignment})"
     },
-    "pck_start",
     {
-      "trigger": "add_file(pck_path, source_path)",
+      "trigger": "add_file(...)",
       "contents": "add_file(${1:pck_path}, ${2:source_path})"
     },
-    "add_file",
     {
-      "trigger": "flush(arg0)",
+      "trigger": "flush(...)",
       "contents": "flush(${1:arg0})"
-    },
-    "flush"
+    }
   ]
 }

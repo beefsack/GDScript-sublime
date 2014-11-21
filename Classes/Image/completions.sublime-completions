@@ -1,60 +1,54 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "blit_rect(src, src_rect, dest)",
+      "trigger": "blit_rect(...)",
       "contents": "blit_rect(${1:src}, ${2:src_rect}, ${3:dest})"
     },
-    "blit_rect",
     {
-      "trigger": "brush_transfer(src, brush, pos)",
+      "trigger": "brush_transfer(...)",
       "contents": "brush_transfer(${1:src}, ${2:brush}, ${3:pos})"
     },
-    "brush_transfer",
     {
-      "trigger": "brushed(src, brush, pos)",
+      "trigger": "brushed(...)",
       "contents": "brushed(${1:src}, ${2:brush}, ${3:pos})"
     },
-    "brushed",
     {
-      "trigger": "compressed(format)",
+      "trigger": "compressed(...)",
       "contents": "compressed(${1:format})"
     },
-    "compressed",
     {
-      "trigger": "converted(format)",
+      "trigger": "converted(...)",
       "contents": "converted(${1:format})"
     },
-    "converted",
     {
       "trigger": "decompressed()",
       "contents": "decompressed()"
     },
-    "decompressed",
     {
-      "trigger": "get_pixel(x, y, mipmap_level)",
+      "trigger": "get_pixel(...)",
       "contents": "get_pixel(${1:x}, ${2:y}, ${3:mipmap_level})"
     },
-    "get_pixel",
     {
-      "trigger": "get_rect(area)",
+      "trigger": "get_rect(...)",
       "contents": "get_rect(${1:area})"
     },
     {
       "trigger": "get_used_rect()",
       "contents": "get_used_rect()"
     },
-    "get_used_rect",
     {
-      "trigger": "put_pixel(x, y, color, mipmap_level)",
+      "trigger": "put_pixel(...)",
       "contents": "put_pixel(${1:x}, ${2:y}, ${3:color}, ${4:mipmap_level})"
     },
-    "put_pixel",
     {
-      "trigger": "resized(x, y, interpolation)",
+      "trigger": "resized(...)",
       "contents": "resized(${1:x}, ${2:y}, ${3:interpolation})"
     },
-    "resized",
+    {
+      "trigger": "save_png(...)",
+      "contents": "save_png(${1:path})"
+    },
     "COMPRESS_BC",
     "COMPRESS_PVRTC2",
     "COMPRESS_PVRTC4",

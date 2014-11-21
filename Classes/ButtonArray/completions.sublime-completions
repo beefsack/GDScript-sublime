@@ -1,56 +1,54 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "add_icon_button(icon, text)",
+      "trigger": "add_button(...)",
+      "contents": "add_button(${1:text})"
+    },
+    {
+      "trigger": "add_icon_button(...)",
       "contents": "add_icon_button(${1:icon}, ${2:text})"
     },
-    "add_icon_button",
     {
-      "trigger": "set_button_text(button, text)",
+      "trigger": "set_button_text(...)",
       "contents": "set_button_text(${1:button}, ${2:text})"
     },
-    "set_button_text",
     {
-      "trigger": "set_button_icon(button, icon)",
+      "trigger": "set_button_icon(...)",
       "contents": "set_button_icon(${1:button}, ${2:icon})"
     },
     {
-      "trigger": "get_button_text(button)",
+      "trigger": "get_button_text(...)",
       "contents": "get_button_text(${1:button})"
     },
-    "get_button_text",
     {
-      "trigger": "get_button_icon(button)",
+      "trigger": "get_button_icon(...)",
       "contents": "get_button_icon(${1:button})"
     },
     {
       "trigger": "get_button_count()",
       "contents": "get_button_count()"
     },
-    "get_button_count",
     {
       "trigger": "get_selected()",
       "contents": "get_selected()"
     },
-    "get_selected",
     {
       "trigger": "get_hovered()",
       "contents": "get_hovered()"
     },
-    "get_hovered",
     {
-      "trigger": "set_selected(button)",
+      "trigger": "set_selected(...)",
       "contents": "set_selected(${1:button})"
     },
-    "set_selected",
     {
-      "trigger": "erase_button(button)",
+      "trigger": "erase_button(...)",
       "contents": "erase_button(${1:button})"
     },
-    "erase_button",
     "ALIGN_BEGIN",
+    "ALIGN_CENTER",
     "ALIGN_END",
+    "ALIGN_FILL",
     "ALIGN_EXPAND_FILL"
   ]
 }

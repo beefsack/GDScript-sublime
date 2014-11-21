@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_axis(axis)",
+      "trigger": "set_axis(...)",
       "contents": "set_axis(${1:axis})"
     },
     {
@@ -10,28 +10,8 @@
       "contents": "get_axis()"
     },
     {
-      "trigger": "set_size(size)",
+      "trigger": "set_size(...)",
       "contents": "set_size(${1:size})"
-    },
-    {
-      "trigger": "get_size()",
-      "contents": "get_size()"
-    },
-    {
-      "trigger": "set_centered(centered)",
-      "contents": "set_centered(${1:centered})"
-    },
-    {
-      "trigger": "is_centered()",
-      "contents": "is_centered()"
-    },
-    {
-      "trigger": "set_offset(offset)",
-      "contents": "set_offset(${1:offset})"
-    },
-    {
-      "trigger": "get_offset()",
-      "contents": "get_offset()"
     }
   ]
 }

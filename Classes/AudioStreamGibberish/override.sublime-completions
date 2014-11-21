@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_phonemes",
+    "get_phonemes",
+    "set_pitch_scale",
+    "get_pitch_scale",
+    "set_pitch_random_scale",
+    "get_pitch_random_scale",
+    "set_xfade_time",
+    "get_xfade_time"
+  ]
+}

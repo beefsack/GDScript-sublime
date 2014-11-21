@@ -1,50 +1,41 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "get_ok()",
       "contents": "get_ok()"
     },
-    "get_ok",
     {
       "trigger": "get_label()",
       "contents": "get_label()"
     },
-    "get_label",
     {
-      "trigger": "set_hide_on_ok(enabled)",
+      "trigger": "set_hide_on_ok(...)",
       "contents": "set_hide_on_ok(${1:enabled})"
     },
-    "set_hide_on_ok",
     {
       "trigger": "get_hide_on_ok()",
       "contents": "get_hide_on_ok()"
     },
-    "get_hide_on_ok",
     {
-      "trigger": "add_button(text)",
-      "contents": "add_button(${1:text})"
+      "trigger": "add_button(...)",
+      "contents": "add_button(${1:text}, ${2:right}, ${3:action})"
     },
-    "add_button",
     {
-      "trigger": "add_cancel(name)",
+      "trigger": "add_cancel(...)",
       "contents": "add_cancel(${1:name})"
     },
-    "add_cancel",
     {
-      "trigger": "register_text_enter(line_edit)",
+      "trigger": "register_text_enter(...)",
       "contents": "register_text_enter(${1:line_edit})"
     },
-    "register_text_enter",
     {
-      "trigger": "set_text(text)",
+      "trigger": "set_text(...)",
       "contents": "set_text(${1:text})"
     },
-    "set_text",
     {
       "trigger": "get_text()",
       "contents": "get_text()"
-    },
-    "get_text"
+    }
   ]
 }

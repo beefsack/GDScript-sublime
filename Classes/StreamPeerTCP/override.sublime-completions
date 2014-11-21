@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "connect",
+    "is_connected",
+    "get_status",
+    "get_connected_host",
+    "get_connected_port",
+    "disconnect"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_ok",
+    "get_label",
+    "set_hide_on_ok",
+    "get_hide_on_ok",
+    "add_button",
+    "add_cancel",
+    "register_text_enter",
+    "set_text",
+    "get_text"
+  ]
+}

@@ -1,55 +1,45 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "create_item(id)",
+      "trigger": "create_item(...)",
       "contents": "create_item(${1:id})"
     },
-    "create_item",
     {
-      "trigger": "set_item_name(id, name)",
+      "trigger": "set_item_name(...)",
       "contents": "set_item_name(${1:id}, ${2:name})"
     },
-    "set_item_name",
     {
-      "trigger": "set_item_mesh(id, mesh)",
+      "trigger": "set_item_mesh(...)",
       "contents": "set_item_mesh(${1:id}, ${2:mesh})"
     },
-    "set_item_mesh",
     {
-      "trigger": "set_item_shape(id, shape)",
+      "trigger": "set_item_shape(...)",
       "contents": "set_item_shape(${1:id}, ${2:shape})"
     },
-    "set_item_shape",
     {
-      "trigger": "get_item_name(id)",
+      "trigger": "get_item_name(...)",
       "contents": "get_item_name(${1:id})"
     },
-    "get_item_name",
     {
-      "trigger": "get_item_mesh(id)",
+      "trigger": "get_item_mesh(...)",
       "contents": "get_item_mesh(${1:id})"
     },
-    "get_item_mesh",
     {
-      "trigger": "get_item_shape(id)",
+      "trigger": "get_item_shape(...)",
       "contents": "get_item_shape(${1:id})"
     },
-    "get_item_shape",
     {
-      "trigger": "remove_item(id)",
+      "trigger": "remove_item(...)",
       "contents": "remove_item(${1:id})"
     },
-    "remove_item",
     {
       "trigger": "get_item_list()",
       "contents": "get_item_list()"
     },
-    "get_item_list",
     {
       "trigger": "get_last_unused_item_id()",
       "contents": "get_last_unused_item_id()"
-    },
-    "get_last_unused_item_id"
+    }
   ]
 }

@@ -1,13 +1,9 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_length(length)",
+      "trigger": "set_length(...)",
       "contents": "set_length(${1:length})"
-    },
-    {
-      "trigger": "get_length()",
-      "contents": "get_length()"
     }
   ]
 }

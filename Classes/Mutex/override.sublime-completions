@@ -1,0 +1,8 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "lock",
+    "try_lock",
+    "unlock"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_material_override",
+    "get_material_override",
+    "set_flag",
+    "get_flag",
+    "set_draw_range_begin",
+    "get_draw_range_begin",
+    "set_draw_range_end",
+    "get_draw_range_end",
+    "set_baked_light_texture_id",
+    "get_baked_light_texture_id"
+  ]
+}

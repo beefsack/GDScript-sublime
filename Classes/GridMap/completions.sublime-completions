@@ -1,136 +1,134 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_bake(enable)",
+      "trigger": "set_bake(...)",
       "contents": "set_bake(${1:enable})"
     },
-    "set_bake",
     {
       "trigger": "is_baking_enabled()",
       "contents": "is_baking_enabled()"
     },
-    "is_baking_enabled",
     {
-      "trigger": "set_octant_size(size)",
+      "trigger": "set_cell_size(...)",
+      "contents": "set_cell_size(${1:size})"
+    },
+    {
+      "trigger": "get_cell_size()",
+      "contents": "get_cell_size()"
+    },
+    {
+      "trigger": "set_octant_size(...)",
       "contents": "set_octant_size(${1:size})"
     },
-    "set_octant_size",
     {
       "trigger": "get_octant_size()",
       "contents": "get_octant_size()"
     },
-    "get_octant_size",
     {
-      "trigger": "set_cell_item(x, y, z, item, orientation)",
+      "trigger": "set_cell_item(...)",
       "contents": "set_cell_item(${1:x}, ${2:y}, ${3:z}, ${4:item}, ${5:orientation})"
     },
-    "set_cell_item",
     {
-      "trigger": "get_cell_item(x, y, z)",
+      "trigger": "get_cell_item(...)",
       "contents": "get_cell_item(${1:x}, ${2:y}, ${3:z})"
     },
-    "get_cell_item",
     {
-      "trigger": "get_cell_item_orientation(x, y, z)",
+      "trigger": "get_cell_item_orientation(...)",
       "contents": "get_cell_item_orientation(${1:x}, ${2:y}, ${3:z})"
     },
-    "get_cell_item_orientation",
     {
-      "trigger": "resource_changed(arg0)",
+      "trigger": "resource_changed(...)",
       "contents": "resource_changed(${1:arg0})"
     },
-    "resource_changed",
     {
-      "trigger": "set_center_z(enable)",
+      "trigger": "set_center_x(...)",
+      "contents": "set_center_x(${1:enable})"
+    },
+    {
+      "trigger": "get_center_x()",
+      "contents": "get_center_x()"
+    },
+    {
+      "trigger": "set_center_y(...)",
+      "contents": "set_center_y(${1:enable})"
+    },
+    {
+      "trigger": "get_center_y()",
+      "contents": "get_center_y()"
+    },
+    {
+      "trigger": "set_center_z(...)",
       "contents": "set_center_z(${1:enable})"
     },
-    "set_center_z",
     {
       "trigger": "get_center_z()",
       "contents": "get_center_z()"
     },
-    "get_center_z",
     {
-      "trigger": "set_clip(enabled, clipabove, floor, axis)",
+      "trigger": "set_clip(...)",
       "contents": "set_clip(${1:enabled}, ${2:clipabove}, ${3:floor}, ${4:axis})"
     },
-    "set_clip",
     {
-      "trigger": "crate_area(id, area)",
-      "contents": "crate_area(${1:id}, ${2:area})"
+      "trigger": "create_area(...)",
+      "contents": "create_area(${1:id}, ${2:area})"
     },
-    "crate_area",
     {
-      "trigger": "area_get_bounds(area)",
+      "trigger": "area_get_bounds(...)",
       "contents": "area_get_bounds(${1:area})"
     },
-    "area_get_bounds",
     {
-      "trigger": "area_set_exterior_portal(area, enable)",
+      "trigger": "area_set_exterior_portal(...)",
       "contents": "area_set_exterior_portal(${1:area}, ${2:enable})"
     },
-    "area_set_exterior_portal",
     {
-      "trigger": "area_set_name(area, name)",
+      "trigger": "area_set_name(...)",
       "contents": "area_set_name(${1:area}, ${2:name})"
     },
-    "area_set_name",
     {
-      "trigger": "area_get_name(area)",
+      "trigger": "area_get_name(...)",
       "contents": "area_get_name(${1:area})"
     },
-    "area_get_name",
     {
-      "trigger": "area_is_exterior_portal(area)",
+      "trigger": "area_is_exterior_portal(...)",
       "contents": "area_is_exterior_portal(${1:area})"
     },
-    "area_is_exterior_portal",
     {
-      "trigger": "area_set_portal_disable_distance(area, distance)",
+      "trigger": "area_set_portal_disable_distance(...)",
       "contents": "area_set_portal_disable_distance(${1:area}, ${2:distance})"
     },
-    "area_set_portal_disable_distance",
     {
-      "trigger": "area_get_portal_disable_distance(area)",
+      "trigger": "area_get_portal_disable_distance(...)",
       "contents": "area_get_portal_disable_distance(${1:area})"
     },
-    "area_get_portal_disable_distance",
     {
-      "trigger": "area_set_portal_disable_color(area, color)",
+      "trigger": "area_set_portal_disable_color(...)",
       "contents": "area_set_portal_disable_color(${1:area}, ${2:color})"
     },
-    "area_set_portal_disable_color",
     {
-      "trigger": "area_get_portal_disable_color(area)",
+      "trigger": "area_get_portal_disable_color(...)",
       "contents": "area_get_portal_disable_color(${1:area})"
     },
-    "area_get_portal_disable_color",
     {
-      "trigger": "erase_area(area)",
+      "trigger": "erase_area(...)",
       "contents": "erase_area(${1:area})"
     },
-    "erase_area",
     {
       "trigger": "get_unused_area_id()",
       "contents": "get_unused_area_id()"
     },
-    "get_unused_area_id",
     {
       "trigger": "bake_geometry()",
       "contents": "bake_geometry()"
     },
-    "bake_geometry",
     {
-      "trigger": "set_use_baked_light(use)",
+      "trigger": "set_use_baked_light(...)",
       "contents": "set_use_baked_light(${1:use})"
     },
-    "set_use_baked_light",
     {
       "trigger": "is_using_baked_light()",
       "contents": "is_using_baked_light()"
     },
-    "is_using_baked_light",
     "INVALID_CELL_ITEM"
   ]
 }

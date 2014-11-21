@@ -1,87 +1,72 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "open(path)",
+      "trigger": "open(...)",
       "contents": "open(${1:path})"
     },
-    "open",
     {
       "trigger": "list_dir_begin()",
       "contents": "list_dir_begin()"
     },
-    "list_dir_begin",
     {
       "trigger": "get_next()",
       "contents": "get_next()"
     },
-    "get_next",
     {
       "trigger": "current_is_dir()",
       "contents": "current_is_dir()"
     },
-    "current_is_dir",
     {
       "trigger": "list_dir_end()",
       "contents": "list_dir_end()"
     },
-    "list_dir_end",
     {
       "trigger": "get_drive_count()",
       "contents": "get_drive_count()"
     },
-    "get_drive_count",
     {
-      "trigger": "get_drive(idx)",
+      "trigger": "get_drive(...)",
       "contents": "get_drive(${1:idx})"
     },
-    "get_drive",
     {
-      "trigger": "change_dir(todir)",
+      "trigger": "change_dir(...)",
       "contents": "change_dir(${1:todir})"
     },
-    "change_dir",
     {
       "trigger": "get_current_dir()",
       "contents": "get_current_dir()"
     },
-    "get_current_dir",
     {
-      "trigger": "make_dir(name)",
+      "trigger": "make_dir(...)",
       "contents": "make_dir(${1:name})"
     },
-    "make_dir",
     {
-      "trigger": "make_dir_recursive(name)",
+      "trigger": "make_dir_recursive(...)",
       "contents": "make_dir_recursive(${1:name})"
     },
-    "make_dir_recursive",
     {
-      "trigger": "file_exists(name)",
+      "trigger": "file_exists(...)",
       "contents": "file_exists(${1:name})"
     },
-    "file_exists",
     {
-      "trigger": "dir_exists(name)",
+      "trigger": "dir_exists(...)",
       "contents": "dir_exists(${1:name})"
     },
-    "dir_exists",
     {
       "trigger": "get_space_left()",
       "contents": "get_space_left()"
     },
-    "get_space_left",
     {
-      "trigger": "copy(from, to)",
+      "trigger": "copy(...)",
       "contents": "copy(${1:from}, ${2:to})"
     },
     {
-      "trigger": "rename(from, to)",
+      "trigger": "rename(...)",
       "contents": "rename(${1:from}, ${2:to})"
     },
-    "rename",
     {
-      "trigger": "remove(file)",
+      "trigger": "remove(...)",
       "contents": "remove(${1:file})"
     }
   ]

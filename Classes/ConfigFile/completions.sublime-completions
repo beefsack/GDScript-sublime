@@ -1,38 +1,32 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_value(section, key, value)",
+      "trigger": "set_value(...)",
       "contents": "set_value(${1:section}, ${2:key}, ${3:value})"
     },
-    "set_value",
     {
-      "trigger": "get_value(section, key)",
+      "trigger": "get_value(...)",
       "contents": "get_value(${1:section}, ${2:key})"
     },
-    "get_value",
     {
-      "trigger": "has_section(section)",
+      "trigger": "has_section(...)",
       "contents": "has_section(${1:section})"
     },
-    "has_section",
     {
-      "trigger": "has_section_key(section, key)",
+      "trigger": "has_section_key(...)",
       "contents": "has_section_key(${1:section}, ${2:key})"
     },
-    "has_section_key",
     {
       "trigger": "get_sections()",
       "contents": "get_sections()"
     },
-    "get_sections",
     {
-      "trigger": "get_section_keys(arg0)",
+      "trigger": "get_section_keys(...)",
       "contents": "get_section_keys(${1:arg0})"
     },
-    "get_section_keys",
     {
-      "trigger": "save(path)",
+      "trigger": "save(...)",
       "contents": "save(${1:path})"
     }
   ]

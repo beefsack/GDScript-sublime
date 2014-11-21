@@ -1,25 +1,21 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "has(value)",
+      "trigger": "has(...)",
       "contents": "has(${1:value})"
     },
-    "has",
     {
       "trigger": "keys()",
       "contents": "keys()"
     },
-    "keys",
     {
-      "trigger": "parse_json(json)",
+      "trigger": "parse_json(...)",
       "contents": "parse_json(${1:json})"
     },
-    "parse_json",
     {
       "trigger": "to_json()",
       "contents": "to_json()"
-    },
-    "to_json"
+    }
   ]
 }

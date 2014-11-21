@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_resource",
+    "poll",
+    "wait",
+    "get_stage",
+    "get_stage_count"
+  ]
+}

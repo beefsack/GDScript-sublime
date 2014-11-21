@@ -1,0 +1,31 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_total_gravity",
+    "get_total_density",
+    "get_inverse_mass",
+    "get_inverse_inertia",
+    "set_linear_velocity",
+    "get_linear_velocity",
+    "set_angular_velocity",
+    "get_angular_velocity",
+    "set_transform",
+    "get_transform",
+    "set_sleep_state",
+    "is_sleeping",
+    "get_contact_count",
+    "get_contact_local_pos",
+    "get_contact_local_normal",
+    "get_contact_local_shape",
+    "get_contact_collider",
+    "get_contact_collider_pos",
+    "get_contact_collider_id",
+    "get_contact_collider_object",
+    "get_contact_collider_shape",
+    "get_contact_collider_shape_metadata",
+    "get_contact_collider_velocity_at_pos",
+    "get_step",
+    "integrate_forces",
+    "get_space_state"
+  ]
+}

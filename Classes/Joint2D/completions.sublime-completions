@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_bias(bias)",
+      "trigger": "set_bias(...)",
       "contents": "set_bias(${1:bias})"
     },
-    "set_bias",
     {
       "trigger": "get_bias()",
       "contents": "get_bias()"
-    },
-    "get_bias"
+    }
   ]
 }

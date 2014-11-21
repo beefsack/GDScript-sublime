@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "center",
+    "distance_to",
+    "get_any_point",
+    "has_point",
+    "intersect_3",
+    "intersects_ray",
+    "intersects_segment",
+    "is_point_over",
+    "normalized",
+    "project"
+  ]
+}

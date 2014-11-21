@@ -1,73 +1,9 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_stream(stream)",
-      "contents": "set_stream(${1:stream})"
-    },
-    {
-      "trigger": "get_stream()",
-      "contents": "get_stream()"
-    },
-    {
-      "trigger": "play()",
-      "contents": "play()"
-    },
-    {
-      "trigger": "stop()",
-      "contents": "stop()"
-    },
-    {
-      "trigger": "is_playing()",
-      "contents": "is_playing()"
-    },
-    {
-      "trigger": "set_paused(paused)",
-      "contents": "set_paused(${1:paused})"
-    },
-    {
-      "trigger": "is_paused()",
-      "contents": "is_paused()"
-    },
-    {
-      "trigger": "set_volume(volume)",
-      "contents": "set_volume(${1:volume})"
-    },
-    {
-      "trigger": "get_volume()",
-      "contents": "get_volume()"
-    },
-    {
-      "trigger": "set_volume_db(db)",
-      "contents": "set_volume_db(${1:db})"
-    },
-    {
-      "trigger": "get_volume_db()",
-      "contents": "get_volume_db()"
-    },
-    {
-      "trigger": "get_stream_name()",
-      "contents": "get_stream_name()"
-    },
-    {
-      "trigger": "get_pos()",
-      "contents": "get_pos()"
-    },
-    {
-      "trigger": "set_autoplay(enabled)",
-      "contents": "set_autoplay(${1:enabled})"
-    },
-    {
-      "trigger": "has_autoplay()",
-      "contents": "has_autoplay()"
-    },
-    {
-      "trigger": "set_expand(enable)",
-      "contents": "set_expand(${1:enable})"
-    },
-    {
-      "trigger": "has_expand()",
-      "contents": "has_expand()"
+      "trigger": "get_stream_pos()",
+      "contents": "get_stream_pos()"
     }
   ]
 }

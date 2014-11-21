@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_group_name",
+    "broadcast",
+    "set_dispatch_mode",
+    "set_grid_radius",
+    "get_grid_radius"
+  ]
+}

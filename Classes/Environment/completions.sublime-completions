@@ -1,46 +1,38 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_background(bgmode)",
+      "trigger": "set_background(...)",
       "contents": "set_background(${1:bgmode})"
     },
-    "set_background",
     {
       "trigger": "get_background()",
       "contents": "get_background()"
     },
-    "get_background",
     {
-      "trigger": "set_background_param(param, value)",
+      "trigger": "set_background_param(...)",
       "contents": "set_background_param(${1:param}, ${2:value})"
     },
-    "set_background_param",
     {
-      "trigger": "get_background_param(param)",
+      "trigger": "get_background_param(...)",
       "contents": "get_background_param(${1:param})"
     },
-    "get_background_param",
     {
-      "trigger": "set_enable_fx(effect, enabled)",
+      "trigger": "set_enable_fx(...)",
       "contents": "set_enable_fx(${1:effect}, ${2:enabled})"
     },
-    "set_enable_fx",
     {
-      "trigger": "is_fx_enabled(effect)",
+      "trigger": "is_fx_enabled(...)",
       "contents": "is_fx_enabled(${1:effect})"
     },
-    "is_fx_enabled",
     {
-      "trigger": "fx_set_param(param, value)",
+      "trigger": "fx_set_param(...)",
       "contents": "fx_set_param(${1:param}, ${2:value})"
     },
-    "fx_set_param",
     {
-      "trigger": "fx_get_param(param)",
+      "trigger": "fx_get_param(...)",
       "contents": "fx_get_param(${1:param})"
     },
-    "fx_get_param",
     "BG_KEEP",
     "BG_DEFAULT_COLOR",
     "BG_COLOR",

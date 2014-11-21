@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "listen(...)",
+      "contents": "listen(${1:port}, ${2:recv_buf_size})"
+    },
+    {
+      "trigger": "is_listening()",
+      "contents": "is_listening()"
+    },
+    {
+      "trigger": "get_packet_ip()",
+      "contents": "get_packet_ip()"
+    },
+    {
+      "trigger": "get_packet_address()",
+      "contents": "get_packet_address()"
+    },
+    {
+      "trigger": "get_packet_port()",
+      "contents": "get_packet_port()"
+    },
+    {
+      "trigger": "set_send_address(...)",
+      "contents": "set_send_address(${1:host}, ${2:port})"
+    }
+  ]
+}

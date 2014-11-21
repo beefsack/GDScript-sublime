@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_normal",
+    "get_normal",
+    "set_d",
+    "get_d"
+  ]
+}

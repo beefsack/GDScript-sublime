@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "begin",
+    "add_vertex",
+    "add_color",
+    "add_normal",
+    "add_tangent",
+    "add_uv",
+    "add_uv2",
+    "add_bones",
+    "add_weights",
+    "add_smooth_group",
+    "set_material",
+    "index",
+    "deindex",
+    "generate_normals",
+    "commit",
+    "clear"
+  ]
+}

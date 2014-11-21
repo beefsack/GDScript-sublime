@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_background",
+    "get_background",
+    "set_background_param",
+    "get_background_param",
+    "set_enable_fx",
+    "is_fx_enabled",
+    "fx_set_param",
+    "fx_get_param"
+  ]
+}

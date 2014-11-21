@@ -1,23 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_color(color)",
-      "contents": "set_color(${1:color})"
-    },
-    {
-      "trigger": "get_color()",
-      "contents": "get_color()"
-    },
-    {
-      "trigger": "set_edit_alpha(show)",
+      "trigger": "set_edit_alpha(...)",
       "contents": "set_edit_alpha(${1:show})"
     },
-    "set_edit_alpha",
     {
       "trigger": "is_editing_alpha()",
       "contents": "is_editing_alpha()"
-    },
-    "is_editing_alpha"
+    }
   ]
 }

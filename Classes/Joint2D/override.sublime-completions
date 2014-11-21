@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_node_a",
+    "get_node_a",
+    "set_node_b",
+    "get_node_b",
+    "set_bias",
+    "get_bias"
+  ]
+}

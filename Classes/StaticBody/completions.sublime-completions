@@ -1,25 +1,21 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_constant_linear_velocity(vel)",
+      "trigger": "set_constant_linear_velocity(...)",
       "contents": "set_constant_linear_velocity(${1:vel})"
     },
-    "set_constant_linear_velocity",
     {
-      "trigger": "set_constant_angular_velocity(vel)",
+      "trigger": "set_constant_angular_velocity(...)",
       "contents": "set_constant_angular_velocity(${1:vel})"
     },
-    "set_constant_angular_velocity",
     {
       "trigger": "get_constant_linear_velocity()",
       "contents": "get_constant_linear_velocity()"
     },
-    "get_constant_linear_velocity",
     {
       "trigger": "get_constant_angular_velocity()",
       "contents": "get_constant_angular_velocity()"
-    },
-    "get_constant_angular_velocity"
+    }
   ]
 }

@@ -1,31 +1,26 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_code(vcode, fcode, lcode, fofs, lofs)",
+      "trigger": "set_code(...)",
       "contents": "set_code(${1:vcode}, ${2:fcode}, ${3:lcode}, ${4:fofs}, ${5:lofs})"
     },
-    "set_code",
     {
       "trigger": "get_vertex_code()",
       "contents": "get_vertex_code()"
     },
-    "get_vertex_code",
     {
       "trigger": "get_fragment_code()",
       "contents": "get_fragment_code()"
     },
-    "get_fragment_code",
     {
       "trigger": "get_light_code()",
       "contents": "get_light_code()"
     },
-    "get_light_code",
     {
-      "trigger": "has_param(name)",
+      "trigger": "has_param(...)",
       "contents": "has_param(${1:name})"
     },
-    "has_param",
     "MODE_MATERIAL",
     "MODE_CANVAS_ITEM",
     "MODE_POST_PROCESS"

@@ -19,6 +19,7 @@ BASE_URL = 'https://github.com/okamstudio/godot/wiki/'
 $client = HTTPClient.new
 $class_names = []
 $caches = []
+$caches2 = []
 $path = File.dirname(__FILE__)
 
 def main(args)
@@ -34,6 +35,8 @@ def main(args)
         when 'all'
           $load_list = true
           $load_class = true
+        when 'update'
+          update_old_datas
         else
           if (arr = cmd.split('=')).size == 2
             case arr[0]
@@ -56,6 +59,7 @@ end
 
 def fetch_class class_name, url
   s_completions = []
+  e_completions = []
   res_s = nil
   begin
     res_s = $client.get(url)
@@ -94,19 +98,20 @@ def fetch_class class_name, url
             end
           end
           key = "#{method_name}(#{args*', '})"
-          unless $caches.include?(key)
-            $caches << key
-            unless method_name[/^_/]
+
+          unless method_name[/^_/]
+            unless $caches.include?(key)
+              $caches << key
               count = 0
               s_completions << {
-                  trigger: method_name + "(#{args*', '})",
+                  trigger: method_name + "(#{args.size == 0 ? '' : '...'})",
                   contents: "#{method_name}(#{args.map{|arg| "${#{count+=1}:#{arg}}"} * ', '})"
               }
             end
           end
           unless $caches.include?(method_name)
-            $caches << method_name
-            s_completions << method_name
+            $caches2 << method_name
+            e_completions << method_name
           end
 
           p "  << Method: #{method_name}(#{args*', '})"
@@ -156,9 +161,16 @@ def fetch_class class_name, url
     class_path = "#{$path}/Classes/#{class_name.sub('@', 'G_')}"
     FileUtils.mkdir(class_path) unless File.exist?(class_path)
     File.open(class_path + "/completions.sublime-completions", 'wb') do |f|
-      f.write JSON.pretty_unparse(scope: "source.gdscript", completions: s_completions)
+      f.write JSON.pretty_unparse(scope: "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript", completions: s_completions)
     end
-  end 
+  end
+  if e_completions.size > 0
+    class_path = "#{$path}/Classes/#{class_name.sub('@', 'G_')}"
+    FileUtils.mkdir(class_path) unless File.exist?(class_path)
+    File.open(class_path + "/override.sublime-completions", 'wb') do |f|
+      f.write JSON.pretty_unparse(scope: "entity.name.function.gdscript", completions: e_completions)
+    end
+  end
 end #end fetch_class
 
 def fetch_list
@@ -175,7 +187,9 @@ def fetch_list
   doc = Nokogiri.parse(response.body)
   FileUtils.mkdir($path+"/Classes") unless File.exist?($path+"/Classes")
 
-  doc.css('.markdown-body > table td a').each do |node|
+  nodes = doc.css('.markdown-body > table td a')
+  total = nodes.size
+  nodes.each_with_index do |node, index|
     class_name = node.content
     p "Start to read #{class_name}..."
     unless class_name[/^@/] || $caches.include?(class_name)
@@ -183,17 +197,57 @@ def fetch_list
       $caches << class_name
     end
     if $load_class
+      p "(#{index}/#{total})"
       sleep(5)
       fetch_class class_name, BASE_URL + node["href"]
     end
   end
 
   j_hash = {
-      scope: "source.gdscript",
+      scope: "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript|entity.other.inherited-class.gdscript",
       completions: $class_names
   }
   File.open($path+"/Classes/Class.sublime-completions", 'wb') do |f|
     f.write JSON.pretty_unparse(j_hash)
+  end
+end
+
+def update_old_datas
+  File.open($path+"/Classes/Class.sublime-completions", 'r+') do |f|
+    obj = JSON.parse(f.read)
+    obj['scope'] = 'entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript|entity.other.inherited-class.gdscript'
+    f.seek(0)
+    f.write JSON.pretty_unparse(obj)
+  end
+  Dir[$path + "/Classes/*"].each do |path|
+    if File.directory?(path) and File.exist?(path+'/completions.sublime-completions')
+      s_com = []
+      e_com = []
+      p "#{path}..."
+      File.open(path+'/completions.sublime-completions', 'r+') do |f|
+        obj = JSON.parse(f.read)
+        obj['scope'] = 'entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript'
+        obj['completions'].each do |t|
+          if t.kind_of?(String)
+            unless $caches2.include?(t)
+              e_com << t
+            end
+          else
+            t['trigger'] = t['trigger'].gsub(/(?<=\()\.+(?=\))/, '...')
+            s_com << t
+          end
+        end
+        obj['completions'] = s_com
+        f.seek(0)
+        f.write JSON.pretty_unparse(obj)
+      end
+
+      if e_com.size > 0
+        File.open(path + "/override.sublime-completions", 'w+') do |f|
+          f.write JSON.pretty_unparse(scope: "entity.name.function.gdscript", completions: e_com)
+        end
+      end
+    end
   end
 end
 

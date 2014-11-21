@@ -1,62 +1,53 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "has(name)",
+      "trigger": "has(...)",
       "contents": "has(${1:name})"
     },
     {
-      "trigger": "set_order(name, pos)",
+      "trigger": "set_order(...)",
       "contents": "set_order(${1:name}, ${2:pos})"
     },
-    "set_order",
     {
-      "trigger": "get_order(name)",
+      "trigger": "get_order(...)",
       "contents": "get_order(${1:name})"
     },
-    "get_order",
     {
-      "trigger": "set_persisting(name, enable)",
+      "trigger": "set_persisting(...)",
       "contents": "set_persisting(${1:name}, ${2:enable})"
     },
-    "set_persisting",
     {
-      "trigger": "is_persisting(name)",
+      "trigger": "is_persisting(...)",
       "contents": "is_persisting(${1:name})"
     },
-    "is_persisting",
     {
-      "trigger": "clear(name)",
+      "trigger": "clear(...)",
       "contents": "clear(${1:name})"
     },
     {
-      "trigger": "localize_path(path)",
+      "trigger": "localize_path(...)",
       "contents": "localize_path(${1:path})"
     },
-    "localize_path",
     {
-      "trigger": "globalize_path(path)",
+      "trigger": "globalize_path(...)",
       "contents": "globalize_path(${1:path})"
     },
-    "globalize_path",
     {
       "trigger": "save()",
       "contents": "save()"
     },
     {
-      "trigger": "has_singleton(arg0)",
+      "trigger": "has_singleton(...)",
       "contents": "has_singleton(${1:arg0})"
     },
-    "has_singleton",
     {
-      "trigger": "get_singleton(arg0)",
+      "trigger": "get_singleton(...)",
       "contents": "get_singleton(${1:arg0})"
     },
-    "get_singleton",
     {
-      "trigger": "load_resource_pack(arg0)",
+      "trigger": "load_resource_pack(...)",
       "contents": "load_resource_pack(${1:arg0})"
-    },
-    "load_resource_pack"
+    }
   ]
 }

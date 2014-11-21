@@ -1,185 +1,145 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "create_from_surface(mesh, surface)",
+      "trigger": "create_from_surface(...)",
       "contents": "create_from_surface(${1:mesh}, ${2:surface})"
     },
-    "create_from_surface",
     {
-      "trigger": "commit_to_surface(mesh)",
+      "trigger": "commit_to_surface(...)",
       "contents": "commit_to_surface(${1:mesh})"
     },
-    "commit_to_surface",
     {
       "trigger": "get_vertex_count()",
       "contents": "get_vertex_count()"
     },
-    "get_vertex_count",
     {
       "trigger": "get_edge_count()",
       "contents": "get_edge_count()"
     },
-    "get_edge_count",
     {
       "trigger": "get_face_count()",
       "contents": "get_face_count()"
     },
-    "get_face_count",
     {
-      "trigger": "set_vertex(idx, vertex)",
+      "trigger": "set_vertex(...)",
       "contents": "set_vertex(${1:idx}, ${2:vertex})"
     },
-    "set_vertex",
     {
-      "trigger": "get_vertex(idx)",
+      "trigger": "get_vertex(...)",
       "contents": "get_vertex(${1:idx})"
     },
-    "get_vertex",
     {
-      "trigger": "set_vertex_normal(idx, normal)",
+      "trigger": "set_vertex_normal(...)",
       "contents": "set_vertex_normal(${1:idx}, ${2:normal})"
     },
-    "set_vertex_normal",
     {
-      "trigger": "get_vertex_normal(idx)",
+      "trigger": "get_vertex_normal(...)",
       "contents": "get_vertex_normal(${1:idx})"
     },
-    "get_vertex_normal",
     {
-      "trigger": "set_vertex_tangent(idx, tangent)",
+      "trigger": "set_vertex_tangent(...)",
       "contents": "set_vertex_tangent(${1:idx}, ${2:tangent})"
     },
-    "set_vertex_tangent",
     {
-      "trigger": "get_vertex_tangent(idx)",
+      "trigger": "get_vertex_tangent(...)",
       "contents": "get_vertex_tangent(${1:idx})"
     },
-    "get_vertex_tangent",
     {
-      "trigger": "set_vertex_uv(idx, uv)",
+      "trigger": "set_vertex_uv(...)",
       "contents": "set_vertex_uv(${1:idx}, ${2:uv})"
     },
-    "set_vertex_uv",
     {
-      "trigger": "get_vertex_uv(idx)",
+      "trigger": "get_vertex_uv(...)",
       "contents": "get_vertex_uv(${1:idx})"
     },
-    "get_vertex_uv",
     {
-      "trigger": "set_vertex_uv2(idx, uv2)",
+      "trigger": "set_vertex_uv2(...)",
       "contents": "set_vertex_uv2(${1:idx}, ${2:uv2})"
     },
-    "set_vertex_uv2",
     {
-      "trigger": "get_vertex_uv2(idx)",
+      "trigger": "get_vertex_uv2(...)",
       "contents": "get_vertex_uv2(${1:idx})"
     },
-    "get_vertex_uv2",
     {
-      "trigger": "set_vertex_color(idx, color)",
+      "trigger": "set_vertex_color(...)",
       "contents": "set_vertex_color(${1:idx}, ${2:color})"
     },
-    "set_vertex_color",
     {
-      "trigger": "get_vertex_color(idx)",
+      "trigger": "get_vertex_color(...)",
       "contents": "get_vertex_color(${1:idx})"
     },
-    "get_vertex_color",
     {
-      "trigger": "set_vertex_bones(idx, bones)",
+      "trigger": "set_vertex_bones(...)",
       "contents": "set_vertex_bones(${1:idx}, ${2:bones})"
     },
-    "set_vertex_bones",
     {
-      "trigger": "get_vertex_bones(idx)",
+      "trigger": "get_vertex_bones(...)",
       "contents": "get_vertex_bones(${1:idx})"
     },
-    "get_vertex_bones",
     {
-      "trigger": "set_vertex_weights(idx, weights)",
+      "trigger": "set_vertex_weights(...)",
       "contents": "set_vertex_weights(${1:idx}, ${2:weights})"
     },
-    "set_vertex_weights",
     {
-      "trigger": "get_vertex_weights(idx)",
+      "trigger": "get_vertex_weights(...)",
       "contents": "get_vertex_weights(${1:idx})"
     },
-    "get_vertex_weights",
     {
-      "trigger": "set_vertex_meta(idx, meta)",
+      "trigger": "set_vertex_meta(...)",
       "contents": "set_vertex_meta(${1:idx}, ${2:meta})"
     },
-    "set_vertex_meta",
     {
-      "trigger": "get_vertex_meta(idx)",
+      "trigger": "get_vertex_meta(...)",
       "contents": "get_vertex_meta(${1:idx})"
     },
-    "get_vertex_meta",
     {
-      "trigger": "get_vertex_edges(idx)",
+      "trigger": "get_vertex_edges(...)",
       "contents": "get_vertex_edges(${1:idx})"
     },
-    "get_vertex_edges",
     {
-      "trigger": "get_vertex_faces(idx)",
+      "trigger": "get_vertex_faces(...)",
       "contents": "get_vertex_faces(${1:idx})"
     },
-    "get_vertex_faces",
     {
-      "trigger": "get_edge_vertex(idx, vertex)",
+      "trigger": "get_edge_vertex(...)",
       "contents": "get_edge_vertex(${1:idx}, ${2:vertex})"
     },
-    "get_edge_vertex",
     {
-      "trigger": "get_edge_faces(idx)",
+      "trigger": "get_edge_faces(...)",
       "contents": "get_edge_faces(${1:idx})"
     },
-    "get_edge_faces",
     {
-      "trigger": "set_edge_meta(idx, meta)",
+      "trigger": "set_edge_meta(...)",
       "contents": "set_edge_meta(${1:idx}, ${2:meta})"
     },
-    "set_edge_meta",
     {
-      "trigger": "get_edge_meta(idx)",
+      "trigger": "get_edge_meta(...)",
       "contents": "get_edge_meta(${1:idx})"
     },
-    "get_edge_meta",
     {
-      "trigger": "get_face_vertex(idx, vertex)",
+      "trigger": "get_face_vertex(...)",
       "contents": "get_face_vertex(${1:idx}, ${2:vertex})"
     },
-    "get_face_vertex",
     {
-      "trigger": "get_face_edge(idx, edge)",
+      "trigger": "get_face_edge(...)",
       "contents": "get_face_edge(${1:idx}, ${2:edge})"
     },
-    "get_face_edge",
     {
-      "trigger": "set_face_meta(idx, meta)",
+      "trigger": "set_face_meta(...)",
       "contents": "set_face_meta(${1:idx}, ${2:meta})"
     },
-    "set_face_meta",
     {
-      "trigger": "get_face_meta(idx)",
+      "trigger": "get_face_meta(...)",
       "contents": "get_face_meta(${1:idx})"
     },
-    "get_face_meta",
     {
-      "trigger": "get_face_normal(idx)",
+      "trigger": "get_face_normal(...)",
       "contents": "get_face_normal(${1:idx})"
     },
-    "get_face_normal",
-    {
-      "trigger": "set_material(material)",
-      "contents": "set_material(${1:material})"
-    },
-    "set_material",
     {
       "trigger": "get_material()",
       "contents": "get_material()"
-    },
-    "get_material"
+    }
   ]
 }

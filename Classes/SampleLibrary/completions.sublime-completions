@@ -1,45 +1,37 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "add_sample(name, sample)",
+      "trigger": "add_sample(...)",
       "contents": "add_sample(${1:name}, ${2:sample})"
     },
-    "add_sample",
     {
-      "trigger": "get_sample(name)",
+      "trigger": "get_sample(...)",
       "contents": "get_sample(${1:name})"
     },
-    "get_sample",
     {
-      "trigger": "has_sample(name)",
+      "trigger": "has_sample(...)",
       "contents": "has_sample(${1:name})"
     },
-    "has_sample",
     {
-      "trigger": "remove_sample(name)",
+      "trigger": "remove_sample(...)",
       "contents": "remove_sample(${1:name})"
     },
-    "remove_sample",
     {
-      "trigger": "sample_set_volume_db(name, db)",
+      "trigger": "sample_set_volume_db(...)",
       "contents": "sample_set_volume_db(${1:name}, ${2:db})"
     },
-    "sample_set_volume_db",
     {
-      "trigger": "sample_get_volume_db(name)",
+      "trigger": "sample_get_volume_db(...)",
       "contents": "sample_get_volume_db(${1:name})"
     },
-    "sample_get_volume_db",
     {
-      "trigger": "sample_set_pitch_scale(name, pitch)",
+      "trigger": "sample_set_pitch_scale(...)",
       "contents": "sample_set_pitch_scale(${1:name}, ${2:pitch})"
     },
-    "sample_set_pitch_scale",
     {
-      "trigger": "sample_get_pitch_scale(name)",
+      "trigger": "sample_get_pitch_scale(...)",
       "contents": "sample_get_pitch_scale(${1:name})"
-    },
-    "sample_get_pitch_scale"
+    }
   ]
 }

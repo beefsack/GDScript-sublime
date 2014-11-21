@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get",
+    "get_string_from_ascii",
+    "get_string_from_utf8",
+    "push_back",
+    "resize",
+    "set",
+    "size"
+  ]
+}

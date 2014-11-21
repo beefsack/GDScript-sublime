@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_text",
+    "add_image",
+    "newline",
+    "push_font",
+    "push_color",
+    "push_align",
+    "push_indent",
+    "push_list",
+    "push_meta",
+    "push_underline",
+    "pop",
+    "clear",
+    "set_meta_underline",
+    "is_meta_underlined",
+    "set_scroll_active",
+    "is_scroll_active",
+    "set_scroll_follow",
+    "is_scroll_following",
+    "set_tab_size",
+    "get_tab_size",
+    "set_selection_enabled",
+    "is_selection_enabled",
+    "parse_bbcode",
+    "append_bbcode"
+  ]
+}

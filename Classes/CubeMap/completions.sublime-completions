@@ -1,51 +1,42 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "get_width()",
       "contents": "get_width()"
     },
-    "get_width",
     {
-      "trigger": "set_flags(flags)",
+      "trigger": "set_flags(...)",
       "contents": "set_flags(${1:flags})"
     },
-    "set_flags",
     {
       "trigger": "get_flags()",
       "contents": "get_flags()"
     },
-    "get_flags",
     {
-      "trigger": "set_side(side, image)",
+      "trigger": "set_side(...)",
       "contents": "set_side(${1:side}, ${2:image})"
     },
-    "set_side",
     {
-      "trigger": "get_side(side)",
+      "trigger": "get_side(...)",
       "contents": "get_side(${1:side})"
     },
-    "get_side",
     {
-      "trigger": "set_storage(mode)",
+      "trigger": "set_storage(...)",
       "contents": "set_storage(${1:mode})"
     },
-    "set_storage",
     {
       "trigger": "get_storage()",
       "contents": "get_storage()"
     },
-    "get_storage",
     {
-      "trigger": "set_lossy_storage_quality(quality)",
+      "trigger": "set_lossy_storage_quality(...)",
       "contents": "set_lossy_storage_quality(${1:quality})"
     },
-    "set_lossy_storage_quality",
     {
       "trigger": "get_lossy_storage_quality()",
       "contents": "get_lossy_storage_quality()"
     },
-    "get_lossy_storage_quality",
     "STORAGE_RAW",
     "STORAGE_COMPRESS_LOSSY",
     "STORAGE_COMPRESS_LOSSLESS",

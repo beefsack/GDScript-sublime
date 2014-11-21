@@ -1,0 +1,7 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "queue_sort",
+    "fit_child_in_rect"
+  ]
+}

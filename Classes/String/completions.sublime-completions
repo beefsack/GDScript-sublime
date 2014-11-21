@@ -1,233 +1,185 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "basename()",
       "contents": "basename()"
     },
-    "basename",
     {
-      "trigger": "begins_with(text)",
+      "trigger": "begins_with(...)",
       "contents": "begins_with(${1:text})"
     },
-    "begins_with",
     {
       "trigger": "capitalize()",
       "contents": "capitalize()"
     },
-    "capitalize",
     {
-      "trigger": "casecmp_to(to)",
+      "trigger": "casecmp_to(...)",
       "contents": "casecmp_to(${1:to})"
     },
-    "casecmp_to",
     {
       "trigger": "extension()",
       "contents": "extension()"
     },
-    "extension",
     {
-      "trigger": "find(what, from)",
+      "trigger": "find(...)",
       "contents": "find(${1:what}, ${2:from})"
     },
     {
-      "trigger": "find_last(what)",
+      "trigger": "find_last(...)",
       "contents": "find_last(${1:what})"
     },
-    "find_last",
     {
-      "trigger": "findn(what, from)",
+      "trigger": "findn(...)",
       "contents": "findn(${1:what}, ${2:from})"
     },
-    "findn",
     {
       "trigger": "get_base_dir()",
       "contents": "get_base_dir()"
     },
-    "get_base_dir",
     {
       "trigger": "hex_to_int()",
       "contents": "hex_to_int()"
     },
-    "hex_to_int",
     {
-      "trigger": "insert(pos, what)",
+      "trigger": "insert(...)",
       "contents": "insert(${1:pos}, ${2:what})"
     },
     {
       "trigger": "is_abs_path()",
       "contents": "is_abs_path()"
     },
-    "is_abs_path",
     {
       "trigger": "is_rel_path()",
       "contents": "is_rel_path()"
     },
-    "is_rel_path",
     {
       "trigger": "is_valid_float()",
       "contents": "is_valid_float()"
     },
-    "is_valid_float",
     {
       "trigger": "is_valid_html_color()",
       "contents": "is_valid_html_color()"
     },
-    "is_valid_html_color",
     {
       "trigger": "is_valid_identifier()",
       "contents": "is_valid_identifier()"
     },
-    "is_valid_identifier",
     {
       "trigger": "is_valid_integer()",
       "contents": "is_valid_integer()"
     },
-    "is_valid_integer",
     {
       "trigger": "is_valid_ip_address()",
       "contents": "is_valid_ip_address()"
     },
-    "is_valid_ip_address",
     {
-      "trigger": "left(pos)",
+      "trigger": "left(...)",
       "contents": "left(${1:pos})"
     },
-    "left",
     {
-      "trigger": "length()",
-      "contents": "length()"
-    },
-    "length",
-    {
-      "trigger": "match(expr)",
+      "trigger": "match(...)",
       "contents": "match(${1:expr})"
     },
-    "match",
     {
-      "trigger": "matchn(expr)",
+      "trigger": "matchn(...)",
       "contents": "matchn(${1:expr})"
     },
-    "matchn",
     {
       "trigger": "md5_buffer()",
       "contents": "md5_buffer()"
     },
-    "md5_buffer",
     {
       "trigger": "md5_text()",
       "contents": "md5_text()"
     },
-    "md5_text",
     {
-      "trigger": "nocasecmp_to(to)",
+      "trigger": "nocasecmp_to(...)",
       "contents": "nocasecmp_to(${1:to})"
     },
-    "nocasecmp_to",
     {
-      "trigger": "ord_at(at)",
+      "trigger": "ord_at(...)",
       "contents": "ord_at(${1:at})"
     },
-    "ord_at",
     {
-      "trigger": "pad_decimals(digits)",
+      "trigger": "pad_decimals(...)",
       "contents": "pad_decimals(${1:digits})"
     },
-    "pad_decimals",
     {
-      "trigger": "pad_zeros(digits)",
+      "trigger": "pad_zeros(...)",
       "contents": "pad_zeros(${1:digits})"
     },
-    "pad_zeros",
     {
       "trigger": "percent_decode()",
       "contents": "percent_decode()"
     },
-    "percent_decode",
     {
       "trigger": "percent_encode()",
       "contents": "percent_encode()"
     },
-    "percent_encode",
     {
-      "trigger": "plus_file(file)",
+      "trigger": "plus_file(...)",
       "contents": "plus_file(${1:file})"
     },
-    "plus_file",
     {
-      "trigger": "replace(what, forwhat)",
+      "trigger": "replace(...)",
       "contents": "replace(${1:what}, ${2:forwhat})"
     },
-    "replace",
     {
-      "trigger": "replacen(what, forwhat)",
+      "trigger": "replacen(...)",
       "contents": "replacen(${1:what}, ${2:forwhat})"
     },
-    "replacen",
     {
-      "trigger": "rfind(what, from)",
+      "trigger": "rfind(...)",
       "contents": "rfind(${1:what}, ${2:from})"
     },
-    "rfind",
     {
-      "trigger": "rfindn(what, from)",
+      "trigger": "rfindn(...)",
       "contents": "rfindn(${1:what}, ${2:from})"
     },
-    "rfindn",
     {
-      "trigger": "right(pos)",
+      "trigger": "right(...)",
       "contents": "right(${1:pos})"
     },
-    "right",
     {
-      "trigger": "split(divisor, allow_empty)",
+      "trigger": "split(...)",
       "contents": "split(${1:divisor}, ${2:allow_empty})"
     },
-    "split",
     {
-      "trigger": "split_floats(divisor, allow_empty)",
+      "trigger": "split_floats(...)",
       "contents": "split_floats(${1:divisor}, ${2:allow_empty})"
     },
-    "split_floats",
     {
       "trigger": "strip_edges()",
       "contents": "strip_edges()"
     },
-    "strip_edges",
     {
-      "trigger": "substr(from, len)",
+      "trigger": "substr(...)",
       "contents": "substr(${1:from}, ${2:len})"
     },
-    "substr",
     {
       "trigger": "to_float()",
       "contents": "to_float()"
     },
-    "to_float",
     {
       "trigger": "to_int()",
       "contents": "to_int()"
     },
-    "to_int",
     {
       "trigger": "to_lower()",
       "contents": "to_lower()"
     },
-    "to_lower",
     {
       "trigger": "to_upper()",
       "contents": "to_upper()"
     },
-    "to_upper",
     {
       "trigger": "xml_escape()",
       "contents": "xml_escape()"
     },
-    "xml_escape",
     {
       "trigger": "xml_unescape()",
       "contents": "xml_unescape()"
-    },
-    "xml_unescape"
+    }
   ]
 }

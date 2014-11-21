@@ -1,39 +1,37 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "setup(points, connections)",
+      "trigger": "setup(...)",
       "contents": "setup(${1:points}, ${2:connections})"
     },
-    "setup",
     {
-      "trigger": "find_path(from, to)",
+      "trigger": "find_path(...)",
       "contents": "find_path(${1:from}, ${2:to})"
     },
-    "find_path",
     {
-      "trigger": "get_intersections(from, to)",
+      "trigger": "get_intersections(...)",
       "contents": "get_intersections(${1:from}, ${2:to})"
     },
-    "get_intersections",
     {
-      "trigger": "get_closest_point(point)",
+      "trigger": "get_closest_point(...)",
       "contents": "get_closest_point(${1:point})"
     },
     {
-      "trigger": "is_point_inside(point)",
+      "trigger": "is_point_inside(...)",
       "contents": "is_point_inside(${1:point})"
     },
-    "is_point_inside",
     {
-      "trigger": "set_point_penalty(idx, penalty)",
+      "trigger": "set_point_penalty(...)",
       "contents": "set_point_penalty(${1:idx}, ${2:penalty})"
     },
-    "set_point_penalty",
     {
-      "trigger": "get_point_penalty(idx)",
+      "trigger": "get_point_penalty(...)",
       "contents": "get_point_penalty(${1:idx})"
     },
-    "get_point_penalty"
+    {
+      "trigger": "get_bounds()",
+      "contents": "get_bounds()"
+    }
   ]
 }

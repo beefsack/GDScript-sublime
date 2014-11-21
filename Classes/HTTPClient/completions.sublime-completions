@@ -1,80 +1,66 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "connect(host, port, use_ssl, arg3)",
+      "trigger": "connect(...)",
       "contents": "connect(${1:host}, ${2:port}, ${3:use_ssl}, ${4:arg3})"
     },
     {
-      "trigger": "set_connection(connection)",
+      "trigger": "set_connection(...)",
       "contents": "set_connection(${1:connection})"
     },
-    "set_connection",
     {
-      "trigger": "request(method, url, headers, body)",
+      "trigger": "request(...)",
       "contents": "request(${1:method}, ${2:url}, ${3:headers}, ${4:body})"
     },
-    "request",
     {
-      "trigger": "send_body_text(body)",
+      "trigger": "send_body_text(...)",
       "contents": "send_body_text(${1:body})"
     },
-    "send_body_text",
     {
-      "trigger": "send_body_data(body)",
+      "trigger": "send_body_data(...)",
       "contents": "send_body_data(${1:body})"
     },
-    "send_body_data",
     {
       "trigger": "has_response()",
       "contents": "has_response()"
     },
-    "has_response",
     {
       "trigger": "is_response_chunked()",
       "contents": "is_response_chunked()"
     },
-    "is_response_chunked",
     {
       "trigger": "get_response_code()",
       "contents": "get_response_code()"
     },
-    "get_response_code",
     {
       "trigger": "get_response_headers()",
       "contents": "get_response_headers()"
     },
-    "get_response_headers",
     {
       "trigger": "get_response_headers_as_dictionary()",
       "contents": "get_response_headers_as_dictionary()"
     },
-    "get_response_headers_as_dictionary",
     {
       "trigger": "get_response_body_length()",
       "contents": "get_response_body_length()"
     },
-    "get_response_body_length",
     {
       "trigger": "read_response_body_chunk()",
       "contents": "read_response_body_chunk()"
     },
-    "read_response_body_chunk",
     {
-      "trigger": "set_blocking_mode(enabled)",
+      "trigger": "set_blocking_mode(...)",
       "contents": "set_blocking_mode(${1:enabled})"
     },
-    "set_blocking_mode",
     {
       "trigger": "is_blocking_mode_enabled()",
       "contents": "is_blocking_mode_enabled()"
     },
-    "is_blocking_mode_enabled",
     {
-      "trigger": "poll()",
-      "contents": "poll()"
+      "trigger": "get_status()",
+      "contents": "get_status()"
     },
-    "poll",
     "METHOD_GET",
     "METHOD_HEAD",
     "METHOD_POST",
@@ -84,9 +70,12 @@
     "METHOD_TRACE",
     "METHOD_CONNECT",
     "METHOD_MAX",
+    "STATUS_DISCONNECTED",
     "STATUS_RESOLVING",
     "STATUS_CANT_RESOLVE",
+    "STATUS_CONNECTING",
     "STATUS_CANT_CONNECT",
+    "STATUS_CONNECTED",
     "STATUS_REQUESTING",
     "STATUS_BODY",
     "STATUS_CONNECTION_ERROR",

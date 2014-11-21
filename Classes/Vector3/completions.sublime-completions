@@ -1,47 +1,40 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "abs()",
       "contents": "abs()"
     },
     {
-      "trigger": "cross(b)",
+      "trigger": "cross(...)",
       "contents": "cross(${1:b})"
     },
-    "cross",
     {
-      "trigger": "distance_squared_to(b)",
+      "trigger": "distance_squared_to(...)",
       "contents": "distance_squared_to(${1:b})"
     },
     {
-      "trigger": "distance_to(b)",
+      "trigger": "distance_to(...)",
       "contents": "distance_to(${1:b})"
-    },
-    {
-      "trigger": "dot(b)",
-      "contents": "dot(${1:b})"
     },
     {
       "trigger": "max_axis()",
       "contents": "max_axis()"
     },
-    "max_axis",
     {
       "trigger": "min_axis()",
       "contents": "min_axis()"
     },
-    "min_axis",
     {
-      "trigger": "reflect(by)",
+      "trigger": "reflect(...)",
       "contents": "reflect(${1:by})"
     },
     {
-      "trigger": "slide(by)",
+      "trigger": "slide(...)",
       "contents": "slide(${1:by})"
     },
     {
-      "trigger": "Vector3(x, y, z)",
+      "trigger": "Vector3(...)",
       "contents": "Vector3(${1:x}, ${2:y}, ${3:z})"
     },
     "AXIS_X",

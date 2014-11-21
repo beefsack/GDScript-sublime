@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "cubic_slerp",
+    "dot",
+    "inverse",
+    "length",
+    "length_squared",
+    "normalized",
+    "slerp",
+    "slerpni"
+  ]
+}

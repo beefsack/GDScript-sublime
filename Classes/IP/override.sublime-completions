@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "resolve_hostname",
+    "resolve_hostname_queue_item",
+    "get_resolve_item_status",
+    "get_resolve_item_address",
+    "erase_resolve_item",
+    "get_local_addresses"
+  ]
+}

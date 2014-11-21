@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_suffix",
+    "get_suffix",
+    "set_prefix",
+    "get_prefix",
+    "set_editable",
+    "is_editable",
+    "get_line_edit"
+  ]
+}

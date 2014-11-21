@@ -1,60 +1,49 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "has_action(action)",
+      "trigger": "has_action(...)",
       "contents": "has_action(${1:action})"
     },
-    "has_action",
     {
-      "trigger": "get_action_id(action)",
+      "trigger": "get_action_id(...)",
       "contents": "get_action_id(${1:action})"
     },
-    "get_action_id",
     {
-      "trigger": "get_action_from_id(id)",
+      "trigger": "get_action_from_id(...)",
       "contents": "get_action_from_id(${1:id})"
     },
-    "get_action_from_id",
     {
-      "trigger": "add_action(action)",
+      "trigger": "add_action(...)",
       "contents": "add_action(${1:action})"
     },
-    "add_action",
     {
-      "trigger": "erase_action(action)",
+      "trigger": "erase_action(...)",
       "contents": "erase_action(${1:action})"
     },
-    "erase_action",
     {
-      "trigger": "action_add_event(action, event)",
+      "trigger": "action_add_event(...)",
       "contents": "action_add_event(${1:action}, ${2:event})"
     },
-    "action_add_event",
     {
-      "trigger": "action_has_event(action, event)",
+      "trigger": "action_has_event(...)",
       "contents": "action_has_event(${1:action}, ${2:event})"
     },
-    "action_has_event",
     {
-      "trigger": "action_erase_event(action, event)",
+      "trigger": "action_erase_event(...)",
       "contents": "action_erase_event(${1:action}, ${2:event})"
     },
-    "action_erase_event",
     {
-      "trigger": "get_action_list(action)",
+      "trigger": "get_action_list(...)",
       "contents": "get_action_list(${1:action})"
     },
-    "get_action_list",
     {
-      "trigger": "event_is_action(event, action)",
+      "trigger": "event_is_action(...)",
       "contents": "event_is_action(${1:event}, ${2:action})"
     },
-    "event_is_action",
     {
       "trigger": "load_from_globals()",
       "contents": "load_from_globals()"
-    },
-    "load_from_globals"
+    }
   ]
 }

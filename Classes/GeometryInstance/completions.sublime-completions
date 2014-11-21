@@ -1,50 +1,47 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_material_override(material)",
+      "trigger": "set_material_override(...)",
       "contents": "set_material_override(${1:material})"
     },
-    "set_material_override",
     {
       "trigger": "get_material_override()",
       "contents": "get_material_override()"
     },
-    "get_material_override",
     {
-      "trigger": "set_flag(flag, value)",
+      "trigger": "set_flag(...)",
       "contents": "set_flag(${1:flag}, ${2:value})"
     },
     {
-      "trigger": "set_draw_range_begin(mode)",
+      "trigger": "get_flag(...)",
+      "contents": "get_flag(${1:flag})"
+    },
+    {
+      "trigger": "set_draw_range_begin(...)",
       "contents": "set_draw_range_begin(${1:mode})"
     },
-    "set_draw_range_begin",
     {
       "trigger": "get_draw_range_begin()",
       "contents": "get_draw_range_begin()"
     },
-    "get_draw_range_begin",
     {
-      "trigger": "set_draw_range_end(mode)",
+      "trigger": "set_draw_range_end(...)",
       "contents": "set_draw_range_end(${1:mode})"
     },
-    "set_draw_range_end",
     {
       "trigger": "get_draw_range_end()",
       "contents": "get_draw_range_end()"
     },
-    "get_draw_range_end",
     {
-      "trigger": "set_baked_light_texture_id(id)",
+      "trigger": "set_baked_light_texture_id(...)",
       "contents": "set_baked_light_texture_id(${1:id})"
     },
-    "set_baked_light_texture_id",
     {
       "trigger": "get_baked_light_texture_id()",
       "contents": "get_baked_light_texture_id()"
     },
-    "get_baked_light_texture_id",
+    "FLAG_VISIBLE",
     "FLAG_CAST_SHADOW",
     "FLAG_RECEIVE_SHADOWS",
     "FLAG_BILLBOARD",

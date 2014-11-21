@@ -1,25 +1,21 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_ticks(count)",
+      "trigger": "set_ticks(...)",
       "contents": "set_ticks(${1:count})"
     },
-    "set_ticks",
     {
       "trigger": "get_ticks()",
       "contents": "get_ticks()"
     },
-    "get_ticks",
     {
       "trigger": "get_ticks_on_borders()",
       "contents": "get_ticks_on_borders()"
     },
-    "get_ticks_on_borders",
     {
-      "trigger": "set_ticks_on_borders(ticks_on_border)",
+      "trigger": "set_ticks_on_borders(...)",
       "contents": "set_ticks_on_borders(${1:ticks_on_border})"
-    },
-    "set_ticks_on_borders"
+    }
   ]
 }

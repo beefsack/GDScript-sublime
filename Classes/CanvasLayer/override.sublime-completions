@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_layer",
+    "get_layer",
+    "set_transform",
+    "get_transform",
+    "set_offset",
+    "get_offset",
+    "set_rotation",
+    "get_rotation",
+    "set_scale",
+    "get_scale",
+    "get_world_2d",
+    "get_viewport"
+  ]
+}

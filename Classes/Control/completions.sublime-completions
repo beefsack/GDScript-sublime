@@ -1,308 +1,266 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "can_drop_data(pos, data)",
+      "trigger": "can_drop_data(...)",
       "contents": "can_drop_data(${1:pos}, ${2:data})"
     },
-    "can_drop_data",
     {
-      "trigger": "drop_data(pos, data)",
+      "trigger": "drop_data(...)",
       "contents": "drop_data(${1:pos}, ${2:data})"
     },
-    "drop_data",
     {
-      "trigger": "get_drag_data(pos)",
+      "trigger": "get_drag_data(...)",
       "contents": "get_drag_data(${1:pos})"
     },
-    "get_drag_data",
+    {
+      "trigger": "get_minimum_size()",
+      "contents": "get_minimum_size()"
+    },
     {
       "trigger": "accept_event()",
       "contents": "accept_event()"
     },
-    "accept_event",
     {
       "trigger": "get_combined_minimum_size()",
       "contents": "get_combined_minimum_size()"
     },
-    "get_combined_minimum_size",
     {
       "trigger": "is_window()",
       "contents": "is_window()"
     },
-    "is_window",
     {
       "trigger": "get_window()",
       "contents": "get_window()"
     },
-    "get_window",
     {
-      "trigger": "set_anchor(margin, anchor_mode)",
+      "trigger": "set_anchor(...)",
       "contents": "set_anchor(${1:margin}, ${2:anchor_mode})"
     },
-    "set_anchor",
     {
-      "trigger": "get_anchor(margin)",
+      "trigger": "get_anchor(...)",
       "contents": "get_anchor(${1:margin})"
     },
-    "get_anchor",
     {
-      "trigger": "set_margin(margin, offset)",
+      "trigger": "set_margin(...)",
       "contents": "set_margin(${1:margin}, ${2:offset})"
     },
     {
-      "trigger": "set_anchor_and_margin(margin, anchor_mode, offset)",
+      "trigger": "set_anchor_and_margin(...)",
       "contents": "set_anchor_and_margin(${1:margin}, ${2:anchor_mode}, ${3:offset})"
     },
-    "set_anchor_and_margin",
     {
-      "trigger": "set_begin(pos)",
+      "trigger": "set_begin(...)",
       "contents": "set_begin(${1:pos})"
     },
-    "set_begin",
     {
-      "trigger": "set_end(pos)",
+      "trigger": "set_end(...)",
       "contents": "set_end(${1:pos})"
     },
-    "set_end",
     {
-      "trigger": "set_custom_minimum_size(size)",
+      "trigger": "set_pos(...)",
+      "contents": "set_pos(${1:pos})"
+    },
+    {
+      "trigger": "set_custom_minimum_size(...)",
       "contents": "set_custom_minimum_size(${1:size})"
     },
-    "set_custom_minimum_size",
     {
-      "trigger": "set_global_pos(pos)",
+      "trigger": "set_global_pos(...)",
       "contents": "set_global_pos(${1:pos})"
+    },
+    {
+      "trigger": "get_margin(...)",
+      "contents": "get_margin(${1:margin})"
     },
     {
       "trigger": "get_begin()",
       "contents": "get_begin()"
     },
-    "get_begin",
     {
       "trigger": "get_end()",
       "contents": "get_end()"
     },
-    "get_end",
     {
       "trigger": "get_custom_minimum_size()",
       "contents": "get_custom_minimum_size()"
     },
-    "get_custom_minimum_size",
     {
       "trigger": "get_parent_area_size()",
       "contents": "get_parent_area_size()"
     },
-    "get_parent_area_size",
+    {
+      "trigger": "get_global_pos()",
+      "contents": "get_global_pos()"
+    },
     {
       "trigger": "get_rect()",
       "contents": "get_rect()"
     },
-    "get_rect",
     {
       "trigger": "get_global_rect()",
       "contents": "get_global_rect()"
     },
-    "get_global_rect",
     {
-      "trigger": "set_area_as_parent_rect(margin)",
+      "trigger": "set_area_as_parent_rect(...)",
       "contents": "set_area_as_parent_rect(${1:margin})"
     },
-    "set_area_as_parent_rect",
     {
-      "trigger": "show_modal(exclusive)",
+      "trigger": "show_modal(...)",
       "contents": "show_modal(${1:exclusive})"
     },
-    "show_modal",
     {
-      "trigger": "set_focus_mode(mode)",
+      "trigger": "set_focus_mode(...)",
       "contents": "set_focus_mode(${1:mode})"
     },
-    "set_focus_mode",
     {
       "trigger": "has_focus()",
       "contents": "has_focus()"
     },
-    "has_focus",
     {
       "trigger": "grab_focus()",
       "contents": "grab_focus()"
     },
-    "grab_focus",
     {
       "trigger": "release_focus()",
       "contents": "release_focus()"
     },
-    "release_focus",
     {
       "trigger": "get_focus_owner()",
       "contents": "get_focus_owner()"
     },
-    "get_focus_owner",
     {
-      "trigger": "set_h_size_flags(flags)",
+      "trigger": "set_h_size_flags(...)",
       "contents": "set_h_size_flags(${1:flags})"
     },
-    "set_h_size_flags",
     {
       "trigger": "get_h_size_flags()",
       "contents": "get_h_size_flags()"
     },
-    "get_h_size_flags",
     {
-      "trigger": "set_stretch_ratio(ratio)",
+      "trigger": "set_stretch_ratio(...)",
       "contents": "set_stretch_ratio(${1:ratio})"
     },
-    "set_stretch_ratio",
     {
       "trigger": "get_stretch_ratio()",
       "contents": "get_stretch_ratio()"
     },
-    "get_stretch_ratio",
     {
-      "trigger": "set_v_size_flags(flags)",
+      "trigger": "set_v_size_flags(...)",
       "contents": "set_v_size_flags(${1:flags})"
     },
-    "set_v_size_flags",
     {
       "trigger": "get_v_size_flags()",
       "contents": "get_v_size_flags()"
     },
-    "get_v_size_flags",
     {
-      "trigger": "set_theme(theme)",
+      "trigger": "set_theme(...)",
       "contents": "set_theme(${1:theme})"
     },
-    "set_theme",
     {
       "trigger": "get_theme()",
       "contents": "get_theme()"
     },
-    "get_theme",
     {
-      "trigger": "add_icon_override(name, texture)",
+      "trigger": "add_icon_override(...)",
       "contents": "add_icon_override(${1:name}, ${2:texture})"
     },
-    "add_icon_override",
     {
-      "trigger": "add_style_override(name, stylebox)",
+      "trigger": "add_style_override(...)",
       "contents": "add_style_override(${1:name}, ${2:stylebox})"
     },
-    "add_style_override",
     {
-      "trigger": "add_font_override(name, font)",
+      "trigger": "add_font_override(...)",
       "contents": "add_font_override(${1:name}, ${2:font})"
     },
-    "add_font_override",
     {
-      "trigger": "add_color_override(name, color)",
+      "trigger": "add_color_override(...)",
       "contents": "add_color_override(${1:name}, ${2:color})"
     },
-    "add_color_override",
     {
-      "trigger": "add_constant_override(name, constant)",
+      "trigger": "add_constant_override(...)",
       "contents": "add_constant_override(${1:name}, ${2:constant})"
     },
-    "add_constant_override",
     {
-      "trigger": "get_icon(name, type)",
+      "trigger": "get_icon(...)",
       "contents": "get_icon(${1:name}, ${2:type})"
     },
-    "get_icon",
     {
-      "trigger": "get_stylebox(name, type)",
+      "trigger": "get_stylebox(...)",
       "contents": "get_stylebox(${1:name}, ${2:type})"
     },
-    "get_stylebox",
     {
-      "trigger": "get_font(name, type)",
+      "trigger": "get_font(...)",
       "contents": "get_font(${1:name}, ${2:type})"
     },
-    "get_font",
     {
-      "trigger": "get_color(name, type)",
+      "trigger": "get_color(...)",
       "contents": "get_color(${1:name}, ${2:type})"
     },
     {
-      "trigger": "get_constant(name, type)",
+      "trigger": "get_constant(...)",
       "contents": "get_constant(${1:name}, ${2:type})"
     },
-    "get_constant",
     {
       "trigger": "get_parent_control()",
       "contents": "get_parent_control()"
     },
-    "get_parent_control",
     {
-      "trigger": "set_tooltip(tooltip)",
+      "trigger": "set_tooltip(...)",
       "contents": "set_tooltip(${1:tooltip})"
     },
-    "set_tooltip",
     {
-      "trigger": "get_tooltip(atpos, 0)",
+      "trigger": "get_tooltip(...)",
       "contents": "get_tooltip(${1:atpos}, ${2:0})"
     },
-    "get_tooltip",
     {
-      "trigger": "set_default_cursor_shape(shape)",
+      "trigger": "set_default_cursor_shape(...)",
       "contents": "set_default_cursor_shape(${1:shape})"
     },
-    "set_default_cursor_shape",
     {
       "trigger": "get_default_cursor_shape()",
       "contents": "get_default_cursor_shape()"
     },
-    "get_default_cursor_shape",
     {
-      "trigger": "get_cursor_shape(pos, 0)",
+      "trigger": "get_cursor_shape(...)",
       "contents": "get_cursor_shape(${1:pos}, ${2:0})"
     },
-    "get_cursor_shape",
     {
-      "trigger": "set_focus_neighbour(margin, neighbour)",
+      "trigger": "set_focus_neighbour(...)",
       "contents": "set_focus_neighbour(${1:margin}, ${2:neighbour})"
     },
-    "set_focus_neighbour",
     {
-      "trigger": "get_focus_neighbour(margin)",
+      "trigger": "get_focus_neighbour(...)",
       "contents": "get_focus_neighbour(${1:margin})"
     },
-    "get_focus_neighbour",
     {
-      "trigger": "set_ignore_mouse(ignore)",
+      "trigger": "set_ignore_mouse(...)",
       "contents": "set_ignore_mouse(${1:ignore})"
     },
-    "set_ignore_mouse",
     {
       "trigger": "is_ignoring_mouse()",
       "contents": "is_ignoring_mouse()"
     },
-    "is_ignoring_mouse",
     {
-      "trigger": "force_drag(data, preview)",
+      "trigger": "force_drag(...)",
       "contents": "force_drag(${1:data}, ${2:preview})"
     },
-    "force_drag",
     {
-      "trigger": "set_stop_mouse(stop)",
+      "trigger": "set_stop_mouse(...)",
       "contents": "set_stop_mouse(${1:stop})"
     },
-    "set_stop_mouse",
     {
       "trigger": "is_stopping_mouse()",
       "contents": "is_stopping_mouse()"
     },
-    "is_stopping_mouse",
     {
       "trigger": "grab_click_focus()",
       "contents": "grab_click_focus()"
     },
-    "grab_click_focus",
     {
-      "trigger": "set_drag_preview(control)",
+      "trigger": "set_drag_preview(...)",
       "contents": "set_drag_preview(${1:control})"
     },
-    "set_drag_preview",
     "ANCHOR_BEGIN",
     "ANCHOR_END",
     "ANCHOR_RATIO",

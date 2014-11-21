@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_pending_frame_count",
+    "pop_frame",
+    "peek_frame",
+    "set_audio_track"
+  ]
+}

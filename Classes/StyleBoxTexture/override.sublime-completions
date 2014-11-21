@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_texture",
+    "get_texture",
+    "set_margin_size",
+    "get_margin_size",
+    "set_expand_margin_size",
+    "get_expand_margin_size",
+    "set_draw_center",
+    "get_draw_center"
+  ]
+}

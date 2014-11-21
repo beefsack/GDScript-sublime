@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_mesh",
+    "get_mesh",
+    "set_instance_count",
+    "get_instance_count",
+    "set_instance_transform",
+    "get_instance_transform",
+    "set_instance_color",
+    "get_instance_color",
+    "set_aabb",
+    "get_aabb",
+    "generate_aabb"
+  ]
+}

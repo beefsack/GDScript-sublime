@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "test_mask",
+    "set_default_margin",
+    "get_default_margin",
+    "get_margin",
+    "get_minimum_size",
+    "get_center_size",
+    "get_offset",
+    "draw"
+  ]
+}

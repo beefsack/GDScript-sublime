@@ -1,781 +1,626 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "texture_create()",
       "contents": "texture_create()"
     },
-    "texture_create",
     {
-      "trigger": "texture_create_from_image(arg0, arg1)",
+      "trigger": "texture_create_from_image(...)",
       "contents": "texture_create_from_image(${1:arg0}, ${2:arg1})"
     },
-    "texture_create_from_image",
     {
-      "trigger": "texture_set_flags(arg0, arg1)",
+      "trigger": "texture_set_flags(...)",
       "contents": "texture_set_flags(${1:arg0}, ${2:arg1})"
     },
-    "texture_set_flags",
     {
-      "trigger": "texture_get_flags(arg0)",
+      "trigger": "texture_get_flags(...)",
       "contents": "texture_get_flags(${1:arg0})"
     },
-    "texture_get_flags",
     {
-      "trigger": "texture_get_width(arg0)",
+      "trigger": "texture_get_width(...)",
       "contents": "texture_get_width(${1:arg0})"
     },
-    "texture_get_width",
     {
-      "trigger": "texture_get_height(arg0)",
+      "trigger": "texture_get_height(...)",
       "contents": "texture_get_height(${1:arg0})"
     },
-    "texture_get_height",
     {
-      "trigger": "shader_create(mode)",
+      "trigger": "shader_create(...)",
       "contents": "shader_create(${1:mode})"
     },
-    "shader_create",
     {
-      "trigger": "shader_set_mode(shader, mode)",
+      "trigger": "shader_set_mode(...)",
       "contents": "shader_set_mode(${1:shader}, ${2:mode})"
     },
-    "shader_set_mode",
     {
       "trigger": "material_create()",
       "contents": "material_create()"
     },
-    "material_create",
     {
-      "trigger": "material_set_shader(shader, arg1)",
+      "trigger": "material_set_shader(...)",
       "contents": "material_set_shader(${1:shader}, ${2:arg1})"
     },
-    "material_set_shader",
     {
-      "trigger": "material_get_shader(arg0)",
+      "trigger": "material_get_shader(...)",
       "contents": "material_get_shader(${1:arg0})"
     },
-    "material_get_shader",
     {
-      "trigger": "material_set_param(arg0, arg1, arg2)",
+      "trigger": "material_set_param(...)",
       "contents": "material_set_param(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "material_set_param",
     {
-      "trigger": "material_get_param(arg0, arg1)",
+      "trigger": "material_get_param(...)",
       "contents": "material_get_param(${1:arg0}, ${2:arg1})"
     },
-    "material_get_param",
     {
-      "trigger": "material_set_flag(arg0, arg1, arg2)",
+      "trigger": "material_set_flag(...)",
       "contents": "material_set_flag(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "material_set_flag",
     {
-      "trigger": "material_get_flag(arg0, arg1)",
+      "trigger": "material_get_flag(...)",
       "contents": "material_get_flag(${1:arg0}, ${2:arg1})"
     },
-    "material_get_flag",
     {
-      "trigger": "material_set_blend_mode(arg0, arg1)",
+      "trigger": "material_set_blend_mode(...)",
       "contents": "material_set_blend_mode(${1:arg0}, ${2:arg1})"
     },
-    "material_set_blend_mode",
     {
-      "trigger": "material_get_blend_mode(arg0)",
+      "trigger": "material_get_blend_mode(...)",
       "contents": "material_get_blend_mode(${1:arg0})"
     },
-    "material_get_blend_mode",
     {
-      "trigger": "material_set_line_width(arg0, arg1)",
+      "trigger": "material_set_line_width(...)",
       "contents": "material_set_line_width(${1:arg0}, ${2:arg1})"
     },
-    "material_set_line_width",
     {
-      "trigger": "material_get_line_width(arg0)",
+      "trigger": "material_get_line_width(...)",
       "contents": "material_get_line_width(${1:arg0})"
     },
-    "material_get_line_width",
     {
       "trigger": "mesh_create()",
       "contents": "mesh_create()"
     },
-    "mesh_create",
     {
-      "trigger": "mesh_add_surface(arg0, arg1, arg2, arg3, arg4)",
+      "trigger": "mesh_add_surface(...)",
       "contents": "mesh_add_surface(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
     },
-    "mesh_add_surface",
     {
-      "trigger": "mesh_surface_set_material(arg0, arg1, arg2, arg3)",
+      "trigger": "mesh_surface_set_material(...)",
       "contents": "mesh_surface_set_material(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
     },
-    "mesh_surface_set_material",
     {
-      "trigger": "mesh_surface_get_material(arg0, arg1)",
+      "trigger": "mesh_surface_get_material(...)",
       "contents": "mesh_surface_get_material(${1:arg0}, ${2:arg1})"
     },
-    "mesh_surface_get_material",
     {
-      "trigger": "mesh_surface_get_array_len(arg0, arg1)",
+      "trigger": "mesh_surface_get_array_len(...)",
       "contents": "mesh_surface_get_array_len(${1:arg0}, ${2:arg1})"
     },
-    "mesh_surface_get_array_len",
     {
-      "trigger": "mesh_surface_get_array_index_len(arg0, arg1)",
+      "trigger": "mesh_surface_get_array_index_len(...)",
       "contents": "mesh_surface_get_array_index_len(${1:arg0}, ${2:arg1})"
     },
-    "mesh_surface_get_array_index_len",
     {
-      "trigger": "mesh_surface_get_format(arg0, arg1)",
+      "trigger": "mesh_surface_get_format(...)",
       "contents": "mesh_surface_get_format(${1:arg0}, ${2:arg1})"
     },
-    "mesh_surface_get_format",
     {
-      "trigger": "mesh_surface_get_primitive_type(arg0, arg1)",
+      "trigger": "mesh_surface_get_primitive_type(...)",
       "contents": "mesh_surface_get_primitive_type(${1:arg0}, ${2:arg1})"
     },
-    "mesh_surface_get_primitive_type",
     {
-      "trigger": "mesh_remove_surface(arg0, arg1)",
+      "trigger": "mesh_remove_surface(...)",
       "contents": "mesh_remove_surface(${1:arg0}, ${2:arg1})"
     },
-    "mesh_remove_surface",
     {
-      "trigger": "mesh_get_surface_count(arg0)",
+      "trigger": "mesh_get_surface_count(...)",
       "contents": "mesh_get_surface_count(${1:arg0})"
     },
-    "mesh_get_surface_count",
     {
       "trigger": "multimesh_create()",
       "contents": "multimesh_create()"
     },
-    "multimesh_create",
     {
-      "trigger": "multimesh_set_mesh(arg0, arg1)",
+      "trigger": "multimesh_set_mesh(...)",
       "contents": "multimesh_set_mesh(${1:arg0}, ${2:arg1})"
     },
-    "multimesh_set_mesh",
     {
-      "trigger": "multimesh_set_aabb(arg0, arg1)",
+      "trigger": "multimesh_set_aabb(...)",
       "contents": "multimesh_set_aabb(${1:arg0}, ${2:arg1})"
     },
-    "multimesh_set_aabb",
     {
-      "trigger": "multimesh_instance_set_transform(arg0, arg1, arg2)",
+      "trigger": "multimesh_instance_set_transform(...)",
       "contents": "multimesh_instance_set_transform(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "multimesh_instance_set_transform",
     {
-      "trigger": "multimesh_instance_set_color(arg0, arg1, arg2)",
+      "trigger": "multimesh_instance_set_color(...)",
       "contents": "multimesh_instance_set_color(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "multimesh_instance_set_color",
     {
-      "trigger": "multimesh_get_mesh(arg0)",
+      "trigger": "multimesh_get_mesh(...)",
       "contents": "multimesh_get_mesh(${1:arg0})"
     },
-    "multimesh_get_mesh",
     {
-      "trigger": "multimesh_get_aabb(arg0, arg1)",
+      "trigger": "multimesh_get_aabb(...)",
       "contents": "multimesh_get_aabb(${1:arg0}, ${2:arg1})"
     },
-    "multimesh_get_aabb",
     {
-      "trigger": "multimesh_instance_get_transform(arg0, arg1)",
+      "trigger": "multimesh_instance_get_transform(...)",
       "contents": "multimesh_instance_get_transform(${1:arg0}, ${2:arg1})"
     },
-    "multimesh_instance_get_transform",
     {
-      "trigger": "multimesh_instance_get_color(arg0, arg1)",
+      "trigger": "multimesh_instance_get_color(...)",
       "contents": "multimesh_instance_get_color(${1:arg0}, ${2:arg1})"
     },
-    "multimesh_instance_get_color",
     {
       "trigger": "particles_create()",
       "contents": "particles_create()"
     },
-    "particles_create",
     {
-      "trigger": "particles_set_amount(arg0, arg1)",
+      "trigger": "particles_set_amount(...)",
       "contents": "particles_set_amount(${1:arg0}, ${2:arg1})"
     },
-    "particles_set_amount",
     {
-      "trigger": "particles_get_amount(arg0)",
+      "trigger": "particles_get_amount(...)",
       "contents": "particles_get_amount(${1:arg0})"
     },
-    "particles_get_amount",
     {
-      "trigger": "particles_set_emitting(arg0, arg1)",
+      "trigger": "particles_set_emitting(...)",
       "contents": "particles_set_emitting(${1:arg0}, ${2:arg1})"
     },
-    "particles_set_emitting",
     {
-      "trigger": "particles_is_emitting(arg0)",
+      "trigger": "particles_is_emitting(...)",
       "contents": "particles_is_emitting(${1:arg0})"
     },
-    "particles_is_emitting",
     {
-      "trigger": "particles_set_visibility_aabb(arg0, arg1)",
+      "trigger": "particles_set_visibility_aabb(...)",
       "contents": "particles_set_visibility_aabb(${1:arg0}, ${2:arg1})"
     },
-    "particles_set_visibility_aabb",
     {
-      "trigger": "particles_get_visibility_aabb(arg0)",
+      "trigger": "particles_get_visibility_aabb(...)",
       "contents": "particles_get_visibility_aabb(${1:arg0})"
     },
-    "particles_get_visibility_aabb",
     {
-      "trigger": "particles_set_variable(arg0, arg1, arg2)",
+      "trigger": "particles_set_variable(...)",
       "contents": "particles_set_variable(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "particles_set_variable",
     {
-      "trigger": "particles_get_variable(arg0, arg1)",
+      "trigger": "particles_get_variable(...)",
       "contents": "particles_get_variable(${1:arg0}, ${2:arg1})"
     },
-    "particles_get_variable",
     {
-      "trigger": "particles_set_randomness(arg0, arg1, arg2)",
+      "trigger": "particles_set_randomness(...)",
       "contents": "particles_set_randomness(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "particles_set_randomness",
     {
-      "trigger": "particles_get_randomness(arg0, arg1)",
+      "trigger": "particles_get_randomness(...)",
       "contents": "particles_get_randomness(${1:arg0}, ${2:arg1})"
     },
-    "particles_get_randomness",
     {
-      "trigger": "particles_set_color_phases(arg0, arg1)",
+      "trigger": "particles_set_color_phases(...)",
       "contents": "particles_set_color_phases(${1:arg0}, ${2:arg1})"
     },
-    "particles_set_color_phases",
     {
-      "trigger": "particles_get_color_phases(arg0)",
+      "trigger": "particles_get_color_phases(...)",
       "contents": "particles_get_color_phases(${1:arg0})"
     },
-    "particles_get_color_phases",
     {
-      "trigger": "particles_set_color_phase_pos(arg0, arg1, arg2)",
+      "trigger": "particles_set_color_phase_pos(...)",
       "contents": "particles_set_color_phase_pos(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "particles_set_color_phase_pos",
     {
-      "trigger": "particles_get_color_phase_pos(arg0, arg1)",
+      "trigger": "particles_get_color_phase_pos(...)",
       "contents": "particles_get_color_phase_pos(${1:arg0}, ${2:arg1})"
     },
-    "particles_get_color_phase_pos",
     {
-      "trigger": "particles_set_color_phase_color(arg0, arg1, arg2)",
+      "trigger": "particles_set_color_phase_color(...)",
       "contents": "particles_set_color_phase_color(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "particles_set_color_phase_color",
     {
-      "trigger": "particles_get_color_phase_color(arg0, arg1)",
+      "trigger": "particles_get_color_phase_color(...)",
       "contents": "particles_get_color_phase_color(${1:arg0}, ${2:arg1})"
     },
-    "particles_get_color_phase_color",
     {
-      "trigger": "particles_set_attractors(arg0, arg1)",
+      "trigger": "particles_set_attractors(...)",
       "contents": "particles_set_attractors(${1:arg0}, ${2:arg1})"
     },
-    "particles_set_attractors",
     {
-      "trigger": "particles_get_attractors(arg0)",
+      "trigger": "particles_get_attractors(...)",
       "contents": "particles_get_attractors(${1:arg0})"
     },
-    "particles_get_attractors",
     {
-      "trigger": "particles_set_attractor_pos(arg0, arg1, arg2)",
+      "trigger": "particles_set_attractor_pos(...)",
       "contents": "particles_set_attractor_pos(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "particles_set_attractor_pos",
     {
-      "trigger": "particles_get_attractor_pos(arg0, arg1)",
+      "trigger": "particles_get_attractor_pos(...)",
       "contents": "particles_get_attractor_pos(${1:arg0}, ${2:arg1})"
     },
-    "particles_get_attractor_pos",
     {
-      "trigger": "particles_set_attractor_strength(arg0, arg1, arg2)",
+      "trigger": "particles_set_attractor_strength(...)",
       "contents": "particles_set_attractor_strength(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "particles_set_attractor_strength",
     {
-      "trigger": "particles_get_attractor_strength(arg0, arg1)",
+      "trigger": "particles_get_attractor_strength(...)",
       "contents": "particles_get_attractor_strength(${1:arg0}, ${2:arg1})"
     },
-    "particles_get_attractor_strength",
     {
-      "trigger": "particles_set_material(arg0, arg1, arg2)",
+      "trigger": "particles_set_material(...)",
       "contents": "particles_set_material(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "particles_set_material",
     {
-      "trigger": "particles_set_height_from_velocity(arg0, arg1)",
+      "trigger": "particles_set_height_from_velocity(...)",
       "contents": "particles_set_height_from_velocity(${1:arg0}, ${2:arg1})"
     },
-    "particles_set_height_from_velocity",
     {
-      "trigger": "particles_has_height_from_velocity(arg0)",
+      "trigger": "particles_has_height_from_velocity(...)",
       "contents": "particles_has_height_from_velocity(${1:arg0})"
     },
-    "particles_has_height_from_velocity",
     {
-      "trigger": "light_create(arg0)",
+      "trigger": "light_create(...)",
       "contents": "light_create(${1:arg0})"
     },
-    "light_create",
     {
-      "trigger": "light_get_type(arg0)",
+      "trigger": "light_get_type(...)",
       "contents": "light_get_type(${1:arg0})"
     },
-    "light_get_type",
     {
-      "trigger": "light_set_color(arg0, arg1, arg2)",
+      "trigger": "light_set_color(...)",
       "contents": "light_set_color(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "light_set_color",
     {
-      "trigger": "light_get_color(arg0, arg1)",
+      "trigger": "light_get_color(...)",
       "contents": "light_get_color(${1:arg0}, ${2:arg1})"
     },
-    "light_get_color",
     {
-      "trigger": "light_set_shadow(arg0, arg1)",
+      "trigger": "light_set_shadow(...)",
       "contents": "light_set_shadow(${1:arg0}, ${2:arg1})"
     },
-    "light_set_shadow",
     {
-      "trigger": "light_has_shadow(arg0)",
+      "trigger": "light_has_shadow(...)",
       "contents": "light_has_shadow(${1:arg0})"
     },
-    "light_has_shadow",
     {
-      "trigger": "light_set_volumetric(arg0, arg1)",
+      "trigger": "light_set_volumetric(...)",
       "contents": "light_set_volumetric(${1:arg0}, ${2:arg1})"
     },
-    "light_set_volumetric",
     {
-      "trigger": "light_is_volumetric(arg0)",
+      "trigger": "light_is_volumetric(...)",
       "contents": "light_is_volumetric(${1:arg0})"
     },
-    "light_is_volumetric",
     {
-      "trigger": "light_set_projector(arg0, arg1)",
+      "trigger": "light_set_projector(...)",
       "contents": "light_set_projector(${1:arg0}, ${2:arg1})"
     },
-    "light_set_projector",
     {
-      "trigger": "light_get_projector(arg0)",
+      "trigger": "light_get_projector(...)",
       "contents": "light_get_projector(${1:arg0})"
     },
-    "light_get_projector",
     {
-      "trigger": "light_set_var(arg0, arg1, arg2)",
+      "trigger": "light_set_var(...)",
       "contents": "light_set_var(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "light_set_var",
     {
-      "trigger": "light_get_var(arg0, arg1)",
+      "trigger": "light_get_var(...)",
       "contents": "light_get_var(${1:arg0}, ${2:arg1})"
     },
-    "light_get_var",
     {
       "trigger": "skeleton_create()",
       "contents": "skeleton_create()"
     },
-    "skeleton_create",
     {
-      "trigger": "skeleton_resize(arg0, arg1)",
+      "trigger": "skeleton_resize(...)",
       "contents": "skeleton_resize(${1:arg0}, ${2:arg1})"
     },
-    "skeleton_resize",
     {
-      "trigger": "skeleton_get_bone_count(arg0)",
+      "trigger": "skeleton_get_bone_count(...)",
       "contents": "skeleton_get_bone_count(${1:arg0})"
     },
-    "skeleton_get_bone_count",
     {
-      "trigger": "skeleton_bone_set_transform(arg0, arg1, arg2)",
+      "trigger": "skeleton_bone_set_transform(...)",
       "contents": "skeleton_bone_set_transform(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "skeleton_bone_set_transform",
     {
-      "trigger": "skeleton_bone_get_transform(arg0, arg1)",
+      "trigger": "skeleton_bone_get_transform(...)",
       "contents": "skeleton_bone_get_transform(${1:arg0}, ${2:arg1})"
     },
-    "skeleton_bone_get_transform",
     {
       "trigger": "room_create()",
       "contents": "room_create()"
     },
-    "room_create",
     {
-      "trigger": "room_set_bounds(arg0, arg1)",
+      "trigger": "room_set_bounds(...)",
       "contents": "room_set_bounds(${1:arg0}, ${2:arg1})"
     },
-    "room_set_bounds",
     {
-      "trigger": "room_get_bounds(arg0)",
+      "trigger": "room_get_bounds(...)",
       "contents": "room_get_bounds(${1:arg0})"
     },
-    "room_get_bounds",
     {
       "trigger": "portal_create()",
       "contents": "portal_create()"
     },
-    "portal_create",
     {
-      "trigger": "portal_set_shape(arg0, arg1)",
+      "trigger": "portal_set_shape(...)",
       "contents": "portal_set_shape(${1:arg0}, ${2:arg1})"
     },
-    "portal_set_shape",
     {
-      "trigger": "portal_get_shape(arg0)",
+      "trigger": "portal_get_shape(...)",
       "contents": "portal_get_shape(${1:arg0})"
     },
-    "portal_get_shape",
     {
-      "trigger": "portal_set_enabled(arg0, arg1)",
+      "trigger": "portal_set_enabled(...)",
       "contents": "portal_set_enabled(${1:arg0}, ${2:arg1})"
     },
-    "portal_set_enabled",
     {
-      "trigger": "portal_is_enabled(arg0)",
+      "trigger": "portal_is_enabled(...)",
       "contents": "portal_is_enabled(${1:arg0})"
     },
-    "portal_is_enabled",
     {
-      "trigger": "portal_set_disable_distance(arg0, arg1)",
+      "trigger": "portal_set_disable_distance(...)",
       "contents": "portal_set_disable_distance(${1:arg0}, ${2:arg1})"
     },
-    "portal_set_disable_distance",
     {
-      "trigger": "portal_get_disable_distance(arg0)",
+      "trigger": "portal_get_disable_distance(...)",
       "contents": "portal_get_disable_distance(${1:arg0})"
     },
-    "portal_get_disable_distance",
     {
-      "trigger": "portal_set_disabled_color(arg0, arg1)",
+      "trigger": "portal_set_disabled_color(...)",
       "contents": "portal_set_disabled_color(${1:arg0}, ${2:arg1})"
     },
-    "portal_set_disabled_color",
     {
-      "trigger": "portal_get_disabled_color(arg0)",
+      "trigger": "portal_get_disabled_color(...)",
       "contents": "portal_get_disabled_color(${1:arg0})"
     },
-    "portal_get_disabled_color",
     {
       "trigger": "camera_create()",
       "contents": "camera_create()"
     },
-    "camera_create",
     {
-      "trigger": "camera_set_perspective(arg0, arg1, arg2, arg3)",
+      "trigger": "camera_set_perspective(...)",
       "contents": "camera_set_perspective(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
     },
-    "camera_set_perspective",
     {
-      "trigger": "camera_set_orthogonal(arg0, arg1, arg2, arg3)",
+      "trigger": "camera_set_orthogonal(...)",
       "contents": "camera_set_orthogonal(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
     },
-    "camera_set_orthogonal",
     {
-      "trigger": "camera_set_transform(arg0, arg1)",
+      "trigger": "camera_set_transform(...)",
       "contents": "camera_set_transform(${1:arg0}, ${2:arg1})"
     },
-    "camera_set_transform",
     {
       "trigger": "viewport_create()",
       "contents": "viewport_create()"
     },
-    "viewport_create",
     {
-      "trigger": "viewport_set_rect(arg0, arg1)",
+      "trigger": "viewport_set_rect(...)",
       "contents": "viewport_set_rect(${1:arg0}, ${2:arg1})"
     },
-    "viewport_set_rect",
     {
-      "trigger": "viewport_get_rect(arg0)",
+      "trigger": "viewport_get_rect(...)",
       "contents": "viewport_get_rect(${1:arg0})"
     },
-    "viewport_get_rect",
     {
-      "trigger": "viewport_attach_camera(arg0, arg1)",
+      "trigger": "viewport_attach_camera(...)",
       "contents": "viewport_attach_camera(${1:arg0}, ${2:arg1})"
     },
-    "viewport_attach_camera",
     {
-      "trigger": "viewport_get_attached_camera(arg0)",
+      "trigger": "viewport_get_attached_camera(...)",
       "contents": "viewport_get_attached_camera(${1:arg0})"
     },
-    "viewport_get_attached_camera",
     {
-      "trigger": "viewport_get_scenario(arg0)",
+      "trigger": "viewport_get_scenario(...)",
       "contents": "viewport_get_scenario(${1:arg0})"
     },
-    "viewport_get_scenario",
     {
-      "trigger": "viewport_attach_canvas(arg0, arg1)",
+      "trigger": "viewport_attach_canvas(...)",
       "contents": "viewport_attach_canvas(${1:arg0}, ${2:arg1})"
     },
-    "viewport_attach_canvas",
     {
-      "trigger": "viewport_remove_canvas(arg0, arg1)",
+      "trigger": "viewport_remove_canvas(...)",
       "contents": "viewport_remove_canvas(${1:arg0}, ${2:arg1})"
     },
-    "viewport_remove_canvas",
     {
-      "trigger": "viewport_set_global_canvas_transform(arg0, arg1)",
+      "trigger": "viewport_set_global_canvas_transform(...)",
       "contents": "viewport_set_global_canvas_transform(${1:arg0}, ${2:arg1})"
     },
-    "viewport_set_global_canvas_transform",
     {
       "trigger": "scenario_create()",
       "contents": "scenario_create()"
     },
-    "scenario_create",
     {
-      "trigger": "scenario_set_debug(arg0, arg1)",
+      "trigger": "scenario_set_debug(...)",
       "contents": "scenario_set_debug(${1:arg0}, ${2:arg1})"
     },
-    "scenario_set_debug",
     {
       "trigger": "instance_create()",
       "contents": "instance_create()"
     },
-    "instance_create",
     {
-      "trigger": "instance_get_base(arg0)",
+      "trigger": "instance_get_base(...)",
       "contents": "instance_get_base(${1:arg0})"
     },
-    "instance_get_base",
     {
-      "trigger": "instance_get_base_aabb(arg0)",
+      "trigger": "instance_get_base_aabb(...)",
       "contents": "instance_get_base_aabb(${1:arg0})"
     },
-    "instance_get_base_aabb",
     {
-      "trigger": "instance_set_transform(arg0, arg1)",
+      "trigger": "instance_set_transform(...)",
       "contents": "instance_set_transform(${1:arg0}, ${2:arg1})"
     },
-    "instance_set_transform",
     {
-      "trigger": "instance_get_transform(arg0)",
+      "trigger": "instance_get_transform(...)",
       "contents": "instance_get_transform(${1:arg0})"
     },
-    "instance_get_transform",
     {
-      "trigger": "instance_attach_object_instance_ID(arg0, arg1)",
+      "trigger": "instance_attach_object_instance_ID(...)",
       "contents": "instance_attach_object_instance_ID(${1:arg0}, ${2:arg1})"
     },
-    "instance_attach_object_instance_ID",
     {
-      "trigger": "instance_get_object_instance_ID(arg0)",
+      "trigger": "instance_get_object_instance_ID(...)",
       "contents": "instance_get_object_instance_ID(${1:arg0})"
     },
-    "instance_get_object_instance_ID",
     {
-      "trigger": "instance_attach_skeleton(arg0, arg1)",
+      "trigger": "instance_attach_skeleton(...)",
       "contents": "instance_attach_skeleton(${1:arg0}, ${2:arg1})"
     },
-    "instance_attach_skeleton",
     {
-      "trigger": "instance_get_skeleton(arg0)",
+      "trigger": "instance_get_skeleton(...)",
       "contents": "instance_get_skeleton(${1:arg0})"
     },
-    "instance_get_skeleton",
     {
-      "trigger": "instance_set_room(arg0, arg1)",
+      "trigger": "instance_set_room(...)",
       "contents": "instance_set_room(${1:arg0}, ${2:arg1})"
     },
-    "instance_set_room",
     {
-      "trigger": "instance_get_room(arg0)",
+      "trigger": "instance_get_room(...)",
       "contents": "instance_get_room(${1:arg0})"
     },
-    "instance_get_room",
     {
-      "trigger": "instance_set_exterior(arg0, arg1)",
+      "trigger": "instance_set_exterior(...)",
       "contents": "instance_set_exterior(${1:arg0}, ${2:arg1})"
     },
-    "instance_set_exterior",
     {
-      "trigger": "instance_is_exterior(arg0)",
+      "trigger": "instance_is_exterior(...)",
       "contents": "instance_is_exterior(${1:arg0})"
     },
-    "instance_is_exterior",
     {
-      "trigger": "instances_cull_aabb(arg0, arg1)",
+      "trigger": "instances_cull_aabb(...)",
       "contents": "instances_cull_aabb(${1:arg0}, ${2:arg1})"
     },
-    "instances_cull_aabb",
     {
-      "trigger": "instances_cull_ray(arg0, arg1, arg2)",
+      "trigger": "instances_cull_ray(...)",
       "contents": "instances_cull_ray(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "instances_cull_ray",
     {
-      "trigger": "instances_cull_convex(arg0, arg1, arg2)",
-      "contents": "instances_cull_convex(${1:arg0}, ${2:arg1}, ${3:arg2})"
+      "trigger": "instances_cull_convex(...)",
+      "contents": "instances_cull_convex(${1:arg0}, ${2:arg1})"
     },
-    "instances_cull_convex",
     {
-      "trigger": "instance_geometry_override_material_param(arg0)",
+      "trigger": "instance_geometry_override_material_param(...)",
       "contents": "instance_geometry_override_material_param(${1:arg0})"
     },
-    "instance_geometry_override_material_param",
     {
-      "trigger": "instance_geometry_get_material_param(arg0)",
+      "trigger": "instance_geometry_get_material_param(...)",
       "contents": "instance_geometry_get_material_param(${1:arg0})"
     },
-    "instance_geometry_get_material_param",
     {
       "trigger": "get_test_cube()",
       "contents": "get_test_cube()"
     },
-    "get_test_cube",
     {
       "trigger": "canvas_create()",
       "contents": "canvas_create()"
     },
-    "canvas_create",
     {
       "trigger": "canvas_item_create()",
       "contents": "canvas_item_create()"
     },
-    "canvas_item_create",
     {
-      "trigger": "canvas_item_set_parent(arg0, arg1)",
+      "trigger": "canvas_item_set_parent(...)",
       "contents": "canvas_item_set_parent(${1:arg0}, ${2:arg1})"
     },
-    "canvas_item_set_parent",
     {
-      "trigger": "canvas_item_get_parent(arg0)",
+      "trigger": "canvas_item_get_parent(...)",
       "contents": "canvas_item_get_parent(${1:arg0})"
     },
-    "canvas_item_get_parent",
     {
-      "trigger": "canvas_item_set_transform(arg0, arg1)",
+      "trigger": "canvas_item_set_transform(...)",
       "contents": "canvas_item_set_transform(${1:arg0}, ${2:arg1})"
     },
-    "canvas_item_set_transform",
     {
-      "trigger": "canvas_item_set_custom_rect(arg0, arg1, arg2)",
+      "trigger": "canvas_item_set_custom_rect(...)",
       "contents": "canvas_item_set_custom_rect(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "canvas_item_set_custom_rect",
     {
-      "trigger": "canvas_item_set_clip(arg0, arg1)",
+      "trigger": "canvas_item_set_clip(...)",
       "contents": "canvas_item_set_clip(${1:arg0}, ${2:arg1})"
     },
-    "canvas_item_set_clip",
     {
-      "trigger": "canvas_item_set_opacity(arg0, arg1)",
+      "trigger": "canvas_item_set_opacity(...)",
       "contents": "canvas_item_set_opacity(${1:arg0}, ${2:arg1})"
     },
-    "canvas_item_set_opacity",
     {
-      "trigger": "canvas_item_get_opacity(arg0, arg1)",
+      "trigger": "canvas_item_get_opacity(...)",
       "contents": "canvas_item_get_opacity(${1:arg0}, ${2:arg1})"
     },
-    "canvas_item_get_opacity",
     {
-      "trigger": "canvas_item_set_self_opacity(arg0, arg1)",
+      "trigger": "canvas_item_set_self_opacity(...)",
       "contents": "canvas_item_set_self_opacity(${1:arg0}, ${2:arg1})"
     },
-    "canvas_item_set_self_opacity",
     {
-      "trigger": "canvas_item_get_self_opacity(arg0, arg1)",
+      "trigger": "canvas_item_get_self_opacity(...)",
       "contents": "canvas_item_get_self_opacity(${1:arg0}, ${2:arg1})"
     },
-    "canvas_item_get_self_opacity",
     {
-      "trigger": "canvas_item_add_line(arg0, arg1, arg2, arg3, arg4)",
+      "trigger": "canvas_item_add_line(...)",
       "contents": "canvas_item_add_line(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
     },
-    "canvas_item_add_line",
     {
-      "trigger": "canvas_item_add_rect(arg0, arg1, arg2)",
+      "trigger": "canvas_item_add_rect(...)",
       "contents": "canvas_item_add_rect(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "canvas_item_add_rect",
     {
-      "trigger": "canvas_item_add_texture_rect(arg0, arg1, arg2, arg3, arg4, 1, 1)",
+      "trigger": "canvas_item_add_texture_rect(...)",
       "contents": "canvas_item_add_texture_rect(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4}, ${6:1}, ${7:1})"
     },
-    "canvas_item_add_texture_rect",
     {
-      "trigger": "canvas_item_add_texture_rect_region(arg0, arg1, arg2, arg3, arg4, 1, 1)",
+      "trigger": "canvas_item_add_texture_rect_region(...)",
       "contents": "canvas_item_add_texture_rect_region(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4}, ${6:1}, ${7:1})"
     },
-    "canvas_item_add_texture_rect_region",
     {
-      "trigger": "canvas_item_add_style_box(arg0, arg1, arg2, arg3, arg4, 1, 1)",
+      "trigger": "canvas_item_add_style_box(...)",
       "contents": "canvas_item_add_style_box(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4}, ${6:1}, ${7:1})"
     },
-    "canvas_item_add_style_box",
     {
-      "trigger": "canvas_item_add_circle(arg0, arg1, arg2, arg3)",
+      "trigger": "canvas_item_add_circle(...)",
       "contents": "canvas_item_add_circle(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
     },
-    "canvas_item_add_circle",
     {
-      "trigger": "viewport_set_canvas_transform(arg0, arg1, arg2)",
+      "trigger": "viewport_set_canvas_transform(...)",
       "contents": "viewport_set_canvas_transform(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "viewport_set_canvas_transform",
     {
-      "trigger": "canvas_item_clear(arg0)",
+      "trigger": "canvas_item_clear(...)",
       "contents": "canvas_item_clear(${1:arg0})"
     },
-    "canvas_item_clear",
     {
-      "trigger": "canvas_item_raise(arg0)",
+      "trigger": "canvas_item_raise(...)",
       "contents": "canvas_item_raise(${1:arg0})"
     },
-    "canvas_item_raise",
     {
-      "trigger": "cursor_set_rotation(arg0, arg1)",
+      "trigger": "cursor_set_rotation(...)",
       "contents": "cursor_set_rotation(${1:arg0}, ${2:arg1})"
     },
-    "cursor_set_rotation",
     {
-      "trigger": "cursor_set_texture(arg0, arg1, arg2)",
+      "trigger": "cursor_set_texture(...)",
       "contents": "cursor_set_texture(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "cursor_set_texture",
     {
-      "trigger": "cursor_set_visible(arg0, arg1)",
+      "trigger": "cursor_set_visible(...)",
       "contents": "cursor_set_visible(${1:arg0}, ${2:arg1})"
     },
-    "cursor_set_visible",
     {
-      "trigger": "cursor_set_pos(arg0, arg1)",
+      "trigger": "cursor_set_pos(...)",
       "contents": "cursor_set_pos(${1:arg0}, ${2:arg1})"
     },
-    "cursor_set_pos",
     {
-      "trigger": "black_bars_set_margins(left, top, right, bottom)",
+      "trigger": "black_bars_set_margins(...)",
       "contents": "black_bars_set_margins(${1:left}, ${2:top}, ${3:right}, ${4:bottom})"
     },
-    "black_bars_set_margins",
     {
-      "trigger": "black_bars_set_images(left, top, right, bottom)",
+      "trigger": "black_bars_set_images(...)",
       "contents": "black_bars_set_images(${1:left}, ${2:top}, ${3:right}, ${4:bottom})"
     },
-    "black_bars_set_images",
     {
-      "trigger": "make_sphere_mesh(arg0, arg1, arg2)",
+      "trigger": "make_sphere_mesh(...)",
       "contents": "make_sphere_mesh(${1:arg0}, ${2:arg1}, ${3:arg2})"
     },
-    "make_sphere_mesh",
     {
-      "trigger": "mesh_add_surface_from_planes(arg0, arg1)",
+      "trigger": "mesh_add_surface_from_planes(...)",
       "contents": "mesh_add_surface_from_planes(${1:arg0}, ${2:arg1})"
     },
-    "mesh_add_surface_from_planes",
     {
       "trigger": "draw()",
       "contents": "draw()"
@@ -785,19 +630,17 @@
       "contents": "flush()"
     },
     {
-      "trigger": "free(arg0)",
+      "trigger": "free(...)",
       "contents": "free(${1:arg0})"
     },
     {
-      "trigger": "set_default_clear_color(arg0)",
+      "trigger": "set_default_clear_color(...)",
       "contents": "set_default_clear_color(${1:arg0})"
     },
-    "set_default_clear_color",
     {
-      "trigger": "get_render_info(arg0)",
+      "trigger": "get_render_info(...)",
       "contents": "get_render_info(${1:arg0})"
     },
-    "get_render_info",
     "CUSTOM_ARRAY_SIZE",
     "MAX_PARTICLE_COLOR_PHASES",
     "MAX_PARTICLE_ATTRACTORS",

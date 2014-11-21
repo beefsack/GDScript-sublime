@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "clear_filters",
+    "add_filter",
+    "get_current_dir",
+    "get_current_file",
+    "get_current_path",
+    "set_current_dir",
+    "set_current_file",
+    "set_current_path",
+    "set_mode",
+    "get_mode",
+    "get_vbox",
+    "set_access",
+    "get_access",
+    "invalidate"
+  ]
+}

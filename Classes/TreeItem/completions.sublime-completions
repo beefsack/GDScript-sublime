@@ -1,211 +1,190 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_cell_mode(column, mode)",
+      "trigger": "set_cell_mode(...)",
       "contents": "set_cell_mode(${1:column}, ${2:mode})"
     },
-    "set_cell_mode",
     {
-      "trigger": "get_cell_mode(column)",
+      "trigger": "get_cell_mode(...)",
       "contents": "get_cell_mode(${1:column})"
     },
-    "get_cell_mode",
     {
-      "trigger": "set_checked(column, checked)",
+      "trigger": "set_checked(...)",
       "contents": "set_checked(${1:column}, ${2:checked})"
     },
-    "set_checked",
     {
-      "trigger": "is_checked(column)",
+      "trigger": "is_checked(...)",
       "contents": "is_checked(${1:column})"
     },
-    "is_checked",
     {
-      "trigger": "set_text(column, text)",
+      "trigger": "set_text(...)",
       "contents": "set_text(${1:column}, ${2:text})"
     },
     {
-      "trigger": "get_text(column)",
+      "trigger": "get_text(...)",
       "contents": "get_text(${1:column})"
     },
     {
-      "trigger": "set_icon(column, texture)",
+      "trigger": "set_icon(...)",
       "contents": "set_icon(${1:column}, ${2:texture})"
     },
     {
-      "trigger": "get_icon(column)",
+      "trigger": "get_icon(...)",
       "contents": "get_icon(${1:column})"
     },
     {
-      "trigger": "set_icon_region(column, region)",
+      "trigger": "set_icon_region(...)",
       "contents": "set_icon_region(${1:column}, ${2:region})"
     },
-    "set_icon_region",
     {
-      "trigger": "get_icon_region(column)",
+      "trigger": "get_icon_region(...)",
       "contents": "get_icon_region(${1:column})"
     },
-    "get_icon_region",
     {
-      "trigger": "set_icon_max_width(column, width)",
+      "trigger": "set_icon_max_width(...)",
       "contents": "set_icon_max_width(${1:column}, ${2:width})"
     },
-    "set_icon_max_width",
     {
-      "trigger": "get_icon_max_width(column)",
+      "trigger": "get_icon_max_width(...)",
       "contents": "get_icon_max_width(${1:column})"
     },
-    "get_icon_max_width",
     {
-      "trigger": "set_range(column, value)",
+      "trigger": "set_range(...)",
       "contents": "set_range(${1:column}, ${2:value})"
     },
-    "set_range",
     {
-      "trigger": "get_range(column)",
+      "trigger": "get_range(...)",
       "contents": "get_range(${1:column})"
     },
-    "get_range",
     {
-      "trigger": "set_range_config(column, min, max, step, expr)",
+      "trigger": "set_range_config(...)",
       "contents": "set_range_config(${1:column}, ${2:min}, ${3:max}, ${4:step}, ${5:expr})"
     },
-    "set_range_config",
     {
-      "trigger": "get_range_config(column)",
+      "trigger": "get_range_config(...)",
       "contents": "get_range_config(${1:column})"
     },
-    "get_range_config",
     {
-      "trigger": "set_metadata(column, meta)",
+      "trigger": "set_metadata(...)",
       "contents": "set_metadata(${1:column}, ${2:meta})"
     },
-    "set_metadata",
     {
-      "trigger": "get_metadata(column)",
+      "trigger": "get_metadata(...)",
       "contents": "get_metadata(${1:column})"
     },
-    "get_metadata",
     {
-      "trigger": "set_custom_draw(column, object, callback)",
+      "trigger": "set_custom_draw(...)",
       "contents": "set_custom_draw(${1:column}, ${2:object}, ${3:callback})"
     },
-    "set_custom_draw",
     {
-      "trigger": "set_collapsed(enable)",
+      "trigger": "set_collapsed(...)",
       "contents": "set_collapsed(${1:enable})"
     },
     {
       "trigger": "get_prev()",
       "contents": "get_prev()"
     },
-    "get_prev",
+    {
+      "trigger": "get_parent()",
+      "contents": "get_parent()"
+    },
+    {
+      "trigger": "get_children()",
+      "contents": "get_children()"
+    },
     {
       "trigger": "get_next_visible()",
       "contents": "get_next_visible()"
     },
-    "get_next_visible",
     {
       "trigger": "get_prev_visible()",
       "contents": "get_prev_visible()"
     },
-    "get_prev_visible",
     {
-      "trigger": "remove_child(child)",
+      "trigger": "remove_child(...)",
       "contents": "remove_child(${1:child})"
     },
     {
-      "trigger": "set_selectable(column, selectable)",
+      "trigger": "set_selectable(...)",
       "contents": "set_selectable(${1:column}, ${2:selectable})"
     },
-    "set_selectable",
     {
-      "trigger": "is_selectable(column)",
+      "trigger": "is_selectable(...)",
       "contents": "is_selectable(${1:column})"
     },
-    "is_selectable",
     {
-      "trigger": "is_selected(column)",
+      "trigger": "is_selected(...)",
       "contents": "is_selected(${1:column})"
     },
-    "is_selected",
     {
-      "trigger": "select(column)",
+      "trigger": "select(...)",
       "contents": "select(${1:column})"
     },
     {
-      "trigger": "deselect(column)",
+      "trigger": "deselect(...)",
       "contents": "deselect(${1:column})"
     },
-    "deselect",
     {
-      "trigger": "set_editable(column, enabled)",
+      "trigger": "set_editable(...)",
       "contents": "set_editable(${1:column}, ${2:enabled})"
     },
     {
-      "trigger": "is_editable(column)",
+      "trigger": "is_editable(...)",
       "contents": "is_editable(${1:column})"
     },
     {
-      "trigger": "set_custom_color(column, color)",
+      "trigger": "set_custom_color(...)",
       "contents": "set_custom_color(${1:column}, ${2:color})"
     },
-    "set_custom_color",
     {
-      "trigger": "clear_custom_color(column)",
+      "trigger": "clear_custom_color(...)",
       "contents": "clear_custom_color(${1:column})"
     },
-    "clear_custom_color",
     {
-      "trigger": "set_custom_bg_color(column, color)",
+      "trigger": "set_custom_bg_color(...)",
       "contents": "set_custom_bg_color(${1:column}, ${2:color})"
     },
     {
-      "trigger": "clear_custom_bg_color(column)",
+      "trigger": "clear_custom_bg_color(...)",
       "contents": "clear_custom_bg_color(${1:column})"
     },
-    "clear_custom_bg_color",
     {
-      "trigger": "get_custom_bg_color(column)",
+      "trigger": "get_custom_bg_color(...)",
       "contents": "get_custom_bg_color(${1:column})"
     },
-    "get_custom_bg_color",
     {
-      "trigger": "add_button(column, button, arg2)",
+      "trigger": "add_button(...)",
       "contents": "add_button(${1:column}, ${2:button}, ${3:arg2})"
     },
     {
-      "trigger": "get_button_count(column)",
+      "trigger": "get_button_count(...)",
       "contents": "get_button_count(${1:column})"
     },
     {
-      "trigger": "get_button(column, button_idx)",
+      "trigger": "get_button(...)",
       "contents": "get_button(${1:column}, ${2:button_idx})"
     },
-    "get_button",
     {
-      "trigger": "erase_button(column, button_idx)",
+      "trigger": "erase_button(...)",
       "contents": "erase_button(${1:column}, ${2:button_idx})"
     },
     {
-      "trigger": "set_tooltip(column, tooltip)",
+      "trigger": "set_tooltip(...)",
       "contents": "set_tooltip(${1:column}, ${2:tooltip})"
     },
     {
-      "trigger": "get_tooltip(column)",
+      "trigger": "get_tooltip(...)",
       "contents": "get_tooltip(${1:column})"
     },
     {
       "trigger": "move_to_top()",
       "contents": "move_to_top()"
     },
-    "move_to_top",
     {
       "trigger": "move_to_bottom()",
       "contents": "move_to_bottom()"
     },
-    "move_to_bottom",
     "CELL_MODE_STRING",
     "CELL_MODE_CHECK",
     "CELL_MODE_RANGE",

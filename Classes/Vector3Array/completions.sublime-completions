@@ -1,16 +1,16 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "push_back(vector3)",
+      "trigger": "push_back(...)",
       "contents": "push_back(${1:vector3})"
     },
     {
-      "trigger": "set(idx, vector3)",
+      "trigger": "set(...)",
       "contents": "set(${1:idx}, ${2:vector3})"
     },
     {
-      "trigger": "Vector3Array(from)",
+      "trigger": "Vector3Array(...)",
       "contents": "Vector3Array(${1:from})"
     }
   ]

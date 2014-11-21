@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "popup_centered",
+    "popup_centered_ratio",
+    "popup_centered_minsize",
+    "popup",
+    "set_exclusive",
+    "is_exclusive"
+  ]
+}

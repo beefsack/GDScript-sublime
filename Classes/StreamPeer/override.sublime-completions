@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "put_data",
+    "put_partial_data",
+    "get_data",
+    "get_partial_data"
+  ]
+}

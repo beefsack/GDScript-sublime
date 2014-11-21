@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_texture",
+    "get_texture",
+    "set_use_alpha",
+    "is_using_alpha",
+    "set_use_color_array",
+    "is_using_color_array"
+  ]
+}

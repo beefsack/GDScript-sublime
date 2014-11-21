@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_piece",
+    "set_piece_offset",
+    "set_piece_texture",
+    "set_size",
+    "clear",
+    "get_piece_count",
+    "get_piece_offset",
+    "get_piece_texture"
+  ]
+}

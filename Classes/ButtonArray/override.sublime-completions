@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_button",
+    "add_icon_button",
+    "set_button_text",
+    "set_button_icon",
+    "get_button_text",
+    "get_button_icon",
+    "get_button_count",
+    "get_selected",
+    "get_hovered",
+    "set_selected",
+    "erase_button",
+    "clear"
+  ]
+}

@@ -1,35 +1,29 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_engine_force(engine_force)",
+      "trigger": "set_engine_force(...)",
       "contents": "set_engine_force(${1:engine_force})"
     },
-    "set_engine_force",
     {
       "trigger": "get_engine_force()",
       "contents": "get_engine_force()"
     },
-    "get_engine_force",
     {
-      "trigger": "set_brake(brake)",
+      "trigger": "set_brake(...)",
       "contents": "set_brake(${1:brake})"
     },
-    "set_brake",
     {
       "trigger": "get_brake()",
       "contents": "get_brake()"
     },
-    "get_brake",
     {
-      "trigger": "set_steering(steering)",
+      "trigger": "set_steering(...)",
       "contents": "set_steering(${1:steering})"
     },
-    "set_steering",
     {
       "trigger": "get_steering()",
       "contents": "get_steering()"
-    },
-    "get_steering"
+    }
   ]
 }

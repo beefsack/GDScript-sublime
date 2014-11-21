@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "determinant",
+    "get_euler",
+    "get_orthogonal_index",
+    "get_scale",
+    "inverse",
+    "orthonormalized",
+    "rotated",
+    "scaled",
+    "tdotx",
+    "tdoty",
+    "tdotz",
+    "transposed",
+    "xform",
+    "xform_inv"
+  ]
+}

@@ -1,71 +1,58 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "is_key_pressed(scancode)",
+      "trigger": "is_key_pressed(...)",
       "contents": "is_key_pressed(${1:scancode})"
     },
-    "is_key_pressed",
     {
-      "trigger": "is_mouse_button_pressed(button)",
+      "trigger": "is_mouse_button_pressed(...)",
       "contents": "is_mouse_button_pressed(${1:button})"
     },
-    "is_mouse_button_pressed",
     {
-      "trigger": "is_joy_button_pressed(device, button)",
+      "trigger": "is_joy_button_pressed(...)",
       "contents": "is_joy_button_pressed(${1:device}, ${2:button})"
     },
-    "is_joy_button_pressed",
     {
-      "trigger": "is_action_pressed(action)",
+      "trigger": "is_action_pressed(...)",
       "contents": "is_action_pressed(${1:action})"
     },
-    "is_action_pressed",
     {
-      "trigger": "get_joy_axis(device, axis)",
+      "trigger": "get_joy_axis(...)",
       "contents": "get_joy_axis(${1:device}, ${2:axis})"
     },
-    "get_joy_axis",
     {
-      "trigger": "get_joy_name(device)",
+      "trigger": "get_joy_name(...)",
       "contents": "get_joy_name(${1:device})"
     },
-    "get_joy_name",
     {
       "trigger": "get_accelerometer()",
       "contents": "get_accelerometer()"
     },
-    "get_accelerometer",
     {
       "trigger": "get_mouse_pos()",
       "contents": "get_mouse_pos()"
     },
-    "get_mouse_pos",
     {
       "trigger": "get_mouse_speed()",
       "contents": "get_mouse_speed()"
     },
-    "get_mouse_speed",
     {
       "trigger": "get_mouse_button_mask()",
       "contents": "get_mouse_button_mask()"
     },
-    "get_mouse_button_mask",
     {
-      "trigger": "set_mouse_mode(mode)",
+      "trigger": "set_mouse_mode(...)",
       "contents": "set_mouse_mode(${1:mode})"
     },
-    "set_mouse_mode",
     {
       "trigger": "get_mouse_mode()",
       "contents": "get_mouse_mode()"
     },
-    "get_mouse_mode",
     {
-      "trigger": "warp_mouse_pos(to)",
+      "trigger": "warp_mouse_pos(...)",
       "contents": "warp_mouse_pos(${1:to})"
     },
-    "warp_mouse_pos",
     "MOUSE_MODE_VISIBLE",
     "MOUSE_MODE_HIDDEN",
     "MOUSE_MODE_CAPTURED"

@@ -1,5 +1,5 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "play()",
@@ -9,27 +9,22 @@
       "trigger": "get_stream_name()",
       "contents": "get_stream_name()"
     },
-    "get_stream_name",
     {
       "trigger": "get_loop_count()",
       "contents": "get_loop_count()"
     },
-    "get_loop_count",
     {
-      "trigger": "seek_pos(pos)",
+      "trigger": "seek_pos(...)",
       "contents": "seek_pos(${1:pos})"
     },
-    "seek_pos",
     {
       "trigger": "get_update_mode()",
       "contents": "get_update_mode()"
     },
-    "get_update_mode",
     {
       "trigger": "update()",
       "contents": "update()"
     },
-    "update",
     "UPDATE_NONE",
     "UPDATE_IDLE",
     "UPDATE_THREAD"

@@ -1,11 +1,10 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "input_event(arg0)",
+      "trigger": "input_event(...)",
       "contents": "input_event(${1:arg0})"
     },
-    "input_event",
     "NOTIFICATION_WM_FOCUS_IN",
     "NOTIFICATION_WM_FOCUS_OUT",
     "NOTIFICATION_WM_QUIT_REQUEST",

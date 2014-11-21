@@ -1,28 +1,21 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_continuous_collision_detection_mode(mode)",
+      "trigger": "set_continuous_collision_detection_mode(...)",
       "contents": "set_continuous_collision_detection_mode(${1:mode})"
     },
-    "set_continuous_collision_detection_mode",
     {
       "trigger": "get_continuous_collision_detection_mode()",
       "contents": "get_continuous_collision_detection_mode()"
     },
-    "get_continuous_collision_detection_mode",
     {
-      "trigger": "set_applied_force(force)",
+      "trigger": "set_applied_force(...)",
       "contents": "set_applied_force(${1:force})"
     },
-    "set_applied_force",
     {
       "trigger": "get_applied_force()",
       "contents": "get_applied_force()"
-    },
-    "get_applied_force",
-    "CCD_MODE_DISABLED",
-    "CCD_MODE_CAST_RAY",
-    "CCD_MODE_CAST_SHAPE"
+    }
   ]
 }

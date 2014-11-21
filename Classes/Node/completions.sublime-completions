@@ -1,286 +1,200 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
-    "_enter_scene",
-    "_exit_scene",
-    "_fixed_process",
-    "_input",
-    "_process",
-    "_ready",
-    "_unhandled_input",
-    "_unhandled_key_input",
     {
-      "trigger": "set_name(name)",
-      "contents": "set_name(${1:name})"
-    },
-    "set_name",
-    {
-      "trigger": "get_name()",
-      "contents": "get_name()"
-    },
-    "get_name",
-    {
-      "trigger": "add_child(node)",
+      "trigger": "add_child(...)",
       "contents": "add_child(${1:node})"
     },
-    "add_child",
     {
-      "trigger": "remove_child(node)",
+      "trigger": "remove_child(...)",
       "contents": "remove_child(${1:node})"
     },
-    "remove_child",
     {
-      "trigger": "remove_and_delete_child(node)",
+      "trigger": "remove_and_delete_child(...)",
       "contents": "remove_and_delete_child(${1:node})"
     },
-    "remove_and_delete_child",
     {
       "trigger": "get_child_count()",
       "contents": "get_child_count()"
     },
-    "get_child_count",
     {
-      "trigger": "get_children()",
-      "contents": "get_children()"
-    },
-    "get_children",
-    {
-      "trigger": "get_child(idx)",
+      "trigger": "get_child(...)",
       "contents": "get_child(${1:idx})"
     },
-    "get_child",
     {
-      "trigger": "has_node(path)",
+      "trigger": "has_node(...)",
       "contents": "has_node(${1:path})"
     },
-    "has_node",
     {
-      "trigger": "get_node(path)",
+      "trigger": "get_node(...)",
       "contents": "get_node(${1:path})"
     },
-    "get_node",
     {
-      "trigger": "get_parent()",
-      "contents": "get_parent()"
-    },
-    "get_parent",
-    {
-      "trigger": "has_node_and_resource(path)",
+      "trigger": "has_node_and_resource(...)",
       "contents": "has_node_and_resource(${1:path})"
     },
-    "has_node_and_resource",
     {
-      "trigger": "get_node_and_resource(path)",
+      "trigger": "get_node_and_resource(...)",
       "contents": "get_node_and_resource(${1:path})"
     },
-    "get_node_and_resource",
     {
-      "trigger": "is_inside_scene()",
-      "contents": "is_inside_scene()"
+      "trigger": "is_inside_tree()",
+      "contents": "is_inside_tree()"
     },
-    "is_inside_scene",
     {
-      "trigger": "is_a_parent_of(node)",
+      "trigger": "is_a_parent_of(...)",
       "contents": "is_a_parent_of(${1:node})"
     },
-    "is_a_parent_of",
     {
-      "trigger": "is_greater_than(node)",
+      "trigger": "is_greater_than(...)",
       "contents": "is_greater_than(${1:node})"
     },
-    "is_greater_than",
     {
-      "trigger": "get_path()",
-      "contents": "get_path()"
-    },
-    "get_path",
-    {
-      "trigger": "get_path_to(node)",
+      "trigger": "get_path_to(...)",
       "contents": "get_path_to(${1:node})"
     },
-    "get_path_to",
     {
-      "trigger": "add_to_group(group, arg1)",
+      "trigger": "add_to_group(...)",
       "contents": "add_to_group(${1:group}, ${2:arg1})"
     },
-    "add_to_group",
     {
-      "trigger": "remove_from_group(group)",
+      "trigger": "remove_from_group(...)",
       "contents": "remove_from_group(${1:group})"
     },
-    "remove_from_group",
     {
-      "trigger": "is_in_group(group)",
+      "trigger": "is_in_group(...)",
       "contents": "is_in_group(${1:group})"
     },
-    "is_in_group",
     {
-      "trigger": "move_child(child_node, to_pos)",
+      "trigger": "move_child(...)",
       "contents": "move_child(${1:child_node}, ${2:to_pos})"
     },
-    "move_child",
     {
       "trigger": "get_groups()",
       "contents": "get_groups()"
     },
-    "get_groups",
     {
       "trigger": "raise()",
       "contents": "raise()"
     },
-    "raise",
     {
-      "trigger": "set_owner(owner)",
+      "trigger": "set_owner(...)",
       "contents": "set_owner(${1:owner})"
     },
-    "set_owner",
     {
       "trigger": "get_owner()",
       "contents": "get_owner()"
     },
-    "get_owner",
     {
       "trigger": "remove_and_skip()",
       "contents": "remove_and_skip()"
     },
-    "remove_and_skip",
     {
       "trigger": "get_index()",
       "contents": "get_index()"
     },
-    "get_index",
     {
       "trigger": "print_tree()",
       "contents": "print_tree()"
     },
-    "print_tree",
     {
-      "trigger": "set_filename(filename)",
+      "trigger": "set_filename(...)",
       "contents": "set_filename(${1:filename})"
     },
-    "set_filename",
     {
       "trigger": "get_filename()",
       "contents": "get_filename()"
     },
-    "get_filename",
     {
-      "trigger": "propagate_notification(what)",
+      "trigger": "propagate_notification(...)",
       "contents": "propagate_notification(${1:what})"
     },
-    "propagate_notification",
     {
-      "trigger": "set_fixed_process(enable)",
+      "trigger": "set_fixed_process(...)",
       "contents": "set_fixed_process(${1:enable})"
     },
-    "set_fixed_process",
     {
       "trigger": "get_fixed_process_delta_time()",
       "contents": "get_fixed_process_delta_time()"
     },
-    "get_fixed_process_delta_time",
     {
       "trigger": "is_fixed_processing()",
       "contents": "is_fixed_processing()"
     },
-    "is_fixed_processing",
     {
-      "trigger": "set_process(enable)",
+      "trigger": "set_process(...)",
       "contents": "set_process(${1:enable})"
     },
-    "set_process",
     {
       "trigger": "get_process_delta_time()",
       "contents": "get_process_delta_time()"
     },
-    "get_process_delta_time",
     {
       "trigger": "is_processing()",
       "contents": "is_processing()"
     },
-    "is_processing",
     {
-      "trigger": "set_process_input(enable)",
+      "trigger": "set_process_input(...)",
       "contents": "set_process_input(${1:enable})"
     },
-    "set_process_input",
     {
       "trigger": "is_processing_input()",
       "contents": "is_processing_input()"
     },
-    "is_processing_input",
     {
-      "trigger": "set_process_unhandled_input(enable)",
+      "trigger": "set_process_unhandled_input(...)",
       "contents": "set_process_unhandled_input(${1:enable})"
     },
-    "set_process_unhandled_input",
     {
       "trigger": "is_processing_unhandled_input()",
       "contents": "is_processing_unhandled_input()"
     },
-    "is_processing_unhandled_input",
     {
-      "trigger": "set_process_unhandled_key_input(enable)",
+      "trigger": "set_process_unhandled_key_input(...)",
       "contents": "set_process_unhandled_key_input(${1:enable})"
     },
-    "set_process_unhandled_key_input",
     {
       "trigger": "is_processing_unhandled_key_input()",
       "contents": "is_processing_unhandled_key_input()"
     },
-    "is_processing_unhandled_key_input",
     {
-      "trigger": "set_pause_mode(mode)",
+      "trigger": "set_pause_mode(...)",
       "contents": "set_pause_mode(${1:mode})"
     },
-    "set_pause_mode",
     {
       "trigger": "get_pause_mode()",
       "contents": "get_pause_mode()"
     },
-    "get_pause_mode",
     {
       "trigger": "can_process()",
       "contents": "can_process()"
     },
-    "can_process",
     {
       "trigger": "print_stray_nodes()",
       "contents": "print_stray_nodes()"
     },
-    "print_stray_nodes",
     {
       "trigger": "get_position_in_parent()",
       "contents": "get_position_in_parent()"
     },
-    "get_position_in_parent",
     {
-      "trigger": "get_scene()",
-      "contents": "get_scene()"
+      "trigger": "get_tree()",
+      "contents": "get_tree()"
     },
-    "get_scene",
     {
       "trigger": "duplicate()",
       "contents": "duplicate()"
     },
-    "duplicate",
     {
-      "trigger": "replace_by(node, keep_data)",
+      "trigger": "replace_by(...)",
       "contents": "replace_by(${1:node}, ${2:keep_data})"
     },
-    "replace_by",
-    {
-      "trigger": "get_viewport()",
-      "contents": "get_viewport()"
-    },
-    "get_viewport",
     {
       "trigger": "queue_free()",
       "contents": "queue_free()"
     },
-    "queue_free",
-    "NOTIFICATION_ENTER_SCENE",
-    "NOTIFICATION_EXIT_SCENE",
+    "NOTIFICATION_ENTER_TREE",
+    "NOTIFICATION_EXIT_TREE",
     "NOTIFICATION_MOVED_IN_PARENT",
     "NOTIFICATION_READY",
     "NOTIFICATION_FIXED_PROCESS",

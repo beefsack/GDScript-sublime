@@ -1,65 +1,60 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "append(value)",
+      "trigger": "append(...)",
       "contents": "append(${1:value})"
     },
-    "append",
     {
       "trigger": "empty()",
       "contents": "empty()"
     },
-    "empty",
     {
-      "trigger": "erase(value)",
+      "trigger": "erase(...)",
       "contents": "erase(${1:value})"
     },
-    "erase",
     {
-      "trigger": "find(value)",
+      "trigger": "find(...)",
       "contents": "find(${1:value})"
     },
-    "find",
     {
       "trigger": "hash()",
       "contents": "hash()"
     },
     {
-      "trigger": "insert(pos, value)",
+      "trigger": "insert(...)",
       "contents": "insert(${1:pos}, ${2:value})"
     },
-    "insert",
     {
       "trigger": "invert()",
       "contents": "invert()"
     },
-    "invert",
     {
-      "trigger": "push_back(value)",
+      "trigger": "push_back(...)",
       "contents": "push_back(${1:value})"
     },
     {
-      "trigger": "remove(pos)",
+      "trigger": "remove(...)",
       "contents": "remove(${1:pos})"
     },
-    "remove",
     {
-      "trigger": "resize(pos)",
+      "trigger": "resize(...)",
       "contents": "resize(${1:pos})"
+    },
+    {
+      "trigger": "size()",
+      "contents": "size()"
     },
     {
       "trigger": "sort()",
       "contents": "sort()"
     },
-    "sort",
     {
-      "trigger": "sort_custom(obj, func)",
+      "trigger": "sort_custom(...)",
       "contents": "sort_custom(${1:obj}, ${2:func})"
     },
-    "sort_custom",
     {
-      "trigger": "Array(from)",
+      "trigger": "Array(...)",
       "contents": "Array(${1:from})"
     }
   ]

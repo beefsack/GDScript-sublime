@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_viewport_path(path)",
+      "trigger": "set_viewport_path(...)",
       "contents": "set_viewport_path(${1:path})"
     },
-    "set_viewport_path",
     {
       "trigger": "get_viewport_path()",
       "contents": "get_viewport_path()"
-    },
-    "get_viewport_path"
+    }
   ]
 }

@@ -1,35 +1,29 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
       "trigger": "can_instance()",
       "contents": "can_instance()"
     },
-    "can_instance",
     {
-      "trigger": "instance_has(base_object)",
+      "trigger": "instance_has(...)",
       "contents": "instance_has(${1:base_object})"
     },
-    "instance_has",
     {
       "trigger": "has_source_code()",
       "contents": "has_source_code()"
     },
-    "has_source_code",
     {
       "trigger": "get_source_code()",
       "contents": "get_source_code()"
     },
-    "get_source_code",
     {
-      "trigger": "set_source_code(source)",
+      "trigger": "set_source_code(...)",
       "contents": "set_source_code(${1:source})"
     },
-    "set_source_code",
     {
       "trigger": "reload()",
       "contents": "reload()"
-    },
-    "reload"
+    }
   ]
 }

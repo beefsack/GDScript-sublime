@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_flag",
+    "get_flag",
+    "set_blend_mode",
+    "get_blend_mode",
+    "set_line_width",
+    "get_line_width",
+    "set_depth_draw_mode",
+    "get_depth_draw_mode"
+  ]
+}

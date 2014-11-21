@@ -1,0 +1,24 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_bone",
+    "find_bone",
+    "get_bone_name",
+    "get_bone_parent",
+    "set_bone_parent",
+    "get_bone_count",
+    "get_bone_rest",
+    "set_bone_rest",
+    "bind_child_node_to_bone",
+    "unbind_child_node_from_bone",
+    "get_bound_child_nodes_to_bone",
+    "clear_bones",
+    "get_bone_pose",
+    "set_bone_pose",
+    "set_bone_global_pose",
+    "get_bone_global_pose",
+    "get_bone_custom_pose",
+    "set_bone_custom_pose",
+    "get_bone_transform"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_rect",
+    "get_rect",
+    "is_on_screen"
+  ]
+}

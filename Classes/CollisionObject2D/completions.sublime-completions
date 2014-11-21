@@ -1,8 +1,8 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "add_shape(shape, transform, 0, 0)",
+      "trigger": "add_shape(...)",
       "contents": "add_shape(${1:shape}, ${2:transform}, ${3:0}, ${4:0})"
     }
   ]

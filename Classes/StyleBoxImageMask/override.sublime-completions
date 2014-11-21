@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_image",
+    "get_image",
+    "set_expand",
+    "get_expand",
+    "set_expand_margin_size",
+    "get_expand_margin_size"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_value",
+    "get_value",
+    "has_section",
+    "has_section_key",
+    "get_sections",
+    "get_section_keys",
+    "load",
+    "save"
+  ]
+}

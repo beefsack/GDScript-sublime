@@ -1,0 +1,27 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_polygon",
+    "get_polygon",
+    "set_uv",
+    "get_uv",
+    "set_color",
+    "get_color",
+    "set_texture",
+    "get_texture",
+    "set_texture_offset",
+    "get_texture_offset",
+    "set_texture_rotation",
+    "get_texture_rotation",
+    "set_texture_scale",
+    "get_texture_scale",
+    "set_texture_repeat",
+    "get_texture_repeat",
+    "set_invert",
+    "get_invert",
+    "set_invert_border",
+    "get_invert_border",
+    "set_offset",
+    "get_offset"
+  ]
+}

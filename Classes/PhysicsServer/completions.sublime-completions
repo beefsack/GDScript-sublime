@@ -1,195 +1,154 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "area_add_shape(area, shape, transform)",
+      "trigger": "area_add_shape(...)",
       "contents": "area_add_shape(${1:area}, ${2:shape}, ${3:transform})"
     },
     {
-      "trigger": "area_set_param(area, param)",
-      "contents": "area_set_param(${1:area}, ${2:param})"
-    },
-    {
-      "trigger": "area_set_transform(area)",
-      "contents": "area_set_transform(${1:area})"
-    },
-    {
-      "trigger": "area_set_ray_pickable(area, enable)",
+      "trigger": "area_set_ray_pickable(...)",
       "contents": "area_set_ray_pickable(${1:area}, ${2:enable})"
     },
-    "area_set_ray_pickable",
     {
-      "trigger": "area_is_ray_pickable(area)",
+      "trigger": "area_is_ray_pickable(...)",
       "contents": "area_is_ray_pickable(${1:area})"
     },
-    "area_is_ray_pickable",
     {
-      "trigger": "body_get_mode(body, arg1)",
+      "trigger": "body_get_mode(...)",
       "contents": "body_get_mode(${1:body}, ${2:arg1})"
     },
     {
-      "trigger": "body_add_shape(body, shape, transform)",
+      "trigger": "body_add_shape(...)",
       "contents": "body_add_shape(${1:body}, ${2:shape}, ${3:transform})"
     },
     {
-      "trigger": "body_set_enable_continuous_collision_detection(body, enable)",
+      "trigger": "body_set_enable_continuous_collision_detection(...)",
       "contents": "body_set_enable_continuous_collision_detection(${1:body}, ${2:enable})"
     },
-    "body_set_enable_continuous_collision_detection",
     {
-      "trigger": "body_is_continuous_collision_detection_enabled(body)",
+      "trigger": "body_is_continuous_collision_detection_enabled(...)",
       "contents": "body_is_continuous_collision_detection_enabled(${1:body})"
     },
-    "body_is_continuous_collision_detection_enabled",
     {
-      "trigger": "body_set_axis_lock(body, axis)",
+      "trigger": "body_set_axis_lock(...)",
       "contents": "body_set_axis_lock(${1:body}, ${2:axis})"
     },
-    "body_set_axis_lock",
     {
-      "trigger": "body_get_axis_lock(body, arg1)",
-      "contents": "body_get_axis_lock(${1:body}, ${2:arg1})"
+      "trigger": "body_get_axis_lock(...)",
+      "contents": "body_get_axis_lock(${1:body})"
     },
-    "body_get_axis_lock",
     {
-      "trigger": "body_set_force_integration_callback(body, receiver, method, userdata)",
+      "trigger": "body_set_force_integration_callback(...)",
       "contents": "body_set_force_integration_callback(${1:body}, ${2:receiver}, ${3:method}, ${4:userdata})"
     },
     {
-      "trigger": "body_set_ray_pickable(body, enable)",
+      "trigger": "body_set_ray_pickable(...)",
       "contents": "body_set_ray_pickable(${1:body}, ${2:enable})"
     },
-    "body_set_ray_pickable",
     {
-      "trigger": "body_is_ray_pickable(body)",
+      "trigger": "body_is_ray_pickable(...)",
       "contents": "body_is_ray_pickable(${1:body})"
     },
-    "body_is_ray_pickable",
     {
-      "trigger": "joint_create_pin(body_A, local_A, body_B, local_B)",
+      "trigger": "joint_create_pin(...)",
       "contents": "joint_create_pin(${1:body_A}, ${2:local_A}, ${3:body_B}, ${4:local_B})"
     },
-    "joint_create_pin",
     {
-      "trigger": "pin_joint_set_param(joint, param, value)",
+      "trigger": "pin_joint_set_param(...)",
       "contents": "pin_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
-    "pin_joint_set_param",
     {
-      "trigger": "pin_joint_get_param(joint, param)",
+      "trigger": "pin_joint_get_param(...)",
       "contents": "pin_joint_get_param(${1:joint}, ${2:param})"
     },
-    "pin_joint_get_param",
     {
-      "trigger": "pin_joint_set_local_A(joint, local_A)",
+      "trigger": "pin_joint_set_local_A(...)",
       "contents": "pin_joint_set_local_A(${1:joint}, ${2:local_A})"
     },
-    "pin_joint_set_local_A",
     {
-      "trigger": "pin_joint_get_local_A(joint)",
+      "trigger": "pin_joint_get_local_A(...)",
       "contents": "pin_joint_get_local_A(${1:joint})"
     },
-    "pin_joint_get_local_A",
     {
-      "trigger": "pin_joint_set_local_B(joint, local_B)",
+      "trigger": "pin_joint_set_local_B(...)",
       "contents": "pin_joint_set_local_B(${1:joint}, ${2:local_B})"
     },
-    "pin_joint_set_local_B",
     {
-      "trigger": "pin_joint_get_local_B(joint)",
+      "trigger": "pin_joint_get_local_B(...)",
       "contents": "pin_joint_get_local_B(${1:joint})"
     },
-    "pin_joint_get_local_B",
     {
-      "trigger": "joint_create_hinge(body_A, hinge_A, body_B, hinge_B)",
+      "trigger": "joint_create_hinge(...)",
       "contents": "joint_create_hinge(${1:body_A}, ${2:hinge_A}, ${3:body_B}, ${4:hinge_B})"
     },
-    "joint_create_hinge",
     {
-      "trigger": "hinge_joint_set_param(joint, param, value)",
+      "trigger": "hinge_joint_set_param(...)",
       "contents": "hinge_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
-    "hinge_joint_set_param",
     {
-      "trigger": "hinge_joint_get_param(joint, param)",
+      "trigger": "hinge_joint_get_param(...)",
       "contents": "hinge_joint_get_param(${1:joint}, ${2:param})"
     },
-    "hinge_joint_get_param",
     {
-      "trigger": "hinge_joint_set_flag(joint, flag, enabled)",
+      "trigger": "hinge_joint_set_flag(...)",
       "contents": "hinge_joint_set_flag(${1:joint}, ${2:flag}, ${3:enabled})"
     },
-    "hinge_joint_set_flag",
     {
-      "trigger": "hinge_joint_get_flag(joint, flag)",
+      "trigger": "hinge_joint_get_flag(...)",
       "contents": "hinge_joint_get_flag(${1:joint}, ${2:flag})"
     },
-    "hinge_joint_get_flag",
     {
-      "trigger": "joint_create_slider(body_A, local_ref_A, body_B, local_ref_B)",
+      "trigger": "joint_create_slider(...)",
       "contents": "joint_create_slider(${1:body_A}, ${2:local_ref_A}, ${3:body_B}, ${4:local_ref_B})"
     },
-    "joint_create_slider",
     {
-      "trigger": "slider_joint_set_param(joint, param, value)",
+      "trigger": "slider_joint_set_param(...)",
       "contents": "slider_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
-    "slider_joint_set_param",
     {
-      "trigger": "slider_joint_get_param(joint, param)",
+      "trigger": "slider_joint_get_param(...)",
       "contents": "slider_joint_get_param(${1:joint}, ${2:param})"
     },
-    "slider_joint_get_param",
     {
-      "trigger": "joint_create_cone_twist(body_A, local_ref_A, body_B, local_ref_B)",
+      "trigger": "joint_create_cone_twist(...)",
       "contents": "joint_create_cone_twist(${1:body_A}, ${2:local_ref_A}, ${3:body_B}, ${4:local_ref_B})"
     },
-    "joint_create_cone_twist",
     {
-      "trigger": "cone_twist_joint_set_param(joint, param, value)",
+      "trigger": "cone_twist_joint_set_param(...)",
       "contents": "cone_twist_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
     },
-    "cone_twist_joint_set_param",
     {
-      "trigger": "cone_twist_joint_get_param(joint, param)",
+      "trigger": "cone_twist_joint_get_param(...)",
       "contents": "cone_twist_joint_get_param(${1:joint}, ${2:param})"
     },
-    "cone_twist_joint_get_param",
     {
-      "trigger": "joint_set_solver_priority(joint, priority)",
+      "trigger": "joint_set_solver_priority(...)",
       "contents": "joint_set_solver_priority(${1:joint}, ${2:priority})"
     },
-    "joint_set_solver_priority",
     {
-      "trigger": "joint_get_solver_priority(joint)",
+      "trigger": "joint_get_solver_priority(...)",
       "contents": "joint_get_solver_priority(${1:joint})"
     },
-    "joint_get_solver_priority",
     {
-      "trigger": "joint_create_generic_6dof(body_A, local_ref_A, body_B, local_ref_B)",
+      "trigger": "joint_create_generic_6dof(...)",
       "contents": "joint_create_generic_6dof(${1:body_A}, ${2:local_ref_A}, ${3:body_B}, ${4:local_ref_B})"
     },
-    "joint_create_generic_6dof",
     {
-      "trigger": "generic_6dof_joint_set_param(joint, axis, param, value)",
+      "trigger": "generic_6dof_joint_set_param(...)",
       "contents": "generic_6dof_joint_set_param(${1:joint}, ${2:axis}, ${3:param}, ${4:value})"
     },
-    "generic_6dof_joint_set_param",
     {
-      "trigger": "generic_6dof_joint_get_param(joint, axis, param)",
+      "trigger": "generic_6dof_joint_get_param(...)",
       "contents": "generic_6dof_joint_get_param(${1:joint}, ${2:axis}, ${3:param})"
     },
-    "generic_6dof_joint_get_param",
     {
-      "trigger": "generic_6dof_joint_set_flag(joint, axis, flag, enable)",
+      "trigger": "generic_6dof_joint_set_flag(...)",
       "contents": "generic_6dof_joint_set_flag(${1:joint}, ${2:axis}, ${3:flag}, ${4:enable})"
     },
-    "generic_6dof_joint_set_flag",
     {
-      "trigger": "generic_6dof_joint_get_flag(joint, axis, flag)",
+      "trigger": "generic_6dof_joint_get_flag(...)",
       "contents": "generic_6dof_joint_get_flag(${1:joint}, ${2:axis}, ${3:flag})"
     },
-    "generic_6dof_joint_get_flag",
     "JOINT_HINGE",
     "JOINT_SLIDER",
     "JOINT_CONE_TWIST",

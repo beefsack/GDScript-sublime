@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_locale",
+    "get_locale",
+    "add_message",
+    "get_message",
+    "erase_message",
+    "get_message_list",
+    "get_message_count"
+  ]
+}

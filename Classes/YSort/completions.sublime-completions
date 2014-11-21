@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_sort_enabled(enabled)",
+      "trigger": "set_sort_enabled(...)",
       "contents": "set_sort_enabled(${1:enabled})"
     },
-    "set_sort_enabled",
     {
       "trigger": "is_sort_enabled()",
       "contents": "is_sort_enabled()"
-    },
-    "is_sort_enabled"
+    }
   ]
 }

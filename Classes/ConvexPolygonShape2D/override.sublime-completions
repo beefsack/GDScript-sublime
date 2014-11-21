@@ -1,0 +1,8 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_point_cloud",
+    "set_points",
+    "get_points"
+  ]
+}

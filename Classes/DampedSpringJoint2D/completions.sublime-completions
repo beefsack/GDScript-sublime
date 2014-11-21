@@ -1,39 +1,29 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_length(length)",
-      "contents": "set_length(${1:length})"
-    },
-    {
-      "trigger": "set_rest_length(rest_length)",
+      "trigger": "set_rest_length(...)",
       "contents": "set_rest_length(${1:rest_length})"
     },
-    "set_rest_length",
     {
       "trigger": "get_rest_length()",
       "contents": "get_rest_length()"
     },
-    "get_rest_length",
     {
-      "trigger": "set_stiffness(stiffness)",
+      "trigger": "set_stiffness(...)",
       "contents": "set_stiffness(${1:stiffness})"
     },
-    "set_stiffness",
     {
       "trigger": "get_stiffness()",
       "contents": "get_stiffness()"
     },
-    "get_stiffness",
     {
-      "trigger": "set_damping(damping)",
+      "trigger": "set_damping(...)",
       "contents": "set_damping(${1:damping})"
     },
-    "set_damping",
     {
       "trigger": "get_damping()",
       "contents": "get_damping()"
-    },
-    "get_damping"
+    }
   ]
 }

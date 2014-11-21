@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_custom_step(step)",
+      "trigger": "set_custom_step(...)",
       "contents": "set_custom_step(${1:step})"
     },
-    "set_custom_step",
     {
       "trigger": "get_custom_step()",
       "contents": "get_custom_step()"
-    },
-    "get_custom_step"
+    }
   ]
 }

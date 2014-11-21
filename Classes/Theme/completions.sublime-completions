@@ -1,123 +1,101 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_icon(name, type, texture)",
+      "trigger": "set_icon(...)",
       "contents": "set_icon(${1:name}, ${2:type}, ${3:texture})"
     },
     {
-      "trigger": "has_icon(name, type)",
+      "trigger": "has_icon(...)",
       "contents": "has_icon(${1:name}, ${2:type})"
     },
-    "has_icon",
     {
-      "trigger": "clear_icon(name, type)",
+      "trigger": "clear_icon(...)",
       "contents": "clear_icon(${1:name}, ${2:type})"
     },
-    "clear_icon",
     {
-      "trigger": "get_icon_list(arg0)",
+      "trigger": "get_icon_list(...)",
       "contents": "get_icon_list(${1:arg0})"
     },
-    "get_icon_list",
     {
-      "trigger": "set_stylebox(name, type, texture)",
+      "trigger": "set_stylebox(...)",
       "contents": "set_stylebox(${1:name}, ${2:type}, ${3:texture})"
     },
-    "set_stylebox",
     {
-      "trigger": "has_stylebox(name, type)",
+      "trigger": "has_stylebox(...)",
       "contents": "has_stylebox(${1:name}, ${2:type})"
     },
-    "has_stylebox",
     {
-      "trigger": "clear_stylebox(name, type)",
+      "trigger": "clear_stylebox(...)",
       "contents": "clear_stylebox(${1:name}, ${2:type})"
     },
-    "clear_stylebox",
     {
-      "trigger": "get_stylebox_list(arg0)",
+      "trigger": "get_stylebox_list(...)",
       "contents": "get_stylebox_list(${1:arg0})"
     },
-    "get_stylebox_list",
     {
-      "trigger": "set_font(name, type, font)",
+      "trigger": "set_font(...)",
       "contents": "set_font(${1:name}, ${2:type}, ${3:font})"
     },
-    "set_font",
     {
-      "trigger": "has_font(name, type)",
+      "trigger": "has_font(...)",
       "contents": "has_font(${1:name}, ${2:type})"
     },
-    "has_font",
     {
-      "trigger": "clear_font(name, type)",
+      "trigger": "clear_font(...)",
       "contents": "clear_font(${1:name}, ${2:type})"
     },
-    "clear_font",
     {
-      "trigger": "get_font_list(arg0)",
+      "trigger": "get_font_list(...)",
       "contents": "get_font_list(${1:arg0})"
     },
-    "get_font_list",
     {
-      "trigger": "set_color(name, type, color)",
+      "trigger": "set_color(...)",
       "contents": "set_color(${1:name}, ${2:type}, ${3:color})"
     },
     {
-      "trigger": "has_color(name, type)",
+      "trigger": "has_color(...)",
       "contents": "has_color(${1:name}, ${2:type})"
     },
-    "has_color",
     {
-      "trigger": "clear_color(name, type)",
+      "trigger": "clear_color(...)",
       "contents": "clear_color(${1:name}, ${2:type})"
     },
-    "clear_color",
     {
-      "trigger": "get_color_list(arg0)",
+      "trigger": "get_color_list(...)",
       "contents": "get_color_list(${1:arg0})"
     },
-    "get_color_list",
     {
-      "trigger": "set_constant(name, type, constant)",
+      "trigger": "set_constant(...)",
       "contents": "set_constant(${1:name}, ${2:type}, ${3:constant})"
     },
-    "set_constant",
     {
-      "trigger": "has_constant(name, type)",
+      "trigger": "has_constant(...)",
       "contents": "has_constant(${1:name}, ${2:type})"
     },
-    "has_constant",
     {
-      "trigger": "clear_constant(name, type)",
+      "trigger": "clear_constant(...)",
       "contents": "clear_constant(${1:name}, ${2:type})"
     },
-    "clear_constant",
     {
-      "trigger": "get_constant_list(arg0)",
+      "trigger": "get_constant_list(...)",
       "contents": "get_constant_list(${1:arg0})"
     },
-    "get_constant_list",
     {
-      "trigger": "set_default_font(font)",
+      "trigger": "set_default_font(...)",
       "contents": "set_default_font(${1:font})"
     },
-    "set_default_font",
     {
       "trigger": "get_default_font()",
       "contents": "get_default_font()"
     },
-    "get_default_font",
     {
-      "trigger": "get_type_list(arg0)",
+      "trigger": "get_type_list(...)",
       "contents": "get_type_list(${1:arg0})"
     },
-    "get_type_list",
     {
       "trigger": "copy_default_theme()",
       "contents": "copy_default_theme()"
-    },
-    "copy_default_theme"
+    }
   ]
 }

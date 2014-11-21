@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_file(name)",
+      "trigger": "set_file(...)",
       "contents": "set_file(${1:name})"
     },
-    "set_file",
     {
       "trigger": "get_file()",
       "contents": "get_file()"
-    },
-    "get_file"
+    }
   ]
 }

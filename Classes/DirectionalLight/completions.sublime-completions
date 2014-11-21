@@ -1,26 +1,22 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_shadow_mode(mode)",
+      "trigger": "set_shadow_mode(...)",
       "contents": "set_shadow_mode(${1:mode})"
     },
-    "set_shadow_mode",
     {
       "trigger": "get_shadow_mode()",
       "contents": "get_shadow_mode()"
     },
-    "get_shadow_mode",
     {
-      "trigger": "set_shadow_param(param, value)",
+      "trigger": "set_shadow_param(...)",
       "contents": "set_shadow_param(${1:param}, ${2:value})"
     },
-    "set_shadow_param",
     {
-      "trigger": "get_shadow_param(param)",
+      "trigger": "get_shadow_param(...)",
       "contents": "get_shadow_param(${1:param})"
     },
-    "get_shadow_param",
     "SHADOW_ORTHOGONAL",
     "SHADOW_PERSPECTIVE",
     "SHADOW_PARALLEL_2_SPLITS",

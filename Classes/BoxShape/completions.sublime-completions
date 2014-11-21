@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_extents(extents)",
+      "trigger": "set_extents(...)",
       "contents": "set_extents(${1:extents})"
     },
-    "set_extents",
     {
       "trigger": "get_extents()",
       "contents": "get_extents()"
-    },
-    "get_extents"
+    }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "create_tile",
+    "tile_set_name",
+    "tile_get_name",
+    "tile_set_texture",
+    "tile_get_texture",
+    "tile_set_texture_offset",
+    "tile_get_texture_offset",
+    "tile_set_shape_offset",
+    "tile_get_shape_offset",
+    "tile_set_region",
+    "tile_get_region",
+    "tile_set_shape",
+    "tile_get_shape",
+    "tile_set_shapes",
+    "tile_get_shapes",
+    "remove_tile",
+    "clear",
+    "get_last_unused_tile_id",
+    "find_tile_by_name",
+    "get_tiles_ids"
+  ]
+}

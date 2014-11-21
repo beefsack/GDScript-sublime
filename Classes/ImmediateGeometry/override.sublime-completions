@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "begin",
+    "set_normal",
+    "set_tangent",
+    "set_color",
+    "set_uv",
+    "set_uv2",
+    "add_vertex",
+    "add_sphere",
+    "end",
+    "clear"
+  ]
+}

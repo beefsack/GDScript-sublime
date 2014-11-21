@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "load_interactive",
+    "load",
+    "get_recognized_extensions_for_type",
+    "set_abort_on_missing_resources",
+    "get_dependencies",
+    "has"
+  ]
+}

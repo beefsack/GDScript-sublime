@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "project_ray_normal",
+    "project_local_ray_normal",
+    "project_ray_origin",
+    "unproject_position",
+    "project_position",
+    "set_perspective",
+    "set_orthogonal",
+    "make_current",
+    "clear_current",
+    "is_current",
+    "get_camera_transform",
+    "get_fov",
+    "get_size",
+    "get_zfar",
+    "get_znear",
+    "get_projection",
+    "set_visible_layers",
+    "get_visible_layers",
+    "look_at",
+    "look_at_from_pos",
+    "set_environment",
+    "get_environment",
+    "set_keep_aspect_mode",
+    "get_keep_aspect_mode"
+  ]
+}

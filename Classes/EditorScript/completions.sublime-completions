@@ -1,11 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
-    "_run",
     {
-      "trigger": "add_root_node(node)",
+      "trigger": "add_root_node(...)",
       "contents": "add_root_node(${1:node})"
     },
-    "add_root_node"
+    {
+      "trigger": "get_scene()",
+      "contents": "get_scene()"
+    }
   ]
 }

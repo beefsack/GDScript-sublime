@@ -1,34 +1,21 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_polygon(polygon)",
-      "contents": "set_polygon(${1:polygon})"
-    },
-    "set_polygon",
-    {
-      "trigger": "get_polygon()",
-      "contents": "get_polygon()"
-    },
-    {
-      "trigger": "set_depth(depth)",
+      "trigger": "set_depth(...)",
       "contents": "set_depth(${1:depth})"
     },
-    "set_depth",
     {
       "trigger": "get_depth()",
       "contents": "get_depth()"
     },
-    "get_depth",
     {
-      "trigger": "set_build_mode(arg0)",
+      "trigger": "set_build_mode(...)",
       "contents": "set_build_mode(${1:arg0})"
     },
-    "set_build_mode",
     {
       "trigger": "get_build_mode()",
       "contents": "get_build_mode()"
-    },
-    "get_build_mode"
+    }
   ]
 }

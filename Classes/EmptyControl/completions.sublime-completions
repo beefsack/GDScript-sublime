@@ -1,15 +1,13 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set_minsize(minsize)",
+      "trigger": "set_minsize(...)",
       "contents": "set_minsize(${1:minsize})"
     },
-    "set_minsize",
     {
       "trigger": "get_minsize()",
       "contents": "get_minsize()"
-    },
-    "get_minsize"
+    }
   ]
 }

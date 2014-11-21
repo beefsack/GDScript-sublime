@@ -1,12 +1,12 @@
 {
-  "scope": "source.gdscript",
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
   "completions": [
     {
-      "trigger": "set(idx, value)",
+      "trigger": "set(...)",
       "contents": "set(${1:idx}, ${2:value})"
     },
     {
-      "trigger": "RealArray(from)",
+      "trigger": "RealArray(...)",
       "contents": "RealArray(${1:from})"
     }
   ]

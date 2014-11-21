@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_result_count",
+    "get_result_rid",
+    "get_result_object_id",
+    "get_result_object",
+    "get_result_object_shape"
+  ]
+}
