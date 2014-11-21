@@ -1,0 +1,22 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "is_action(...)",
+      "contents": "is_action(${1:action})"
+    },
+    {
+      "trigger": "is_echo()",
+      "contents": "is_echo()"
+    },
+    "NONE",
+    "KEY",
+    "MOUSE_MOTION",
+    "MOUSE_BUTTON",
+    "JOYSTICK_MOTION",
+    "JOYSTICK_BUTTON",
+    "SCREEN_TOUCH",
+    "SCREEN_DRAG",
+    "ACTION"
+  ]
+}

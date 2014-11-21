@@ -1,0 +1,121 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_icon_item(...)",
+      "contents": "add_icon_item(${1:texture}, ${2:label}, ${3:id}, ${4:accel})"
+    },
+    {
+      "trigger": "add_item(...)",
+      "contents": "add_item(${1:label}, ${2:id}, ${3:accel})"
+    },
+    {
+      "trigger": "add_icon_check_item(...)",
+      "contents": "add_icon_check_item(${1:texture}, ${2:label}, ${3:id}, ${4:accel})"
+    },
+    {
+      "trigger": "add_check_item(...)",
+      "contents": "add_check_item(${1:label}, ${2:id}, ${3:accel})"
+    },
+    {
+      "trigger": "add_submenu_item(...)",
+      "contents": "add_submenu_item(${1:label}, ${2:submenu}, ${3:id})"
+    },
+    {
+      "trigger": "set_item_text(...)",
+      "contents": "set_item_text(${1:idx}, ${2:text})"
+    },
+    {
+      "trigger": "set_item_icon(...)",
+      "contents": "set_item_icon(${1:idx}, ${2:icon})"
+    },
+    {
+      "trigger": "set_item_accelerator(...)",
+      "contents": "set_item_accelerator(${1:idx}, ${2:accel})"
+    },
+    {
+      "trigger": "set_item_metadata(...)",
+      "contents": "set_item_metadata(${1:idx}, ${2:metadata})"
+    },
+    {
+      "trigger": "set_item_checked(...)",
+      "contents": "set_item_checked(${1:idx}, ${2:arg1})"
+    },
+    {
+      "trigger": "set_item_disabled(...)",
+      "contents": "set_item_disabled(${1:idx}, ${2:disabled})"
+    },
+    {
+      "trigger": "set_item_submenu(...)",
+      "contents": "set_item_submenu(${1:idx}, ${2:submenu})"
+    },
+    {
+      "trigger": "set_item_as_separator(...)",
+      "contents": "set_item_as_separator(${1:idx}, ${2:enable})"
+    },
+    {
+      "trigger": "set_item_as_checkable(...)",
+      "contents": "set_item_as_checkable(${1:idx}, ${2:enable})"
+    },
+    {
+      "trigger": "set_item_ID(...)",
+      "contents": "set_item_ID(${1:idx}, ${2:id})"
+    },
+    {
+      "trigger": "get_item_text(...)",
+      "contents": "get_item_text(${1:idx})"
+    },
+    {
+      "trigger": "get_item_icon(...)",
+      "contents": "get_item_icon(${1:idx})"
+    },
+    {
+      "trigger": "get_item_metadata(...)",
+      "contents": "get_item_metadata(${1:idx})"
+    },
+    {
+      "trigger": "get_item_accelerator(...)",
+      "contents": "get_item_accelerator(${1:idx})"
+    },
+    {
+      "trigger": "get_item_submenu(...)",
+      "contents": "get_item_submenu(${1:idx})"
+    },
+    {
+      "trigger": "is_item_separator(...)",
+      "contents": "is_item_separator(${1:idx})"
+    },
+    {
+      "trigger": "is_item_checkable(...)",
+      "contents": "is_item_checkable(${1:idx})"
+    },
+    {
+      "trigger": "is_item_checked(...)",
+      "contents": "is_item_checked(${1:idx})"
+    },
+    {
+      "trigger": "is_item_disabled(...)",
+      "contents": "is_item_disabled(${1:idx})"
+    },
+    {
+      "trigger": "get_item_ID(...)",
+      "contents": "get_item_ID(${1:idx})"
+    },
+    {
+      "trigger": "get_item_index(...)",
+      "contents": "get_item_index(${1:id})"
+    },
+    {
+      "trigger": "get_item_count()",
+      "contents": "get_item_count()"
+    },
+    {
+      "trigger": "add_separator()",
+      "contents": "add_separator()"
+    },
+    {
+      "trigger": "remove_item(...)",
+      "contents": "remove_item(${1:idx})"
+    }
+  ]
+}

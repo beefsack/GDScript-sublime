@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_param(...)",
+      "contents": "set_param(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_param(...)",
+      "contents": "get_param(${1:param})"
+    },
+    "PARAM_BIAS",
+    "PARAM_DAMPING",
+    "PARAM_IMPULSE_CLAMP"
+  ]
+}
