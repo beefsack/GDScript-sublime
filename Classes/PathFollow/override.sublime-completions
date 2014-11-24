@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_offset",
+    "get_offset",
+    "set_h_offset",
+    "get_h_offset",
+    "set_v_offset",
+    "get_v_offset",
+    "set_unit_offset",
+    "get_unit_offset",
+    "set_rotation_mode",
+    "get_rotation_mode",
+    "set_cubic_interpolation",
+    "get_cubic_interpolation",
+    "set_loop",
+    "has_loop"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_shader",
+    "get_shader",
+    "set_shader_param",
+    "get_shader_param"
+  ]
+}

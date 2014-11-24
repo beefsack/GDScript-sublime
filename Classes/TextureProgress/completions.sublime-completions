@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_under_texture(...)",
+      "contents": "set_under_texture(${1:tex})"
+    },
+    {
+      "trigger": "get_under_texture()",
+      "contents": "get_under_texture()"
+    },
+    {
+      "trigger": "set_progress_texture(...)",
+      "contents": "set_progress_texture(${1:tex})"
+    },
+    {
+      "trigger": "get_progress_texture()",
+      "contents": "get_progress_texture()"
+    },
+    {
+      "trigger": "set_over_texture(...)",
+      "contents": "set_over_texture(${1:tex})"
+    },
+    {
+      "trigger": "get_over_texture()",
+      "contents": "get_over_texture()"
+    }
+  ]
+}

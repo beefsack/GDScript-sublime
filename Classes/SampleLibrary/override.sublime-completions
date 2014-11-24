@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_sample",
+    "get_sample",
+    "has_sample",
+    "remove_sample",
+    "sample_set_volume_db",
+    "sample_get_volume_db",
+    "sample_set_pitch_scale",
+    "sample_get_pitch_scale"
+  ]
+}

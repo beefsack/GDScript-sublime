@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_use_alpha(...)",
+      "contents": "set_use_alpha(${1:enable})"
+    },
+    {
+      "trigger": "is_using_alpha()",
+      "contents": "is_using_alpha()"
+    },
+    {
+      "trigger": "set_use_color_array(...)",
+      "contents": "set_use_color_array(${1:enable})"
+    },
+    {
+      "trigger": "is_using_color_array()",
+      "contents": "is_using_color_array()"
+    }
+  ]
+}

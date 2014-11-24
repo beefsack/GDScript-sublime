@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "affine_inverse",
+    "inverse",
+    "looking_at",
+    "orthonormalized",
+    "rotated",
+    "scaled",
+    "translated",
+    "xform",
+    "xform_inv"
+  ]
+}

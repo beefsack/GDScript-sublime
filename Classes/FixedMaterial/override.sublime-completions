@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_parameter",
+    "get_parameter",
+    "set_texture",
+    "get_texture",
+    "set_texcoord_mode",
+    "get_texcoord_mode",
+    "set_fixed_flag",
+    "get_fixed_flag",
+    "set_uv_transform",
+    "get_uv_transform",
+    "set_light_shader",
+    "get_light_shader",
+    "set_point_size",
+    "get_point_size"
+  ]
+}

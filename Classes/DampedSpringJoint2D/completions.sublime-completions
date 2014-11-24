@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_rest_length(...)",
+      "contents": "set_rest_length(${1:rest_length})"
+    },
+    {
+      "trigger": "get_rest_length()",
+      "contents": "get_rest_length()"
+    },
+    {
+      "trigger": "set_stiffness(...)",
+      "contents": "set_stiffness(${1:stiffness})"
+    },
+    {
+      "trigger": "get_stiffness()",
+      "contents": "get_stiffness()"
+    },
+    {
+      "trigger": "set_damping(...)",
+      "contents": "set_damping(${1:damping})"
+    },
+    {
+      "trigger": "get_damping()",
+      "contents": "get_damping()"
+    }
+  ]
+}

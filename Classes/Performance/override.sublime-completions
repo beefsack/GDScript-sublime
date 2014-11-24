@@ -1,0 +1,6 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_monitor"
+  ]
+}

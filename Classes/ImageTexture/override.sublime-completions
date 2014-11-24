@@ -1,0 +1,18 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "create",
+    "create_from_image",
+    "get_format",
+    "load",
+    "set_data",
+    "get_data",
+    "set_storage",
+    "get_storage",
+    "set_lossy_storage_quality",
+    "get_lossy_storage_quality",
+    "fix_alpha_edges",
+    "premultiply_alpha",
+    "set_size_override"
+  ]
+}

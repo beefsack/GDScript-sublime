@@ -1,0 +1,69 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "build_box_planes(...)",
+      "contents": "build_box_planes(${1:extents})"
+    },
+    {
+      "trigger": "build_cylinder_planes(...)",
+      "contents": "build_cylinder_planes(${1:radius}, ${2:height}, ${3:sides}, ${4:axis})"
+    },
+    {
+      "trigger": "build_capsule_planes(...)",
+      "contents": "build_capsule_planes(${1:radius}, ${2:height}, ${3:sides}, ${4:lats}, ${5:axis})"
+    },
+    {
+      "trigger": "segment_intersects_circle(...)",
+      "contents": "segment_intersects_circle(${1:segment_from}, ${2:segment_to}, ${3:circle_pos}, ${4:circle_radius})"
+    },
+    {
+      "trigger": "segment_intersects_segment_2d(...)",
+      "contents": "segment_intersects_segment_2d(${1:from_a}, ${2:to_a}, ${3:from_b}, ${4:to_b})"
+    },
+    {
+      "trigger": "get_closest_points_between_segments_2d(...)",
+      "contents": "get_closest_points_between_segments_2d(${1:p1}, ${2:q1}, ${3:p2}, ${4:q2})"
+    },
+    {
+      "trigger": "get_closest_points_between_segments(...)",
+      "contents": "get_closest_points_between_segments(${1:p1}, ${2:p2}, ${3:q1}, ${4:q2})"
+    },
+    {
+      "trigger": "get_closest_point_to_segment(...)",
+      "contents": "get_closest_point_to_segment(${1:point}, ${2:s1}, ${3:s2})"
+    },
+    {
+      "trigger": "get_uv84_normal_bit(...)",
+      "contents": "get_uv84_normal_bit(${1:normal})"
+    },
+    {
+      "trigger": "ray_intersects_triangle(...)",
+      "contents": "ray_intersects_triangle(${1:from}, ${2:dir}, ${3:a}, ${4:b}, ${5:c})"
+    },
+    {
+      "trigger": "segment_intersects_triangle(...)",
+      "contents": "segment_intersects_triangle(${1:from}, ${2:to}, ${3:a}, ${4:b}, ${5:c})"
+    },
+    {
+      "trigger": "segment_intersects_sphere(...)",
+      "contents": "segment_intersects_sphere(${1:from}, ${2:to}, ${3:spos}, ${4:sradius})"
+    },
+    {
+      "trigger": "segment_intersects_cylinder(...)",
+      "contents": "segment_intersects_cylinder(${1:from}, ${2:to}, ${3:height}, ${4:radius})"
+    },
+    {
+      "trigger": "segment_intersects_convex(...)",
+      "contents": "segment_intersects_convex(${1:from}, ${2:to}, ${3:planes})"
+    },
+    {
+      "trigger": "triangulate_polygon(...)",
+      "contents": "triangulate_polygon(${1:polygon})"
+    },
+    {
+      "trigger": "make_atlas(...)",
+      "contents": "make_atlas(${1:sizes})"
+    }
+  ]
+}

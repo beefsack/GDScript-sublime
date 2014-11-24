@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "cast_motion(...)",
+      "contents": "cast_motion(${1:shape}, ${2:motion})"
+    }
+  ]
+}

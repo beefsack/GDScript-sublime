@@ -1,0 +1,101 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_icon(...)",
+      "contents": "set_icon(${1:name}, ${2:type}, ${3:texture})"
+    },
+    {
+      "trigger": "has_icon(...)",
+      "contents": "has_icon(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "clear_icon(...)",
+      "contents": "clear_icon(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "get_icon_list(...)",
+      "contents": "get_icon_list(${1:arg0})"
+    },
+    {
+      "trigger": "set_stylebox(...)",
+      "contents": "set_stylebox(${1:name}, ${2:type}, ${3:texture})"
+    },
+    {
+      "trigger": "has_stylebox(...)",
+      "contents": "has_stylebox(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "clear_stylebox(...)",
+      "contents": "clear_stylebox(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "get_stylebox_list(...)",
+      "contents": "get_stylebox_list(${1:arg0})"
+    },
+    {
+      "trigger": "set_font(...)",
+      "contents": "set_font(${1:name}, ${2:type}, ${3:font})"
+    },
+    {
+      "trigger": "has_font(...)",
+      "contents": "has_font(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "clear_font(...)",
+      "contents": "clear_font(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "get_font_list(...)",
+      "contents": "get_font_list(${1:arg0})"
+    },
+    {
+      "trigger": "set_color(...)",
+      "contents": "set_color(${1:name}, ${2:type}, ${3:color})"
+    },
+    {
+      "trigger": "has_color(...)",
+      "contents": "has_color(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "clear_color(...)",
+      "contents": "clear_color(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "get_color_list(...)",
+      "contents": "get_color_list(${1:arg0})"
+    },
+    {
+      "trigger": "set_constant(...)",
+      "contents": "set_constant(${1:name}, ${2:type}, ${3:constant})"
+    },
+    {
+      "trigger": "has_constant(...)",
+      "contents": "has_constant(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "clear_constant(...)",
+      "contents": "clear_constant(${1:name}, ${2:type})"
+    },
+    {
+      "trigger": "get_constant_list(...)",
+      "contents": "get_constant_list(${1:arg0})"
+    },
+    {
+      "trigger": "set_default_font(...)",
+      "contents": "set_default_font(${1:font})"
+    },
+    {
+      "trigger": "get_default_font()",
+      "contents": "get_default_font()"
+    },
+    {
+      "trigger": "get_type_list(...)",
+      "contents": "get_type_list(${1:arg0})"
+    },
+    {
+      "trigger": "copy_default_theme()",
+      "contents": "copy_default_theme()"
+    }
+  ]
+}

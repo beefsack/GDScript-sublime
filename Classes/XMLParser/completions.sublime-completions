@@ -1,0 +1,76 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "read()",
+      "contents": "read()"
+    },
+    {
+      "trigger": "get_node_type()",
+      "contents": "get_node_type()"
+    },
+    {
+      "trigger": "get_node_name()",
+      "contents": "get_node_name()"
+    },
+    {
+      "trigger": "get_node_data()",
+      "contents": "get_node_data()"
+    },
+    {
+      "trigger": "get_node_offset()",
+      "contents": "get_node_offset()"
+    },
+    {
+      "trigger": "get_attribute_count()",
+      "contents": "get_attribute_count()"
+    },
+    {
+      "trigger": "get_attribute_name(...)",
+      "contents": "get_attribute_name(${1:arg0})"
+    },
+    {
+      "trigger": "get_attribute_value(...)",
+      "contents": "get_attribute_value(${1:arg0})"
+    },
+    {
+      "trigger": "has_attribute(...)",
+      "contents": "has_attribute(${1:arg0})"
+    },
+    {
+      "trigger": "get_named_attribute_value(...)",
+      "contents": "get_named_attribute_value(${1:arg0})"
+    },
+    {
+      "trigger": "get_named_attribute_value_safe(...)",
+      "contents": "get_named_attribute_value_safe(${1:arg0})"
+    },
+    {
+      "trigger": "get_current_line()",
+      "contents": "get_current_line()"
+    },
+    {
+      "trigger": "skip_section()",
+      "contents": "skip_section()"
+    },
+    {
+      "trigger": "seek(...)",
+      "contents": "seek(${1:arg0})"
+    },
+    {
+      "trigger": "open(...)",
+      "contents": "open(${1:file})"
+    },
+    {
+      "trigger": "open_buffer(...)",
+      "contents": "open_buffer(${1:buffer})"
+    },
+    "NODE_NONE",
+    "NODE_ELEMENT",
+    "NODE_ELEMENT_END",
+    "NODE_TEXT",
+    "NODE_COMMENT",
+    "NODE_CDATA",
+    "NODE_UNKNOWN"
+  ]
+}

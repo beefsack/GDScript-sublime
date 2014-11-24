@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_depth(...)",
+      "contents": "set_depth(${1:depth})"
+    },
+    {
+      "trigger": "get_depth()",
+      "contents": "get_depth()"
+    },
+    {
+      "trigger": "set_build_mode(...)",
+      "contents": "set_build_mode(${1:arg0})"
+    },
+    {
+      "trigger": "get_build_mode()",
+      "contents": "get_build_mode()"
+    }
+  ]
+}

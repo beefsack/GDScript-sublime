@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_ticks",
+    "get_ticks",
+    "get_ticks_on_borders",
+    "set_ticks_on_borders"
+  ]
+}

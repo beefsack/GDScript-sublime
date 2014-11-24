@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_width",
+    "get_height",
+    "get_size",
+    "get_rid",
+    "has_alpha",
+    "set_flags",
+    "get_flags",
+    "draw",
+    "draw_rect",
+    "draw_rect_region"
+  ]
+}

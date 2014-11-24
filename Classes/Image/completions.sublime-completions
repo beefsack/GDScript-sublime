@@ -1,0 +1,80 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "blit_rect(...)",
+      "contents": "blit_rect(${1:src}, ${2:src_rect}, ${3:dest})"
+    },
+    {
+      "trigger": "brush_transfer(...)",
+      "contents": "brush_transfer(${1:src}, ${2:brush}, ${3:pos})"
+    },
+    {
+      "trigger": "brushed(...)",
+      "contents": "brushed(${1:src}, ${2:brush}, ${3:pos})"
+    },
+    {
+      "trigger": "compressed(...)",
+      "contents": "compressed(${1:format})"
+    },
+    {
+      "trigger": "converted(...)",
+      "contents": "converted(${1:format})"
+    },
+    {
+      "trigger": "decompressed()",
+      "contents": "decompressed()"
+    },
+    {
+      "trigger": "get_pixel(...)",
+      "contents": "get_pixel(${1:x}, ${2:y}, ${3:mipmap_level})"
+    },
+    {
+      "trigger": "get_rect(...)",
+      "contents": "get_rect(${1:area})"
+    },
+    {
+      "trigger": "get_used_rect()",
+      "contents": "get_used_rect()"
+    },
+    {
+      "trigger": "put_pixel(...)",
+      "contents": "put_pixel(${1:x}, ${2:y}, ${3:color}, ${4:mipmap_level})"
+    },
+    {
+      "trigger": "resized(...)",
+      "contents": "resized(${1:x}, ${2:y}, ${3:interpolation})"
+    },
+    {
+      "trigger": "save_png(...)",
+      "contents": "save_png(${1:path})"
+    },
+    "COMPRESS_BC",
+    "COMPRESS_PVRTC2",
+    "COMPRESS_PVRTC4",
+    "COMPRESS_ETC",
+    "FORMAT_GRAYSCALE",
+    "FORMAT_INTENSITY",
+    "FORMAT_GRAYSCALE_ALPHA",
+    "FORMAT_RGB",
+    "FORMAT_RGBA",
+    "FORMAT_INDEXED",
+    "FORMAT_INDEXED_ALPHA",
+    "FORMAT_YUV_422",
+    "FORMAT_YUV_444",
+    "FORMAT_BC1",
+    "FORMAT_BC2",
+    "FORMAT_BC3",
+    "FORMAT_BC4",
+    "FORMAT_BC5",
+    "FORMAT_PVRTC2",
+    "FORMAT_PVRTC2_ALPHA",
+    "FORMAT_PVRTC4",
+    "FORMAT_PVRTC4_ALPHA",
+    "FORMAT_ETC",
+    "FORMAT_ATC",
+    "FORMAT_ATC_ALPHA_EXPLICIT",
+    "FORMAT_ATC_ALPHA_INTERPOLATED",
+    "FORMAT_CUSTOM"
+  ]
+}

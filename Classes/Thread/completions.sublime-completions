@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "start(...)",
+      "contents": "start(${1:instance}, ${2:method}, ${3:userdata}, ${4:priority})"
+    },
+    {
+      "trigger": "wait_to_finish()",
+      "contents": "wait_to_finish()"
+    },
+    "PRIORITY_LOW",
+    "PRIORITY_NORMAL",
+    "PRIORITY_HIGH"
+  ]
+}

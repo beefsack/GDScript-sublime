@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_sprite_frames",
+    "get_sprite_frames",
+    "set_frame",
+    "get_frame"
+  ]
+}

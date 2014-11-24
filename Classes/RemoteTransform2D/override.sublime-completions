@@ -1,0 +1,7 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_remote_node",
+    "get_remote_node"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_normal()",
+      "contents": "get_normal()"
+    },
+    {
+      "trigger": "set_d(...)",
+      "contents": "set_d(${1:d})"
+    },
+    {
+      "trigger": "get_d()",
+      "contents": "get_d()"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_viewport_path",
+    "get_viewport_path",
+    "set_centered",
+    "is_centered",
+    "set_offset",
+    "get_offset",
+    "set_modulate",
+    "get_modulate"
+  ]
+}

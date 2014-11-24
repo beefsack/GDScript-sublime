@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_radius(...)",
+      "contents": "set_radius(${1:radius})"
+    },
+    {
+      "trigger": "get_radius()",
+      "contents": "get_radius()"
+    },
+    {
+      "trigger": "set_height(...)",
+      "contents": "set_height(${1:height})"
+    },
+    {
+      "trigger": "get_height()",
+      "contents": "get_height()"
+    }
+  ]
+}

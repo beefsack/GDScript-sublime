@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_use_top_left(...)",
+      "contents": "set_use_top_left(${1:enable})"
+    },
+    {
+      "trigger": "is_using_top_left()",
+      "contents": "is_using_top_left()"
+    }
+  ]
+}

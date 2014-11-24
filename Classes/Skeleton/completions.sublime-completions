@@ -1,0 +1,82 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_bone(...)",
+      "contents": "add_bone(${1:name})"
+    },
+    {
+      "trigger": "find_bone(...)",
+      "contents": "find_bone(${1:name})"
+    },
+    {
+      "trigger": "get_bone_name(...)",
+      "contents": "get_bone_name(${1:bone_idx})"
+    },
+    {
+      "trigger": "get_bone_parent(...)",
+      "contents": "get_bone_parent(${1:bone_idx})"
+    },
+    {
+      "trigger": "set_bone_parent(...)",
+      "contents": "set_bone_parent(${1:bone_idx}, ${2:parent_idx})"
+    },
+    {
+      "trigger": "get_bone_count()",
+      "contents": "get_bone_count()"
+    },
+    {
+      "trigger": "get_bone_rest(...)",
+      "contents": "get_bone_rest(${1:bone_idx})"
+    },
+    {
+      "trigger": "set_bone_rest(...)",
+      "contents": "set_bone_rest(${1:bone_idx}, ${2:rest})"
+    },
+    {
+      "trigger": "bind_child_node_to_bone(...)",
+      "contents": "bind_child_node_to_bone(${1:bone_idx}, ${2:node})"
+    },
+    {
+      "trigger": "unbind_child_node_from_bone(...)",
+      "contents": "unbind_child_node_from_bone(${1:bone_idx}, ${2:node})"
+    },
+    {
+      "trigger": "get_bound_child_nodes_to_bone(...)",
+      "contents": "get_bound_child_nodes_to_bone(${1:bone_idx})"
+    },
+    {
+      "trigger": "clear_bones()",
+      "contents": "clear_bones()"
+    },
+    {
+      "trigger": "get_bone_pose(...)",
+      "contents": "get_bone_pose(${1:bone_idx})"
+    },
+    {
+      "trigger": "set_bone_pose(...)",
+      "contents": "set_bone_pose(${1:bone_idx}, ${2:pose})"
+    },
+    {
+      "trigger": "set_bone_global_pose(...)",
+      "contents": "set_bone_global_pose(${1:bone_idx}, ${2:pose})"
+    },
+    {
+      "trigger": "get_bone_global_pose(...)",
+      "contents": "get_bone_global_pose(${1:bone_idx})"
+    },
+    {
+      "trigger": "get_bone_custom_pose(...)",
+      "contents": "get_bone_custom_pose(${1:bone_idx})"
+    },
+    {
+      "trigger": "set_bone_custom_pose(...)",
+      "contents": "set_bone_custom_pose(${1:bone_idx}, ${2:custom_pose})"
+    },
+    {
+      "trigger": "get_bone_transform(...)",
+      "contents": "get_bone_transform(${1:bone_idx})"
+    },
+    "NOTIFICATION_UPDATE_SKELETON"
+  ]
+}

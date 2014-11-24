@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "save(...)",
+      "contents": "save(${1:path}, ${2:resource}, ${3:arg2})"
+    },
+    {
+      "trigger": "get_recognized_extensions(...)",
+      "contents": "get_recognized_extensions(${1:type})"
+    },
+    "FLAG_RELATIVE_PATHS",
+    "FLAG_BUNDLE_RESOURCES",
+    "FLAG_CHANGE_PATH",
+    "FLAG_OMIT_EDITOR_PROPERTIES",
+    "FLAG_SAVE_BIG_ENDIAN",
+    "FLAG_COMPRESS"
+  ]
+}

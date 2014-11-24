@@ -1,0 +1,113 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_mass(...)",
+      "contents": "set_mass(${1:mass})"
+    },
+    {
+      "trigger": "get_mass()",
+      "contents": "get_mass()"
+    },
+    {
+      "trigger": "set_weight(...)",
+      "contents": "set_weight(${1:weight})"
+    },
+    {
+      "trigger": "get_weight()",
+      "contents": "get_weight()"
+    },
+    {
+      "trigger": "set_friction(...)",
+      "contents": "set_friction(${1:friction})"
+    },
+    {
+      "trigger": "get_friction()",
+      "contents": "get_friction()"
+    },
+    {
+      "trigger": "set_bounce(...)",
+      "contents": "set_bounce(${1:bounce})"
+    },
+    {
+      "trigger": "get_bounce()",
+      "contents": "get_bounce()"
+    },
+    {
+      "trigger": "set_linear_velocity(...)",
+      "contents": "set_linear_velocity(${1:linear_velocity})"
+    },
+    {
+      "trigger": "set_angular_velocity(...)",
+      "contents": "set_angular_velocity(${1:angular_velocity})"
+    },
+    {
+      "trigger": "set_max_contacts_reported(...)",
+      "contents": "set_max_contacts_reported(${1:amount})"
+    },
+    {
+      "trigger": "get_max_contacts_reported()",
+      "contents": "get_max_contacts_reported()"
+    },
+    {
+      "trigger": "set_use_custom_integrator(...)",
+      "contents": "set_use_custom_integrator(${1:enable})"
+    },
+    {
+      "trigger": "is_using_custom_integrator()",
+      "contents": "is_using_custom_integrator()"
+    },
+    {
+      "trigger": "set_contact_monitor(...)",
+      "contents": "set_contact_monitor(${1:enabled})"
+    },
+    {
+      "trigger": "is_contact_monitor_enabled()",
+      "contents": "is_contact_monitor_enabled()"
+    },
+    {
+      "trigger": "set_use_continuous_collision_detection(...)",
+      "contents": "set_use_continuous_collision_detection(${1:enable})"
+    },
+    {
+      "trigger": "is_using_continuous_collision_detection()",
+      "contents": "is_using_continuous_collision_detection()"
+    },
+    {
+      "trigger": "set_axis_velocity(...)",
+      "contents": "set_axis_velocity(${1:axis_velocity})"
+    },
+    {
+      "trigger": "apply_impulse(...)",
+      "contents": "apply_impulse(${1:pos}, ${2:impulse})"
+    },
+    {
+      "trigger": "set_sleeping(...)",
+      "contents": "set_sleeping(${1:sleeping})"
+    },
+    {
+      "trigger": "set_can_sleep(...)",
+      "contents": "set_can_sleep(${1:able_to_sleep})"
+    },
+    {
+      "trigger": "is_able_to_sleep()",
+      "contents": "is_able_to_sleep()"
+    },
+    {
+      "trigger": "set_axis_lock(...)",
+      "contents": "set_axis_lock(${1:axis_lock})"
+    },
+    {
+      "trigger": "get_axis_lock()",
+      "contents": "get_axis_lock()"
+    },
+    {
+      "trigger": "get_colliding_bodies()",
+      "contents": "get_colliding_bodies()"
+    },
+    "MODE_STATIC",
+    "MODE_KINEMATIC",
+    "MODE_RIGID",
+    "MODE_CHARACTER"
+  ]
+}

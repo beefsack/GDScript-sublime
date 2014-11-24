@@ -1,0 +1,49 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "blend(...)",
+      "contents": "blend(${1:over})"
+    },
+    {
+      "trigger": "contrasted()",
+      "contents": "contrasted()"
+    },
+    {
+      "trigger": "gray()",
+      "contents": "gray()"
+    },
+    {
+      "trigger": "inverted()",
+      "contents": "inverted()"
+    },
+    {
+      "trigger": "linear_interpolate(...)",
+      "contents": "linear_interpolate(${1:b}, ${2:t})"
+    },
+    {
+      "trigger": "to_32()",
+      "contents": "to_32()"
+    },
+    {
+      "trigger": "to_ARGB32()",
+      "contents": "to_ARGB32()"
+    },
+    {
+      "trigger": "to_html(...)",
+      "contents": "to_html(${1:with_alpha})"
+    },
+    {
+      "trigger": "Color(...)",
+      "contents": "Color(${1:r}, ${2:g}, ${3:b}, ${4:a})"
+    },
+    {
+      "trigger": "Color(...)",
+      "contents": "Color(${1:r}, ${2:g}, ${3:b})"
+    },
+    {
+      "trigger": "Color(...)",
+      "contents": "Color(${1:from})"
+    }
+  ]
+}

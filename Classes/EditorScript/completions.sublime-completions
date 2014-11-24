@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_root_node(...)",
+      "contents": "add_root_node(${1:node})"
+    },
+    {
+      "trigger": "get_scene()",
+      "contents": "get_scene()"
+    }
+  ]
+}

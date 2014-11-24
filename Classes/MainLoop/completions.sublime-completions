@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "input_event(...)",
+      "contents": "input_event(${1:arg0})"
+    },
+    "NOTIFICATION_WM_FOCUS_IN",
+    "NOTIFICATION_WM_FOCUS_OUT",
+    "NOTIFICATION_WM_QUIT_REQUEST",
+    "NOTIFICATION_WM_UNFOCUS_REQUEST",
+    "NOTIFICATION_OS_MEMORY_WARNING"
+  ]
+}

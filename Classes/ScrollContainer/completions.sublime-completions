@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_enable_h_scroll(...)",
+      "contents": "set_enable_h_scroll(${1:enable})"
+    },
+    {
+      "trigger": "is_h_scroll_enabled()",
+      "contents": "is_h_scroll_enabled()"
+    },
+    {
+      "trigger": "set_enable_v_scroll(...)",
+      "contents": "set_enable_v_scroll(${1:enable})"
+    },
+    {
+      "trigger": "is_v_scroll_enabled()",
+      "contents": "is_v_scroll_enabled()"
+    },
+    {
+      "trigger": "set_h_scroll(...)",
+      "contents": "set_h_scroll(${1:val})"
+    },
+    {
+      "trigger": "get_h_scroll()",
+      "contents": "get_h_scroll()"
+    },
+    {
+      "trigger": "set_v_scroll(...)",
+      "contents": "set_v_scroll(${1:val})"
+    },
+    {
+      "trigger": "get_v_scroll()",
+      "contents": "get_v_scroll()"
+    }
+  ]
+}

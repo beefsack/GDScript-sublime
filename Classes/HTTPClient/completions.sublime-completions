@@ -1,0 +1,133 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "connect(...)",
+      "contents": "connect(${1:host}, ${2:port}, ${3:use_ssl}, ${4:arg3})"
+    },
+    {
+      "trigger": "set_connection(...)",
+      "contents": "set_connection(${1:connection})"
+    },
+    {
+      "trigger": "request(...)",
+      "contents": "request(${1:method}, ${2:url}, ${3:headers}, ${4:body})"
+    },
+    {
+      "trigger": "send_body_text(...)",
+      "contents": "send_body_text(${1:body})"
+    },
+    {
+      "trigger": "send_body_data(...)",
+      "contents": "send_body_data(${1:body})"
+    },
+    {
+      "trigger": "has_response()",
+      "contents": "has_response()"
+    },
+    {
+      "trigger": "is_response_chunked()",
+      "contents": "is_response_chunked()"
+    },
+    {
+      "trigger": "get_response_code()",
+      "contents": "get_response_code()"
+    },
+    {
+      "trigger": "get_response_headers()",
+      "contents": "get_response_headers()"
+    },
+    {
+      "trigger": "get_response_headers_as_dictionary()",
+      "contents": "get_response_headers_as_dictionary()"
+    },
+    {
+      "trigger": "get_response_body_length()",
+      "contents": "get_response_body_length()"
+    },
+    {
+      "trigger": "read_response_body_chunk()",
+      "contents": "read_response_body_chunk()"
+    },
+    {
+      "trigger": "set_blocking_mode(...)",
+      "contents": "set_blocking_mode(${1:enabled})"
+    },
+    {
+      "trigger": "is_blocking_mode_enabled()",
+      "contents": "is_blocking_mode_enabled()"
+    },
+    {
+      "trigger": "get_status()",
+      "contents": "get_status()"
+    },
+    "METHOD_GET",
+    "METHOD_HEAD",
+    "METHOD_POST",
+    "METHOD_PUT",
+    "METHOD_DELETE",
+    "METHOD_OPTIONS",
+    "METHOD_TRACE",
+    "METHOD_CONNECT",
+    "METHOD_MAX",
+    "STATUS_DISCONNECTED",
+    "STATUS_RESOLVING",
+    "STATUS_CANT_RESOLVE",
+    "STATUS_CONNECTING",
+    "STATUS_CANT_CONNECT",
+    "STATUS_CONNECTED",
+    "STATUS_REQUESTING",
+    "STATUS_BODY",
+    "STATUS_CONNECTION_ERROR",
+    "STATUS_SSL_HANDSHAKE_ERROR",
+    "RESPONSE_CONTINUE",
+    "RESPONSE_SWITCHING_PROTOCOLS",
+    "RESPONSE_PROCESSING",
+    "RESPONSE_OK",
+    "RESPONSE_CREATED",
+    "RESPONSE_ACCEPTED",
+    "RESPONSE_NON_AUTHORITATIVE_INFORMATION",
+    "RESPONSE_NO_CONTENT",
+    "RESPONSE_RESET_CONTENT",
+    "RESPONSE_PARTIAL_CONTENT",
+    "RESPONSE_MULTI_STATUS",
+    "RESPONSE_IM_USED",
+    "RESPONSE_MULTIPLE_CHOICES",
+    "RESPONSE_MOVED_PERMANENTLY",
+    "RESPONSE_FOUND",
+    "RESPONSE_SEE_OTHER",
+    "RESPONSE_NOT_MODIFIED",
+    "RESPONSE_USE_PROXY",
+    "RESPONSE_TEMPORARY_REDIRECT",
+    "RESPONSE_BAD_REQUEST",
+    "RESPONSE_UNAUTHORIZED",
+    "RESPONSE_PAYMENT_REQUIRED",
+    "RESPONSE_FORBIDDEN",
+    "RESPONSE_NOT_FOUND",
+    "RESPONSE_METHOD_NOT_ALLOWED",
+    "RESPONSE_NOT_ACCEPTABLE",
+    "RESPONSE_PROXY_AUTHENTICATION_REQUIRED",
+    "RESPONSE_REQUEST_TIMEOUT",
+    "RESPONSE_CONFLICT",
+    "RESPONSE_GONE",
+    "RESPONSE_LENGTH_REQUIRED",
+    "RESPONSE_PRECONDITION_FAILED",
+    "RESPONSE_REQUEST_ENTITY_TOO_LARGE",
+    "RESPONSE_REQUEST_URI_TOO_LONG",
+    "RESPONSE_UNSUPPORTED_MEDIA_TYPE",
+    "RESPONSE_REQUESTED_RANGE_NOT_SATISFIABLE",
+    "RESPONSE_EXPECTATION_FAILED",
+    "RESPONSE_UNPROCESSABLE_ENTITY",
+    "RESPONSE_LOCKED",
+    "RESPONSE_FAILED_DEPENDENCY",
+    "RESPONSE_UPGRADE_REQUIRED",
+    "RESPONSE_INTERNAL_SERVER_ERROR",
+    "RESPONSE_NOT_IMPLEMENTED",
+    "RESPONSE_BAD_GATEWAY",
+    "RESPONSE_SERVICE_UNAVAILABLE",
+    "RESPONSE_GATEWAY_TIMEOUT",
+    "RESPONSE_HTTP_VERSION_NOT_SUPPORTED",
+    "RESPONSE_INSUFFICIENT_STORAGE",
+    "RESPONSE_NOT_EXTENDED"
+  ]
+}

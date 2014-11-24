@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_split_offset",
+    "get_split_offset",
+    "set_collapsed",
+    "is_collapsed",
+    "set_dragger_visible",
+    "is_dragger_visible"
+  ]
+}

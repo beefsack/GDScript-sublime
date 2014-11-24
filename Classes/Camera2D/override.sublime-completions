@@ -1,0 +1,32 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_offset",
+    "get_offset",
+    "set_centered",
+    "is_centered",
+    "set_rotating",
+    "is_rotating",
+    "make_current",
+    "is_current",
+    "set_limit",
+    "get_limit",
+    "set_v_drag_enabled",
+    "is_v_drag_enabled",
+    "set_h_drag_enabled",
+    "is_h_drag_enabled",
+    "set_v_offset",
+    "get_v_offset",
+    "set_h_offset",
+    "get_h_offset",
+    "set_drag_margin",
+    "get_drag_margin",
+    "get_camera_pos",
+    "get_camera_screen_center",
+    "set_zoom",
+    "get_zoom",
+    "set_follow_smoothing",
+    "get_follow_smoothing",
+    "force_update_scroll"
+  ]
+}

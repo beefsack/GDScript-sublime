@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_text",
+    "get_text",
+    "set_button_icon",
+    "get_button_icon",
+    "set_flat",
+    "set_clip_text",
+    "get_clip_text",
+    "set_text_align",
+    "get_text_align",
+    "is_flat"
+  ]
+}

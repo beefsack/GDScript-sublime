@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "can_instance",
+    "instance_has",
+    "has_source_code",
+    "get_source_code",
+    "set_source_code",
+    "reload"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    "PARAM_SWING_SPAN",
+    "PARAM_TWIST_SPAN",
+    "PARAM_SOFTNESS",
+    "PARAM_RELAXATION"
+  ]
+}

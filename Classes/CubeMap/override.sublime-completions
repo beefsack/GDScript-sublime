@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_width",
+    "get_height",
+    "get_rid",
+    "set_flags",
+    "get_flags",
+    "set_side",
+    "get_side",
+    "set_storage",
+    "get_storage",
+    "set_lossy_storage_quality",
+    "get_lossy_storage_quality"
+  ]
+}

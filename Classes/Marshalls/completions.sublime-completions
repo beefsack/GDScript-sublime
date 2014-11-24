@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "variant_to_base64(...)",
+      "contents": "variant_to_base64(${1:variant})"
+    },
+    {
+      "trigger": "base64_to_variant(...)",
+      "contents": "base64_to_variant(${1:base64_str})"
+    }
+  ]
+}

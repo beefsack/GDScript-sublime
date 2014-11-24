@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get(...)",
+      "contents": "get(${1:idx})"
+    },
+    {
+      "trigger": "get_string_from_ascii()",
+      "contents": "get_string_from_ascii()"
+    },
+    {
+      "trigger": "get_string_from_utf8()",
+      "contents": "get_string_from_utf8()"
+    },
+    {
+      "trigger": "push_back(...)",
+      "contents": "push_back(${1:byte})"
+    },
+    {
+      "trigger": "resize(...)",
+      "contents": "resize(${1:idx})"
+    },
+    {
+      "trigger": "set(...)",
+      "contents": "set(${1:idx}, ${2:byte})"
+    },
+    {
+      "trigger": "RawArray(...)",
+      "contents": "RawArray(${1:from})"
+    }
+  ]
+}

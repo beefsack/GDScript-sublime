@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "call_func(...)",
+      "contents": "call_func(${1:method}, ${2:arg0}, ${3:arg1}, ${4:arg2}, ${5:arg3}, ${6:arg4}, ${7:arg5}, ${8:arg6}, ${9:arg7}, ${10:arg8}, ${11:arg9})"
+    },
+    {
+      "trigger": "set_instance(...)",
+      "contents": "set_instance(${1:instance})"
+    },
+    {
+      "trigger": "set_function(...)",
+      "contents": "set_function(${1:name})"
+    }
+  ]
+}

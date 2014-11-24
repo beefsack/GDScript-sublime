@@ -1,0 +1,7 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    "PARAM_EMISSION_CONE_DEGREES",
+    "PARAM_EMISSION_CONE_ATTENUATION_DB"
+  ]
+}

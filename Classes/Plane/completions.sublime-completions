@@ -1,0 +1,57 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "center()",
+      "contents": "center()"
+    },
+    {
+      "trigger": "distance_to(...)",
+      "contents": "distance_to(${1:point})"
+    },
+    {
+      "trigger": "get_any_point()",
+      "contents": "get_any_point()"
+    },
+    {
+      "trigger": "has_point(...)",
+      "contents": "has_point(${1:point}, ${2:epsilon})"
+    },
+    {
+      "trigger": "intersect_3(...)",
+      "contents": "intersect_3(${1:b}, ${2:c})"
+    },
+    {
+      "trigger": "intersects_ray(...)",
+      "contents": "intersects_ray(${1:from}, ${2:dir})"
+    },
+    {
+      "trigger": "intersects_segment(...)",
+      "contents": "intersects_segment(${1:begin}, ${2:end})"
+    },
+    {
+      "trigger": "is_point_over(...)",
+      "contents": "is_point_over(${1:point})"
+    },
+    {
+      "trigger": "normalized()",
+      "contents": "normalized()"
+    },
+    {
+      "trigger": "project(...)",
+      "contents": "project(${1:point})"
+    },
+    {
+      "trigger": "Plane(...)",
+      "contents": "Plane(${1:a}, ${2:b}, ${3:c}, ${4:d})"
+    },
+    {
+      "trigger": "Plane(...)",
+      "contents": "Plane(${1:v1}, ${2:v2}, ${3:v3})"
+    },
+    {
+      "trigger": "Plane(...)",
+      "contents": "Plane(${1:normal}, ${2:d})"
+    }
+  ]
+}

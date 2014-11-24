@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "custom_export(...)",
+      "contents": "custom_export(${1:path})"
+    },
+    {
+      "trigger": "get_visible_name()",
+      "contents": "get_visible_name()"
+    },
+    {
+      "trigger": "import(...)",
+      "contents": "import(${1:path}, ${2:from})"
+    },
+    {
+      "trigger": "import_dialog(...)",
+      "contents": "import_dialog(${1:from})"
+    }
+  ]
+}

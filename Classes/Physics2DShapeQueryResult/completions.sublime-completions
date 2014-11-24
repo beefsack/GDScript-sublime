@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_result_count()",
+      "contents": "get_result_count()"
+    },
+    {
+      "trigger": "get_result_rid(...)",
+      "contents": "get_result_rid(${1:idx})"
+    },
+    {
+      "trigger": "get_result_object_id(...)",
+      "contents": "get_result_object_id(${1:idx})"
+    },
+    {
+      "trigger": "get_result_object(...)",
+      "contents": "get_result_object(${1:idx})"
+    },
+    {
+      "trigger": "get_result_object_shape(...)",
+      "contents": "get_result_object_shape(${1:idx})"
+    }
+  ]
+}

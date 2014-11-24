@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_image(...)",
+      "contents": "set_image(${1:image})"
+    },
+    {
+      "trigger": "get_image()",
+      "contents": "get_image()"
+    },
+    {
+      "trigger": "set_expand(...)",
+      "contents": "set_expand(${1:expand})"
+    },
+    {
+      "trigger": "get_expand()",
+      "contents": "get_expand()"
+    },
+    {
+      "trigger": "set_expand_margin_size(...)",
+      "contents": "set_expand_margin_size(${1:margin}, ${2:size})"
+    },
+    {
+      "trigger": "get_expand_margin_size(...)",
+      "contents": "get_expand_margin_size(${1:arg0})"
+    }
+  ]
+}

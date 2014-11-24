@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_radius",
+    "get_radius",
+    "set_suspension_rest_length",
+    "get_suspension_rest_length",
+    "set_suspension_travel",
+    "get_suspension_travel",
+    "set_suspension_stiffness",
+    "get_suspension_stiffness",
+    "set_suspension_max_force",
+    "get_suspension_max_force",
+    "set_damping_compression",
+    "get_damping_compression",
+    "set_damping_relaxation",
+    "get_damping_relaxation",
+    "set_use_as_traction",
+    "is_used_as_traction",
+    "set_use_as_steering",
+    "is_used_as_steering",
+    "set_friction_slip",
+    "get_friction_slip"
+  ]
+}

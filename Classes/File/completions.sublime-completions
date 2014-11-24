@@ -1,0 +1,160 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "open_encrypted(...)",
+      "contents": "open_encrypted(${1:path}, ${2:mode_flags}, ${3:key})"
+    },
+    {
+      "trigger": "open_encrypted_with_pass(...)",
+      "contents": "open_encrypted_with_pass(${1:path}, ${2:mode_flags}, ${3:pass})"
+    },
+    {
+      "trigger": "open(...)",
+      "contents": "open(${1:path}, ${2:flags})"
+    },
+    {
+      "trigger": "close()",
+      "contents": "close()"
+    },
+    {
+      "trigger": "is_open()",
+      "contents": "is_open()"
+    },
+    {
+      "trigger": "seek(...)",
+      "contents": "seek(${1:pos})"
+    },
+    {
+      "trigger": "seek_end(...)",
+      "contents": "seek_end(${1:pos})"
+    },
+    {
+      "trigger": "get_len()",
+      "contents": "get_len()"
+    },
+    {
+      "trigger": "eof_reached()",
+      "contents": "eof_reached()"
+    },
+    {
+      "trigger": "get_8()",
+      "contents": "get_8()"
+    },
+    {
+      "trigger": "get_16()",
+      "contents": "get_16()"
+    },
+    {
+      "trigger": "get_32()",
+      "contents": "get_32()"
+    },
+    {
+      "trigger": "get_64()",
+      "contents": "get_64()"
+    },
+    {
+      "trigger": "get_float()",
+      "contents": "get_float()"
+    },
+    {
+      "trigger": "get_double()",
+      "contents": "get_double()"
+    },
+    {
+      "trigger": "get_real()",
+      "contents": "get_real()"
+    },
+    {
+      "trigger": "get_buffer(...)",
+      "contents": "get_buffer(${1:len})"
+    },
+    {
+      "trigger": "get_line()",
+      "contents": "get_line()"
+    },
+    {
+      "trigger": "get_as_text()",
+      "contents": "get_as_text()"
+    },
+    {
+      "trigger": "get_endian_swap()",
+      "contents": "get_endian_swap()"
+    },
+    {
+      "trigger": "set_endian_swap(...)",
+      "contents": "set_endian_swap(${1:enable})"
+    },
+    {
+      "trigger": "get_error()",
+      "contents": "get_error()"
+    },
+    {
+      "trigger": "get_var()",
+      "contents": "get_var()"
+    },
+    {
+      "trigger": "get_csv_line()",
+      "contents": "get_csv_line()"
+    },
+    {
+      "trigger": "store_8(...)",
+      "contents": "store_8(${1:value})"
+    },
+    {
+      "trigger": "store_16(...)",
+      "contents": "store_16(${1:value})"
+    },
+    {
+      "trigger": "store_32(...)",
+      "contents": "store_32(${1:value})"
+    },
+    {
+      "trigger": "store_64(...)",
+      "contents": "store_64(${1:value})"
+    },
+    {
+      "trigger": "store_float(...)",
+      "contents": "store_float(${1:value})"
+    },
+    {
+      "trigger": "store_double(...)",
+      "contents": "store_double(${1:value})"
+    },
+    {
+      "trigger": "store_real(...)",
+      "contents": "store_real(${1:value})"
+    },
+    {
+      "trigger": "store_buffer(...)",
+      "contents": "store_buffer(${1:buffer})"
+    },
+    {
+      "trigger": "store_line(...)",
+      "contents": "store_line(${1:line})"
+    },
+    {
+      "trigger": "store_string(...)",
+      "contents": "store_string(${1:string})"
+    },
+    {
+      "trigger": "store_var(...)",
+      "contents": "store_var(${1:value})"
+    },
+    {
+      "trigger": "store_pascal_string(...)",
+      "contents": "store_pascal_string(${1:string})"
+    },
+    {
+      "trigger": "get_pascal_string()",
+      "contents": "get_pascal_string()"
+    },
+    {
+      "trigger": "file_exists(...)",
+      "contents": "file_exists(${1:path})"
+    },
+    "READ",
+    "WRITE",
+    "READ_WRITE"
+  ]
+}

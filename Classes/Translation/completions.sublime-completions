@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_locale(...)",
+      "contents": "set_locale(${1:locale})"
+    },
+    {
+      "trigger": "get_locale()",
+      "contents": "get_locale()"
+    },
+    {
+      "trigger": "add_message(...)",
+      "contents": "add_message(${1:src_message}, ${2:xlated_message})"
+    },
+    {
+      "trigger": "get_message(...)",
+      "contents": "get_message(${1:src_message})"
+    },
+    {
+      "trigger": "erase_message(...)",
+      "contents": "erase_message(${1:src_message})"
+    },
+    {
+      "trigger": "get_message_list()",
+      "contents": "get_message_list()"
+    },
+    {
+      "trigger": "get_message_count()",
+      "contents": "get_message_count()"
+    }
+  ]
+}

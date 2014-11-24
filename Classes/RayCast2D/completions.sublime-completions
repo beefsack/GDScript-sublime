@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_exception_rid(...)",
+      "contents": "add_exception_rid(${1:rid})"
+    },
+    {
+      "trigger": "add_exception(...)",
+      "contents": "add_exception(${1:node})"
+    },
+    {
+      "trigger": "remove_exception_rid(...)",
+      "contents": "remove_exception_rid(${1:rid})"
+    },
+    {
+      "trigger": "remove_exception(...)",
+      "contents": "remove_exception(${1:node})"
+    },
+    {
+      "trigger": "clear_exceptions()",
+      "contents": "clear_exceptions()"
+    }
+  ]
+}

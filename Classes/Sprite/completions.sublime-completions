@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_region(...)",
+      "contents": "set_region(${1:enabled})"
+    },
+    {
+      "trigger": "is_region()",
+      "contents": "is_region()"
+    },
+    {
+      "trigger": "set_region_rect(...)",
+      "contents": "set_region_rect(${1:rect})"
+    },
+    {
+      "trigger": "get_region_rect()",
+      "contents": "get_region_rect()"
+    },
+    {
+      "trigger": "set_vframes(...)",
+      "contents": "set_vframes(${1:vframes})"
+    },
+    {
+      "trigger": "get_vframes()",
+      "contents": "get_vframes()"
+    },
+    {
+      "trigger": "set_hframes(...)",
+      "contents": "set_hframes(${1:hframes})"
+    },
+    {
+      "trigger": "get_hframes()",
+      "contents": "get_hframes()"
+    }
+  ]
+}

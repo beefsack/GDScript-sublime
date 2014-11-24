@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_length",
+    "get_length",
+    "set_initial_offset",
+    "get_initial_offset"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_normal_texture",
+    "set_pressed_texture",
+    "set_hover_texture",
+    "set_disabled_texture",
+    "set_focused_texture",
+    "set_click_mask",
+    "get_normal_texture",
+    "get_pressed_texture",
+    "get_hover_texture",
+    "get_disabled_texture",
+    "get_focused_texture",
+    "get_click_mask"
+  ]
+}

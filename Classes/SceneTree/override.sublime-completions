@@ -1,0 +1,23 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "notify_group",
+    "set_group",
+    "get_nodes_in_group",
+    "get_root",
+    "set_auto_accept_quit",
+    "set_editor_hint",
+    "is_editor_hint",
+    "set_edited_scene_root",
+    "get_edited_scene_root",
+    "set_pause",
+    "is_paused",
+    "set_input_as_handled",
+    "get_node_count",
+    "get_frame",
+    "quit",
+    "set_screen_stretch",
+    "queue_delete",
+    "call_group"
+  ]
+}

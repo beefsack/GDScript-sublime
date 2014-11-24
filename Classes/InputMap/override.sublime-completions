@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "has_action",
+    "get_action_id",
+    "get_action_from_id",
+    "add_action",
+    "erase_action",
+    "action_add_event",
+    "action_has_event",
+    "action_erase_event",
+    "get_action_list",
+    "event_is_action",
+    "load_from_globals"
+  ]
+}

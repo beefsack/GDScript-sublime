@@ -1,0 +1,34 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_pixel_size(...)",
+      "contents": "set_pixel_size(${1:pixel_size})"
+    },
+    {
+      "trigger": "get_pixel_size()",
+      "contents": "get_pixel_size()"
+    },
+    {
+      "trigger": "set_draw_flag(...)",
+      "contents": "set_draw_flag(${1:flag}, ${2:enabled})"
+    },
+    {
+      "trigger": "get_draw_flag(...)",
+      "contents": "get_draw_flag(${1:flag})"
+    },
+    {
+      "trigger": "set_alpha_cut_mode(...)",
+      "contents": "set_alpha_cut_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_alpha_cut_mode()",
+      "contents": "get_alpha_cut_mode()"
+    },
+    "FLAG_TRANSPARENT",
+    "FLAG_SHADED",
+    "ALPHA_CUT_DISABLED",
+    "ALPHA_CUT_DISCARD",
+    "ALPHA_CUT_OPAQUE_PREPASS"
+  ]
+}

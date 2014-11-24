@@ -1,0 +1,24 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "has_alpha()",
+      "contents": "has_alpha()"
+    },
+    {
+      "trigger": "draw(...)",
+      "contents": "draw(${1:canvas_item}, ${2:pos}, ${3:modulate}, ${4:1}, ${5:1})"
+    },
+    {
+      "trigger": "draw_rect(...)",
+      "contents": "draw_rect(${1:canvas_item}, ${2:rect}, ${3:tile}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    {
+      "trigger": "draw_rect_region(...)",
+      "contents": "draw_rect_region(${1:canvas_item}, ${2:rect}, ${3:src_rect}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    "FLAG_VIDEO_SURFACE",
+    "FLAG_ANISOTROPIC_FILTER",
+    "FLAG_CONVERT_TO_LINEAR"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "put_var(...)",
+      "contents": "put_var(${1:var})"
+    },
+    {
+      "trigger": "get_available_packet_count()",
+      "contents": "get_available_packet_count()"
+    }
+  ]
+}

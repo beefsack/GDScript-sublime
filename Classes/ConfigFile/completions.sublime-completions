@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_value(...)",
+      "contents": "set_value(${1:section}, ${2:key}, ${3:value})"
+    },
+    {
+      "trigger": "get_value(...)",
+      "contents": "get_value(${1:section}, ${2:key})"
+    },
+    {
+      "trigger": "has_section(...)",
+      "contents": "has_section(${1:section})"
+    },
+    {
+      "trigger": "has_section_key(...)",
+      "contents": "has_section_key(${1:section}, ${2:key})"
+    },
+    {
+      "trigger": "get_sections()",
+      "contents": "get_sections()"
+    },
+    {
+      "trigger": "get_section_keys(...)",
+      "contents": "get_section_keys(${1:arg0})"
+    },
+    {
+      "trigger": "save(...)",
+      "contents": "save(${1:path})"
+    }
+  ]
+}

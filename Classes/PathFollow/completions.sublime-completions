@@ -1,0 +1,65 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_offset(...)",
+      "contents": "set_offset(${1:offset})"
+    },
+    {
+      "trigger": "get_offset()",
+      "contents": "get_offset()"
+    },
+    {
+      "trigger": "set_h_offset(...)",
+      "contents": "set_h_offset(${1:h_offset})"
+    },
+    {
+      "trigger": "get_h_offset()",
+      "contents": "get_h_offset()"
+    },
+    {
+      "trigger": "set_v_offset(...)",
+      "contents": "set_v_offset(${1:v_offset})"
+    },
+    {
+      "trigger": "get_v_offset()",
+      "contents": "get_v_offset()"
+    },
+    {
+      "trigger": "set_unit_offset(...)",
+      "contents": "set_unit_offset(${1:unit_offset})"
+    },
+    {
+      "trigger": "get_unit_offset()",
+      "contents": "get_unit_offset()"
+    },
+    {
+      "trigger": "set_rotation_mode(...)",
+      "contents": "set_rotation_mode(${1:rotation_mode})"
+    },
+    {
+      "trigger": "get_rotation_mode()",
+      "contents": "get_rotation_mode()"
+    },
+    {
+      "trigger": "set_cubic_interpolation(...)",
+      "contents": "set_cubic_interpolation(${1:enable})"
+    },
+    {
+      "trigger": "get_cubic_interpolation()",
+      "contents": "get_cubic_interpolation()"
+    },
+    {
+      "trigger": "set_loop(...)",
+      "contents": "set_loop(${1:loop})"
+    },
+    {
+      "trigger": "has_loop()",
+      "contents": "has_loop()"
+    },
+    "ROTATION_NONE",
+    "ROTATION_Y",
+    "ROTATION_XY",
+    "ROTATION_XYZ"
+  ]
+}

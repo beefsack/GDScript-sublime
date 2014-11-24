@@ -1,0 +1,8 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_var",
+    "put_var",
+    "get_available_packet_count"
+  ]
+}

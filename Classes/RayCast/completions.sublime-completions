@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_enabled(...)",
+      "contents": "set_enabled(${1:enabled})"
+    },
+    {
+      "trigger": "set_cast_to(...)",
+      "contents": "set_cast_to(${1:local_point})"
+    },
+    {
+      "trigger": "get_cast_to()",
+      "contents": "get_cast_to()"
+    },
+    {
+      "trigger": "is_colliding()",
+      "contents": "is_colliding()"
+    },
+    {
+      "trigger": "get_collider()",
+      "contents": "get_collider()"
+    },
+    {
+      "trigger": "get_collider_shape()",
+      "contents": "get_collider_shape()"
+    },
+    {
+      "trigger": "get_collision_point()",
+      "contents": "get_collision_point()"
+    },
+    {
+      "trigger": "get_collision_normal()",
+      "contents": "get_collision_normal()"
+    }
+  ]
+}

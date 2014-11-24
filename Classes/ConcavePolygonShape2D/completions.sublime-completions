@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_segments(...)",
+      "contents": "set_segments(${1:segments})"
+    },
+    {
+      "trigger": "get_segments()",
+      "contents": "get_segments()"
+    }
+  ]
+}

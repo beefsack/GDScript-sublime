@@ -1,0 +1,20 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_shape",
+    "set_shape_rid",
+    "get_shape_rid",
+    "set_transform",
+    "get_transform",
+    "set_motion",
+    "get_motion",
+    "set_margin",
+    "get_margin",
+    "set_layer_mask",
+    "get_layer_mask",
+    "set_object_type_mask",
+    "get_object_type_mask",
+    "set_exclude",
+    "get_exclude"
+  ]
+}

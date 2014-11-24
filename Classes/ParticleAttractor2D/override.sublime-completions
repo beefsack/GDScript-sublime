@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_enabled",
+    "is_enabled",
+    "set_radius",
+    "get_radius",
+    "set_disable_radius",
+    "get_disable_radius",
+    "set_gravity",
+    "get_gravity",
+    "set_absorption",
+    "get_absorption",
+    "set_particles_path",
+    "get_particles_path"
+  ]
+}

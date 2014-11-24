@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_aabb(...)",
+      "contents": "set_aabb(${1:rect})"
+    },
+    {
+      "trigger": "is_on_screen()",
+      "contents": "is_on_screen()"
+    }
+  ]
+}

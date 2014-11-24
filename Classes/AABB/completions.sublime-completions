@@ -1,0 +1,89 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "encloses(...)",
+      "contents": "encloses(${1:with})"
+    },
+    {
+      "trigger": "expand(...)",
+      "contents": "expand(${1:to_point})"
+    },
+    {
+      "trigger": "get_area()",
+      "contents": "get_area()"
+    },
+    {
+      "trigger": "get_endpoint(...)",
+      "contents": "get_endpoint(${1:idx})"
+    },
+    {
+      "trigger": "get_longest_axis()",
+      "contents": "get_longest_axis()"
+    },
+    {
+      "trigger": "get_longest_axis_index()",
+      "contents": "get_longest_axis_index()"
+    },
+    {
+      "trigger": "get_longest_axis_size()",
+      "contents": "get_longest_axis_size()"
+    },
+    {
+      "trigger": "get_shortest_axis()",
+      "contents": "get_shortest_axis()"
+    },
+    {
+      "trigger": "get_shortest_axis_index()",
+      "contents": "get_shortest_axis_index()"
+    },
+    {
+      "trigger": "get_shortest_axis_size()",
+      "contents": "get_shortest_axis_size()"
+    },
+    {
+      "trigger": "get_support(...)",
+      "contents": "get_support(${1:dir})"
+    },
+    {
+      "trigger": "grow(...)",
+      "contents": "grow(${1:by})"
+    },
+    {
+      "trigger": "has_no_area()",
+      "contents": "has_no_area()"
+    },
+    {
+      "trigger": "has_no_surface()",
+      "contents": "has_no_surface()"
+    },
+    {
+      "trigger": "has_point(...)",
+      "contents": "has_point(${1:point})"
+    },
+    {
+      "trigger": "intersection(...)",
+      "contents": "intersection(${1:with})"
+    },
+    {
+      "trigger": "intersects(...)",
+      "contents": "intersects(${1:with})"
+    },
+    {
+      "trigger": "intersects_plane(...)",
+      "contents": "intersects_plane(${1:plane})"
+    },
+    {
+      "trigger": "intersects_segment(...)",
+      "contents": "intersects_segment(${1:from}, ${2:to})"
+    },
+    {
+      "trigger": "merge(...)",
+      "contents": "merge(${1:with})"
+    },
+    {
+      "trigger": "AABB(...)",
+      "contents": "AABB(${1:pos}, ${2:size})"
+    }
+  ]
+}

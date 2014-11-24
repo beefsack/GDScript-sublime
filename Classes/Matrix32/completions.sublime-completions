@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "basis_xform(...)",
+      "contents": "basis_xform(${1:v})"
+    },
+    {
+      "trigger": "basis_xform_inv(...)",
+      "contents": "basis_xform_inv(${1:v})"
+    },
+    {
+      "trigger": "get_origin()",
+      "contents": "get_origin()"
+    },
+    {
+      "trigger": "interpolate_with(...)",
+      "contents": "interpolate_with(${1:m}, ${2:c})"
+    },
+    {
+      "trigger": "rotated(...)",
+      "contents": "rotated(${1:phi})"
+    },
+    {
+      "trigger": "translated(...)",
+      "contents": "translated(${1:offset})"
+    },
+    {
+      "trigger": "Matrix32(...)",
+      "contents": "Matrix32(${1:x_axis}, ${2:y_axis}, ${3:origin})"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_layer_mask(...)",
+      "contents": "set_layer_mask(${1:mask})"
+    },
+    {
+      "trigger": "add_collision_exception_with(...)",
+      "contents": "add_collision_exception_with(${1:body})"
+    },
+    {
+      "trigger": "remove_collision_exception_with(...)",
+      "contents": "remove_collision_exception_with(${1:body})"
+    }
+  ]
+}

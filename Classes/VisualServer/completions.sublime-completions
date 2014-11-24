@@ -1,0 +1,732 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "texture_create()",
+      "contents": "texture_create()"
+    },
+    {
+      "trigger": "texture_create_from_image(...)",
+      "contents": "texture_create_from_image(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "texture_set_flags(...)",
+      "contents": "texture_set_flags(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "texture_get_flags(...)",
+      "contents": "texture_get_flags(${1:arg0})"
+    },
+    {
+      "trigger": "texture_get_width(...)",
+      "contents": "texture_get_width(${1:arg0})"
+    },
+    {
+      "trigger": "texture_get_height(...)",
+      "contents": "texture_get_height(${1:arg0})"
+    },
+    {
+      "trigger": "shader_create(...)",
+      "contents": "shader_create(${1:mode})"
+    },
+    {
+      "trigger": "shader_set_mode(...)",
+      "contents": "shader_set_mode(${1:shader}, ${2:mode})"
+    },
+    {
+      "trigger": "material_create()",
+      "contents": "material_create()"
+    },
+    {
+      "trigger": "material_set_shader(...)",
+      "contents": "material_set_shader(${1:shader}, ${2:arg1})"
+    },
+    {
+      "trigger": "material_get_shader(...)",
+      "contents": "material_get_shader(${1:arg0})"
+    },
+    {
+      "trigger": "material_set_param(...)",
+      "contents": "material_set_param(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "material_get_param(...)",
+      "contents": "material_get_param(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "material_set_flag(...)",
+      "contents": "material_set_flag(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "material_get_flag(...)",
+      "contents": "material_get_flag(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "material_set_blend_mode(...)",
+      "contents": "material_set_blend_mode(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "material_get_blend_mode(...)",
+      "contents": "material_get_blend_mode(${1:arg0})"
+    },
+    {
+      "trigger": "material_set_line_width(...)",
+      "contents": "material_set_line_width(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "material_get_line_width(...)",
+      "contents": "material_get_line_width(${1:arg0})"
+    },
+    {
+      "trigger": "mesh_create()",
+      "contents": "mesh_create()"
+    },
+    {
+      "trigger": "mesh_add_surface(...)",
+      "contents": "mesh_add_surface(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+    },
+    {
+      "trigger": "mesh_surface_set_material(...)",
+      "contents": "mesh_surface_set_material(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+    },
+    {
+      "trigger": "mesh_surface_get_material(...)",
+      "contents": "mesh_surface_get_material(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "mesh_surface_get_array_len(...)",
+      "contents": "mesh_surface_get_array_len(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "mesh_surface_get_array_index_len(...)",
+      "contents": "mesh_surface_get_array_index_len(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "mesh_surface_get_format(...)",
+      "contents": "mesh_surface_get_format(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "mesh_surface_get_primitive_type(...)",
+      "contents": "mesh_surface_get_primitive_type(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "mesh_remove_surface(...)",
+      "contents": "mesh_remove_surface(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "mesh_get_surface_count(...)",
+      "contents": "mesh_get_surface_count(${1:arg0})"
+    },
+    {
+      "trigger": "multimesh_create()",
+      "contents": "multimesh_create()"
+    },
+    {
+      "trigger": "multimesh_set_mesh(...)",
+      "contents": "multimesh_set_mesh(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "multimesh_set_aabb(...)",
+      "contents": "multimesh_set_aabb(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "multimesh_instance_set_transform(...)",
+      "contents": "multimesh_instance_set_transform(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "multimesh_instance_set_color(...)",
+      "contents": "multimesh_instance_set_color(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "multimesh_get_mesh(...)",
+      "contents": "multimesh_get_mesh(${1:arg0})"
+    },
+    {
+      "trigger": "multimesh_get_aabb(...)",
+      "contents": "multimesh_get_aabb(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "multimesh_instance_get_transform(...)",
+      "contents": "multimesh_instance_get_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "multimesh_instance_get_color(...)",
+      "contents": "multimesh_instance_get_color(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_create()",
+      "contents": "particles_create()"
+    },
+    {
+      "trigger": "particles_set_amount(...)",
+      "contents": "particles_set_amount(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_get_amount(...)",
+      "contents": "particles_get_amount(${1:arg0})"
+    },
+    {
+      "trigger": "particles_set_emitting(...)",
+      "contents": "particles_set_emitting(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_is_emitting(...)",
+      "contents": "particles_is_emitting(${1:arg0})"
+    },
+    {
+      "trigger": "particles_set_visibility_aabb(...)",
+      "contents": "particles_set_visibility_aabb(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_get_visibility_aabb(...)",
+      "contents": "particles_get_visibility_aabb(${1:arg0})"
+    },
+    {
+      "trigger": "particles_set_variable(...)",
+      "contents": "particles_set_variable(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "particles_get_variable(...)",
+      "contents": "particles_get_variable(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_set_randomness(...)",
+      "contents": "particles_set_randomness(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "particles_get_randomness(...)",
+      "contents": "particles_get_randomness(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_set_color_phases(...)",
+      "contents": "particles_set_color_phases(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_get_color_phases(...)",
+      "contents": "particles_get_color_phases(${1:arg0})"
+    },
+    {
+      "trigger": "particles_set_color_phase_pos(...)",
+      "contents": "particles_set_color_phase_pos(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "particles_get_color_phase_pos(...)",
+      "contents": "particles_get_color_phase_pos(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_set_color_phase_color(...)",
+      "contents": "particles_set_color_phase_color(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "particles_get_color_phase_color(...)",
+      "contents": "particles_get_color_phase_color(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_set_attractors(...)",
+      "contents": "particles_set_attractors(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_get_attractors(...)",
+      "contents": "particles_get_attractors(${1:arg0})"
+    },
+    {
+      "trigger": "particles_set_attractor_pos(...)",
+      "contents": "particles_set_attractor_pos(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "particles_get_attractor_pos(...)",
+      "contents": "particles_get_attractor_pos(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_set_attractor_strength(...)",
+      "contents": "particles_set_attractor_strength(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "particles_get_attractor_strength(...)",
+      "contents": "particles_get_attractor_strength(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_set_material(...)",
+      "contents": "particles_set_material(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "particles_set_height_from_velocity(...)",
+      "contents": "particles_set_height_from_velocity(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "particles_has_height_from_velocity(...)",
+      "contents": "particles_has_height_from_velocity(${1:arg0})"
+    },
+    {
+      "trigger": "light_create(...)",
+      "contents": "light_create(${1:arg0})"
+    },
+    {
+      "trigger": "light_get_type(...)",
+      "contents": "light_get_type(${1:arg0})"
+    },
+    {
+      "trigger": "light_set_color(...)",
+      "contents": "light_set_color(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "light_get_color(...)",
+      "contents": "light_get_color(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "light_set_shadow(...)",
+      "contents": "light_set_shadow(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "light_has_shadow(...)",
+      "contents": "light_has_shadow(${1:arg0})"
+    },
+    {
+      "trigger": "light_set_volumetric(...)",
+      "contents": "light_set_volumetric(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "light_is_volumetric(...)",
+      "contents": "light_is_volumetric(${1:arg0})"
+    },
+    {
+      "trigger": "light_set_projector(...)",
+      "contents": "light_set_projector(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "light_get_projector(...)",
+      "contents": "light_get_projector(${1:arg0})"
+    },
+    {
+      "trigger": "light_set_var(...)",
+      "contents": "light_set_var(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "light_get_var(...)",
+      "contents": "light_get_var(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "skeleton_create()",
+      "contents": "skeleton_create()"
+    },
+    {
+      "trigger": "skeleton_resize(...)",
+      "contents": "skeleton_resize(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "skeleton_get_bone_count(...)",
+      "contents": "skeleton_get_bone_count(${1:arg0})"
+    },
+    {
+      "trigger": "skeleton_bone_set_transform(...)",
+      "contents": "skeleton_bone_set_transform(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "skeleton_bone_get_transform(...)",
+      "contents": "skeleton_bone_get_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "room_create()",
+      "contents": "room_create()"
+    },
+    {
+      "trigger": "room_set_bounds(...)",
+      "contents": "room_set_bounds(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "room_get_bounds(...)",
+      "contents": "room_get_bounds(${1:arg0})"
+    },
+    {
+      "trigger": "portal_create()",
+      "contents": "portal_create()"
+    },
+    {
+      "trigger": "portal_set_shape(...)",
+      "contents": "portal_set_shape(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "portal_get_shape(...)",
+      "contents": "portal_get_shape(${1:arg0})"
+    },
+    {
+      "trigger": "portal_set_enabled(...)",
+      "contents": "portal_set_enabled(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "portal_is_enabled(...)",
+      "contents": "portal_is_enabled(${1:arg0})"
+    },
+    {
+      "trigger": "portal_set_disable_distance(...)",
+      "contents": "portal_set_disable_distance(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "portal_get_disable_distance(...)",
+      "contents": "portal_get_disable_distance(${1:arg0})"
+    },
+    {
+      "trigger": "portal_set_disabled_color(...)",
+      "contents": "portal_set_disabled_color(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "portal_get_disabled_color(...)",
+      "contents": "portal_get_disabled_color(${1:arg0})"
+    },
+    {
+      "trigger": "camera_create()",
+      "contents": "camera_create()"
+    },
+    {
+      "trigger": "camera_set_perspective(...)",
+      "contents": "camera_set_perspective(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+    },
+    {
+      "trigger": "camera_set_orthogonal(...)",
+      "contents": "camera_set_orthogonal(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+    },
+    {
+      "trigger": "camera_set_transform(...)",
+      "contents": "camera_set_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "viewport_create()",
+      "contents": "viewport_create()"
+    },
+    {
+      "trigger": "viewport_set_rect(...)",
+      "contents": "viewport_set_rect(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "viewport_get_rect(...)",
+      "contents": "viewport_get_rect(${1:arg0})"
+    },
+    {
+      "trigger": "viewport_attach_camera(...)",
+      "contents": "viewport_attach_camera(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "viewport_get_attached_camera(...)",
+      "contents": "viewport_get_attached_camera(${1:arg0})"
+    },
+    {
+      "trigger": "viewport_get_scenario(...)",
+      "contents": "viewport_get_scenario(${1:arg0})"
+    },
+    {
+      "trigger": "viewport_attach_canvas(...)",
+      "contents": "viewport_attach_canvas(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "viewport_remove_canvas(...)",
+      "contents": "viewport_remove_canvas(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "viewport_set_global_canvas_transform(...)",
+      "contents": "viewport_set_global_canvas_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "scenario_create()",
+      "contents": "scenario_create()"
+    },
+    {
+      "trigger": "scenario_set_debug(...)",
+      "contents": "scenario_set_debug(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instance_create()",
+      "contents": "instance_create()"
+    },
+    {
+      "trigger": "instance_get_base(...)",
+      "contents": "instance_get_base(${1:arg0})"
+    },
+    {
+      "trigger": "instance_get_base_aabb(...)",
+      "contents": "instance_get_base_aabb(${1:arg0})"
+    },
+    {
+      "trigger": "instance_set_transform(...)",
+      "contents": "instance_set_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instance_get_transform(...)",
+      "contents": "instance_get_transform(${1:arg0})"
+    },
+    {
+      "trigger": "instance_attach_object_instance_ID(...)",
+      "contents": "instance_attach_object_instance_ID(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instance_get_object_instance_ID(...)",
+      "contents": "instance_get_object_instance_ID(${1:arg0})"
+    },
+    {
+      "trigger": "instance_attach_skeleton(...)",
+      "contents": "instance_attach_skeleton(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instance_get_skeleton(...)",
+      "contents": "instance_get_skeleton(${1:arg0})"
+    },
+    {
+      "trigger": "instance_set_room(...)",
+      "contents": "instance_set_room(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instance_get_room(...)",
+      "contents": "instance_get_room(${1:arg0})"
+    },
+    {
+      "trigger": "instance_set_exterior(...)",
+      "contents": "instance_set_exterior(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instance_is_exterior(...)",
+      "contents": "instance_is_exterior(${1:arg0})"
+    },
+    {
+      "trigger": "instances_cull_aabb(...)",
+      "contents": "instances_cull_aabb(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instances_cull_ray(...)",
+      "contents": "instances_cull_ray(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "instances_cull_convex(...)",
+      "contents": "instances_cull_convex(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "instance_geometry_override_material_param(...)",
+      "contents": "instance_geometry_override_material_param(${1:arg0})"
+    },
+    {
+      "trigger": "instance_geometry_get_material_param(...)",
+      "contents": "instance_geometry_get_material_param(${1:arg0})"
+    },
+    {
+      "trigger": "get_test_cube()",
+      "contents": "get_test_cube()"
+    },
+    {
+      "trigger": "canvas_create()",
+      "contents": "canvas_create()"
+    },
+    {
+      "trigger": "canvas_item_create()",
+      "contents": "canvas_item_create()"
+    },
+    {
+      "trigger": "canvas_item_set_parent(...)",
+      "contents": "canvas_item_set_parent(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "canvas_item_get_parent(...)",
+      "contents": "canvas_item_get_parent(${1:arg0})"
+    },
+    {
+      "trigger": "canvas_item_set_transform(...)",
+      "contents": "canvas_item_set_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "canvas_item_set_custom_rect(...)",
+      "contents": "canvas_item_set_custom_rect(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "canvas_item_set_clip(...)",
+      "contents": "canvas_item_set_clip(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "canvas_item_set_opacity(...)",
+      "contents": "canvas_item_set_opacity(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "canvas_item_get_opacity(...)",
+      "contents": "canvas_item_get_opacity(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "canvas_item_set_self_opacity(...)",
+      "contents": "canvas_item_set_self_opacity(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "canvas_item_get_self_opacity(...)",
+      "contents": "canvas_item_get_self_opacity(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "canvas_item_add_line(...)",
+      "contents": "canvas_item_add_line(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+    },
+    {
+      "trigger": "canvas_item_add_rect(...)",
+      "contents": "canvas_item_add_rect(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "canvas_item_add_texture_rect(...)",
+      "contents": "canvas_item_add_texture_rect(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4}, ${6:1}, ${7:1})"
+    },
+    {
+      "trigger": "canvas_item_add_texture_rect_region(...)",
+      "contents": "canvas_item_add_texture_rect_region(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4}, ${6:1}, ${7:1})"
+    },
+    {
+      "trigger": "canvas_item_add_style_box(...)",
+      "contents": "canvas_item_add_style_box(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4}, ${6:1}, ${7:1})"
+    },
+    {
+      "trigger": "canvas_item_add_circle(...)",
+      "contents": "canvas_item_add_circle(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+    },
+    {
+      "trigger": "viewport_set_canvas_transform(...)",
+      "contents": "viewport_set_canvas_transform(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "canvas_item_clear(...)",
+      "contents": "canvas_item_clear(${1:arg0})"
+    },
+    {
+      "trigger": "canvas_item_raise(...)",
+      "contents": "canvas_item_raise(${1:arg0})"
+    },
+    {
+      "trigger": "cursor_set_rotation(...)",
+      "contents": "cursor_set_rotation(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "cursor_set_texture(...)",
+      "contents": "cursor_set_texture(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "cursor_set_visible(...)",
+      "contents": "cursor_set_visible(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "cursor_set_pos(...)",
+      "contents": "cursor_set_pos(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "black_bars_set_margins(...)",
+      "contents": "black_bars_set_margins(${1:left}, ${2:top}, ${3:right}, ${4:bottom})"
+    },
+    {
+      "trigger": "black_bars_set_images(...)",
+      "contents": "black_bars_set_images(${1:left}, ${2:top}, ${3:right}, ${4:bottom})"
+    },
+    {
+      "trigger": "make_sphere_mesh(...)",
+      "contents": "make_sphere_mesh(${1:arg0}, ${2:arg1}, ${3:arg2})"
+    },
+    {
+      "trigger": "mesh_add_surface_from_planes(...)",
+      "contents": "mesh_add_surface_from_planes(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "draw()",
+      "contents": "draw()"
+    },
+    {
+      "trigger": "flush()",
+      "contents": "flush()"
+    },
+    {
+      "trigger": "free(...)",
+      "contents": "free(${1:arg0})"
+    },
+    {
+      "trigger": "set_default_clear_color(...)",
+      "contents": "set_default_clear_color(${1:arg0})"
+    },
+    {
+      "trigger": "get_render_info(...)",
+      "contents": "get_render_info(${1:arg0})"
+    },
+    "CUSTOM_ARRAY_SIZE",
+    "MAX_PARTICLE_COLOR_PHASES",
+    "MAX_PARTICLE_ATTRACTORS",
+    "MAX_CURSORS",
+    "TEXTURE_FLAG_MIPMAPS",
+    "TEXTURE_FLAG_REPEAT",
+    "TEXTURE_FLAG_FILTER",
+    "TEXTURE_FLAG_CUBEMAP",
+    "TEXTURE_FLAGS_DEFAULT",
+    "CUBEMAP_LEFT",
+    "CUBEMAP_RIGHT",
+    "CUBEMAP_BOTTOM",
+    "CUBEMAP_TOP",
+    "CUBEMAP_FRONT",
+    "CUBEMAP_BACK",
+    "SHADER_MATERIAL",
+    "SHADER_POST_PROCESS",
+    "MATERIAL_FLAG_VISIBLE",
+    "MATERIAL_FLAG_DOUBLE_SIDED",
+    "MATERIAL_FLAG_INVERT_FACES",
+    "MATERIAL_FLAG_UNSHADED",
+    "MATERIAL_FLAG_ONTOP",
+    "MATERIAL_FLAG_MAX",
+    "MATERIAL_BLEND_MODE_MIX",
+    "MATERIAL_BLEND_MODE_ADD",
+    "MATERIAL_BLEND_MODE_SUB",
+    "MATERIAL_BLEND_MODE_MUL",
+    "FIXED_MATERIAL_PARAM_DIFFUSE",
+    "FIXED_MATERIAL_PARAM_DETAIL",
+    "FIXED_MATERIAL_PARAM_SPECULAR",
+    "FIXED_MATERIAL_PARAM_EMISSION",
+    "FIXED_MATERIAL_PARAM_SPECULAR_EXP",
+    "FIXED_MATERIAL_PARAM_GLOW",
+    "FIXED_MATERIAL_PARAM_NORMAL",
+    "FIXED_MATERIAL_PARAM_SHADE_PARAM",
+    "FIXED_MATERIAL_PARAM_MAX",
+    "FIXED_MATERIAL_TEXCOORD_SPHERE",
+    "FIXED_MATERIAL_TEXCOORD_UV",
+    "FIXED_MATERIAL_TEXCOORD_UV_TRANSFORM",
+    "FIXED_MATERIAL_TEXCOORD_UV2",
+    "ARRAY_MAX",
+    "PRIMITIVE_MAX",
+    "PARTICLE_LIFETIME",
+    "PARTICLE_SPREAD",
+    "PARTICLE_GRAVITY",
+    "PARTICLE_LINEAR_VELOCITY",
+    "PARTICLE_ANGULAR_VELOCITY",
+    "PARTICLE_LINEAR_ACCELERATION",
+    "PARTICLE_RADIAL_ACCELERATION",
+    "PARTICLE_TANGENTIAL_ACCELERATION",
+    "PARTICLE_INITIAL_SIZE",
+    "PARTICLE_FINAL_SIZE",
+    "PARTICLE_INITIAL_ANGLE",
+    "PARTICLE_HEIGHT",
+    "PARTICLE_HEIGHT_SPEED_SCALE",
+    "PARTICLE_VAR_MAX",
+    "LIGHT_DIRECTIONAL",
+    "LIGHT_OMNI",
+    "LIGHT_SPOT",
+    "LIGHT_COLOR_DIFFUSE",
+    "LIGHT_COLOR_SPECULAR",
+    "LIGHT_PARAM_SPOT_ATTENUATION",
+    "LIGHT_PARAM_SPOT_ANGLE",
+    "LIGHT_PARAM_RADIUS",
+    "LIGHT_PARAM_ENERGY",
+    "LIGHT_PARAM_ATTENUATION",
+    "LIGHT_PARAM_MAX",
+    "SCENARIO_DEBUG_DISABLED",
+    "SCENARIO_DEBUG_WIREFRAME",
+    "SCENARIO_DEBUG_OVERDRAW",
+    "INSTANCE_MESH",
+    "INSTANCE_MULTIMESH",
+    "INSTANCE_PARTICLES",
+    "INSTANCE_LIGHT",
+    "INSTANCE_ROOM",
+    "INSTANCE_PORTAL",
+    "INSTANCE_GEOMETRY_MASK",
+    "INFO_OBJECTS_IN_FRAME",
+    "INFO_VERTICES_IN_FRAME",
+    "INFO_MATERIAL_CHANGES_IN_FRAME",
+    "INFO_SHADER_CHANGES_IN_FRAME",
+    "INFO_SURFACE_CHANGES_IN_FRAME",
+    "INFO_DRAW_CALLS_IN_FRAME",
+    "INFO_USAGE_VIDEO_MEM_TOTAL",
+    "INFO_VIDEO_MEM_USED",
+    "INFO_TEXTURE_MEM_USED",
+    "INFO_VERTEX_MEM_USED"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_shader(...)",
+      "contents": "set_shader(${1:shader})"
+    },
+    {
+      "trigger": "get_shader()",
+      "contents": "get_shader()"
+    },
+    {
+      "trigger": "set_shader_param(...)",
+      "contents": "set_shader_param(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_shader_param(...)",
+      "contents": "get_shader_param(${1:param})"
+    }
+  ]
+}

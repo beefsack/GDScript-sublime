@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_height",
+    "get_height",
+    "set_ascent",
+    "get_ascent",
+    "get_descent",
+    "add_kerning_pair",
+    "get_kerning_pair",
+    "add_texture",
+    "add_char",
+    "get_char_size",
+    "get_string_size",
+    "clear",
+    "draw",
+    "draw_char"
+  ]
+}

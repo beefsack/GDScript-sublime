@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_wait_time(...)",
+      "contents": "set_wait_time(${1:time_sec})"
+    },
+    {
+      "trigger": "get_wait_time()",
+      "contents": "get_wait_time()"
+    },
+    {
+      "trigger": "set_one_shot(...)",
+      "contents": "set_one_shot(${1:enable})"
+    },
+    {
+      "trigger": "is_one_shot()",
+      "contents": "is_one_shot()"
+    },
+    {
+      "trigger": "set_autostart(...)",
+      "contents": "set_autostart(${1:enable})"
+    },
+    {
+      "trigger": "has_autostart()",
+      "contents": "has_autostart()"
+    },
+    {
+      "trigger": "start()",
+      "contents": "start()"
+    },
+    {
+      "trigger": "get_time_left()",
+      "contents": "get_time_left()"
+    }
+  ]
+}

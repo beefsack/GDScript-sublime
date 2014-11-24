@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "create",
+    "get_format",
+    "is_stereo",
+    "get_length",
+    "set_data",
+    "get_data",
+    "set_mix_rate",
+    "get_mix_rate",
+    "set_loop_format",
+    "get_loop_format",
+    "set_loop_begin",
+    "get_loop_begin",
+    "set_loop_end",
+    "get_loop_end"
+  ]
+}

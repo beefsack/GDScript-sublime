@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "translate(...)",
+      "contents": "translate(${1:arg0})"
+    },
+    {
+      "trigger": "add_translation(...)",
+      "contents": "add_translation(${1:arg0})"
+    },
+    {
+      "trigger": "remove_translation(...)",
+      "contents": "remove_translation(${1:arg0})"
+    }
+  ]
+}

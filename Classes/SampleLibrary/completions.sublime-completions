@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_sample(...)",
+      "contents": "add_sample(${1:name}, ${2:sample})"
+    },
+    {
+      "trigger": "get_sample(...)",
+      "contents": "get_sample(${1:name})"
+    },
+    {
+      "trigger": "has_sample(...)",
+      "contents": "has_sample(${1:name})"
+    },
+    {
+      "trigger": "remove_sample(...)",
+      "contents": "remove_sample(${1:name})"
+    },
+    {
+      "trigger": "sample_set_volume_db(...)",
+      "contents": "sample_set_volume_db(${1:name}, ${2:db})"
+    },
+    {
+      "trigger": "sample_get_volume_db(...)",
+      "contents": "sample_get_volume_db(${1:name})"
+    },
+    {
+      "trigger": "sample_set_pitch_scale(...)",
+      "contents": "sample_set_pitch_scale(${1:name}, ${2:pitch})"
+    },
+    {
+      "trigger": "sample_get_pitch_scale(...)",
+      "contents": "sample_get_pitch_scale(${1:name})"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_polygon",
+    "get_polygon",
+    "set_depth",
+    "get_depth",
+    "set_build_mode",
+    "get_build_mode"
+  ]
+}

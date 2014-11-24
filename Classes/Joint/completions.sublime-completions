@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_node_a(...)",
+      "contents": "set_node_a(${1:node})"
+    },
+    {
+      "trigger": "get_node_a()",
+      "contents": "get_node_a()"
+    },
+    {
+      "trigger": "set_node_b(...)",
+      "contents": "set_node_b(${1:node})"
+    },
+    {
+      "trigger": "get_node_b()",
+      "contents": "get_node_b()"
+    },
+    {
+      "trigger": "set_solver_priority(...)",
+      "contents": "set_solver_priority(${1:priority})"
+    },
+    {
+      "trigger": "get_solver_priority()",
+      "contents": "get_solver_priority()"
+    }
+  ]
+}

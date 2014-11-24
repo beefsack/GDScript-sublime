@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "clip",
+    "encloses",
+    "expand",
+    "get_area",
+    "grow",
+    "has_no_area",
+    "has_point",
+    "intersects",
+    "merge"
+  ]
+}

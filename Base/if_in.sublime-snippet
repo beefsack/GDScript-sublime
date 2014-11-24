@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[if ${1:a} in ${2:array}:
+	${3}
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.gdscript</scope>
+</snippet>

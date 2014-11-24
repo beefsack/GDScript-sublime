@@ -1,0 +1,210 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_child(...)",
+      "contents": "add_child(${1:node})"
+    },
+    {
+      "trigger": "remove_child(...)",
+      "contents": "remove_child(${1:node})"
+    },
+    {
+      "trigger": "remove_and_delete_child(...)",
+      "contents": "remove_and_delete_child(${1:node})"
+    },
+    {
+      "trigger": "get_child_count()",
+      "contents": "get_child_count()"
+    },
+    {
+      "trigger": "get_child(...)",
+      "contents": "get_child(${1:idx})"
+    },
+    {
+      "trigger": "has_node(...)",
+      "contents": "has_node(${1:path})"
+    },
+    {
+      "trigger": "get_node(...)",
+      "contents": "get_node(${1:path})"
+    },
+    {
+      "trigger": "has_node_and_resource(...)",
+      "contents": "has_node_and_resource(${1:path})"
+    },
+    {
+      "trigger": "get_node_and_resource(...)",
+      "contents": "get_node_and_resource(${1:path})"
+    },
+    {
+      "trigger": "is_inside_tree()",
+      "contents": "is_inside_tree()"
+    },
+    {
+      "trigger": "is_a_parent_of(...)",
+      "contents": "is_a_parent_of(${1:node})"
+    },
+    {
+      "trigger": "is_greater_than(...)",
+      "contents": "is_greater_than(${1:node})"
+    },
+    {
+      "trigger": "get_path_to(...)",
+      "contents": "get_path_to(${1:node})"
+    },
+    {
+      "trigger": "add_to_group(...)",
+      "contents": "add_to_group(${1:group}, ${2:arg1})"
+    },
+    {
+      "trigger": "remove_from_group(...)",
+      "contents": "remove_from_group(${1:group})"
+    },
+    {
+      "trigger": "is_in_group(...)",
+      "contents": "is_in_group(${1:group})"
+    },
+    {
+      "trigger": "move_child(...)",
+      "contents": "move_child(${1:child_node}, ${2:to_pos})"
+    },
+    {
+      "trigger": "get_groups()",
+      "contents": "get_groups()"
+    },
+    {
+      "trigger": "raise()",
+      "contents": "raise()"
+    },
+    {
+      "trigger": "set_owner(...)",
+      "contents": "set_owner(${1:owner})"
+    },
+    {
+      "trigger": "get_owner()",
+      "contents": "get_owner()"
+    },
+    {
+      "trigger": "remove_and_skip()",
+      "contents": "remove_and_skip()"
+    },
+    {
+      "trigger": "get_index()",
+      "contents": "get_index()"
+    },
+    {
+      "trigger": "print_tree()",
+      "contents": "print_tree()"
+    },
+    {
+      "trigger": "set_filename(...)",
+      "contents": "set_filename(${1:filename})"
+    },
+    {
+      "trigger": "get_filename()",
+      "contents": "get_filename()"
+    },
+    {
+      "trigger": "propagate_notification(...)",
+      "contents": "propagate_notification(${1:what})"
+    },
+    {
+      "trigger": "set_fixed_process(...)",
+      "contents": "set_fixed_process(${1:enable})"
+    },
+    {
+      "trigger": "get_fixed_process_delta_time()",
+      "contents": "get_fixed_process_delta_time()"
+    },
+    {
+      "trigger": "is_fixed_processing()",
+      "contents": "is_fixed_processing()"
+    },
+    {
+      "trigger": "set_process(...)",
+      "contents": "set_process(${1:enable})"
+    },
+    {
+      "trigger": "get_process_delta_time()",
+      "contents": "get_process_delta_time()"
+    },
+    {
+      "trigger": "is_processing()",
+      "contents": "is_processing()"
+    },
+    {
+      "trigger": "set_process_input(...)",
+      "contents": "set_process_input(${1:enable})"
+    },
+    {
+      "trigger": "is_processing_input()",
+      "contents": "is_processing_input()"
+    },
+    {
+      "trigger": "set_process_unhandled_input(...)",
+      "contents": "set_process_unhandled_input(${1:enable})"
+    },
+    {
+      "trigger": "is_processing_unhandled_input()",
+      "contents": "is_processing_unhandled_input()"
+    },
+    {
+      "trigger": "set_process_unhandled_key_input(...)",
+      "contents": "set_process_unhandled_key_input(${1:enable})"
+    },
+    {
+      "trigger": "is_processing_unhandled_key_input()",
+      "contents": "is_processing_unhandled_key_input()"
+    },
+    {
+      "trigger": "set_pause_mode(...)",
+      "contents": "set_pause_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_pause_mode()",
+      "contents": "get_pause_mode()"
+    },
+    {
+      "trigger": "can_process()",
+      "contents": "can_process()"
+    },
+    {
+      "trigger": "print_stray_nodes()",
+      "contents": "print_stray_nodes()"
+    },
+    {
+      "trigger": "get_position_in_parent()",
+      "contents": "get_position_in_parent()"
+    },
+    {
+      "trigger": "get_tree()",
+      "contents": "get_tree()"
+    },
+    {
+      "trigger": "duplicate()",
+      "contents": "duplicate()"
+    },
+    {
+      "trigger": "replace_by(...)",
+      "contents": "replace_by(${1:node}, ${2:keep_data})"
+    },
+    {
+      "trigger": "queue_free()",
+      "contents": "queue_free()"
+    },
+    "NOTIFICATION_ENTER_TREE",
+    "NOTIFICATION_EXIT_TREE",
+    "NOTIFICATION_MOVED_IN_PARENT",
+    "NOTIFICATION_READY",
+    "NOTIFICATION_FIXED_PROCESS",
+    "NOTIFICATION_PROCESS",
+    "NOTIFICATION_PARENTED",
+    "NOTIFICATION_UNPARENTED",
+    "NOTIFICATION_PAUSED",
+    "NOTIFICATION_UNPAUSED",
+    "PAUSE_MODE_INHERIT",
+    "PAUSE_MODE_STOP",
+    "PAUSE_MODE_PROCESS"
+  ]
+}

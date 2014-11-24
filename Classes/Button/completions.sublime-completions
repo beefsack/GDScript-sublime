@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_button_icon(...)",
+      "contents": "set_button_icon(${1:texture})"
+    },
+    {
+      "trigger": "get_button_icon()",
+      "contents": "get_button_icon()"
+    },
+    {
+      "trigger": "set_flat(...)",
+      "contents": "set_flat(${1:enabled})"
+    },
+    {
+      "trigger": "set_clip_text(...)",
+      "contents": "set_clip_text(${1:enabled})"
+    },
+    {
+      "trigger": "get_clip_text()",
+      "contents": "get_clip_text()"
+    },
+    {
+      "trigger": "set_text_align(...)",
+      "contents": "set_text_align(${1:align})"
+    },
+    {
+      "trigger": "get_text_align()",
+      "contents": "get_text_align()"
+    },
+    {
+      "trigger": "is_flat()",
+      "contents": "is_flat()"
+    }
+  ]
+}

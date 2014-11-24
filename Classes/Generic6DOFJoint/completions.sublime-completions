@@ -1,0 +1,69 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_param_x(...)",
+      "contents": "set_param_x(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_param_x(...)",
+      "contents": "get_param_x(${1:param})"
+    },
+    {
+      "trigger": "set_param_y(...)",
+      "contents": "set_param_y(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_param_y(...)",
+      "contents": "get_param_y(${1:param})"
+    },
+    {
+      "trigger": "set_param_z(...)",
+      "contents": "set_param_z(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_param_z(...)",
+      "contents": "get_param_z(${1:param})"
+    },
+    {
+      "trigger": "set_flag_x(...)",
+      "contents": "set_flag_x(${1:flag}, ${2:value})"
+    },
+    {
+      "trigger": "get_flag_x(...)",
+      "contents": "get_flag_x(${1:flag})"
+    },
+    {
+      "trigger": "set_flag_y(...)",
+      "contents": "set_flag_y(${1:flag}, ${2:value})"
+    },
+    {
+      "trigger": "get_flag_y(...)",
+      "contents": "get_flag_y(${1:flag})"
+    },
+    {
+      "trigger": "set_flag_z(...)",
+      "contents": "set_flag_z(${1:flag}, ${2:value})"
+    },
+    {
+      "trigger": "get_flag_z(...)",
+      "contents": "get_flag_z(${1:flag})"
+    },
+    "PARAM_LINEAR_LOWER_LIMIT",
+    "PARAM_LINEAR_UPPER_LIMIT",
+    "PARAM_LINEAR_RESTITUTION",
+    "PARAM_LINEAR_DAMPING",
+    "PARAM_ANGULAR_LOWER_LIMIT",
+    "PARAM_ANGULAR_UPPER_LIMIT",
+    "PARAM_ANGULAR_DAMPING",
+    "PARAM_ANGULAR_RESTITUTION",
+    "PARAM_ANGULAR_FORCE_LIMIT",
+    "PARAM_ANGULAR_ERP",
+    "PARAM_ANGULAR_MOTOR_TARGET_VELOCITY",
+    "PARAM_ANGULAR_MOTOR_FORCE_LIMIT",
+    "FLAG_ENABLE_LINEAR_LIMIT",
+    "FLAG_ENABLE_ANGULAR_LIMIT",
+    "FLAG_ENABLE_MOTOR",
+    "FLAG_MAX"
+  ]
+}

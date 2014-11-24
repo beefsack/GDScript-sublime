@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[func ${1:method}(${2:args}):
+	${3}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>func</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.gdscript</scope>
+</snippet>

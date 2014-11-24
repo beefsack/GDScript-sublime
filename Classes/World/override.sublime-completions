@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_space",
+    "get_scenario",
+    "get_sound_space",
+    "set_environment",
+    "get_environment"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_button(...)",
+      "contents": "add_button(${1:text})"
+    },
+    {
+      "trigger": "add_icon_button(...)",
+      "contents": "add_icon_button(${1:icon}, ${2:text})"
+    },
+    {
+      "trigger": "set_button_text(...)",
+      "contents": "set_button_text(${1:button}, ${2:text})"
+    },
+    {
+      "trigger": "set_button_icon(...)",
+      "contents": "set_button_icon(${1:button}, ${2:icon})"
+    },
+    {
+      "trigger": "get_button_text(...)",
+      "contents": "get_button_text(${1:button})"
+    },
+    {
+      "trigger": "get_button_icon(...)",
+      "contents": "get_button_icon(${1:button})"
+    },
+    {
+      "trigger": "get_button_count()",
+      "contents": "get_button_count()"
+    },
+    {
+      "trigger": "get_selected()",
+      "contents": "get_selected()"
+    },
+    {
+      "trigger": "get_hovered()",
+      "contents": "get_hovered()"
+    },
+    {
+      "trigger": "set_selected(...)",
+      "contents": "set_selected(${1:button})"
+    },
+    {
+      "trigger": "erase_button(...)",
+      "contents": "erase_button(${1:button})"
+    },
+    "ALIGN_BEGIN",
+    "ALIGN_CENTER",
+    "ALIGN_END",
+    "ALIGN_FILL",
+    "ALIGN_EXPAND_FILL"
+  ]
+}

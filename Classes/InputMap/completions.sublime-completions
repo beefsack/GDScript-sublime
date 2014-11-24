@@ -1,0 +1,49 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "has_action(...)",
+      "contents": "has_action(${1:action})"
+    },
+    {
+      "trigger": "get_action_id(...)",
+      "contents": "get_action_id(${1:action})"
+    },
+    {
+      "trigger": "get_action_from_id(...)",
+      "contents": "get_action_from_id(${1:id})"
+    },
+    {
+      "trigger": "add_action(...)",
+      "contents": "add_action(${1:action})"
+    },
+    {
+      "trigger": "erase_action(...)",
+      "contents": "erase_action(${1:action})"
+    },
+    {
+      "trigger": "action_add_event(...)",
+      "contents": "action_add_event(${1:action}, ${2:event})"
+    },
+    {
+      "trigger": "action_has_event(...)",
+      "contents": "action_has_event(${1:action}, ${2:event})"
+    },
+    {
+      "trigger": "action_erase_event(...)",
+      "contents": "action_erase_event(${1:action}, ${2:event})"
+    },
+    {
+      "trigger": "get_action_list(...)",
+      "contents": "get_action_list(${1:action})"
+    },
+    {
+      "trigger": "event_is_action(...)",
+      "contents": "event_is_action(${1:event}, ${2:action})"
+    },
+    {
+      "trigger": "load_from_globals()",
+      "contents": "load_from_globals()"
+    }
+  ]
+}

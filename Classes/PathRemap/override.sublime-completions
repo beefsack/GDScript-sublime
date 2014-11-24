@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_remap",
+    "has_remap",
+    "get_remap",
+    "erase_remap",
+    "clear_remaps"
+  ]
+}

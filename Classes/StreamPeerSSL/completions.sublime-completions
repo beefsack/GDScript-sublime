@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "accept(...)",
+      "contents": "accept(${1:stream})"
+    },
+    {
+      "trigger": "connect(...)",
+      "contents": "connect(${1:stream}, ${2:validate_certs}, ${3:for_hostname})"
+    },
+    {
+      "trigger": "disconnect()",
+      "contents": "disconnect()"
+    },
+    "STATUS_ERROR_NO_CERTIFICATE",
+    "STATUS_ERROR_HOSTNAME_MISMATCH"
+  ]
+}

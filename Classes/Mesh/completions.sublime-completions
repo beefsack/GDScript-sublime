@@ -1,0 +1,116 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_morph_target(...)",
+      "contents": "add_morph_target(${1:name})"
+    },
+    {
+      "trigger": "get_morph_target_count()",
+      "contents": "get_morph_target_count()"
+    },
+    {
+      "trigger": "get_morph_target_name(...)",
+      "contents": "get_morph_target_name(${1:index})"
+    },
+    {
+      "trigger": "clear_morph_targets()",
+      "contents": "clear_morph_targets()"
+    },
+    {
+      "trigger": "set_morph_target_mode(...)",
+      "contents": "set_morph_target_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_morph_target_mode()",
+      "contents": "get_morph_target_mode()"
+    },
+    {
+      "trigger": "add_surface(...)",
+      "contents": "add_surface(${1:primitive}, ${2:arrays}, ${3:morph_arrays}, ${4:arg3})"
+    },
+    {
+      "trigger": "get_surface_count()",
+      "contents": "get_surface_count()"
+    },
+    {
+      "trigger": "surface_remove(...)",
+      "contents": "surface_remove(${1:surf_idx})"
+    },
+    {
+      "trigger": "surface_get_array_len(...)",
+      "contents": "surface_get_array_len(${1:surf_idx})"
+    },
+    {
+      "trigger": "surface_get_array_index_len(...)",
+      "contents": "surface_get_array_index_len(${1:surf_idx})"
+    },
+    {
+      "trigger": "surface_get_format(...)",
+      "contents": "surface_get_format(${1:surf_idx})"
+    },
+    {
+      "trigger": "surface_get_primitive_type(...)",
+      "contents": "surface_get_primitive_type(${1:surf_idx})"
+    },
+    {
+      "trigger": "surface_set_material(...)",
+      "contents": "surface_set_material(${1:surf_idx}, ${2:material})"
+    },
+    {
+      "trigger": "surface_get_material(...)",
+      "contents": "surface_get_material(${1:surf_idx})"
+    },
+    {
+      "trigger": "surface_set_name(...)",
+      "contents": "surface_set_name(${1:surf_idx}, ${2:name})"
+    },
+    {
+      "trigger": "surface_get_name(...)",
+      "contents": "surface_get_name(${1:surf_idx})"
+    },
+    {
+      "trigger": "center_geometry()",
+      "contents": "center_geometry()"
+    },
+    {
+      "trigger": "regen_normalmaps()",
+      "contents": "regen_normalmaps()"
+    },
+    {
+      "trigger": "set_custom_aabb(...)",
+      "contents": "set_custom_aabb(${1:aabb})"
+    },
+    {
+      "trigger": "get_custom_aabb()",
+      "contents": "get_custom_aabb()"
+    },
+    "NO_INDEX_ARRAY",
+    "ARRAY_WEIGHTS_SIZE",
+    "ARRAY_VERTEX",
+    "ARRAY_NORMAL",
+    "ARRAY_TANGENT",
+    "ARRAY_COLOR",
+    "ARRAY_TEX_UV",
+    "ARRAY_TEX_UV2",
+    "ARRAY_BONES",
+    "ARRAY_WEIGHTS",
+    "ARRAY_INDEX",
+    "ARRAY_FORMAT_VERTEX",
+    "ARRAY_FORMAT_NORMAL",
+    "ARRAY_FORMAT_TANGENT",
+    "ARRAY_FORMAT_COLOR",
+    "ARRAY_FORMAT_TEX_UV",
+    "ARRAY_FORMAT_TEX_UV2",
+    "ARRAY_FORMAT_BONES",
+    "ARRAY_FORMAT_WEIGHTS",
+    "ARRAY_FORMAT_INDEX",
+    "PRIMITIVE_POINTS",
+    "PRIMITIVE_LINES",
+    "PRIMITIVE_LINE_STRIP",
+    "PRIMITIVE_LINE_LOOP",
+    "PRIMITIVE_TRIANGLES",
+    "PRIMITIVE_TRIANGLE_STRIP",
+    "PRIMITIVE_TRIANGLE_FAN"
+  ]
+}

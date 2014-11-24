@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "create(...)",
+      "contents": "create(${1:size})"
+    },
+    {
+      "trigger": "create_from_image_alpha(...)",
+      "contents": "create_from_image_alpha(${1:image})"
+    },
+    {
+      "trigger": "set_bit(...)",
+      "contents": "set_bit(${1:pos}, ${2:bit})"
+    },
+    {
+      "trigger": "get_bit(...)",
+      "contents": "get_bit(${1:pos})"
+    },
+    {
+      "trigger": "set_bit_rect(...)",
+      "contents": "set_bit_rect(${1:p_rect}, ${2:bit})"
+    },
+    {
+      "trigger": "get_true_bit_count()",
+      "contents": "get_true_bit_count()"
+    },
+    {
+      "trigger": "get_size()",
+      "contents": "get_size()"
+    }
+  ]
+}

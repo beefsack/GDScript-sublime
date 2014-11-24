@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_shape",
+    "get_shape",
+    "set_enabled",
+    "is_enabled",
+    "set_disable_distance",
+    "get_disable_distance",
+    "set_disabled_color",
+    "get_disabled_color",
+    "set_connect_range",
+    "get_connect_range"
+  ]
+}

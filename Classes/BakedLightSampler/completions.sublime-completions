@@ -1,0 +1,18 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_resolution(...)",
+      "contents": "set_resolution(${1:resolution})"
+    },
+    {
+      "trigger": "get_resolution()",
+      "contents": "get_resolution()"
+    },
+    "PARAM_RADIUS",
+    "PARAM_STRENGTH",
+    "PARAM_ATTENUATION",
+    "PARAM_DETAIL_RATIO",
+    "PARAM_MAX"
+  ]
+}

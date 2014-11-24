@@ -1,0 +1,243 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_node(...)",
+      "contents": "add_node(${1:type}, ${2:id})"
+    },
+    {
+      "trigger": "node_exists(...)",
+      "contents": "node_exists(${1:node})"
+    },
+    {
+      "trigger": "node_rename(...)",
+      "contents": "node_rename(${1:node}, ${2:new_name})"
+    },
+    {
+      "trigger": "node_get_type(...)",
+      "contents": "node_get_type(${1:id})"
+    },
+    {
+      "trigger": "node_get_input_count(...)",
+      "contents": "node_get_input_count(${1:id})"
+    },
+    {
+      "trigger": "node_get_input_source(...)",
+      "contents": "node_get_input_source(${1:id}, ${2:idx})"
+    },
+    {
+      "trigger": "animation_node_set_animation(...)",
+      "contents": "animation_node_set_animation(${1:id}, ${2:animation})"
+    },
+    {
+      "trigger": "animation_node_get_animation(...)",
+      "contents": "animation_node_get_animation(${1:id})"
+    },
+    {
+      "trigger": "animation_node_set_master_animation(...)",
+      "contents": "animation_node_set_master_animation(${1:id}, ${2:source})"
+    },
+    {
+      "trigger": "animation_node_get_master_animation(...)",
+      "contents": "animation_node_get_master_animation(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_set_fadein_time(...)",
+      "contents": "oneshot_node_set_fadein_time(${1:id}, ${2:time_sec})"
+    },
+    {
+      "trigger": "oneshot_node_get_fadein_time(...)",
+      "contents": "oneshot_node_get_fadein_time(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_set_fadeout_time(...)",
+      "contents": "oneshot_node_set_fadeout_time(${1:id}, ${2:time_sec})"
+    },
+    {
+      "trigger": "oneshot_node_get_fadeout_time(...)",
+      "contents": "oneshot_node_get_fadeout_time(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_set_autorestart(...)",
+      "contents": "oneshot_node_set_autorestart(${1:id}, ${2:enable})"
+    },
+    {
+      "trigger": "oneshot_node_set_autorestart_delay(...)",
+      "contents": "oneshot_node_set_autorestart_delay(${1:id}, ${2:delay_sec})"
+    },
+    {
+      "trigger": "oneshot_node_set_autorestart_random_delay(...)",
+      "contents": "oneshot_node_set_autorestart_random_delay(${1:id}, ${2:rand_sec})"
+    },
+    {
+      "trigger": "oneshot_node_has_autorestart(...)",
+      "contents": "oneshot_node_has_autorestart(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_get_autorestart_delay(...)",
+      "contents": "oneshot_node_get_autorestart_delay(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_get_autorestart_random_delay(...)",
+      "contents": "oneshot_node_get_autorestart_random_delay(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_start(...)",
+      "contents": "oneshot_node_start(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_stop(...)",
+      "contents": "oneshot_node_stop(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_is_active(...)",
+      "contents": "oneshot_node_is_active(${1:id})"
+    },
+    {
+      "trigger": "oneshot_node_set_filter_path(...)",
+      "contents": "oneshot_node_set_filter_path(${1:id}, ${2:path}, ${3:enable})"
+    },
+    {
+      "trigger": "mix_node_set_amount(...)",
+      "contents": "mix_node_set_amount(${1:id}, ${2:ratio})"
+    },
+    {
+      "trigger": "mix_node_get_amount(...)",
+      "contents": "mix_node_get_amount(${1:id})"
+    },
+    {
+      "trigger": "blend2_node_set_amount(...)",
+      "contents": "blend2_node_set_amount(${1:id}, ${2:blend})"
+    },
+    {
+      "trigger": "blend2_node_get_amount(...)",
+      "contents": "blend2_node_get_amount(${1:id})"
+    },
+    {
+      "trigger": "blend2_node_set_filter_path(...)",
+      "contents": "blend2_node_set_filter_path(${1:id}, ${2:path}, ${3:enable})"
+    },
+    {
+      "trigger": "blend3_node_set_amount(...)",
+      "contents": "blend3_node_set_amount(${1:id}, ${2:blend})"
+    },
+    {
+      "trigger": "blend3_node_get_amount(...)",
+      "contents": "blend3_node_get_amount(${1:id})"
+    },
+    {
+      "trigger": "blend4_node_set_amount(...)",
+      "contents": "blend4_node_set_amount(${1:id}, ${2:blend})"
+    },
+    {
+      "trigger": "blend4_node_get_amount(...)",
+      "contents": "blend4_node_get_amount(${1:id})"
+    },
+    {
+      "trigger": "timescale_node_set_scale(...)",
+      "contents": "timescale_node_set_scale(${1:id}, ${2:scale})"
+    },
+    {
+      "trigger": "timescale_node_get_scale(...)",
+      "contents": "timescale_node_get_scale(${1:id})"
+    },
+    {
+      "trigger": "timeseek_node_seek(...)",
+      "contents": "timeseek_node_seek(${1:id}, ${2:pos_sec})"
+    },
+    {
+      "trigger": "transition_node_set_input_count(...)",
+      "contents": "transition_node_set_input_count(${1:id}, ${2:count})"
+    },
+    {
+      "trigger": "transition_node_get_input_count(...)",
+      "contents": "transition_node_get_input_count(${1:id})"
+    },
+    {
+      "trigger": "transition_node_delete_input(...)",
+      "contents": "transition_node_delete_input(${1:id}, ${2:input_idx})"
+    },
+    {
+      "trigger": "transition_node_set_input_auto_advance(...)",
+      "contents": "transition_node_set_input_auto_advance(${1:id}, ${2:input_idx}, ${3:enable})"
+    },
+    {
+      "trigger": "transition_node_has_input_auto_advance(...)",
+      "contents": "transition_node_has_input_auto_advance(${1:id}, ${2:input_idx})"
+    },
+    {
+      "trigger": "transition_node_set_xfade_time(...)",
+      "contents": "transition_node_set_xfade_time(${1:id}, ${2:time_sec})"
+    },
+    {
+      "trigger": "transition_node_get_xfade_time(...)",
+      "contents": "transition_node_get_xfade_time(${1:id})"
+    },
+    {
+      "trigger": "transition_node_set_current(...)",
+      "contents": "transition_node_set_current(${1:id}, ${2:input_idx})"
+    },
+    {
+      "trigger": "transition_node_get_current(...)",
+      "contents": "transition_node_get_current(${1:id})"
+    },
+    {
+      "trigger": "node_set_pos(...)",
+      "contents": "node_set_pos(${1:id}, ${2:screen_pos})"
+    },
+    {
+      "trigger": "node_get_pos(...)",
+      "contents": "node_get_pos(${1:id})"
+    },
+    {
+      "trigger": "remove_node(...)",
+      "contents": "remove_node(${1:id})"
+    },
+    {
+      "trigger": "connect(...)",
+      "contents": "connect(${1:id}, ${2:dst_id}, ${3:dst_input_idx})"
+    },
+    {
+      "trigger": "is_connected(...)",
+      "contents": "is_connected(${1:id}, ${2:dst_id}, ${3:dst_input_idx})"
+    },
+    {
+      "trigger": "disconnect(...)",
+      "contents": "disconnect(${1:id}, ${2:dst_input_idx})"
+    },
+    {
+      "trigger": "set_active(...)",
+      "contents": "set_active(${1:enabled})"
+    },
+    {
+      "trigger": "set_base_path(...)",
+      "contents": "set_base_path(${1:path})"
+    },
+    {
+      "trigger": "get_base_path()",
+      "contents": "get_base_path()"
+    },
+    {
+      "trigger": "get_node_list()",
+      "contents": "get_node_list()"
+    },
+    {
+      "trigger": "reset()",
+      "contents": "reset()"
+    },
+    {
+      "trigger": "recompute_caches()",
+      "contents": "recompute_caches()"
+    },
+    "NODE_OUTPUT",
+    "NODE_ANIMATION",
+    "NODE_ONESHOT",
+    "NODE_MIX",
+    "NODE_BLEND2",
+    "NODE_BLEND3",
+    "NODE_BLEND4",
+    "NODE_TIMESCALE",
+    "NODE_TIMESEEK",
+    "NODE_TRANSITION"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_enabler(...)",
+      "contents": "set_enabler(${1:enabler}, ${2:enabled})"
+    },
+    {
+      "trigger": "is_enabler_enabled(...)",
+      "contents": "is_enabler_enabled(${1:enabler})"
+    },
+    "ENABLER_FREEZE_BODIES",
+    "ENABLER_PAUSE_ANIMATIONS",
+    "ENABLER_MAX"
+  ]
+}

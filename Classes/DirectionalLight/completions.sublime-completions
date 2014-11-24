@@ -1,0 +1,28 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_shadow_mode(...)",
+      "contents": "set_shadow_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_shadow_mode()",
+      "contents": "get_shadow_mode()"
+    },
+    {
+      "trigger": "set_shadow_param(...)",
+      "contents": "set_shadow_param(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_shadow_param(...)",
+      "contents": "get_shadow_param(${1:param})"
+    },
+    "SHADOW_ORTHOGONAL",
+    "SHADOW_PERSPECTIVE",
+    "SHADOW_PARALLEL_2_SPLITS",
+    "SHADOW_PARALLEL_4_SPLITS",
+    "SHADOW_PARAM_MAX_DISTANCE",
+    "SHADOW_PARAM_PSSM_SPLIT_WEIGHT",
+    "SHADOW_PARAM_PSSM_ZOFFSET_SCALE"
+  ]
+}

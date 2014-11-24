@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_popup()",
+      "contents": "get_popup()"
+    }
+  ]
+}

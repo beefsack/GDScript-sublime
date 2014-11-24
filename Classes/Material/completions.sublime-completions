@@ -1,0 +1,39 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_flag(...)",
+      "contents": "set_flag(${1:flag}, ${2:enable})"
+    },
+    {
+      "trigger": "set_blend_mode(...)",
+      "contents": "set_blend_mode(${1:mode})"
+    },
+    {
+      "trigger": "set_line_width(...)",
+      "contents": "set_line_width(${1:width})"
+    },
+    {
+      "trigger": "get_line_width()",
+      "contents": "get_line_width()"
+    },
+    {
+      "trigger": "set_depth_draw_mode(...)",
+      "contents": "set_depth_draw_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_depth_draw_mode()",
+      "contents": "get_depth_draw_mode()"
+    },
+    "FLAG_DOUBLE_SIDED",
+    "FLAG_INVERT_FACES",
+    "FLAG_UNSHADED",
+    "FLAG_ONTOP",
+    "FLAG_LIGHTMAP_ON_UV2",
+    "FLAG_COLOR_ARRAY_SRGB",
+    "DEPTH_DRAW_ALWAYS",
+    "DEPTH_DRAW_OPAQUE_ONLY",
+    "DEPTH_DRAW_OPAQUE_PRE_PASS_ALPHA",
+    "DEPTH_DRAW_NEVER"
+  ]
+}

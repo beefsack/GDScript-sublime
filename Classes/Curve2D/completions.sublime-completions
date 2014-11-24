@@ -1,0 +1,69 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_point_count()",
+      "contents": "get_point_count()"
+    },
+    {
+      "trigger": "add_point(...)",
+      "contents": "add_point(${1:pos}, ${2:in}, ${3:0})"
+    },
+    {
+      "trigger": "set_point_pos(...)",
+      "contents": "set_point_pos(${1:idx}, ${2:pos})"
+    },
+    {
+      "trigger": "get_point_pos(...)",
+      "contents": "get_point_pos(${1:idx})"
+    },
+    {
+      "trigger": "set_point_in(...)",
+      "contents": "set_point_in(${1:idx}, ${2:pos})"
+    },
+    {
+      "trigger": "get_point_in(...)",
+      "contents": "get_point_in(${1:idx})"
+    },
+    {
+      "trigger": "set_point_out(...)",
+      "contents": "set_point_out(${1:idx}, ${2:pos})"
+    },
+    {
+      "trigger": "get_point_out(...)",
+      "contents": "get_point_out(${1:idx})"
+    },
+    {
+      "trigger": "remove_point(...)",
+      "contents": "remove_point(${1:idx})"
+    },
+    {
+      "trigger": "interpolate(...)",
+      "contents": "interpolate(${1:idx}, ${2:t})"
+    },
+    {
+      "trigger": "interpolatef(...)",
+      "contents": "interpolatef(${1:fofs})"
+    },
+    {
+      "trigger": "set_bake_interval(...)",
+      "contents": "set_bake_interval(${1:distance})"
+    },
+    {
+      "trigger": "get_bake_interval()",
+      "contents": "get_bake_interval()"
+    },
+    {
+      "trigger": "get_baked_length()",
+      "contents": "get_baked_length()"
+    },
+    {
+      "trigger": "interpolate_baked(...)",
+      "contents": "interpolate_baked(${1:offset}, ${2:cubic})"
+    },
+    {
+      "trigger": "get_baked_points()",
+      "contents": "get_baked_points()"
+    }
+  ]
+}

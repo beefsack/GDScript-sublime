@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "init_ref()",
+      "contents": "init_ref()"
+    },
+    {
+      "trigger": "reference()",
+      "contents": "reference()"
+    },
+    {
+      "trigger": "unreference()",
+      "contents": "unreference()"
+    }
+  ]
+}

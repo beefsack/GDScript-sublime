@@ -1,0 +1,85 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_polygon(...)",
+      "contents": "set_polygon(${1:polygon})"
+    },
+    {
+      "trigger": "get_polygon()",
+      "contents": "get_polygon()"
+    },
+    {
+      "trigger": "set_uv(...)",
+      "contents": "set_uv(${1:uv})"
+    },
+    {
+      "trigger": "get_uv()",
+      "contents": "get_uv()"
+    },
+    {
+      "trigger": "set_color(...)",
+      "contents": "set_color(${1:color})"
+    },
+    {
+      "trigger": "get_color()",
+      "contents": "get_color()"
+    },
+    {
+      "trigger": "set_texture(...)",
+      "contents": "set_texture(${1:texture})"
+    },
+    {
+      "trigger": "get_texture()",
+      "contents": "get_texture()"
+    },
+    {
+      "trigger": "set_texture_offset(...)",
+      "contents": "set_texture_offset(${1:texture_offset})"
+    },
+    {
+      "trigger": "get_texture_offset()",
+      "contents": "get_texture_offset()"
+    },
+    {
+      "trigger": "set_texture_rotation(...)",
+      "contents": "set_texture_rotation(${1:texture_rotation})"
+    },
+    {
+      "trigger": "get_texture_rotation()",
+      "contents": "get_texture_rotation()"
+    },
+    {
+      "trigger": "set_texture_scale(...)",
+      "contents": "set_texture_scale(${1:texture_scale})"
+    },
+    {
+      "trigger": "get_texture_scale()",
+      "contents": "get_texture_scale()"
+    },
+    {
+      "trigger": "set_texture_repeat(...)",
+      "contents": "set_texture_repeat(${1:enable})"
+    },
+    {
+      "trigger": "get_texture_repeat()",
+      "contents": "get_texture_repeat()"
+    },
+    {
+      "trigger": "set_invert(...)",
+      "contents": "set_invert(${1:invert})"
+    },
+    {
+      "trigger": "get_invert()",
+      "contents": "get_invert()"
+    },
+    {
+      "trigger": "set_invert_border(...)",
+      "contents": "set_invert_border(${1:invert_border})"
+    },
+    {
+      "trigger": "get_invert_border()",
+      "contents": "get_invert_border()"
+    }
+  ]
+}

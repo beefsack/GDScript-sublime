@@ -1,0 +1,101 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_emitting(...)",
+      "contents": "set_emitting(${1:active})"
+    },
+    {
+      "trigger": "set_lifetime(...)",
+      "contents": "set_lifetime(${1:lifetime})"
+    },
+    {
+      "trigger": "get_lifetime()",
+      "contents": "get_lifetime()"
+    },
+    {
+      "trigger": "set_pre_process_time(...)",
+      "contents": "set_pre_process_time(${1:time})"
+    },
+    {
+      "trigger": "get_pre_process_time()",
+      "contents": "get_pre_process_time()"
+    },
+    {
+      "trigger": "set_emit_timeout(...)",
+      "contents": "set_emit_timeout(${1:value})"
+    },
+    {
+      "trigger": "set_randomness(...)",
+      "contents": "set_randomness(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_randomness(...)",
+      "contents": "get_randomness(${1:param})"
+    },
+    {
+      "trigger": "set_emissor_offset(...)",
+      "contents": "set_emissor_offset(${1:offset})"
+    },
+    {
+      "trigger": "get_emissor_offset()",
+      "contents": "get_emissor_offset()"
+    },
+    {
+      "trigger": "set_flip_h(...)",
+      "contents": "set_flip_h(${1:enable})"
+    },
+    {
+      "trigger": "set_flip_v(...)",
+      "contents": "set_flip_v(${1:enable})"
+    },
+    {
+      "trigger": "set_emission_half_extents(...)",
+      "contents": "set_emission_half_extents(${1:extents})"
+    },
+    {
+      "trigger": "set_color_phases(...)",
+      "contents": "set_color_phases(${1:phases})"
+    },
+    {
+      "trigger": "pre_process(...)",
+      "contents": "pre_process(${1:time})"
+    },
+    {
+      "trigger": "set_use_local_space(...)",
+      "contents": "set_use_local_space(${1:enable})"
+    },
+    {
+      "trigger": "is_using_local_space()",
+      "contents": "is_using_local_space()"
+    },
+    {
+      "trigger": "set_initial_velocity(...)",
+      "contents": "set_initial_velocity(${1:velocity})"
+    },
+    {
+      "trigger": "get_initial_velocity()",
+      "contents": "get_initial_velocity()"
+    },
+    {
+      "trigger": "set_explosiveness(...)",
+      "contents": "set_explosiveness(${1:amount})"
+    },
+    {
+      "trigger": "get_explosiveness()",
+      "contents": "get_explosiveness()"
+    },
+    "PARAM_DIRECTION",
+    "PARAM_SPREAD",
+    "PARAM_LINEAR_VELOCITY",
+    "PARAM_SPIN_VELOCITY",
+    "PARAM_GRAVITY_DIRECTION",
+    "PARAM_GRAVITY_STRENGTH",
+    "PARAM_RADIAL_ACCEL",
+    "PARAM_TANGENTIAL_ACCEL",
+    "PARAM_INITIAL_SIZE",
+    "PARAM_FINAL_SIZE",
+    "PARAM_HUE_VARIATION",
+    "MAX_COLOR_PHASES"
+  ]
+}

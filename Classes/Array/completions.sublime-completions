@@ -1,0 +1,61 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "append(...)",
+      "contents": "append(${1:value})"
+    },
+    {
+      "trigger": "empty()",
+      "contents": "empty()"
+    },
+    {
+      "trigger": "erase(...)",
+      "contents": "erase(${1:value})"
+    },
+    {
+      "trigger": "find(...)",
+      "contents": "find(${1:value})"
+    },
+    {
+      "trigger": "hash()",
+      "contents": "hash()"
+    },
+    {
+      "trigger": "insert(...)",
+      "contents": "insert(${1:pos}, ${2:value})"
+    },
+    {
+      "trigger": "invert()",
+      "contents": "invert()"
+    },
+    {
+      "trigger": "push_back(...)",
+      "contents": "push_back(${1:value})"
+    },
+    {
+      "trigger": "remove(...)",
+      "contents": "remove(${1:pos})"
+    },
+    {
+      "trigger": "resize(...)",
+      "contents": "resize(${1:pos})"
+    },
+    {
+      "trigger": "size()",
+      "contents": "size()"
+    },
+    {
+      "trigger": "sort()",
+      "contents": "sort()"
+    },
+    {
+      "trigger": "sort_custom(...)",
+      "contents": "sort_custom(${1:obj}, ${2:func})"
+    },
+    {
+      "trigger": "Array(...)",
+      "contents": "Array(${1:from})"
+    }
+  ]
+}

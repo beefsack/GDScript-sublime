@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "begin(...)",
+      "contents": "begin(${1:primitive}, ${2:texture})"
+    },
+    {
+      "trigger": "set_normal(...)",
+      "contents": "set_normal(${1:normal})"
+    },
+    {
+      "trigger": "set_tangent(...)",
+      "contents": "set_tangent(${1:tangent})"
+    },
+    {
+      "trigger": "set_uv2(...)",
+      "contents": "set_uv2(${1:uv})"
+    },
+    {
+      "trigger": "add_vertex(...)",
+      "contents": "add_vertex(${1:color})"
+    },
+    {
+      "trigger": "add_sphere(...)",
+      "contents": "add_sphere(${1:lats}, ${2:lons}, ${3:radius})"
+    },
+    {
+      "trigger": "end()",
+      "contents": "end()"
+    }
+  ]
+}

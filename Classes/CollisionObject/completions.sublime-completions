@@ -1,0 +1,65 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_shape(...)",
+      "contents": "add_shape(${1:shape}, ${2:transform})"
+    },
+    {
+      "trigger": "get_shape_count()",
+      "contents": "get_shape_count()"
+    },
+    {
+      "trigger": "set_shape(...)",
+      "contents": "set_shape(${1:shape_idx}, ${2:shape})"
+    },
+    {
+      "trigger": "set_shape_transform(...)",
+      "contents": "set_shape_transform(${1:shape_idx}, ${2:transform})"
+    },
+    {
+      "trigger": "set_shape_as_trigger(...)",
+      "contents": "set_shape_as_trigger(${1:shape_idx}, ${2:enable})"
+    },
+    {
+      "trigger": "is_shape_set_as_trigger(...)",
+      "contents": "is_shape_set_as_trigger(${1:shape_idx})"
+    },
+    {
+      "trigger": "get_shape(...)",
+      "contents": "get_shape(${1:shape_idx})"
+    },
+    {
+      "trigger": "get_shape_transform(...)",
+      "contents": "get_shape_transform(${1:shape_idx})"
+    },
+    {
+      "trigger": "remove_shape(...)",
+      "contents": "remove_shape(${1:shape_idx})"
+    },
+    {
+      "trigger": "clear_shapes()",
+      "contents": "clear_shapes()"
+    },
+    {
+      "trigger": "set_ray_pickable(...)",
+      "contents": "set_ray_pickable(${1:ray_pickable})"
+    },
+    {
+      "trigger": "is_ray_pickable()",
+      "contents": "is_ray_pickable()"
+    },
+    {
+      "trigger": "set_capture_input_on_drag(...)",
+      "contents": "set_capture_input_on_drag(${1:enable})"
+    },
+    {
+      "trigger": "get_capture_input_on_drag()",
+      "contents": "get_capture_input_on_drag()"
+    },
+    {
+      "trigger": "get_rid()",
+      "contents": "get_rid()"
+    }
+  ]
+}

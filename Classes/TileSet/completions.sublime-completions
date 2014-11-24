@@ -1,0 +1,81 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "create_tile(...)",
+      "contents": "create_tile(${1:id})"
+    },
+    {
+      "trigger": "tile_set_name(...)",
+      "contents": "tile_set_name(${1:id}, ${2:name})"
+    },
+    {
+      "trigger": "tile_get_name(...)",
+      "contents": "tile_get_name(${1:id})"
+    },
+    {
+      "trigger": "tile_set_texture(...)",
+      "contents": "tile_set_texture(${1:id}, ${2:texture})"
+    },
+    {
+      "trigger": "tile_get_texture(...)",
+      "contents": "tile_get_texture(${1:id})"
+    },
+    {
+      "trigger": "tile_set_texture_offset(...)",
+      "contents": "tile_set_texture_offset(${1:id}, ${2:texture_offset})"
+    },
+    {
+      "trigger": "tile_get_texture_offset(...)",
+      "contents": "tile_get_texture_offset(${1:id})"
+    },
+    {
+      "trigger": "tile_set_shape_offset(...)",
+      "contents": "tile_set_shape_offset(${1:id}, ${2:shape_offset})"
+    },
+    {
+      "trigger": "tile_get_shape_offset(...)",
+      "contents": "tile_get_shape_offset(${1:id})"
+    },
+    {
+      "trigger": "tile_set_region(...)",
+      "contents": "tile_set_region(${1:id}, ${2:region})"
+    },
+    {
+      "trigger": "tile_get_region(...)",
+      "contents": "tile_get_region(${1:id})"
+    },
+    {
+      "trigger": "tile_set_shape(...)",
+      "contents": "tile_set_shape(${1:id}, ${2:shape})"
+    },
+    {
+      "trigger": "tile_get_shape(...)",
+      "contents": "tile_get_shape(${1:id})"
+    },
+    {
+      "trigger": "tile_set_shapes(...)",
+      "contents": "tile_set_shapes(${1:id}, ${2:shapes})"
+    },
+    {
+      "trigger": "tile_get_shapes(...)",
+      "contents": "tile_get_shapes(${1:id})"
+    },
+    {
+      "trigger": "remove_tile(...)",
+      "contents": "remove_tile(${1:id})"
+    },
+    {
+      "trigger": "get_last_unused_tile_id()",
+      "contents": "get_last_unused_tile_id()"
+    },
+    {
+      "trigger": "find_tile_by_name(...)",
+      "contents": "find_tile_by_name(${1:name})"
+    },
+    {
+      "trigger": "get_tiles_ids()",
+      "contents": "get_tiles_ids()"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "build_box_planes",
+    "build_cylinder_planes",
+    "build_capsule_planes",
+    "segment_intersects_circle",
+    "segment_intersects_segment_2d",
+    "get_closest_points_between_segments_2d",
+    "get_closest_points_between_segments",
+    "get_closest_point_to_segment",
+    "get_uv84_normal_bit",
+    "ray_intersects_triangle",
+    "segment_intersects_triangle",
+    "segment_intersects_sphere",
+    "segment_intersects_cylinder",
+    "segment_intersects_convex",
+    "triangulate_polygon",
+    "make_atlas"
+  ]
+}

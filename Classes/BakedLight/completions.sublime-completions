@@ -1,0 +1,184 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_mode(...)",
+      "contents": "set_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_mode()",
+      "contents": "get_mode()"
+    },
+    {
+      "trigger": "set_octree(...)",
+      "contents": "set_octree(${1:octree})"
+    },
+    {
+      "trigger": "get_octree()",
+      "contents": "get_octree()"
+    },
+    {
+      "trigger": "set_light(...)",
+      "contents": "set_light(${1:light})"
+    },
+    {
+      "trigger": "get_light()",
+      "contents": "get_light()"
+    },
+    {
+      "trigger": "set_sampler_octree(...)",
+      "contents": "set_sampler_octree(${1:sampler_octree})"
+    },
+    {
+      "trigger": "get_sampler_octree()",
+      "contents": "get_sampler_octree()"
+    },
+    {
+      "trigger": "add_lightmap(...)",
+      "contents": "add_lightmap(${1:texture}, ${2:gen_size})"
+    },
+    {
+      "trigger": "erase_lightmap(...)",
+      "contents": "erase_lightmap(${1:id})"
+    },
+    {
+      "trigger": "clear_lightmaps()",
+      "contents": "clear_lightmaps()"
+    },
+    {
+      "trigger": "set_cell_subdivision(...)",
+      "contents": "set_cell_subdivision(${1:cell_subdivision})"
+    },
+    {
+      "trigger": "get_cell_subdivision()",
+      "contents": "get_cell_subdivision()"
+    },
+    {
+      "trigger": "set_initial_lattice_subdiv(...)",
+      "contents": "set_initial_lattice_subdiv(${1:cell_subdivision})"
+    },
+    {
+      "trigger": "get_initial_lattice_subdiv()",
+      "contents": "get_initial_lattice_subdiv()"
+    },
+    {
+      "trigger": "set_plot_size(...)",
+      "contents": "set_plot_size(${1:plot_size})"
+    },
+    {
+      "trigger": "get_plot_size()",
+      "contents": "get_plot_size()"
+    },
+    {
+      "trigger": "set_bounces(...)",
+      "contents": "set_bounces(${1:bounces})"
+    },
+    {
+      "trigger": "get_bounces()",
+      "contents": "get_bounces()"
+    },
+    {
+      "trigger": "set_cell_extra_margin(...)",
+      "contents": "set_cell_extra_margin(${1:cell_extra_margin})"
+    },
+    {
+      "trigger": "get_cell_extra_margin()",
+      "contents": "get_cell_extra_margin()"
+    },
+    {
+      "trigger": "set_edge_damp(...)",
+      "contents": "set_edge_damp(${1:edge_damp})"
+    },
+    {
+      "trigger": "get_edge_damp()",
+      "contents": "get_edge_damp()"
+    },
+    {
+      "trigger": "set_normal_damp(...)",
+      "contents": "set_normal_damp(${1:normal_damp})"
+    },
+    {
+      "trigger": "get_normal_damp()",
+      "contents": "get_normal_damp()"
+    },
+    {
+      "trigger": "set_tint(...)",
+      "contents": "set_tint(${1:tint})"
+    },
+    {
+      "trigger": "get_tint()",
+      "contents": "get_tint()"
+    },
+    {
+      "trigger": "set_saturation(...)",
+      "contents": "set_saturation(${1:saturation})"
+    },
+    {
+      "trigger": "get_saturation()",
+      "contents": "get_saturation()"
+    },
+    {
+      "trigger": "set_ao_radius(...)",
+      "contents": "set_ao_radius(${1:ao_radius})"
+    },
+    {
+      "trigger": "get_ao_radius()",
+      "contents": "get_ao_radius()"
+    },
+    {
+      "trigger": "set_ao_strength(...)",
+      "contents": "set_ao_strength(${1:ao_strength})"
+    },
+    {
+      "trigger": "get_ao_strength()",
+      "contents": "get_ao_strength()"
+    },
+    {
+      "trigger": "set_format(...)",
+      "contents": "set_format(${1:format})"
+    },
+    {
+      "trigger": "get_format()",
+      "contents": "get_format()"
+    },
+    {
+      "trigger": "set_transfer_lightmaps_only_to_uv2(...)",
+      "contents": "set_transfer_lightmaps_only_to_uv2(${1:enable})"
+    },
+    {
+      "trigger": "get_transfer_lightmaps_only_to_uv2()",
+      "contents": "get_transfer_lightmaps_only_to_uv2()"
+    },
+    {
+      "trigger": "set_energy_multiplier(...)",
+      "contents": "set_energy_multiplier(${1:energy_multiplier})"
+    },
+    {
+      "trigger": "get_energy_multiplier()",
+      "contents": "get_energy_multiplier()"
+    },
+    {
+      "trigger": "set_gamma_adjust(...)",
+      "contents": "set_gamma_adjust(${1:gamma_adjust})"
+    },
+    {
+      "trigger": "get_gamma_adjust()",
+      "contents": "get_gamma_adjust()"
+    },
+    {
+      "trigger": "set_bake_flag(...)",
+      "contents": "set_bake_flag(${1:flag}, ${2:enabled})"
+    },
+    {
+      "trigger": "get_bake_flag(...)",
+      "contents": "get_bake_flag(${1:flag})"
+    },
+    "MODE_OCTREE",
+    "MODE_LIGHTMAPS",
+    "BAKE_DIFFUSE",
+    "BAKE_SPECULAR",
+    "BAKE_TRANSLUCENT",
+    "BAKE_CONSERVE_ENERGY",
+    "BAKE_MAX"
+  ]
+}

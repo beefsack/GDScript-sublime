@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_item(...)",
+      "contents": "add_item(${1:label}, ${2:id})"
+    },
+    {
+      "trigger": "add_icon_item(...)",
+      "contents": "add_icon_item(${1:texture}, ${2:label}, ${3:id})"
+    },
+    {
+      "trigger": "set_item_icon(...)",
+      "contents": "set_item_icon(${1:idx}, ${2:texture})"
+    },
+    {
+      "trigger": "select(...)",
+      "contents": "select(${1:arg0})"
+    },
+    {
+      "trigger": "get_selected_ID()",
+      "contents": "get_selected_ID()"
+    },
+    {
+      "trigger": "get_selected_metadata()",
+      "contents": "get_selected_metadata()"
+    }
+  ]
+}

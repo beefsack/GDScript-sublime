@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_split_offset(...)",
+      "contents": "set_split_offset(${1:offset})"
+    },
+    {
+      "trigger": "get_split_offset()",
+      "contents": "get_split_offset()"
+    },
+    {
+      "trigger": "set_collapsed(...)",
+      "contents": "set_collapsed(${1:collapsed})"
+    },
+    {
+      "trigger": "is_collapsed()",
+      "contents": "is_collapsed()"
+    },
+    {
+      "trigger": "set_dragger_visible(...)",
+      "contents": "set_dragger_visible(${1:visible})"
+    },
+    {
+      "trigger": "is_dragger_visible()",
+      "contents": "is_dragger_visible()"
+    }
+  ]
+}

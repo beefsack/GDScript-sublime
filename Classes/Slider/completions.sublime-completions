@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_ticks(...)",
+      "contents": "set_ticks(${1:count})"
+    },
+    {
+      "trigger": "get_ticks()",
+      "contents": "get_ticks()"
+    },
+    {
+      "trigger": "get_ticks_on_borders()",
+      "contents": "get_ticks_on_borders()"
+    },
+    {
+      "trigger": "set_ticks_on_borders(...)",
+      "contents": "set_ticks_on_borders(${1:ticks_on_border})"
+    }
+  ]
+}

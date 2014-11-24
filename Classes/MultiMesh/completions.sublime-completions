@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_instance_count(...)",
+      "contents": "set_instance_count(${1:arg0})"
+    },
+    {
+      "trigger": "get_instance_count()",
+      "contents": "get_instance_count()"
+    },
+    {
+      "trigger": "set_instance_transform(...)",
+      "contents": "set_instance_transform(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "get_instance_transform(...)",
+      "contents": "get_instance_transform(${1:arg0})"
+    },
+    {
+      "trigger": "set_instance_color(...)",
+      "contents": "set_instance_color(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "get_instance_color(...)",
+      "contents": "get_instance_color(${1:arg0})"
+    },
+    {
+      "trigger": "set_aabb(...)",
+      "contents": "set_aabb(${1:arg0})"
+    },
+    {
+      "trigger": "generate_aabb()",
+      "contents": "generate_aabb()"
+    }
+  ]
+}

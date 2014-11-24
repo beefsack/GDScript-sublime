@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_vertices(...)",
+      "contents": "set_vertices(${1:vertices})"
+    },
+    {
+      "trigger": "get_vertices()",
+      "contents": "get_vertices()"
+    },
+    {
+      "trigger": "add_polygon(...)",
+      "contents": "add_polygon(${1:polygon})"
+    },
+    {
+      "trigger": "get_polygon_count()",
+      "contents": "get_polygon_count()"
+    },
+    {
+      "trigger": "get_polygon(...)",
+      "contents": "get_polygon(${1:idx})"
+    },
+    {
+      "trigger": "clear_polygons()",
+      "contents": "clear_polygons()"
+    }
+  ]
+}

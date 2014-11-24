@@ -1,0 +1,49 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "affine_inverse()",
+      "contents": "affine_inverse()"
+    },
+    {
+      "trigger": "looking_at(...)",
+      "contents": "looking_at(${1:target}, ${2:up})"
+    },
+    {
+      "trigger": "orthonormalized()",
+      "contents": "orthonormalized()"
+    },
+    {
+      "trigger": "rotated(...)",
+      "contents": "rotated(${1:axis}, ${2:phi})"
+    },
+    {
+      "trigger": "scaled(...)",
+      "contents": "scaled(${1:scale})"
+    },
+    {
+      "trigger": "translated(...)",
+      "contents": "translated(${1:ofs})"
+    },
+    {
+      "trigger": "xform(...)",
+      "contents": "xform(${1:v})"
+    },
+    {
+      "trigger": "xform_inv(...)",
+      "contents": "xform_inv(${1:v})"
+    },
+    {
+      "trigger": "Transform(...)",
+      "contents": "Transform(${1:x_axis}, ${2:y_axis}, ${3:z_axis}, ${4:origin})"
+    },
+    {
+      "trigger": "Transform(...)",
+      "contents": "Transform(${1:basis}, ${2:origin})"
+    },
+    {
+      "trigger": "Transform(...)",
+      "contents": "Transform(${1:from})"
+    }
+  ]
+}

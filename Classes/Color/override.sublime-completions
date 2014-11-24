@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "blend",
+    "contrasted",
+    "gray",
+    "inverted",
+    "linear_interpolate",
+    "to_32",
+    "to_ARGB32",
+    "to_html"
+  ]
+}

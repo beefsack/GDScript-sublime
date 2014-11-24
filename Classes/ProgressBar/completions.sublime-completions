@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_percent_visible(...)",
+      "contents": "set_percent_visible(${1:visible})"
+    },
+    {
+      "trigger": "is_percent_visible()",
+      "contents": "is_percent_visible()"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_transform(...)",
+      "contents": "set_transform(${1:local})"
+    },
+    {
+      "trigger": "set_translation(...)",
+      "contents": "set_translation(${1:translation})"
+    },
+    {
+      "trigger": "get_translation()",
+      "contents": "get_translation()"
+    },
+    {
+      "trigger": "set_global_transform(...)",
+      "contents": "set_global_transform(${1:global})"
+    },
+    {
+      "trigger": "get_parent_spatial()",
+      "contents": "get_parent_spatial()"
+    },
+    {
+      "trigger": "set_ignore_transform_notification(...)",
+      "contents": "set_ignore_transform_notification(${1:enabled})"
+    },
+    {
+      "trigger": "get_world()",
+      "contents": "get_world()"
+    },
+    {
+      "trigger": "update_gizmo()",
+      "contents": "update_gizmo()"
+    },
+    {
+      "trigger": "set_gizmo(...)",
+      "contents": "set_gizmo(${1:gizmo})"
+    },
+    {
+      "trigger": "get_gizmo()",
+      "contents": "get_gizmo()"
+    },
+    "NOTIFICATION_ENTER_WORLD",
+    "NOTIFICATION_EXIT_WORLD"
+  ]
+}

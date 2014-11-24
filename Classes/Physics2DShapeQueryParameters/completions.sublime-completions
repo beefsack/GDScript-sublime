@@ -1,0 +1,57 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_shape(...)",
+      "contents": "set_shape(${1:shape})"
+    },
+    {
+      "trigger": "set_shape_rid(...)",
+      "contents": "set_shape_rid(${1:shape})"
+    },
+    {
+      "trigger": "get_shape_rid()",
+      "contents": "get_shape_rid()"
+    },
+    {
+      "trigger": "set_motion(...)",
+      "contents": "set_motion(${1:motion})"
+    },
+    {
+      "trigger": "get_motion()",
+      "contents": "get_motion()"
+    },
+    {
+      "trigger": "set_margin(...)",
+      "contents": "set_margin(${1:margin})"
+    },
+    {
+      "trigger": "get_margin()",
+      "contents": "get_margin()"
+    },
+    {
+      "trigger": "set_layer_mask(...)",
+      "contents": "set_layer_mask(${1:layer_mask})"
+    },
+    {
+      "trigger": "get_layer_mask()",
+      "contents": "get_layer_mask()"
+    },
+    {
+      "trigger": "set_object_type_mask(...)",
+      "contents": "set_object_type_mask(${1:object_type_mask})"
+    },
+    {
+      "trigger": "get_object_type_mask()",
+      "contents": "get_object_type_mask()"
+    },
+    {
+      "trigger": "set_exclude(...)",
+      "contents": "set_exclude(${1:exclude})"
+    },
+    {
+      "trigger": "get_exclude()",
+      "contents": "get_exclude()"
+    }
+  ]
+}

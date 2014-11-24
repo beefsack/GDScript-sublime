@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_layer_mask",
+    "get_layer_mask",
+    "add_collision_exception_with",
+    "remove_collision_exception_with"
+  ]
+}

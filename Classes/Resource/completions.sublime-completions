@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_path(...)",
+      "contents": "set_path(${1:path})"
+    },
+    {
+      "trigger": "take_over_path(...)",
+      "contents": "take_over_path(${1:path})"
+    },
+    {
+      "trigger": "get_path()",
+      "contents": "get_path()"
+    },
+    {
+      "trigger": "set_name(...)",
+      "contents": "set_name(${1:name})"
+    },
+    {
+      "trigger": "get_name()",
+      "contents": "get_name()"
+    },
+    {
+      "trigger": "set_import_metadata(...)",
+      "contents": "set_import_metadata(${1:metadata})"
+    },
+    {
+      "trigger": "get_import_metadata()",
+      "contents": "get_import_metadata()"
+    },
+    {
+      "trigger": "duplicate(...)",
+      "contents": "duplicate(${1:arg0})"
+    }
+  ]
+}

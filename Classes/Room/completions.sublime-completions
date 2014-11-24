@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_room(...)",
+      "contents": "set_room(${1:room})"
+    },
+    {
+      "trigger": "get_room()",
+      "contents": "get_room()"
+    },
+    {
+      "trigger": "compute_room_from_subtree()",
+      "contents": "compute_room_from_subtree()"
+    },
+    {
+      "trigger": "set_simulate_acoustics(...)",
+      "contents": "set_simulate_acoustics(${1:enable})"
+    },
+    {
+      "trigger": "is_simulating_acoustics()",
+      "contents": "is_simulating_acoustics()"
+    }
+  ]
+}

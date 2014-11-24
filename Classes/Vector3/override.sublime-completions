@@ -1,0 +1,22 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "abs",
+    "cross",
+    "cubic_interpolate",
+    "distance_squared_to",
+    "distance_to",
+    "dot",
+    "inverse",
+    "length",
+    "length_squared",
+    "linear_interpolate",
+    "max_axis",
+    "min_axis",
+    "normalized",
+    "reflect",
+    "rotated",
+    "slide",
+    "snapped"
+  ]
+}

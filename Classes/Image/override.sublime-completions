@@ -1,0 +1,23 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "blit_rect",
+    "brush_transfer",
+    "brushed",
+    "compressed",
+    "converted",
+    "decompressed",
+    "empty",
+    "get_data",
+    "get_format",
+    "get_height",
+    "get_pixel",
+    "get_rect",
+    "get_used_rect",
+    "get_width",
+    "load",
+    "put_pixel",
+    "resized",
+    "save_png"
+  ]
+}

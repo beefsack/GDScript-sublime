@@ -1,0 +1,31 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "intersect_ray(...)",
+      "contents": "intersect_ray(${1:from}, ${2:to}, ${3:exclude})"
+    },
+    {
+      "trigger": "intersect_shape(...)",
+      "contents": "intersect_shape(${1:shape}, ${2:max_results})"
+    },
+    {
+      "trigger": "cast_motion(...)",
+      "contents": "cast_motion(${1:shape})"
+    },
+    {
+      "trigger": "collide_shape(...)",
+      "contents": "collide_shape(${1:shape}, ${2:max_results})"
+    },
+    {
+      "trigger": "get_rest_info(...)",
+      "contents": "get_rest_info(${1:shape})"
+    },
+    "TYPE_MASK_STATIC_BODY",
+    "TYPE_MASK_KINEMATIC_BODY",
+    "TYPE_MASK_RIGID_BODY",
+    "TYPE_MASK_CHARACTER_BODY",
+    "TYPE_MASK_AREA",
+    "TYPE_MASK_COLLISION"
+  ]
+}

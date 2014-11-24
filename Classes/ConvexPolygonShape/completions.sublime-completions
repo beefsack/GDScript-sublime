@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_points(...)",
+      "contents": "set_points(${1:points})"
+    },
+    {
+      "trigger": "get_points()",
+      "contents": "get_points()"
+    }
+  ]
+}

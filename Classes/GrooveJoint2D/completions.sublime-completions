@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_initial_offset(...)",
+      "contents": "set_initial_offset(${1:offset})"
+    },
+    {
+      "trigger": "get_initial_offset()",
+      "contents": "get_initial_offset()"
+    }
+  ]
+}

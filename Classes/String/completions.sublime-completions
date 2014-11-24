@@ -1,0 +1,185 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "basename()",
+      "contents": "basename()"
+    },
+    {
+      "trigger": "begins_with(...)",
+      "contents": "begins_with(${1:text})"
+    },
+    {
+      "trigger": "capitalize()",
+      "contents": "capitalize()"
+    },
+    {
+      "trigger": "casecmp_to(...)",
+      "contents": "casecmp_to(${1:to})"
+    },
+    {
+      "trigger": "extension()",
+      "contents": "extension()"
+    },
+    {
+      "trigger": "find(...)",
+      "contents": "find(${1:what}, ${2:from})"
+    },
+    {
+      "trigger": "find_last(...)",
+      "contents": "find_last(${1:what})"
+    },
+    {
+      "trigger": "findn(...)",
+      "contents": "findn(${1:what}, ${2:from})"
+    },
+    {
+      "trigger": "get_base_dir()",
+      "contents": "get_base_dir()"
+    },
+    {
+      "trigger": "hex_to_int()",
+      "contents": "hex_to_int()"
+    },
+    {
+      "trigger": "insert(...)",
+      "contents": "insert(${1:pos}, ${2:what})"
+    },
+    {
+      "trigger": "is_abs_path()",
+      "contents": "is_abs_path()"
+    },
+    {
+      "trigger": "is_rel_path()",
+      "contents": "is_rel_path()"
+    },
+    {
+      "trigger": "is_valid_float()",
+      "contents": "is_valid_float()"
+    },
+    {
+      "trigger": "is_valid_html_color()",
+      "contents": "is_valid_html_color()"
+    },
+    {
+      "trigger": "is_valid_identifier()",
+      "contents": "is_valid_identifier()"
+    },
+    {
+      "trigger": "is_valid_integer()",
+      "contents": "is_valid_integer()"
+    },
+    {
+      "trigger": "is_valid_ip_address()",
+      "contents": "is_valid_ip_address()"
+    },
+    {
+      "trigger": "left(...)",
+      "contents": "left(${1:pos})"
+    },
+    {
+      "trigger": "match(...)",
+      "contents": "match(${1:expr})"
+    },
+    {
+      "trigger": "matchn(...)",
+      "contents": "matchn(${1:expr})"
+    },
+    {
+      "trigger": "md5_buffer()",
+      "contents": "md5_buffer()"
+    },
+    {
+      "trigger": "md5_text()",
+      "contents": "md5_text()"
+    },
+    {
+      "trigger": "nocasecmp_to(...)",
+      "contents": "nocasecmp_to(${1:to})"
+    },
+    {
+      "trigger": "ord_at(...)",
+      "contents": "ord_at(${1:at})"
+    },
+    {
+      "trigger": "pad_decimals(...)",
+      "contents": "pad_decimals(${1:digits})"
+    },
+    {
+      "trigger": "pad_zeros(...)",
+      "contents": "pad_zeros(${1:digits})"
+    },
+    {
+      "trigger": "percent_decode()",
+      "contents": "percent_decode()"
+    },
+    {
+      "trigger": "percent_encode()",
+      "contents": "percent_encode()"
+    },
+    {
+      "trigger": "plus_file(...)",
+      "contents": "plus_file(${1:file})"
+    },
+    {
+      "trigger": "replace(...)",
+      "contents": "replace(${1:what}, ${2:forwhat})"
+    },
+    {
+      "trigger": "replacen(...)",
+      "contents": "replacen(${1:what}, ${2:forwhat})"
+    },
+    {
+      "trigger": "rfind(...)",
+      "contents": "rfind(${1:what}, ${2:from})"
+    },
+    {
+      "trigger": "rfindn(...)",
+      "contents": "rfindn(${1:what}, ${2:from})"
+    },
+    {
+      "trigger": "right(...)",
+      "contents": "right(${1:pos})"
+    },
+    {
+      "trigger": "split(...)",
+      "contents": "split(${1:divisor}, ${2:allow_empty})"
+    },
+    {
+      "trigger": "split_floats(...)",
+      "contents": "split_floats(${1:divisor}, ${2:allow_empty})"
+    },
+    {
+      "trigger": "strip_edges()",
+      "contents": "strip_edges()"
+    },
+    {
+      "trigger": "substr(...)",
+      "contents": "substr(${1:from}, ${2:len})"
+    },
+    {
+      "trigger": "to_float()",
+      "contents": "to_float()"
+    },
+    {
+      "trigger": "to_int()",
+      "contents": "to_int()"
+    },
+    {
+      "trigger": "to_lower()",
+      "contents": "to_lower()"
+    },
+    {
+      "trigger": "to_upper()",
+      "contents": "to_upper()"
+    },
+    {
+      "trigger": "xml_escape()",
+      "contents": "xml_escape()"
+    },
+    {
+      "trigger": "xml_unescape()",
+      "contents": "xml_unescape()"
+    }
+  ]
+}

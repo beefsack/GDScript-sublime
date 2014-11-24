@@ -1,0 +1,145 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "create_from_surface(...)",
+      "contents": "create_from_surface(${1:mesh}, ${2:surface})"
+    },
+    {
+      "trigger": "commit_to_surface(...)",
+      "contents": "commit_to_surface(${1:mesh})"
+    },
+    {
+      "trigger": "get_vertex_count()",
+      "contents": "get_vertex_count()"
+    },
+    {
+      "trigger": "get_edge_count()",
+      "contents": "get_edge_count()"
+    },
+    {
+      "trigger": "get_face_count()",
+      "contents": "get_face_count()"
+    },
+    {
+      "trigger": "set_vertex(...)",
+      "contents": "set_vertex(${1:idx}, ${2:vertex})"
+    },
+    {
+      "trigger": "get_vertex(...)",
+      "contents": "get_vertex(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_normal(...)",
+      "contents": "set_vertex_normal(${1:idx}, ${2:normal})"
+    },
+    {
+      "trigger": "get_vertex_normal(...)",
+      "contents": "get_vertex_normal(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_tangent(...)",
+      "contents": "set_vertex_tangent(${1:idx}, ${2:tangent})"
+    },
+    {
+      "trigger": "get_vertex_tangent(...)",
+      "contents": "get_vertex_tangent(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_uv(...)",
+      "contents": "set_vertex_uv(${1:idx}, ${2:uv})"
+    },
+    {
+      "trigger": "get_vertex_uv(...)",
+      "contents": "get_vertex_uv(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_uv2(...)",
+      "contents": "set_vertex_uv2(${1:idx}, ${2:uv2})"
+    },
+    {
+      "trigger": "get_vertex_uv2(...)",
+      "contents": "get_vertex_uv2(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_color(...)",
+      "contents": "set_vertex_color(${1:idx}, ${2:color})"
+    },
+    {
+      "trigger": "get_vertex_color(...)",
+      "contents": "get_vertex_color(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_bones(...)",
+      "contents": "set_vertex_bones(${1:idx}, ${2:bones})"
+    },
+    {
+      "trigger": "get_vertex_bones(...)",
+      "contents": "get_vertex_bones(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_weights(...)",
+      "contents": "set_vertex_weights(${1:idx}, ${2:weights})"
+    },
+    {
+      "trigger": "get_vertex_weights(...)",
+      "contents": "get_vertex_weights(${1:idx})"
+    },
+    {
+      "trigger": "set_vertex_meta(...)",
+      "contents": "set_vertex_meta(${1:idx}, ${2:meta})"
+    },
+    {
+      "trigger": "get_vertex_meta(...)",
+      "contents": "get_vertex_meta(${1:idx})"
+    },
+    {
+      "trigger": "get_vertex_edges(...)",
+      "contents": "get_vertex_edges(${1:idx})"
+    },
+    {
+      "trigger": "get_vertex_faces(...)",
+      "contents": "get_vertex_faces(${1:idx})"
+    },
+    {
+      "trigger": "get_edge_vertex(...)",
+      "contents": "get_edge_vertex(${1:idx}, ${2:vertex})"
+    },
+    {
+      "trigger": "get_edge_faces(...)",
+      "contents": "get_edge_faces(${1:idx})"
+    },
+    {
+      "trigger": "set_edge_meta(...)",
+      "contents": "set_edge_meta(${1:idx}, ${2:meta})"
+    },
+    {
+      "trigger": "get_edge_meta(...)",
+      "contents": "get_edge_meta(${1:idx})"
+    },
+    {
+      "trigger": "get_face_vertex(...)",
+      "contents": "get_face_vertex(${1:idx}, ${2:vertex})"
+    },
+    {
+      "trigger": "get_face_edge(...)",
+      "contents": "get_face_edge(${1:idx}, ${2:edge})"
+    },
+    {
+      "trigger": "set_face_meta(...)",
+      "contents": "set_face_meta(${1:idx}, ${2:meta})"
+    },
+    {
+      "trigger": "get_face_meta(...)",
+      "contents": "get_face_meta(${1:idx})"
+    },
+    {
+      "trigger": "get_face_normal(...)",
+      "contents": "get_face_normal(${1:idx})"
+    },
+    {
+      "trigger": "get_material()",
+      "contents": "get_material()"
+    }
+  ]
+}

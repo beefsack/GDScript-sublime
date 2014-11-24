@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_curve(...)",
+      "contents": "set_curve(${1:curve})"
+    },
+    {
+      "trigger": "get_curve()",
+      "contents": "get_curve()"
+    }
+  ]
+}

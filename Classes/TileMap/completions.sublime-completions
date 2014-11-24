@@ -1,0 +1,92 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_tileset(...)",
+      "contents": "set_tileset(${1:tileset})"
+    },
+    {
+      "trigger": "get_tileset()",
+      "contents": "get_tileset()"
+    },
+    {
+      "trigger": "set_half_offset(...)",
+      "contents": "set_half_offset(${1:half_offset})"
+    },
+    {
+      "trigger": "get_half_offset()",
+      "contents": "get_half_offset()"
+    },
+    {
+      "trigger": "set_custom_transform(...)",
+      "contents": "set_custom_transform(${1:custom_transform})"
+    },
+    {
+      "trigger": "get_custom_transform()",
+      "contents": "get_custom_transform()"
+    },
+    {
+      "trigger": "set_quadrant_size(...)",
+      "contents": "set_quadrant_size(${1:size})"
+    },
+    {
+      "trigger": "get_quadrant_size()",
+      "contents": "get_quadrant_size()"
+    },
+    {
+      "trigger": "set_collision_layer_mask(...)",
+      "contents": "set_collision_layer_mask(${1:mask})"
+    },
+    {
+      "trigger": "get_collision_layer_mask()",
+      "contents": "get_collision_layer_mask()"
+    },
+    {
+      "trigger": "set_collision_friction(...)",
+      "contents": "set_collision_friction(${1:value})"
+    },
+    {
+      "trigger": "get_collision_friction()",
+      "contents": "get_collision_friction()"
+    },
+    {
+      "trigger": "set_collision_bounce(...)",
+      "contents": "set_collision_bounce(${1:value})"
+    },
+    {
+      "trigger": "get_collision_bounce()",
+      "contents": "get_collision_bounce()"
+    },
+    {
+      "trigger": "set_cell(...)",
+      "contents": "set_cell(${1:x}, ${2:y}, ${3:tile}, ${4:flip_x}, ${5:flip_y})"
+    },
+    {
+      "trigger": "get_cell(...)",
+      "contents": "get_cell(${1:x}, ${2:y})"
+    },
+    {
+      "trigger": "is_cell_x_flipped(...)",
+      "contents": "is_cell_x_flipped(${1:x}, ${2:y})"
+    },
+    {
+      "trigger": "is_cell_y_flipped(...)",
+      "contents": "is_cell_y_flipped(${1:x}, ${2:y})"
+    },
+    {
+      "trigger": "map_to_world(...)",
+      "contents": "map_to_world(${1:mappos}, ${2:ignore_half_ofs})"
+    },
+    {
+      "trigger": "world_to_map(...)",
+      "contents": "world_to_map(${1:worldpos})"
+    },
+    "INVALID_CELL",
+    "MODE_SQUARE",
+    "MODE_ISOMETRIC",
+    "MODE_CUSTOM",
+    "HALF_OFFSET_X",
+    "HALF_OFFSET_Y",
+    "HALF_OFFSET_DISABLED"
+  ]
+}

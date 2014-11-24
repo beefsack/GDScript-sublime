@@ -1,0 +1,44 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "abs()",
+      "contents": "abs()"
+    },
+    {
+      "trigger": "cross(...)",
+      "contents": "cross(${1:b})"
+    },
+    {
+      "trigger": "distance_squared_to(...)",
+      "contents": "distance_squared_to(${1:b})"
+    },
+    {
+      "trigger": "distance_to(...)",
+      "contents": "distance_to(${1:b})"
+    },
+    {
+      "trigger": "max_axis()",
+      "contents": "max_axis()"
+    },
+    {
+      "trigger": "min_axis()",
+      "contents": "min_axis()"
+    },
+    {
+      "trigger": "reflect(...)",
+      "contents": "reflect(${1:by})"
+    },
+    {
+      "trigger": "slide(...)",
+      "contents": "slide(${1:by})"
+    },
+    {
+      "trigger": "Vector3(...)",
+      "contents": "Vector3(${1:x}, ${2:y}, ${3:z})"
+    },
+    "AXIS_X",
+    "AXIS_Y",
+    "AXIS_Z"
+  ]
+}

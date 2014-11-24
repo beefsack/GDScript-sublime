@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_baked_light(...)",
+      "contents": "set_baked_light(${1:baked_light})"
+    },
+    {
+      "trigger": "get_baked_light()",
+      "contents": "get_baked_light()"
+    },
+    {
+      "trigger": "get_baked_light_instance()",
+      "contents": "get_baked_light_instance()"
+    }
+  ]
+}

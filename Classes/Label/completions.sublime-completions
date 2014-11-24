@@ -1,0 +1,58 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_align(...)",
+      "contents": "set_align(${1:align})"
+    },
+    {
+      "trigger": "get_align()",
+      "contents": "get_align()"
+    },
+    {
+      "trigger": "set_valign(...)",
+      "contents": "set_valign(${1:valign})"
+    },
+    {
+      "trigger": "get_valign()",
+      "contents": "get_valign()"
+    },
+    {
+      "trigger": "set_autowrap(...)",
+      "contents": "set_autowrap(${1:enable})"
+    },
+    {
+      "trigger": "has_autowrap()",
+      "contents": "has_autowrap()"
+    },
+    {
+      "trigger": "set_uppercase(...)",
+      "contents": "set_uppercase(${1:enable})"
+    },
+    {
+      "trigger": "is_uppercase()",
+      "contents": "is_uppercase()"
+    },
+    {
+      "trigger": "get_line_height()",
+      "contents": "get_line_height()"
+    },
+    {
+      "trigger": "get_total_character_count()",
+      "contents": "get_total_character_count()"
+    },
+    {
+      "trigger": "set_visible_characters(...)",
+      "contents": "set_visible_characters(${1:arg0})"
+    },
+    {
+      "trigger": "set_percent_visible(...)",
+      "contents": "set_percent_visible(${1:percent_visible})"
+    },
+    {
+      "trigger": "get_percent_visible()",
+      "contents": "get_percent_visible()"
+    },
+    "VALIGN_FILL"
+  ]
+}

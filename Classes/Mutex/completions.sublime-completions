@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "lock()",
+      "contents": "lock()"
+    },
+    {
+      "trigger": "try_lock()",
+      "contents": "try_lock()"
+    },
+    {
+      "trigger": "unlock()",
+      "contents": "unlock()"
+    }
+  ]
+}

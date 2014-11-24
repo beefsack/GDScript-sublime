@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_pos",
+    "set_rot",
+    "set_scale",
+    "get_pos",
+    "get_rot",
+    "get_scale",
+    "rotate",
+    "move_local_x",
+    "move_local_y",
+    "get_global_pos",
+    "set_global_pos",
+    "set_transform",
+    "set_global_transform",
+    "edit_set_pivot"
+  ]
+}

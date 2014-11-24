@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_columns(...)",
+      "contents": "set_columns(${1:columns})"
+    },
+    {
+      "trigger": "get_columns()",
+      "contents": "get_columns()"
+    }
+  ]
+}

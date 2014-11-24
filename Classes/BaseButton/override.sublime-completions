@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_pressed",
+    "is_pressed",
+    "is_hovered",
+    "set_toggle_mode",
+    "is_toggle_mode",
+    "set_disabled",
+    "is_disabled",
+    "set_click_on_press",
+    "get_click_on_press",
+    "get_draw_mode"
+  ]
+}

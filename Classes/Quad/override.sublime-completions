@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_axis",
+    "get_axis",
+    "set_size",
+    "get_size",
+    "set_centered",
+    "is_centered",
+    "set_offset",
+    "get_offset"
+  ]
+}

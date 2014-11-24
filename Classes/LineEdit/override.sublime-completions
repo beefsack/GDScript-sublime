@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "clear",
+    "select_all",
+    "set_text",
+    "get_text",
+    "set_cursor_pos",
+    "get_cursor_pos",
+    "set_max_length",
+    "get_max_length",
+    "append_at_cursor",
+    "set_editable",
+    "is_editable",
+    "set_secret",
+    "is_secret",
+    "select"
+  ]
+}

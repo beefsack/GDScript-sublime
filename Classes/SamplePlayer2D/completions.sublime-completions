@@ -1,0 +1,39 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_polyphony(...)",
+      "contents": "set_polyphony(${1:voices})"
+    },
+    {
+      "trigger": "get_polyphony()",
+      "contents": "get_polyphony()"
+    },
+    {
+      "trigger": "play(...)",
+      "contents": "play(${1:sample}, ${2:voice})"
+    },
+    {
+      "trigger": "voice_set_pitch_scale(...)",
+      "contents": "voice_set_pitch_scale(${1:voice}, ${2:ratio})"
+    },
+    {
+      "trigger": "voice_set_volume_scale_db(...)",
+      "contents": "voice_set_volume_scale_db(${1:voice}, ${2:db})"
+    },
+    {
+      "trigger": "stop_voice(...)",
+      "contents": "stop_voice(${1:voice})"
+    },
+    {
+      "trigger": "set_random_pitch_scale(...)",
+      "contents": "set_random_pitch_scale(${1:val})"
+    },
+    {
+      "trigger": "get_random_pitch_scale()",
+      "contents": "get_random_pitch_scale()"
+    },
+    "INVALID_VOICE",
+    "NEXT_VOICE"
+  ]
+}

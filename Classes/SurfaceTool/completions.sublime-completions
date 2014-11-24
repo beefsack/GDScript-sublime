@@ -1,0 +1,65 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "begin(...)",
+      "contents": "begin(${1:primitive})"
+    },
+    {
+      "trigger": "add_vertex(...)",
+      "contents": "add_vertex(${1:vertex})"
+    },
+    {
+      "trigger": "add_color(...)",
+      "contents": "add_color(${1:color})"
+    },
+    {
+      "trigger": "add_normal(...)",
+      "contents": "add_normal(${1:normal})"
+    },
+    {
+      "trigger": "add_tangent(...)",
+      "contents": "add_tangent(${1:tangent})"
+    },
+    {
+      "trigger": "add_uv(...)",
+      "contents": "add_uv(${1:uv})"
+    },
+    {
+      "trigger": "add_uv2(...)",
+      "contents": "add_uv2(${1:uv2})"
+    },
+    {
+      "trigger": "add_bones(...)",
+      "contents": "add_bones(${1:bones})"
+    },
+    {
+      "trigger": "add_weights(...)",
+      "contents": "add_weights(${1:weights})"
+    },
+    {
+      "trigger": "add_smooth_group(...)",
+      "contents": "add_smooth_group(${1:smooth})"
+    },
+    {
+      "trigger": "set_material(...)",
+      "contents": "set_material(${1:material})"
+    },
+    {
+      "trigger": "index()",
+      "contents": "index()"
+    },
+    {
+      "trigger": "deindex()",
+      "contents": "deindex()"
+    },
+    {
+      "trigger": "generate_normals()",
+      "contents": "generate_normals()"
+    },
+    {
+      "trigger": "commit(...)",
+      "contents": "commit(${1:existing})"
+    }
+  ]
+}

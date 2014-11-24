@@ -1,0 +1,45 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "create_item(...)",
+      "contents": "create_item(${1:id})"
+    },
+    {
+      "trigger": "set_item_name(...)",
+      "contents": "set_item_name(${1:id}, ${2:name})"
+    },
+    {
+      "trigger": "set_item_mesh(...)",
+      "contents": "set_item_mesh(${1:id}, ${2:mesh})"
+    },
+    {
+      "trigger": "set_item_shape(...)",
+      "contents": "set_item_shape(${1:id}, ${2:shape})"
+    },
+    {
+      "trigger": "get_item_name(...)",
+      "contents": "get_item_name(${1:id})"
+    },
+    {
+      "trigger": "get_item_mesh(...)",
+      "contents": "get_item_mesh(${1:id})"
+    },
+    {
+      "trigger": "get_item_shape(...)",
+      "contents": "get_item_shape(${1:id})"
+    },
+    {
+      "trigger": "remove_item(...)",
+      "contents": "remove_item(${1:id})"
+    },
+    {
+      "trigger": "get_item_list()",
+      "contents": "get_item_list()"
+    },
+    {
+      "trigger": "get_last_unused_item_id()",
+      "contents": "get_last_unused_item_id()"
+    }
+  ]
+}

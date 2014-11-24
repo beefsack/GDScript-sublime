@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    "PARAM_VOLUME_DB",
+    "PARAM_PITCH_SCALE",
+    "PARAM_ATTENUATION_MIN_DISTANCE",
+    "PARAM_ATTENUATION_MAX_DISTANCE",
+    "PARAM_ATTENUATION_DISTANCE_EXP"
+  ]
+}

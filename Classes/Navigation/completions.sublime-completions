@@ -1,0 +1,41 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "navmesh_create(...)",
+      "contents": "navmesh_create(${1:mesh}, ${2:xform}, ${3:owner})"
+    },
+    {
+      "trigger": "navmesh_set_transform(...)",
+      "contents": "navmesh_set_transform(${1:id}, ${2:xform})"
+    },
+    {
+      "trigger": "navmesh_remove(...)",
+      "contents": "navmesh_remove(${1:id})"
+    },
+    {
+      "trigger": "get_simple_path(...)",
+      "contents": "get_simple_path(${1:start}, ${2:end}, ${3:optimize})"
+    },
+    {
+      "trigger": "get_closest_point_to_segment(...)",
+      "contents": "get_closest_point_to_segment(${1:start}, ${2:end})"
+    },
+    {
+      "trigger": "get_closest_point(...)",
+      "contents": "get_closest_point(${1:to_point})"
+    },
+    {
+      "trigger": "get_closest_point_normal(...)",
+      "contents": "get_closest_point_normal(${1:to_point})"
+    },
+    {
+      "trigger": "set_up_vector(...)",
+      "contents": "set_up_vector(${1:up})"
+    },
+    {
+      "trigger": "get_up_vector()",
+      "contents": "get_up_vector()"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_continuous_collision_detection_mode(...)",
+      "contents": "set_continuous_collision_detection_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_continuous_collision_detection_mode()",
+      "contents": "get_continuous_collision_detection_mode()"
+    },
+    {
+      "trigger": "set_applied_force(...)",
+      "contents": "set_applied_force(${1:force})"
+    },
+    {
+      "trigger": "get_applied_force()",
+      "contents": "get_applied_force()"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_animation(...)",
+      "contents": "add_animation(${1:name}, ${2:animation})"
+    },
+    {
+      "trigger": "remove_animation(...)",
+      "contents": "remove_animation(${1:name})"
+    },
+    {
+      "trigger": "rename_animation(...)",
+      "contents": "rename_animation(${1:name}, ${2:newname})"
+    },
+    {
+      "trigger": "has_animation(...)",
+      "contents": "has_animation(${1:name})"
+    },
+    {
+      "trigger": "get_animation(...)",
+      "contents": "get_animation(${1:name})"
+    },
+    {
+      "trigger": "get_animation_list()",
+      "contents": "get_animation_list()"
+    },
+    {
+      "trigger": "set_blend_time(...)",
+      "contents": "set_blend_time(${1:anim_from}, ${2:anim_to}, ${3:sec})"
+    },
+    {
+      "trigger": "get_blend_time(...)",
+      "contents": "get_blend_time(${1:anim_from}, ${2:anim_to})"
+    },
+    {
+      "trigger": "set_default_blend_time(...)",
+      "contents": "set_default_blend_time(${1:sec})"
+    },
+    {
+      "trigger": "get_default_blend_time()",
+      "contents": "get_default_blend_time()"
+    },
+    {
+      "trigger": "play(...)",
+      "contents": "play(${1:name}, ${2:custom_blend}, ${3:custom_speed}, ${4:from_end})"
+    },
+    {
+      "trigger": "stop()",
+      "contents": "stop()"
+    },
+    {
+      "trigger": "stop_all()",
+      "contents": "stop_all()"
+    },
+    {
+      "trigger": "is_playing()",
+      "contents": "is_playing()"
+    },
+    {
+      "trigger": "set_current_animation(...)",
+      "contents": "set_current_animation(${1:anim})"
+    },
+    {
+      "trigger": "get_current_animation()",
+      "contents": "get_current_animation()"
+    },
+    {
+      "trigger": "queue(...)",
+      "contents": "queue(${1:name})"
+    },
+    {
+      "trigger": "clear_queue()",
+      "contents": "clear_queue()"
+    },
+    {
+      "trigger": "set_active(...)",
+      "contents": "set_active(${1:active})"
+    },
+    {
+      "trigger": "is_active()",
+      "contents": "is_active()"
+    },
+    {
+      "trigger": "set_speed(...)",
+      "contents": "set_speed(${1:speed})"
+    },
+    {
+      "trigger": "get_speed()",
+      "contents": "get_speed()"
+    },
+    {
+      "trigger": "set_autoplay(...)",
+      "contents": "set_autoplay(${1:name})"
+    },
+    {
+      "trigger": "get_autoplay()",
+      "contents": "get_autoplay()"
+    },
+    {
+      "trigger": "set_root(...)",
+      "contents": "set_root(${1:path})"
+    },
+    {
+      "trigger": "get_root()",
+      "contents": "get_root()"
+    },
+    {
+      "trigger": "seek(...)",
+      "contents": "seek(${1:pos_sec}, ${2:update})"
+    },
+    {
+      "trigger": "get_pos()",
+      "contents": "get_pos()"
+    },
+    {
+      "trigger": "find_animation(...)",
+      "contents": "find_animation(${1:animation})"
+    },
+    {
+      "trigger": "clear_caches()",
+      "contents": "clear_caches()"
+    },
+    {
+      "trigger": "set_animation_process_mode(...)",
+      "contents": "set_animation_process_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_animation_process_mode()",
+      "contents": "get_animation_process_mode()"
+    },
+    {
+      "trigger": "get_current_animation_pos()",
+      "contents": "get_current_animation_pos()"
+    },
+    {
+      "trigger": "get_current_animation_length()",
+      "contents": "get_current_animation_length()"
+    },
+    {
+      "trigger": "advance(...)",
+      "contents": "advance(${1:delta})"
+    },
+    "ANIMATION_PROCESS_FIXED",
+    "ANIMATION_PROCESS_IDLE"
+  ]
+}

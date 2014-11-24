@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_atlas(...)",
+      "contents": "set_atlas(${1:atlas})"
+    },
+    {
+      "trigger": "get_atlas()",
+      "contents": "get_atlas()"
+    },
+    {
+      "trigger": "set_region(...)",
+      "contents": "set_region(${1:region})"
+    },
+    {
+      "trigger": "get_region()",
+      "contents": "get_region()"
+    }
+  ]
+}

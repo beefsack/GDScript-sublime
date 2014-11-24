@@ -1,0 +1,81 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_radius(...)",
+      "contents": "set_radius(${1:length})"
+    },
+    {
+      "trigger": "set_suspension_rest_length(...)",
+      "contents": "set_suspension_rest_length(${1:length})"
+    },
+    {
+      "trigger": "get_suspension_rest_length()",
+      "contents": "get_suspension_rest_length()"
+    },
+    {
+      "trigger": "set_suspension_travel(...)",
+      "contents": "set_suspension_travel(${1:length})"
+    },
+    {
+      "trigger": "get_suspension_travel()",
+      "contents": "get_suspension_travel()"
+    },
+    {
+      "trigger": "set_suspension_stiffness(...)",
+      "contents": "set_suspension_stiffness(${1:length})"
+    },
+    {
+      "trigger": "get_suspension_stiffness()",
+      "contents": "get_suspension_stiffness()"
+    },
+    {
+      "trigger": "set_suspension_max_force(...)",
+      "contents": "set_suspension_max_force(${1:length})"
+    },
+    {
+      "trigger": "get_suspension_max_force()",
+      "contents": "get_suspension_max_force()"
+    },
+    {
+      "trigger": "set_damping_compression(...)",
+      "contents": "set_damping_compression(${1:length})"
+    },
+    {
+      "trigger": "get_damping_compression()",
+      "contents": "get_damping_compression()"
+    },
+    {
+      "trigger": "set_damping_relaxation(...)",
+      "contents": "set_damping_relaxation(${1:length})"
+    },
+    {
+      "trigger": "get_damping_relaxation()",
+      "contents": "get_damping_relaxation()"
+    },
+    {
+      "trigger": "set_use_as_traction(...)",
+      "contents": "set_use_as_traction(${1:enable})"
+    },
+    {
+      "trigger": "is_used_as_traction()",
+      "contents": "is_used_as_traction()"
+    },
+    {
+      "trigger": "set_use_as_steering(...)",
+      "contents": "set_use_as_steering(${1:enable})"
+    },
+    {
+      "trigger": "is_used_as_steering()",
+      "contents": "is_used_as_steering()"
+    },
+    {
+      "trigger": "set_friction_slip(...)",
+      "contents": "set_friction_slip(${1:length})"
+    },
+    {
+      "trigger": "get_friction_slip()",
+      "contents": "get_friction_slip()"
+    }
+  ]
+}

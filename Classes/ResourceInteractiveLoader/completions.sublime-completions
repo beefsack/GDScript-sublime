@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_resource()",
+      "contents": "get_resource()"
+    },
+    {
+      "trigger": "poll()",
+      "contents": "poll()"
+    },
+    {
+      "trigger": "wait()",
+      "contents": "wait()"
+    },
+    {
+      "trigger": "get_stage()",
+      "contents": "get_stage()"
+    },
+    {
+      "trigger": "get_stage_count()",
+      "contents": "get_stage_count()"
+    }
+  ]
+}

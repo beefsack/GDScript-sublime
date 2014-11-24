@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_point_cloud(...)",
+      "contents": "set_point_cloud(${1:point_cloud})"
+    }
+  ]
+}

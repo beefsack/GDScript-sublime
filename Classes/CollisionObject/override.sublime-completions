@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "_input_event",
+    "add_shape",
+    "get_shape_count",
+    "set_shape",
+    "set_shape_transform",
+    "set_shape_as_trigger",
+    "is_shape_set_as_trigger",
+    "get_shape",
+    "get_shape_transform",
+    "remove_shape",
+    "clear_shapes",
+    "set_ray_pickable",
+    "is_ray_pickable",
+    "set_capture_input_on_drag",
+    "get_capture_input_on_drag",
+    "get_rid"
+  ]
+}

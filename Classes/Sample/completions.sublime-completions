@@ -1,0 +1,59 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "create(...)",
+      "contents": "create(${1:format}, ${2:stereo}, ${3:length})"
+    },
+    {
+      "trigger": "is_stereo()",
+      "contents": "is_stereo()"
+    },
+    {
+      "trigger": "set_data(...)",
+      "contents": "set_data(${1:data})"
+    },
+    {
+      "trigger": "get_data()",
+      "contents": "get_data()"
+    },
+    {
+      "trigger": "set_mix_rate(...)",
+      "contents": "set_mix_rate(${1:hz})"
+    },
+    {
+      "trigger": "get_mix_rate()",
+      "contents": "get_mix_rate()"
+    },
+    {
+      "trigger": "set_loop_format(...)",
+      "contents": "set_loop_format(${1:format})"
+    },
+    {
+      "trigger": "get_loop_format()",
+      "contents": "get_loop_format()"
+    },
+    {
+      "trigger": "set_loop_begin(...)",
+      "contents": "set_loop_begin(${1:pos})"
+    },
+    {
+      "trigger": "get_loop_begin()",
+      "contents": "get_loop_begin()"
+    },
+    {
+      "trigger": "set_loop_end(...)",
+      "contents": "set_loop_end(${1:pos})"
+    },
+    {
+      "trigger": "get_loop_end()",
+      "contents": "get_loop_end()"
+    },
+    "FORMAT_PCM8",
+    "FORMAT_PCM16",
+    "FORMAT_IMA_ADPCM",
+    "LOOP_NONE",
+    "LOOP_FORWARD",
+    "LOOP_PING_PONG"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_tab_count",
+    "set_current_tab",
+    "get_current_tab",
+    "set_tab_align",
+    "get_tab_align",
+    "set_tabs_visible",
+    "are_tabs_visible",
+    "set_tab_title",
+    "get_tab_title",
+    "set_tab_icon",
+    "get_tab_icon"
+  ]
+}

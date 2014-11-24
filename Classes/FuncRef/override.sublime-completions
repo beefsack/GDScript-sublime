@@ -1,0 +1,8 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "call_func",
+    "set_instance",
+    "set_function"
+  ]
+}

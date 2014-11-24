@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "put_data(...)",
+      "contents": "put_data(${1:data})"
+    },
+    {
+      "trigger": "put_partial_data(...)",
+      "contents": "put_partial_data(${1:data})"
+    },
+    {
+      "trigger": "get_data(...)",
+      "contents": "get_data(${1:bytes})"
+    },
+    {
+      "trigger": "get_partial_data(...)",
+      "contents": "get_partial_data(${1:bytes})"
+    }
+  ]
+}

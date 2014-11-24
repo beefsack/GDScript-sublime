@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_axis(...)",
+      "contents": "set_axis(${1:axis})"
+    },
+    {
+      "trigger": "get_axis()",
+      "contents": "get_axis()"
+    },
+    {
+      "trigger": "set_size(...)",
+      "contents": "set_size(${1:size})"
+    }
+  ]
+}

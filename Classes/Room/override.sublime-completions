@@ -1,0 +1,10 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_room",
+    "get_room",
+    "compute_room_from_subtree",
+    "set_simulate_acoustics",
+    "is_simulating_acoustics"
+  ]
+}

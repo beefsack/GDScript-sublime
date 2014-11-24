@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_mesh(...)",
+      "contents": "set_mesh(${1:mesh})"
+    },
+    {
+      "trigger": "get_mesh()",
+      "contents": "get_mesh()"
+    },
+    {
+      "trigger": "set_skeleton_path(...)",
+      "contents": "set_skeleton_path(${1:skeleton_path})"
+    },
+    {
+      "trigger": "get_skeleton_path()",
+      "contents": "get_skeleton_path()"
+    },
+    {
+      "trigger": "get_aabb()",
+      "contents": "get_aabb()"
+    },
+    {
+      "trigger": "create_trimesh_collision()",
+      "contents": "create_trimesh_collision()"
+    },
+    {
+      "trigger": "create_convex_collision()",
+      "contents": "create_convex_collision()"
+    }
+  ]
+}

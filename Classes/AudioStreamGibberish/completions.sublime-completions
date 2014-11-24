@@ -1,0 +1,37 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_phonemes(...)",
+      "contents": "set_phonemes(${1:phonemes})"
+    },
+    {
+      "trigger": "get_phonemes()",
+      "contents": "get_phonemes()"
+    },
+    {
+      "trigger": "set_pitch_scale(...)",
+      "contents": "set_pitch_scale(${1:pitch_scale})"
+    },
+    {
+      "trigger": "get_pitch_scale()",
+      "contents": "get_pitch_scale()"
+    },
+    {
+      "trigger": "set_pitch_random_scale(...)",
+      "contents": "set_pitch_random_scale(${1:pitch_random_scale})"
+    },
+    {
+      "trigger": "get_pitch_random_scale()",
+      "contents": "get_pitch_random_scale()"
+    },
+    {
+      "trigger": "set_xfade_time(...)",
+      "contents": "set_xfade_time(${1:sec})"
+    },
+    {
+      "trigger": "get_xfade_time()",
+      "contents": "get_xfade_time()"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_sample_library",
+    "get_sample_library",
+    "set_polyphony",
+    "get_polyphony",
+    "play",
+    "voice_set_pitch_scale",
+    "voice_set_volume_scale_db",
+    "is_voice_active",
+    "stop_voice",
+    "stop_all"
+  ]
+}

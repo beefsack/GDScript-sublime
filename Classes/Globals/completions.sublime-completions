@@ -1,0 +1,53 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "has(...)",
+      "contents": "has(${1:name})"
+    },
+    {
+      "trigger": "set_order(...)",
+      "contents": "set_order(${1:name}, ${2:pos})"
+    },
+    {
+      "trigger": "get_order(...)",
+      "contents": "get_order(${1:name})"
+    },
+    {
+      "trigger": "set_persisting(...)",
+      "contents": "set_persisting(${1:name}, ${2:enable})"
+    },
+    {
+      "trigger": "is_persisting(...)",
+      "contents": "is_persisting(${1:name})"
+    },
+    {
+      "trigger": "clear(...)",
+      "contents": "clear(${1:name})"
+    },
+    {
+      "trigger": "localize_path(...)",
+      "contents": "localize_path(${1:path})"
+    },
+    {
+      "trigger": "globalize_path(...)",
+      "contents": "globalize_path(${1:path})"
+    },
+    {
+      "trigger": "save()",
+      "contents": "save()"
+    },
+    {
+      "trigger": "has_singleton(...)",
+      "contents": "has_singleton(${1:arg0})"
+    },
+    {
+      "trigger": "get_singleton(...)",
+      "contents": "get_singleton(${1:arg0})"
+    },
+    {
+      "trigger": "load_resource_pack(...)",
+      "contents": "load_resource_pack(${1:arg0})"
+    }
+  ]
+}

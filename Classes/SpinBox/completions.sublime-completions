@@ -1,0 +1,33 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_suffix(...)",
+      "contents": "set_suffix(${1:suffix})"
+    },
+    {
+      "trigger": "get_suffix()",
+      "contents": "get_suffix()"
+    },
+    {
+      "trigger": "set_prefix(...)",
+      "contents": "set_prefix(${1:prefix})"
+    },
+    {
+      "trigger": "get_prefix()",
+      "contents": "get_prefix()"
+    },
+    {
+      "trigger": "set_editable(...)",
+      "contents": "set_editable(${1:editable})"
+    },
+    {
+      "trigger": "is_editable()",
+      "contents": "is_editable()"
+    },
+    {
+      "trigger": "get_line_edit()",
+      "contents": "get_line_edit()"
+    }
+  ]
+}

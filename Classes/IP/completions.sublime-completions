@@ -1,0 +1,35 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "resolve_hostname(...)",
+      "contents": "resolve_hostname(${1:host})"
+    },
+    {
+      "trigger": "resolve_hostname_queue_item(...)",
+      "contents": "resolve_hostname_queue_item(${1:host})"
+    },
+    {
+      "trigger": "get_resolve_item_status(...)",
+      "contents": "get_resolve_item_status(${1:id})"
+    },
+    {
+      "trigger": "get_resolve_item_address(...)",
+      "contents": "get_resolve_item_address(${1:id})"
+    },
+    {
+      "trigger": "erase_resolve_item(...)",
+      "contents": "erase_resolve_item(${1:id})"
+    },
+    {
+      "trigger": "get_local_addresses()",
+      "contents": "get_local_addresses()"
+    },
+    "RESOLVER_STATUS_NONE",
+    "RESOLVER_STATUS_WAITING",
+    "RESOLVER_STATUS_DONE",
+    "RESOLVER_STATUS_ERROR",
+    "RESOLVER_MAX_QUERIES",
+    "RESOLVER_INVALID_ID"
+  ]
+}

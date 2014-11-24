@@ -1,0 +1,32 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "play()",
+      "contents": "play()"
+    },
+    {
+      "trigger": "get_stream_name()",
+      "contents": "get_stream_name()"
+    },
+    {
+      "trigger": "get_loop_count()",
+      "contents": "get_loop_count()"
+    },
+    {
+      "trigger": "seek_pos(...)",
+      "contents": "seek_pos(${1:pos})"
+    },
+    {
+      "trigger": "get_update_mode()",
+      "contents": "get_update_mode()"
+    },
+    {
+      "trigger": "update()",
+      "contents": "update()"
+    },
+    "UPDATE_NONE",
+    "UPDATE_IDLE",
+    "UPDATE_THREAD"
+  ]
+}

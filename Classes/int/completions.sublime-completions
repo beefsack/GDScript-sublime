@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "int(...)",
+      "contents": "int(${1:from})"
+    }
+  ]
+}

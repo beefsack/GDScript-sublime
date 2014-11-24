@@ -1,0 +1,104 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "is_repeat()",
+      "contents": "is_repeat()"
+    },
+    {
+      "trigger": "set_repeat(...)",
+      "contents": "set_repeat(${1:repeat})"
+    },
+    {
+      "trigger": "set_tween_process_mode(...)",
+      "contents": "set_tween_process_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_tween_process_mode()",
+      "contents": "get_tween_process_mode()"
+    },
+    {
+      "trigger": "reset(...)",
+      "contents": "reset(${1:node}, ${2:key})"
+    },
+    {
+      "trigger": "reset_all()",
+      "contents": "reset_all()"
+    },
+    {
+      "trigger": "stop(...)",
+      "contents": "stop(${1:node}, ${2:key})"
+    },
+    {
+      "trigger": "resume(...)",
+      "contents": "resume(${1:node}, ${2:key})"
+    },
+    {
+      "trigger": "resume_all()",
+      "contents": "resume_all()"
+    },
+    {
+      "trigger": "remove(...)",
+      "contents": "remove(${1:node}, ${2:key})"
+    },
+    {
+      "trigger": "remove_all()",
+      "contents": "remove_all()"
+    },
+    {
+      "trigger": "seek(...)",
+      "contents": "seek(${1:time})"
+    },
+    {
+      "trigger": "tell()",
+      "contents": "tell()"
+    },
+    {
+      "trigger": "get_runtime()",
+      "contents": "get_runtime()"
+    },
+    {
+      "trigger": "interpolate_property(...)",
+      "contents": "interpolate_property(${1:node}, ${2:property}, ${3:initial_val}, ${4:final_val}, ${5:times_in_sec}, ${6:trans_type}, ${7:ease_type}, ${8:delay})"
+    },
+    {
+      "trigger": "interpolate_method(...)",
+      "contents": "interpolate_method(${1:node}, ${2:method}, ${3:initial_val}, ${4:final_val}, ${5:times_in_sec}, ${6:trans_type}, ${7:ease_type}, ${8:delay})"
+    },
+    {
+      "trigger": "interpolate_callback(...)",
+      "contents": "interpolate_callback(${1:node}, ${2:callback}, ${3:times_in_sec}, ${4:args})"
+    },
+    {
+      "trigger": "follow_property(...)",
+      "contents": "follow_property(${1:node}, ${2:property}, ${3:initial_val}, ${4:target}, ${5:target_property}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
+    },
+    {
+      "trigger": "follow_method(...)",
+      "contents": "follow_method(${1:node}, ${2:method}, ${3:initial_val}, ${4:target}, ${5:target_method}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
+    },
+    {
+      "trigger": "targeting_property(...)",
+      "contents": "targeting_property(${1:node}, ${2:property}, ${3:initial}, ${4:initial_val}, ${5:final_val}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
+    },
+    {
+      "trigger": "targeting_method(...)",
+      "contents": "targeting_method(${1:node}, ${2:method}, ${3:initial}, ${4:initial_method}, ${5:final_val}, ${6:times_in_sec}, ${7:trans_type}, ${8:ease_type}, ${9:delay})"
+    },
+    "TRANS_LINEAR",
+    "TRANS_SINE",
+    "TRANS_QUINT",
+    "TRANS_QUART",
+    "TRANS_QUAD",
+    "TRANS_EXPO",
+    "TRANS_ELASTIC",
+    "TRANS_CUBIC",
+    "TRANS_CIRC",
+    "TRANS_BOUNCE",
+    "TRANS_BACK",
+    "EASE_IN",
+    "EASE_OUT",
+    "EASE_IN_OUT",
+    "EASE_OUT_IN"
+  ]
+}

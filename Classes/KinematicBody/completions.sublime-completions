@@ -1,0 +1,65 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "move(...)",
+      "contents": "move(${1:rel_vec})"
+    },
+    {
+      "trigger": "move_to(...)",
+      "contents": "move_to(${1:position})"
+    },
+    {
+      "trigger": "can_move_to(...)",
+      "contents": "can_move_to(${1:position}, ${2:arg1})"
+    },
+    {
+      "trigger": "get_collision_pos()",
+      "contents": "get_collision_pos()"
+    },
+    {
+      "trigger": "get_collider_velocity()",
+      "contents": "get_collider_velocity()"
+    },
+    {
+      "trigger": "set_collide_with_static_bodies(...)",
+      "contents": "set_collide_with_static_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_static_bodies()",
+      "contents": "can_collide_with_static_bodies()"
+    },
+    {
+      "trigger": "set_collide_with_kinematic_bodies(...)",
+      "contents": "set_collide_with_kinematic_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_kinematic_bodies()",
+      "contents": "can_collide_with_kinematic_bodies()"
+    },
+    {
+      "trigger": "set_collide_with_rigid_bodies(...)",
+      "contents": "set_collide_with_rigid_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_rigid_bodies()",
+      "contents": "can_collide_with_rigid_bodies()"
+    },
+    {
+      "trigger": "set_collide_with_character_bodies(...)",
+      "contents": "set_collide_with_character_bodies(${1:enable})"
+    },
+    {
+      "trigger": "can_collide_with_character_bodies()",
+      "contents": "can_collide_with_character_bodies()"
+    },
+    {
+      "trigger": "set_collision_margin(...)",
+      "contents": "set_collision_margin(${1:pixels})"
+    },
+    {
+      "trigger": "get_collision_margin()",
+      "contents": "get_collision_margin()"
+    }
+  ]
+}

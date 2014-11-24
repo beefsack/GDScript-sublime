@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_bg_color",
+    "get_bg_color",
+    "set_light_color",
+    "get_light_color",
+    "set_dark_color",
+    "get_dark_color",
+    "set_border_size",
+    "get_border_size",
+    "set_border_blend",
+    "get_border_blend",
+    "set_draw_center",
+    "get_draw_center"
+  ]
+}

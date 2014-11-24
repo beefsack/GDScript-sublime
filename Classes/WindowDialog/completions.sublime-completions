@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_title(...)",
+      "contents": "set_title(${1:title})"
+    },
+    {
+      "trigger": "get_title()",
+      "contents": "get_title()"
+    },
+    {
+      "trigger": "get_close_button()",
+      "contents": "get_close_button()"
+    }
+  ]
+}

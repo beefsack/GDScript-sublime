@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "compile(...)",
+      "contents": "compile(${1:pattern})"
+    },
+    {
+      "trigger": "find(...)",
+      "contents": "find(${1:text}, ${2:start}, ${3:end})"
+    },
+    {
+      "trigger": "get_captures()",
+      "contents": "get_captures()"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_navigation_mesh",
+    "get_navigation_mesh",
+    "set_enabled",
+    "is_enabled"
+  ]
+}

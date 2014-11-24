@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "queue_sort()",
+      "contents": "queue_sort()"
+    },
+    {
+      "trigger": "fit_child_in_rect(...)",
+      "contents": "fit_child_in_rect(${1:child}, ${2:rect})"
+    },
+    "NOTIFICATION_SORT_CHILDREN"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "pck_start(...)",
+      "contents": "pck_start(${1:pck_name}, ${2:alignment})"
+    },
+    {
+      "trigger": "add_file(...)",
+      "contents": "add_file(${1:pck_path}, ${2:source_path})"
+    },
+    {
+      "trigger": "flush(...)",
+      "contents": "flush(${1:arg0})"
+    }
+  ]
+}

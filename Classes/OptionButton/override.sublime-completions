@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_item",
+    "add_icon_item",
+    "set_item_text",
+    "set_item_icon",
+    "set_item_disabled",
+    "set_item_ID",
+    "set_item_metadata",
+    "get_item_text",
+    "get_item_icon",
+    "get_item_ID",
+    "get_item_metadata",
+    "is_item_disabled",
+    "get_item_count",
+    "add_separator",
+    "clear",
+    "select",
+    "get_selected",
+    "get_selected_ID",
+    "get_selected_metadata",
+    "remove_item"
+  ]
+}

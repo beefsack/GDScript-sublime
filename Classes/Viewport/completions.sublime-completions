@@ -1,0 +1,181 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_rect(...)",
+      "contents": "set_rect(${1:rect})"
+    },
+    {
+      "trigger": "find_world_2d()",
+      "contents": "find_world_2d()"
+    },
+    {
+      "trigger": "set_world(...)",
+      "contents": "set_world(${1:world})"
+    },
+    {
+      "trigger": "find_world()",
+      "contents": "find_world()"
+    },
+    {
+      "trigger": "set_canvas_transform(...)",
+      "contents": "set_canvas_transform(${1:xform})"
+    },
+    {
+      "trigger": "get_canvas_transform()",
+      "contents": "get_canvas_transform()"
+    },
+    {
+      "trigger": "set_global_canvas_transform(...)",
+      "contents": "set_global_canvas_transform(${1:xform})"
+    },
+    {
+      "trigger": "get_global_canvas_transform()",
+      "contents": "get_global_canvas_transform()"
+    },
+    {
+      "trigger": "get_final_transform()",
+      "contents": "get_final_transform()"
+    },
+    {
+      "trigger": "get_visible_rect()",
+      "contents": "get_visible_rect()"
+    },
+    {
+      "trigger": "set_transparent_background(...)",
+      "contents": "set_transparent_background(${1:enable})"
+    },
+    {
+      "trigger": "has_transparent_background()",
+      "contents": "has_transparent_background()"
+    },
+    {
+      "trigger": "set_size_override(...)",
+      "contents": "set_size_override(${1:enable}, ${2:size}, ${3:1})"
+    },
+    {
+      "trigger": "get_size_override()",
+      "contents": "get_size_override()"
+    },
+    {
+      "trigger": "is_size_override_enabled()",
+      "contents": "is_size_override_enabled()"
+    },
+    {
+      "trigger": "set_size_override_stretch(...)",
+      "contents": "set_size_override_stretch(${1:enabled})"
+    },
+    {
+      "trigger": "is_size_override_stretch_enabled()",
+      "contents": "is_size_override_stretch_enabled()"
+    },
+    {
+      "trigger": "queue_screen_capture()",
+      "contents": "queue_screen_capture()"
+    },
+    {
+      "trigger": "get_screen_capture()",
+      "contents": "get_screen_capture()"
+    },
+    {
+      "trigger": "set_as_render_target(...)",
+      "contents": "set_as_render_target(${1:enable})"
+    },
+    {
+      "trigger": "is_set_as_render_target()",
+      "contents": "is_set_as_render_target()"
+    },
+    {
+      "trigger": "set_render_target_vflip(...)",
+      "contents": "set_render_target_vflip(${1:enable})"
+    },
+    {
+      "trigger": "get_render_target_vflip()",
+      "contents": "get_render_target_vflip()"
+    },
+    {
+      "trigger": "set_render_target_filter(...)",
+      "contents": "set_render_target_filter(${1:enable})"
+    },
+    {
+      "trigger": "get_render_target_filter()",
+      "contents": "get_render_target_filter()"
+    },
+    {
+      "trigger": "set_render_target_gen_mipmaps(...)",
+      "contents": "set_render_target_gen_mipmaps(${1:enable})"
+    },
+    {
+      "trigger": "get_render_target_gen_mipmaps()",
+      "contents": "get_render_target_gen_mipmaps()"
+    },
+    {
+      "trigger": "set_render_target_update_mode(...)",
+      "contents": "set_render_target_update_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_render_target_update_mode()",
+      "contents": "get_render_target_update_mode()"
+    },
+    {
+      "trigger": "get_render_target_texture()",
+      "contents": "get_render_target_texture()"
+    },
+    {
+      "trigger": "set_physics_object_picking(...)",
+      "contents": "set_physics_object_picking(${1:enable})"
+    },
+    {
+      "trigger": "get_physics_object_picking()",
+      "contents": "get_physics_object_picking()"
+    },
+    {
+      "trigger": "input(...)",
+      "contents": "input(${1:local_event})"
+    },
+    {
+      "trigger": "unhandled_input(...)",
+      "contents": "unhandled_input(${1:local_event})"
+    },
+    {
+      "trigger": "update_worlds()",
+      "contents": "update_worlds()"
+    },
+    {
+      "trigger": "set_use_own_world(...)",
+      "contents": "set_use_own_world(${1:enable})"
+    },
+    {
+      "trigger": "is_using_own_world()",
+      "contents": "is_using_own_world()"
+    },
+    {
+      "trigger": "get_camera()",
+      "contents": "get_camera()"
+    },
+    {
+      "trigger": "set_as_audio_listener(...)",
+      "contents": "set_as_audio_listener(${1:enable})"
+    },
+    {
+      "trigger": "is_audio_listener()",
+      "contents": "is_audio_listener()"
+    },
+    {
+      "trigger": "set_as_audio_listener_2d(...)",
+      "contents": "set_as_audio_listener_2d(${1:enable})"
+    },
+    {
+      "trigger": "is_audio_listener_2d()",
+      "contents": "is_audio_listener_2d()"
+    },
+    {
+      "trigger": "set_render_target_to_screen_rect(...)",
+      "contents": "set_render_target_to_screen_rect(${1:arg0})"
+    },
+    "RENDER_TARGET_UPDATE_DISABLED",
+    "RENDER_TARGET_UPDATE_ONCE",
+    "RENDER_TARGET_UPDATE_WHEN_VISIBLE",
+    "RENDER_TARGET_UPDATE_ALWAYS"
+  ]
+}

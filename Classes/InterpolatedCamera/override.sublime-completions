@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_target_path",
+    "get_target_path",
+    "set_target",
+    "set_speed",
+    "get_speed",
+    "set_interpolation_enabled",
+    "is_interpolation_enabled"
+  ]
+}

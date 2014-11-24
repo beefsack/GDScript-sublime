@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "can_instance()",
+      "contents": "can_instance()"
+    },
+    {
+      "trigger": "instance_has(...)",
+      "contents": "instance_has(${1:base_object})"
+    },
+    {
+      "trigger": "has_source_code()",
+      "contents": "has_source_code()"
+    },
+    {
+      "trigger": "get_source_code()",
+      "contents": "get_source_code()"
+    },
+    {
+      "trigger": "set_source_code(...)",
+      "contents": "set_source_code(${1:source})"
+    },
+    {
+      "trigger": "reload()",
+      "contents": "reload()"
+    }
+  ]
+}

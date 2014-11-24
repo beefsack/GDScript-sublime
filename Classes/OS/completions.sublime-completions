@@ -1,0 +1,252 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_clipboard(...)",
+      "contents": "set_clipboard(${1:clipboard})"
+    },
+    {
+      "trigger": "get_clipboard()",
+      "contents": "get_clipboard()"
+    },
+    {
+      "trigger": "set_video_mode(...)",
+      "contents": "set_video_mode(${1:size}, ${2:fullscreen}, ${3:resizable}, ${4:screen})"
+    },
+    {
+      "trigger": "get_video_mode_size(...)",
+      "contents": "get_video_mode_size(${1:screen})"
+    },
+    {
+      "trigger": "is_video_mode_fullscreen(...)",
+      "contents": "is_video_mode_fullscreen(${1:screen})"
+    },
+    {
+      "trigger": "is_video_mode_resizable(...)",
+      "contents": "is_video_mode_resizable(${1:screen})"
+    },
+    {
+      "trigger": "get_fullscreen_mode_list(...)",
+      "contents": "get_fullscreen_mode_list(${1:screen})"
+    },
+    {
+      "trigger": "set_iterations_per_second(...)",
+      "contents": "set_iterations_per_second(${1:iterations_per_second})"
+    },
+    {
+      "trigger": "get_iterations_per_second()",
+      "contents": "get_iterations_per_second()"
+    },
+    {
+      "trigger": "set_target_fps(...)",
+      "contents": "set_target_fps(${1:target_fps})"
+    },
+    {
+      "trigger": "get_target_fps()",
+      "contents": "get_target_fps()"
+    },
+    {
+      "trigger": "set_time_scale(...)",
+      "contents": "set_time_scale(${1:time_scale})"
+    },
+    {
+      "trigger": "get_time_scale()",
+      "contents": "get_time_scale()"
+    },
+    {
+      "trigger": "has_touchscreen_ui_hint()",
+      "contents": "has_touchscreen_ui_hint()"
+    },
+    {
+      "trigger": "set_low_processor_usage_mode(...)",
+      "contents": "set_low_processor_usage_mode(${1:enable})"
+    },
+    {
+      "trigger": "is_in_low_processor_usage_mode()",
+      "contents": "is_in_low_processor_usage_mode()"
+    },
+    {
+      "trigger": "get_processor_count()",
+      "contents": "get_processor_count()"
+    },
+    {
+      "trigger": "get_executable_path()",
+      "contents": "get_executable_path()"
+    },
+    {
+      "trigger": "execute(...)",
+      "contents": "execute(${1:path}, ${2:arguments}, ${3:blocking}, ${4:output})"
+    },
+    {
+      "trigger": "kill(...)",
+      "contents": "kill(${1:pid})"
+    },
+    {
+      "trigger": "shell_open(...)",
+      "contents": "shell_open(${1:uri})"
+    },
+    {
+      "trigger": "get_process_ID()",
+      "contents": "get_process_ID()"
+    },
+    {
+      "trigger": "get_environment(...)",
+      "contents": "get_environment(${1:environment})"
+    },
+    {
+      "trigger": "has_environment(...)",
+      "contents": "has_environment(${1:environment})"
+    },
+    {
+      "trigger": "get_cmdline_args()",
+      "contents": "get_cmdline_args()"
+    },
+    {
+      "trigger": "get_main_loop()",
+      "contents": "get_main_loop()"
+    },
+    {
+      "trigger": "get_date()",
+      "contents": "get_date()"
+    },
+    {
+      "trigger": "get_time()",
+      "contents": "get_time()"
+    },
+    {
+      "trigger": "get_unix_time()",
+      "contents": "get_unix_time()"
+    },
+    {
+      "trigger": "set_icon(...)",
+      "contents": "set_icon(${1:arg0})"
+    },
+    {
+      "trigger": "delay_usec(...)",
+      "contents": "delay_usec(${1:usec})"
+    },
+    {
+      "trigger": "delay_msec(...)",
+      "contents": "delay_msec(${1:msec})"
+    },
+    {
+      "trigger": "get_ticks_msec()",
+      "contents": "get_ticks_msec()"
+    },
+    {
+      "trigger": "get_model_name()",
+      "contents": "get_model_name()"
+    },
+    {
+      "trigger": "get_custom_level()",
+      "contents": "get_custom_level()"
+    },
+    {
+      "trigger": "can_draw()",
+      "contents": "can_draw()"
+    },
+    {
+      "trigger": "get_frames_drawn()",
+      "contents": "get_frames_drawn()"
+    },
+    {
+      "trigger": "is_stdout_verbose()",
+      "contents": "is_stdout_verbose()"
+    },
+    {
+      "trigger": "can_use_threads()",
+      "contents": "can_use_threads()"
+    },
+    {
+      "trigger": "is_debug_build()",
+      "contents": "is_debug_build()"
+    },
+    {
+      "trigger": "dump_memory_to_file(...)",
+      "contents": "dump_memory_to_file(${1:file})"
+    },
+    {
+      "trigger": "dump_resources_to_file(...)",
+      "contents": "dump_resources_to_file(${1:file})"
+    },
+    {
+      "trigger": "print_resources_in_use(...)",
+      "contents": "print_resources_in_use(${1:short})"
+    },
+    {
+      "trigger": "print_all_resources(...)",
+      "contents": "print_all_resources(${1:tofile})"
+    },
+    {
+      "trigger": "get_static_memory_usage()",
+      "contents": "get_static_memory_usage()"
+    },
+    {
+      "trigger": "get_static_memory_peak_usage()",
+      "contents": "get_static_memory_peak_usage()"
+    },
+    {
+      "trigger": "get_dynamic_memory_usage()",
+      "contents": "get_dynamic_memory_usage()"
+    },
+    {
+      "trigger": "get_data_dir()",
+      "contents": "get_data_dir()"
+    },
+    {
+      "trigger": "get_unique_ID()",
+      "contents": "get_unique_ID()"
+    },
+    {
+      "trigger": "get_frames_per_second()",
+      "contents": "get_frames_per_second()"
+    },
+    {
+      "trigger": "print_all_textures_by_size()",
+      "contents": "print_all_textures_by_size()"
+    },
+    {
+      "trigger": "print_resources_by_type(...)",
+      "contents": "print_resources_by_type(${1:arg0})"
+    },
+    {
+      "trigger": "native_video_play(...)",
+      "contents": "native_video_play(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "native_video_is_playing()",
+      "contents": "native_video_is_playing()"
+    },
+    {
+      "trigger": "native_video_stop()",
+      "contents": "native_video_stop()"
+    },
+    {
+      "trigger": "native_video_pause()",
+      "contents": "native_video_pause()"
+    },
+    {
+      "trigger": "set_use_file_access_save_and_swap(...)",
+      "contents": "set_use_file_access_save_and_swap(${1:enabled})"
+    },
+    "DAY_SUNDAY",
+    "DAY_MONDAY",
+    "DAY_TUESDAY",
+    "DAY_WEDNESDAY",
+    "DAY_THURSDAY",
+    "DAY_FRIDAY",
+    "DAY_SATURDAY",
+    "MONTH_JANUARY",
+    "MONTH_FEBRUARY",
+    "MONTH_MARCH",
+    "MONTH_APRIL",
+    "MONTH_MAY",
+    "MONTH_JUNE",
+    "MONTH_JULY",
+    "MONTH_AUGUST",
+    "MONTH_SEPTEMBER",
+    "MONTH_OCTOBER",
+    "MONTH_NOVEMBER",
+    "MONTH_DECEMBER"
+  ]
+}

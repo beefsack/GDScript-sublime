@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_disable_radius(...)",
+      "contents": "set_disable_radius(${1:radius})"
+    },
+    {
+      "trigger": "get_disable_radius()",
+      "contents": "get_disable_radius()"
+    },
+    {
+      "trigger": "set_absorption(...)",
+      "contents": "set_absorption(${1:absorption})"
+    },
+    {
+      "trigger": "get_absorption()",
+      "contents": "get_absorption()"
+    },
+    {
+      "trigger": "set_particles_path(...)",
+      "contents": "set_particles_path(${1:path})"
+    },
+    {
+      "trigger": "get_particles_path()",
+      "contents": "get_particles_path()"
+    }
+  ]
+}

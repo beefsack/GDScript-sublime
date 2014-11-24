@@ -1,0 +1,8 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "pack",
+    "instance",
+    "can_instance"
+  ]
+}

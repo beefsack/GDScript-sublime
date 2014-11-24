@@ -1,0 +1,41 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_rot(...)",
+      "contents": "set_rot(${1:rot})"
+    },
+    {
+      "trigger": "get_rot()",
+      "contents": "get_rot()"
+    },
+    {
+      "trigger": "rotate(...)",
+      "contents": "rotate(${1:degrees})"
+    },
+    {
+      "trigger": "move_local_x(...)",
+      "contents": "move_local_x(${1:delta}, ${2:scaled})"
+    },
+    {
+      "trigger": "move_local_y(...)",
+      "contents": "move_local_y(${1:delta}, ${2:scaled})"
+    },
+    {
+      "trigger": "set_global_pos(...)",
+      "contents": "set_global_pos(${1:arg0})"
+    },
+    {
+      "trigger": "set_transform(...)",
+      "contents": "set_transform(${1:xform})"
+    },
+    {
+      "trigger": "set_global_transform(...)",
+      "contents": "set_global_transform(${1:xform})"
+    },
+    {
+      "trigger": "edit_set_pivot(...)",
+      "contents": "edit_set_pivot(${1:arg0})"
+    }
+  ]
+}

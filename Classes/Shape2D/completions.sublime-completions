@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_custom_solver_bias(...)",
+      "contents": "set_custom_solver_bias(${1:bias})"
+    },
+    {
+      "trigger": "get_custom_solver_bias()",
+      "contents": "get_custom_solver_bias()"
+    },
+    {
+      "trigger": "collide(...)",
+      "contents": "collide(${1:local_xform}, ${2:with_shape}, ${3:shape_xform})"
+    },
+    {
+      "trigger": "collide_with_motion(...)",
+      "contents": "collide_with_motion(${1:local_xform}, ${2:local_motion}, ${3:with_shape}, ${4:shape_xform}, ${5:shape_motion})"
+    },
+    {
+      "trigger": "collide_and_get_contacts(...)",
+      "contents": "collide_and_get_contacts(${1:local_xform}, ${2:with_shape}, ${3:shape_xform})"
+    },
+    {
+      "trigger": "collide_with_motion_and_get_contacts(...)",
+      "contents": "collide_with_motion_and_get_contacts(${1:local_xform}, ${2:local_motion}, ${3:with_shape}, ${4:shape_xform}, ${5:shape_motion})"
+    }
+  ]
+}

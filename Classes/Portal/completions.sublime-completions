@@ -1,0 +1,45 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_shape(...)",
+      "contents": "set_shape(${1:points})"
+    },
+    {
+      "trigger": "get_shape()",
+      "contents": "get_shape()"
+    },
+    {
+      "trigger": "set_enabled(...)",
+      "contents": "set_enabled(${1:enable})"
+    },
+    {
+      "trigger": "is_enabled()",
+      "contents": "is_enabled()"
+    },
+    {
+      "trigger": "set_disable_distance(...)",
+      "contents": "set_disable_distance(${1:distance})"
+    },
+    {
+      "trigger": "get_disable_distance()",
+      "contents": "get_disable_distance()"
+    },
+    {
+      "trigger": "set_disabled_color(...)",
+      "contents": "set_disabled_color(${1:color})"
+    },
+    {
+      "trigger": "get_disabled_color()",
+      "contents": "get_disabled_color()"
+    },
+    {
+      "trigger": "set_connect_range(...)",
+      "contents": "set_connect_range(${1:range})"
+    },
+    {
+      "trigger": "get_connect_range()",
+      "contents": "get_connect_range()"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "clear_filters()",
+      "contents": "clear_filters()"
+    },
+    {
+      "trigger": "add_filter(...)",
+      "contents": "add_filter(${1:filter})"
+    },
+    {
+      "trigger": "get_current_file()",
+      "contents": "get_current_file()"
+    },
+    {
+      "trigger": "get_current_path()",
+      "contents": "get_current_path()"
+    },
+    {
+      "trigger": "set_current_dir(...)",
+      "contents": "set_current_dir(${1:dir})"
+    },
+    {
+      "trigger": "set_current_file(...)",
+      "contents": "set_current_file(${1:file})"
+    },
+    {
+      "trigger": "set_current_path(...)",
+      "contents": "set_current_path(${1:path})"
+    },
+    {
+      "trigger": "get_vbox()",
+      "contents": "get_vbox()"
+    },
+    {
+      "trigger": "set_access(...)",
+      "contents": "set_access(${1:access})"
+    },
+    {
+      "trigger": "get_access()",
+      "contents": "get_access()"
+    },
+    {
+      "trigger": "invalidate()",
+      "contents": "invalidate()"
+    },
+    "MODE_OPEN_FILE",
+    "MODE_OPEN_FILES",
+    "MODE_OPEN_DIR",
+    "MODE_SAVE_FILE",
+    "ACCESS_RESOURCES",
+    "ACCESS_USERDATA",
+    "ACCESS_FILESYSTEM"
+  ]
+}

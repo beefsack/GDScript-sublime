@@ -1,0 +1,12 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_mode",
+    "get_mode",
+    "set_code",
+    "get_vertex_code",
+    "get_fragment_code",
+    "get_light_code",
+    "has_param"
+  ]
+}

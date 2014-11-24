@@ -1,0 +1,45 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "determinant()",
+      "contents": "determinant()"
+    },
+    {
+      "trigger": "get_euler()",
+      "contents": "get_euler()"
+    },
+    {
+      "trigger": "get_orthogonal_index()",
+      "contents": "get_orthogonal_index()"
+    },
+    {
+      "trigger": "tdotx(...)",
+      "contents": "tdotx(${1:with})"
+    },
+    {
+      "trigger": "tdoty(...)",
+      "contents": "tdoty(${1:with})"
+    },
+    {
+      "trigger": "tdotz(...)",
+      "contents": "tdotz(${1:with})"
+    },
+    {
+      "trigger": "transposed()",
+      "contents": "transposed()"
+    },
+    {
+      "trigger": "Matrix3(...)",
+      "contents": "Matrix3(${1:x_axis}, ${2:y_axis}, ${3:z_axis})"
+    },
+    {
+      "trigger": "Matrix3(...)",
+      "contents": "Matrix3(${1:axis}, ${2:phi})"
+    },
+    {
+      "trigger": "Matrix3(...)",
+      "contents": "Matrix3(${1:from})"
+    }
+  ]
+}

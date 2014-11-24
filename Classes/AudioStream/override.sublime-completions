@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "play",
+    "stop",
+    "is_playing",
+    "set_loop",
+    "has_loop",
+    "get_stream_name",
+    "get_loop_count",
+    "seek_pos",
+    "get_pos",
+    "get_length",
+    "get_update_mode",
+    "update"
+  ]
+}

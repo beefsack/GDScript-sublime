@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_pressed_button()",
+      "contents": "get_pressed_button()"
+    },
+    {
+      "trigger": "get_pressed_button_index()",
+      "contents": "get_pressed_button_index()"
+    },
+    {
+      "trigger": "get_focused_button()",
+      "contents": "get_focused_button()"
+    },
+    {
+      "trigger": "get_button_list()",
+      "contents": "get_button_list()"
+    },
+    {
+      "trigger": "set_pressed_button(...)",
+      "contents": "set_pressed_button(${1:button})"
+    }
+  ]
+}

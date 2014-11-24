@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_pending_frame_count()",
+      "contents": "get_pending_frame_count()"
+    },
+    {
+      "trigger": "pop_frame(...)",
+      "contents": "pop_frame(${1:arg0})"
+    },
+    {
+      "trigger": "peek_frame()",
+      "contents": "peek_frame()"
+    },
+    {
+      "trigger": "set_audio_track(...)",
+      "contents": "set_audio_track(${1:idx})"
+    }
+  ]
+}

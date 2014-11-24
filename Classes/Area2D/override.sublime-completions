@@ -1,0 +1,20 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_space_override_mode",
+    "get_space_override_mode",
+    "set_gravity_is_point",
+    "is_gravity_a_point",
+    "set_gravity_vector",
+    "get_gravity_vector",
+    "set_gravity",
+    "get_gravity",
+    "set_density",
+    "get_density",
+    "set_priority",
+    "get_priority",
+    "set_enable_monitoring",
+    "is_monitoring_enabled",
+    "get_overlapping_bodies"
+  ]
+}

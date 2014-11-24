@@ -1,0 +1,45 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_scroll_offset(...)",
+      "contents": "set_scroll_offset(${1:ofs})"
+    },
+    {
+      "trigger": "get_scroll_offset()",
+      "contents": "get_scroll_offset()"
+    },
+    {
+      "trigger": "set_scroll_base_offset(...)",
+      "contents": "set_scroll_base_offset(${1:ofs})"
+    },
+    {
+      "trigger": "get_scroll_base_offset()",
+      "contents": "get_scroll_base_offset()"
+    },
+    {
+      "trigger": "set_scroll_base_scale(...)",
+      "contents": "set_scroll_base_scale(${1:scale})"
+    },
+    {
+      "trigger": "get_scroll_base_scale()",
+      "contents": "get_scroll_base_scale()"
+    },
+    {
+      "trigger": "set_limit_begin(...)",
+      "contents": "set_limit_begin(${1:ofs})"
+    },
+    {
+      "trigger": "get_limit_begin()",
+      "contents": "get_limit_begin()"
+    },
+    {
+      "trigger": "set_limit_end(...)",
+      "contents": "set_limit_end(${1:ofs})"
+    },
+    {
+      "trigger": "get_limit_end()",
+      "contents": "get_limit_end()"
+    }
+  ]
+}

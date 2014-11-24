@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_parameter",
+    "get_parameter",
+    "set_color",
+    "get_color",
+    "set_project_shadows",
+    "has_project_shadows",
+    "set_projector",
+    "get_projector",
+    "set_operator",
+    "get_operator",
+    "set_bake_mode",
+    "get_bake_mode",
+    "set_enabled",
+    "is_enabled",
+    "set_editor_only",
+    "is_editor_only"
+  ]
+}

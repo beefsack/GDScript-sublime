@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "listen",
+    "close",
+    "wait",
+    "is_listening",
+    "get_packet_ip",
+    "get_packet_address",
+    "get_packet_port",
+    "set_send_address"
+  ]
+}

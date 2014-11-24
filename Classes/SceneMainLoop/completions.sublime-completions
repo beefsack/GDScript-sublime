@@ -1,0 +1,96 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "notify_group(call_flags, group, notification)",
+      "contents": "notify_group(${1:call_flags}, ${2:group}, ${3:notification})"
+    },
+    "notify_group",
+    {
+      "trigger": "set_group(call_flags, group, property, value)",
+      "contents": "set_group(${1:call_flags}, ${2:group}, ${3:property}, ${4:value})"
+    },
+    "set_group",
+    {
+      "trigger": "get_nodes_in_group(arg0)",
+      "contents": "get_nodes_in_group(${1:arg0})"
+    },
+    "get_nodes_in_group",
+    {
+      "trigger": "set_auto_accept_quit(enabled)",
+      "contents": "set_auto_accept_quit(${1:enabled})"
+    },
+    "set_auto_accept_quit",
+    {
+      "trigger": "set_editor_hint(enable)",
+      "contents": "set_editor_hint(${1:enable})"
+    },
+    "set_editor_hint",
+    {
+      "trigger": "is_editor_hint()",
+      "contents": "is_editor_hint()"
+    },
+    "is_editor_hint",
+    {
+      "trigger": "set_edited_scene_root(scene)",
+      "contents": "set_edited_scene_root(${1:scene})"
+    },
+    "set_edited_scene_root",
+    {
+      "trigger": "get_edited_scene_root()",
+      "contents": "get_edited_scene_root()"
+    },
+    "get_edited_scene_root",
+    {
+      "trigger": "set_pause(enable)",
+      "contents": "set_pause(${1:enable})"
+    },
+    "set_pause",
+    {
+      "trigger": "is_paused()",
+      "contents": "is_paused()"
+    },
+    "is_paused",
+    {
+      "trigger": "set_input_as_handled()",
+      "contents": "set_input_as_handled()"
+    },
+    "set_input_as_handled",
+    {
+      "trigger": "get_node_count()",
+      "contents": "get_node_count()"
+    },
+    "get_node_count",
+    {
+      "trigger": "quit()",
+      "contents": "quit()"
+    },
+    "quit",
+    {
+      "trigger": "set_screen_stretch(mode, aspect, minsize)",
+      "contents": "set_screen_stretch(${1:mode}, ${2:aspect}, ${3:minsize})"
+    },
+    "set_screen_stretch",
+    {
+      "trigger": "queue_delete(obj)",
+      "contents": "queue_delete(${1:obj})"
+    },
+    "queue_delete",
+    {
+      "trigger": "call_group(flags, group, method, arg0, arg1, arg2, arg3, arg4)",
+      "contents": "call_group(${1:flags}, ${2:group}, ${3:method}, ${4:arg0}, ${5:arg1}, ${6:arg2}, ${7:arg3}, ${8:arg4})"
+    },
+    "call_group",
+    "GROUP_CALL_DEFAULT",
+    "GROUP_CALL_REVERSE",
+    "GROUP_CALL_REALTIME",
+    "GROUP_CALL_UNIQUE",
+    "STRETCH_MODE_DISABLED",
+    "STRETCH_MODE_2D",
+    "STRETCH_MODE_VIEWPORT",
+    "STRETCH_ASPECT_IGNORE",
+    "STRETCH_ASPECT_KEEP",
+    "STRETCH_ASPECT_KEEP_WIDTH",
+    "STRETCH_ASPECT_KEEP_HEIGHT"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "is_active",
+    "set_active",
+    "is_repeat",
+    "set_repeat",
+    "set_speed",
+    "get_speed",
+    "set_tween_process_mode",
+    "get_tween_process_mode",
+    "start",
+    "reset",
+    "reset_all",
+    "stop",
+    "stop_all",
+    "resume",
+    "resume_all",
+    "remove",
+    "remove_all",
+    "seek",
+    "tell",
+    "get_runtime",
+    "interpolate_property",
+    "interpolate_method",
+    "interpolate_callback",
+    "follow_property",
+    "follow_method",
+    "targeting_property",
+    "targeting_method"
+  ]
+}

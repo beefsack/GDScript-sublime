@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_motion_scale(...)",
+      "contents": "set_motion_scale(${1:scale})"
+    },
+    {
+      "trigger": "get_motion_scale()",
+      "contents": "get_motion_scale()"
+    },
+    {
+      "trigger": "set_mirroring(...)",
+      "contents": "set_mirroring(${1:mirror})"
+    },
+    {
+      "trigger": "get_mirroring()",
+      "contents": "get_mirroring()"
+    }
+  ]
+}

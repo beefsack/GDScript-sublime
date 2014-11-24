@@ -1,0 +1,41 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_ok()",
+      "contents": "get_ok()"
+    },
+    {
+      "trigger": "get_label()",
+      "contents": "get_label()"
+    },
+    {
+      "trigger": "set_hide_on_ok(...)",
+      "contents": "set_hide_on_ok(${1:enabled})"
+    },
+    {
+      "trigger": "get_hide_on_ok()",
+      "contents": "get_hide_on_ok()"
+    },
+    {
+      "trigger": "add_button(...)",
+      "contents": "add_button(${1:text}, ${2:right}, ${3:action})"
+    },
+    {
+      "trigger": "add_cancel(...)",
+      "contents": "add_cancel(${1:name})"
+    },
+    {
+      "trigger": "register_text_enter(...)",
+      "contents": "register_text_enter(${1:line_edit})"
+    },
+    {
+      "trigger": "set_text(...)",
+      "contents": "set_text(${1:text})"
+    },
+    {
+      "trigger": "get_text()",
+      "contents": "get_text()"
+    }
+  ]
+}

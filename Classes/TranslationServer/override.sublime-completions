@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_locale",
+    "get_locale",
+    "translate",
+    "add_translation",
+    "remove_translation",
+    "clear"
+  ]
+}

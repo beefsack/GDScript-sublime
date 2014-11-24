@@ -1,0 +1,65 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "angle_to(...)",
+      "contents": "angle_to(${1:to})"
+    },
+    {
+      "trigger": "angle_to_point(...)",
+      "contents": "angle_to_point(${1:to})"
+    },
+    {
+      "trigger": "atan2()",
+      "contents": "atan2()"
+    },
+    {
+      "trigger": "cubic_interpolate(...)",
+      "contents": "cubic_interpolate(${1:b}, ${2:pre_a}, ${3:post_b}, ${4:t})"
+    },
+    {
+      "trigger": "distance_squared_to(...)",
+      "contents": "distance_squared_to(${1:to})"
+    },
+    {
+      "trigger": "distance_to(...)",
+      "contents": "distance_to(${1:to})"
+    },
+    {
+      "trigger": "dot(...)",
+      "contents": "dot(${1:with})"
+    },
+    {
+      "trigger": "floor()",
+      "contents": "floor()"
+    },
+    {
+      "trigger": "floorf()",
+      "contents": "floorf()"
+    },
+    {
+      "trigger": "get_aspect()",
+      "contents": "get_aspect()"
+    },
+    {
+      "trigger": "reflect(...)",
+      "contents": "reflect(${1:vec})"
+    },
+    {
+      "trigger": "slide(...)",
+      "contents": "slide(${1:vec})"
+    },
+    {
+      "trigger": "snapped(...)",
+      "contents": "snapped(${1:by})"
+    },
+    {
+      "trigger": "tangent()",
+      "contents": "tangent()"
+    },
+    {
+      "trigger": "Vector2(...)",
+      "contents": "Vector2(${1:x}, ${2:y})"
+    }
+  ]
+}

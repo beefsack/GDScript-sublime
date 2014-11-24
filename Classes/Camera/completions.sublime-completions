@@ -1,0 +1,101 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "project_ray_normal(...)",
+      "contents": "project_ray_normal(${1:screen_point})"
+    },
+    {
+      "trigger": "project_local_ray_normal(...)",
+      "contents": "project_local_ray_normal(${1:screen_point})"
+    },
+    {
+      "trigger": "project_ray_origin(...)",
+      "contents": "project_ray_origin(${1:screen_point})"
+    },
+    {
+      "trigger": "unproject_position(...)",
+      "contents": "unproject_position(${1:world_point})"
+    },
+    {
+      "trigger": "project_position(...)",
+      "contents": "project_position(${1:screen_point})"
+    },
+    {
+      "trigger": "set_perspective(...)",
+      "contents": "set_perspective(${1:fov}, ${2:z_near}, ${3:z_far})"
+    },
+    {
+      "trigger": "set_orthogonal(...)",
+      "contents": "set_orthogonal(${1:size}, ${2:z_near}, ${3:z_far})"
+    },
+    {
+      "trigger": "make_current()",
+      "contents": "make_current()"
+    },
+    {
+      "trigger": "clear_current()",
+      "contents": "clear_current()"
+    },
+    {
+      "trigger": "is_current()",
+      "contents": "is_current()"
+    },
+    {
+      "trigger": "get_camera_transform()",
+      "contents": "get_camera_transform()"
+    },
+    {
+      "trigger": "get_fov()",
+      "contents": "get_fov()"
+    },
+    {
+      "trigger": "get_zfar()",
+      "contents": "get_zfar()"
+    },
+    {
+      "trigger": "get_znear()",
+      "contents": "get_znear()"
+    },
+    {
+      "trigger": "get_projection()",
+      "contents": "get_projection()"
+    },
+    {
+      "trigger": "set_visible_layers(...)",
+      "contents": "set_visible_layers(${1:mask})"
+    },
+    {
+      "trigger": "get_visible_layers()",
+      "contents": "get_visible_layers()"
+    },
+    {
+      "trigger": "look_at(...)",
+      "contents": "look_at(${1:target}, ${2:up})"
+    },
+    {
+      "trigger": "look_at_from_pos(...)",
+      "contents": "look_at_from_pos(${1:pos}, ${2:target}, ${3:up})"
+    },
+    {
+      "trigger": "set_environment(...)",
+      "contents": "set_environment(${1:env})"
+    },
+    {
+      "trigger": "get_environment()",
+      "contents": "get_environment()"
+    },
+    {
+      "trigger": "set_keep_aspect_mode(...)",
+      "contents": "set_keep_aspect_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_keep_aspect_mode()",
+      "contents": "get_keep_aspect_mode()"
+    },
+    "PROJECTION_PERSPECTIVE",
+    "PROJECTION_ORTHOGONAL",
+    "KEEP_WIDTH",
+    "KEEP_HEIGHT"
+  ]
+}

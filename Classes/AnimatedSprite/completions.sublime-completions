@@ -1,0 +1,53 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_sprite_frames(...)",
+      "contents": "set_sprite_frames(${1:sprite_frames})"
+    },
+    {
+      "trigger": "get_sprite_frames()",
+      "contents": "get_sprite_frames()"
+    },
+    {
+      "trigger": "set_centered(...)",
+      "contents": "set_centered(${1:centered})"
+    },
+    {
+      "trigger": "is_centered()",
+      "contents": "is_centered()"
+    },
+    {
+      "trigger": "set_flip_h(...)",
+      "contents": "set_flip_h(${1:flip_h})"
+    },
+    {
+      "trigger": "is_flipped_h()",
+      "contents": "is_flipped_h()"
+    },
+    {
+      "trigger": "set_flip_v(...)",
+      "contents": "set_flip_v(${1:flip_v})"
+    },
+    {
+      "trigger": "is_flipped_v()",
+      "contents": "is_flipped_v()"
+    },
+    {
+      "trigger": "set_frame(...)",
+      "contents": "set_frame(${1:frame})"
+    },
+    {
+      "trigger": "get_frame()",
+      "contents": "get_frame()"
+    },
+    {
+      "trigger": "set_modulate(...)",
+      "contents": "set_modulate(${1:modulate})"
+    },
+    {
+      "trigger": "get_modulate()",
+      "contents": "get_modulate()"
+    }
+  ]
+}

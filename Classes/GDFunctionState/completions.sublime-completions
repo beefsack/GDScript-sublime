@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "resume(...)",
+      "contents": "resume(${1:arg})"
+    },
+    {
+      "trigger": "is_valid()",
+      "contents": "is_valid()"
+    }
+  ]
+}

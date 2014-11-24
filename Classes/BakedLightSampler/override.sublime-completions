@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_param",
+    "get_param",
+    "set_resolution",
+    "get_resolution"
+  ]
+}

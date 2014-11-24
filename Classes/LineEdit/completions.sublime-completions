@@ -1,0 +1,41 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_cursor_pos(...)",
+      "contents": "set_cursor_pos(${1:pos})"
+    },
+    {
+      "trigger": "get_cursor_pos()",
+      "contents": "get_cursor_pos()"
+    },
+    {
+      "trigger": "set_max_length(...)",
+      "contents": "set_max_length(${1:chars})"
+    },
+    {
+      "trigger": "get_max_length()",
+      "contents": "get_max_length()"
+    },
+    {
+      "trigger": "append_at_cursor(...)",
+      "contents": "append_at_cursor(${1:text})"
+    },
+    {
+      "trigger": "set_editable(...)",
+      "contents": "set_editable(${1:enabled})"
+    },
+    {
+      "trigger": "set_secret(...)",
+      "contents": "set_secret(${1:enabled})"
+    },
+    {
+      "trigger": "is_secret()",
+      "contents": "is_secret()"
+    },
+    {
+      "trigger": "select(...)",
+      "contents": "select(${1:from}, ${2:to})"
+    }
+  ]
+}

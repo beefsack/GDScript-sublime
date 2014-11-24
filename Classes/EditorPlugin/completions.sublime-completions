@@ -1,0 +1,67 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "apply_changes()",
+      "contents": "apply_changes()"
+    },
+    {
+      "trigger": "edit(...)",
+      "contents": "edit(${1:object})"
+    },
+    {
+      "trigger": "forward_input_event(...)",
+      "contents": "forward_input_event(${1:event})"
+    },
+    {
+      "trigger": "forward_spatial_input_event(...)",
+      "contents": "forward_spatial_input_event(${1:camera}, ${2:event})"
+    },
+    {
+      "trigger": "get_breakpoints()",
+      "contents": "get_breakpoints()"
+    },
+    {
+      "trigger": "get_state()",
+      "contents": "get_state()"
+    },
+    {
+      "trigger": "handles(...)",
+      "contents": "handles(${1:object})"
+    },
+    {
+      "trigger": "has_main_screen()",
+      "contents": "has_main_screen()"
+    },
+    {
+      "trigger": "make_visible(...)",
+      "contents": "make_visible(${1:visible})"
+    },
+    {
+      "trigger": "set_state(...)",
+      "contents": "set_state(${1:state})"
+    },
+    {
+      "trigger": "get_undo_redo()",
+      "contents": "get_undo_redo()"
+    },
+    {
+      "trigger": "add_custom_control(...)",
+      "contents": "add_custom_control(${1:container}, ${2:control})"
+    },
+    {
+      "trigger": "add_custom_type(...)",
+      "contents": "add_custom_type(${1:type}, ${2:base}, ${3:script}, ${4:icon})"
+    },
+    {
+      "trigger": "remove_custom_type(...)",
+      "contents": "remove_custom_type(${1:type})"
+    },
+    "CONTAINER_TOOLBAR",
+    "CONTAINER_SPATIAL_EDITOR_MENU",
+    "CONTAINER_SPATIAL_EDITOR_SIDE",
+    "CONTAINER_SPATIAL_EDITOR_BOTTOM",
+    "CONTAINER_CANVAS_EDITOR_MENU",
+    "CONTAINER_CANVAS_EDITOR_SIDE"
+  ]
+}

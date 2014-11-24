@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_align",
+    "get_align",
+    "set_valign",
+    "get_valign",
+    "set_text",
+    "get_text",
+    "set_autowrap",
+    "has_autowrap",
+    "set_uppercase",
+    "is_uppercase",
+    "get_line_height",
+    "get_line_count",
+    "get_total_character_count",
+    "set_visible_characters",
+    "set_percent_visible",
+    "get_percent_visible"
+  ]
+}

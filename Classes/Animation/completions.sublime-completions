@@ -1,0 +1,146 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_track(...)",
+      "contents": "add_track(${1:type}, ${2:at_pos})"
+    },
+    {
+      "trigger": "remove_track(...)",
+      "contents": "remove_track(${1:idx})"
+    },
+    {
+      "trigger": "get_track_count()",
+      "contents": "get_track_count()"
+    },
+    {
+      "trigger": "track_get_type(...)",
+      "contents": "track_get_type(${1:idx})"
+    },
+    {
+      "trigger": "track_get_path(...)",
+      "contents": "track_get_path(${1:idx})"
+    },
+    {
+      "trigger": "track_set_path(...)",
+      "contents": "track_set_path(${1:idx}, ${2:path})"
+    },
+    {
+      "trigger": "find_track(...)",
+      "contents": "find_track(${1:path})"
+    },
+    {
+      "trigger": "track_move_up(...)",
+      "contents": "track_move_up(${1:idx})"
+    },
+    {
+      "trigger": "track_move_down(...)",
+      "contents": "track_move_down(${1:idx})"
+    },
+    {
+      "trigger": "transform_track_insert_key(...)",
+      "contents": "transform_track_insert_key(${1:idx}, ${2:time}, ${3:loc}, ${4:rot}, ${5:scale})"
+    },
+    {
+      "trigger": "track_insert_key(...)",
+      "contents": "track_insert_key(${1:idx}, ${2:time}, ${3:key}, ${4:transition})"
+    },
+    {
+      "trigger": "track_remove_key(...)",
+      "contents": "track_remove_key(${1:idx}, ${2:key_idx})"
+    },
+    {
+      "trigger": "track_remove_key_at_pos(...)",
+      "contents": "track_remove_key_at_pos(${1:idx}, ${2:pos})"
+    },
+    {
+      "trigger": "track_set_key_value(...)",
+      "contents": "track_set_key_value(${1:idx}, ${2:key}, ${3:value})"
+    },
+    {
+      "trigger": "track_set_key_transition(...)",
+      "contents": "track_set_key_transition(${1:idx}, ${2:key_idx}, ${3:transition})"
+    },
+    {
+      "trigger": "track_get_key_transition(...)",
+      "contents": "track_get_key_transition(${1:idx}, ${2:key_idx})"
+    },
+    {
+      "trigger": "track_get_key_count(...)",
+      "contents": "track_get_key_count(${1:idx})"
+    },
+    {
+      "trigger": "track_get_key_value(...)",
+      "contents": "track_get_key_value(${1:idx}, ${2:key_idx})"
+    },
+    {
+      "trigger": "track_get_key_time(...)",
+      "contents": "track_get_key_time(${1:idx}, ${2:key_idx})"
+    },
+    {
+      "trigger": "track_find_key(...)",
+      "contents": "track_find_key(${1:idx}, ${2:time}, ${3:exact})"
+    },
+    {
+      "trigger": "track_set_interpolation_type(...)",
+      "contents": "track_set_interpolation_type(${1:idx}, ${2:interpolation})"
+    },
+    {
+      "trigger": "track_get_interpolation_type(...)",
+      "contents": "track_get_interpolation_type(${1:idx})"
+    },
+    {
+      "trigger": "transform_track_interpolate(...)",
+      "contents": "transform_track_interpolate(${1:idx}, ${2:time_sec})"
+    },
+    {
+      "trigger": "value_track_set_continuous(...)",
+      "contents": "value_track_set_continuous(${1:idx}, ${2:continuous})"
+    },
+    {
+      "trigger": "value_track_is_continuous(...)",
+      "contents": "value_track_is_continuous(${1:idx})"
+    },
+    {
+      "trigger": "value_track_get_key_indices(...)",
+      "contents": "value_track_get_key_indices(${1:idx}, ${2:time_sec}, ${3:delta})"
+    },
+    {
+      "trigger": "method_track_get_key_indices(...)",
+      "contents": "method_track_get_key_indices(${1:idx}, ${2:time_sec}, ${3:delta})"
+    },
+    {
+      "trigger": "method_track_get_name(...)",
+      "contents": "method_track_get_name(${1:idx}, ${2:key_idx})"
+    },
+    {
+      "trigger": "method_track_get_params(...)",
+      "contents": "method_track_get_params(${1:idx}, ${2:key_idx})"
+    },
+    {
+      "trigger": "set_length(...)",
+      "contents": "set_length(${1:time_sec})"
+    },
+    {
+      "trigger": "get_length()",
+      "contents": "get_length()"
+    },
+    {
+      "trigger": "set_loop(...)",
+      "contents": "set_loop(${1:enabled})"
+    },
+    {
+      "trigger": "set_step(...)",
+      "contents": "set_step(${1:size_sec})"
+    },
+    {
+      "trigger": "clear()",
+      "contents": "clear()"
+    },
+    "TYPE_VALUE",
+    "TYPE_METHOD",
+    "INTERPOLATION_NEAREST",
+    "INTERPOLATION_LINEAR",
+    "INTERPOLATION_CUBIC"
+  ]
+}

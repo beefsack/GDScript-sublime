@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_edit_alpha(...)",
+      "contents": "set_edit_alpha(${1:show})"
+    },
+    {
+      "trigger": "is_editing_alpha()",
+      "contents": "is_editing_alpha()"
+    }
+  ]
+}

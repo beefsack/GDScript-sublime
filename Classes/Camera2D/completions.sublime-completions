@@ -1,0 +1,77 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_rotating(...)",
+      "contents": "set_rotating(${1:rotating})"
+    },
+    {
+      "trigger": "set_limit(...)",
+      "contents": "set_limit(${1:margin}, ${2:limit})"
+    },
+    {
+      "trigger": "get_limit(...)",
+      "contents": "get_limit(${1:margin})"
+    },
+    {
+      "trigger": "set_v_drag_enabled(...)",
+      "contents": "set_v_drag_enabled(${1:enabled})"
+    },
+    {
+      "trigger": "is_v_drag_enabled()",
+      "contents": "is_v_drag_enabled()"
+    },
+    {
+      "trigger": "set_h_drag_enabled(...)",
+      "contents": "set_h_drag_enabled(${1:enabled})"
+    },
+    {
+      "trigger": "is_h_drag_enabled()",
+      "contents": "is_h_drag_enabled()"
+    },
+    {
+      "trigger": "set_v_offset(...)",
+      "contents": "set_v_offset(${1:ofs})"
+    },
+    {
+      "trigger": "set_h_offset(...)",
+      "contents": "set_h_offset(${1:ofs})"
+    },
+    {
+      "trigger": "set_drag_margin(...)",
+      "contents": "set_drag_margin(${1:margin}, ${2:drag_margin})"
+    },
+    {
+      "trigger": "get_drag_margin(...)",
+      "contents": "get_drag_margin(${1:margin})"
+    },
+    {
+      "trigger": "get_camera_pos()",
+      "contents": "get_camera_pos()"
+    },
+    {
+      "trigger": "get_camera_screen_center()",
+      "contents": "get_camera_screen_center()"
+    },
+    {
+      "trigger": "set_zoom(...)",
+      "contents": "set_zoom(${1:arg0})"
+    },
+    {
+      "trigger": "get_zoom()",
+      "contents": "get_zoom()"
+    },
+    {
+      "trigger": "set_follow_smoothing(...)",
+      "contents": "set_follow_smoothing(${1:follow_smoothing})"
+    },
+    {
+      "trigger": "get_follow_smoothing()",
+      "contents": "get_follow_smoothing()"
+    },
+    {
+      "trigger": "force_update_scroll()",
+      "contents": "force_update_scroll()"
+    }
+  ]
+}

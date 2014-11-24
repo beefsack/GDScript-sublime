@@ -1,0 +1,167 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "edit_set_state(...)",
+      "contents": "edit_set_state(${1:state})"
+    },
+    {
+      "trigger": "edit_get()",
+      "contents": "edit_get()"
+    },
+    {
+      "trigger": "edit_set_rect(...)",
+      "contents": "edit_set_rect(${1:rect})"
+    },
+    {
+      "trigger": "edit_rotate(...)",
+      "contents": "edit_rotate(${1:degrees})"
+    },
+    {
+      "trigger": "get_item_rect()",
+      "contents": "get_item_rect()"
+    },
+    {
+      "trigger": "get_canvas_item()",
+      "contents": "get_canvas_item()"
+    },
+    {
+      "trigger": "is_visible()",
+      "contents": "is_visible()"
+    },
+    {
+      "trigger": "is_hidden()",
+      "contents": "is_hidden()"
+    },
+    {
+      "trigger": "show()",
+      "contents": "show()"
+    },
+    {
+      "trigger": "hide()",
+      "contents": "hide()"
+    },
+    {
+      "trigger": "set_as_toplevel(...)",
+      "contents": "set_as_toplevel(${1:enable})"
+    },
+    {
+      "trigger": "is_set_as_toplevel()",
+      "contents": "is_set_as_toplevel()"
+    },
+    {
+      "trigger": "set_blend_mode(...)",
+      "contents": "set_blend_mode(${1:blend_mode})"
+    },
+    {
+      "trigger": "get_blend_mode()",
+      "contents": "get_blend_mode()"
+    },
+    {
+      "trigger": "set_opacity(...)",
+      "contents": "set_opacity(${1:opacity})"
+    },
+    {
+      "trigger": "get_opacity()",
+      "contents": "get_opacity()"
+    },
+    {
+      "trigger": "set_self_opacity(...)",
+      "contents": "set_self_opacity(${1:self_opacity})"
+    },
+    {
+      "trigger": "get_self_opacity()",
+      "contents": "get_self_opacity()"
+    },
+    {
+      "trigger": "set_draw_behind_parent(...)",
+      "contents": "set_draw_behind_parent(${1:enabe})"
+    },
+    {
+      "trigger": "is_draw_behind_parent_enabled()",
+      "contents": "is_draw_behind_parent_enabled()"
+    },
+    {
+      "trigger": "draw_line(...)",
+      "contents": "draw_line(${1:from}, ${2:to}, ${3:color}, ${4:width})"
+    },
+    {
+      "trigger": "draw_rect(...)",
+      "contents": "draw_rect(${1:rect}, ${2:color})"
+    },
+    {
+      "trigger": "draw_circle(...)",
+      "contents": "draw_circle(${1:pos}, ${2:radius}, ${3:color})"
+    },
+    {
+      "trigger": "draw_texture(...)",
+      "contents": "draw_texture(${1:texture}, ${2:pos})"
+    },
+    {
+      "trigger": "draw_texture_rect(...)",
+      "contents": "draw_texture_rect(${1:texture}, ${2:rect}, ${3:tile}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    {
+      "trigger": "draw_texture_rect_region(...)",
+      "contents": "draw_texture_rect_region(${1:texture}, ${2:rect}, ${3:src_rect}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    {
+      "trigger": "draw_style_box(...)",
+      "contents": "draw_style_box(${1:style_box}, ${2:rect})"
+    },
+    {
+      "trigger": "draw_primitive(...)",
+      "contents": "draw_primitive(${1:points}, ${2:colors}, ${3:uvs})"
+    },
+    {
+      "trigger": "draw_polygon(...)",
+      "contents": "draw_polygon(${1:points}, ${2:colors}, ${3:uvs})"
+    },
+    {
+      "trigger": "draw_colored_polygon(...)",
+      "contents": "draw_colored_polygon(${1:points}, ${2:color}, ${3:uvs})"
+    },
+    {
+      "trigger": "draw_string(...)",
+      "contents": "draw_string(${1:font}, ${2:pos}, ${3:text}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    {
+      "trigger": "draw_char(...)",
+      "contents": "draw_char(${1:font}, ${2:pos}, ${3:char}, ${4:next}, ${5:modulate}, ${6:1}, ${7:1})"
+    },
+    {
+      "trigger": "draw_set_transform(...)",
+      "contents": "draw_set_transform(${1:pos}, ${2:rot}, ${3:scale})"
+    },
+    {
+      "trigger": "get_global_transform()",
+      "contents": "get_global_transform()"
+    },
+    {
+      "trigger": "get_viewport_transform()",
+      "contents": "get_viewport_transform()"
+    },
+    {
+      "trigger": "get_viewport_rect()",
+      "contents": "get_viewport_rect()"
+    },
+    {
+      "trigger": "get_canvas()",
+      "contents": "get_canvas()"
+    },
+    {
+      "trigger": "get_world_2d()",
+      "contents": "get_world_2d()"
+    },
+    "BLEND_MODE_MIX",
+    "BLEND_MODE_ADD",
+    "BLEND_MODE_SUB",
+    "BLEND_MODE_MUL",
+    "BLEND_MODE_PREMULT_ALPHA",
+    "NOTIFICATION_DRAW",
+    "NOTIFICATION_VISIBILITY_CHANGED",
+    "NOTIFICATION_ENTER_CANVAS",
+    "NOTIFICATION_EXIT_CANVAS",
+    "NOTIFICATION_TRANSFORM_CHANGED"
+  ]
+}

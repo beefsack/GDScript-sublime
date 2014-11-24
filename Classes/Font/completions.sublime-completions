@@ -1,0 +1,53 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_height(...)",
+      "contents": "set_height(${1:px})"
+    },
+    {
+      "trigger": "set_ascent(...)",
+      "contents": "set_ascent(${1:px})"
+    },
+    {
+      "trigger": "get_ascent()",
+      "contents": "get_ascent()"
+    },
+    {
+      "trigger": "get_descent()",
+      "contents": "get_descent()"
+    },
+    {
+      "trigger": "add_kerning_pair(...)",
+      "contents": "add_kerning_pair(${1:char_a}, ${2:char_b}, ${3:kerning})"
+    },
+    {
+      "trigger": "get_kerning_pair(...)",
+      "contents": "get_kerning_pair(${1:arg0}, ${2:arg1})"
+    },
+    {
+      "trigger": "add_texture(...)",
+      "contents": "add_texture(${1:texture})"
+    },
+    {
+      "trigger": "add_char(...)",
+      "contents": "add_char(${1:character}, ${2:texture}, ${3:rect}, ${4:align}, ${5:0})"
+    },
+    {
+      "trigger": "get_char_size(...)",
+      "contents": "get_char_size(${1:char}, ${2:next})"
+    },
+    {
+      "trigger": "get_string_size(...)",
+      "contents": "get_string_size(${1:string})"
+    },
+    {
+      "trigger": "draw(...)",
+      "contents": "draw(${1:canvas_item}, ${2:pos}, ${3:string}, ${4:modulate}, ${5:1}, ${6:1})"
+    },
+    {
+      "trigger": "draw_char(...)",
+      "contents": "draw_char(${1:canvas_item}, ${2:pos}, ${3:char}, ${4:next}, ${5:modulate}, ${6:1}, ${7:1})"
+    }
+  ]
+}

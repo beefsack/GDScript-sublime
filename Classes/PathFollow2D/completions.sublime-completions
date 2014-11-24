@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_rotate(...)",
+      "contents": "set_rotate(${1:enable})"
+    },
+    {
+      "trigger": "is_rotating()",
+      "contents": "is_rotating()"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "get_id()",
+      "contents": "get_id()"
+    },
+    {
+      "trigger": "RID(...)",
+      "contents": "RID(${1:from})"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_texture_pressed(...)",
+      "contents": "set_texture_pressed(${1:texture_pressed})"
+    },
+    {
+      "trigger": "get_texture_pressed()",
+      "contents": "get_texture_pressed()"
+    },
+    {
+      "trigger": "set_bitmask(...)",
+      "contents": "set_bitmask(${1:bitmask})"
+    },
+    {
+      "trigger": "get_bitmask()",
+      "contents": "get_bitmask()"
+    },
+    {
+      "trigger": "set_action(...)",
+      "contents": "set_action(${1:action})"
+    },
+    {
+      "trigger": "get_action()",
+      "contents": "get_action()"
+    },
+    {
+      "trigger": "set_visibility_mode(...)",
+      "contents": "set_visibility_mode(${1:mode})"
+    },
+    {
+      "trigger": "get_visibility_mode()",
+      "contents": "get_visibility_mode()"
+    },
+    {
+      "trigger": "set_passby_press(...)",
+      "contents": "set_passby_press(${1:enabled})"
+    },
+    {
+      "trigger": "is_passby_press_enabled()",
+      "contents": "is_passby_press_enabled()"
+    }
+  ]
+}

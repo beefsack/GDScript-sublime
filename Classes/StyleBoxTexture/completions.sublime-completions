@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_margin_size(...)",
+      "contents": "set_margin_size(${1:margin}, ${2:size})"
+    },
+    {
+      "trigger": "get_margin_size(...)",
+      "contents": "get_margin_size(${1:arg0})"
+    },
+    {
+      "trigger": "set_draw_center(...)",
+      "contents": "set_draw_center(${1:enable})"
+    }
+  ]
+}

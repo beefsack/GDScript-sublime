@@ -1,0 +1,205 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "sample_create(...)",
+      "contents": "sample_create(${1:format}, ${2:stereo}, ${3:length})"
+    },
+    {
+      "trigger": "sample_set_description(...)",
+      "contents": "sample_set_description(${1:sample}, ${2:description})"
+    },
+    {
+      "trigger": "sample_get_description(...)",
+      "contents": "sample_get_description(${1:sample}, ${2:arg1})"
+    },
+    {
+      "trigger": "sample_get_format(...)",
+      "contents": "sample_get_format(${1:sample})"
+    },
+    {
+      "trigger": "sample_is_stereo(...)",
+      "contents": "sample_is_stereo(${1:sample})"
+    },
+    {
+      "trigger": "sample_get_length(...)",
+      "contents": "sample_get_length(${1:sample})"
+    },
+    {
+      "trigger": "sample_set_signed_data(...)",
+      "contents": "sample_set_signed_data(${1:sample}, ${2:data})"
+    },
+    {
+      "trigger": "sample_set_data(...)",
+      "contents": "sample_set_data(${1:sample}, ${2:arg1})"
+    },
+    {
+      "trigger": "sample_get_data(...)",
+      "contents": "sample_get_data(${1:sample})"
+    },
+    {
+      "trigger": "sample_set_mix_rate(...)",
+      "contents": "sample_set_mix_rate(${1:sample}, ${2:mix_rate})"
+    },
+    {
+      "trigger": "sample_get_mix_rate(...)",
+      "contents": "sample_get_mix_rate(${1:sample})"
+    },
+    {
+      "trigger": "sample_set_loop_format(...)",
+      "contents": "sample_set_loop_format(${1:sample}, ${2:loop_format})"
+    },
+    {
+      "trigger": "sample_get_loop_format(...)",
+      "contents": "sample_get_loop_format(${1:sample})"
+    },
+    {
+      "trigger": "sample_set_loop_begin(...)",
+      "contents": "sample_set_loop_begin(${1:sample}, ${2:pos})"
+    },
+    {
+      "trigger": "sample_get_loop_begin(...)",
+      "contents": "sample_get_loop_begin(${1:sample})"
+    },
+    {
+      "trigger": "sample_set_loop_end(...)",
+      "contents": "sample_set_loop_end(${1:sample}, ${2:pos})"
+    },
+    {
+      "trigger": "sample_get_loop_end(...)",
+      "contents": "sample_get_loop_end(${1:sample})"
+    },
+    {
+      "trigger": "voice_create()",
+      "contents": "voice_create()"
+    },
+    {
+      "trigger": "voice_play(...)",
+      "contents": "voice_play(${1:voice}, ${2:sample})"
+    },
+    {
+      "trigger": "voice_set_volume(...)",
+      "contents": "voice_set_volume(${1:voice}, ${2:volume})"
+    },
+    {
+      "trigger": "voice_set_pan(...)",
+      "contents": "voice_set_pan(${1:voice}, ${2:pan}, ${3:depth}, ${4:height})"
+    },
+    {
+      "trigger": "voice_set_filter(...)",
+      "contents": "voice_set_filter(${1:voice}, ${2:type}, ${3:cutoff}, ${4:resonance}, ${5:gain})"
+    },
+    {
+      "trigger": "voice_set_chorus(...)",
+      "contents": "voice_set_chorus(${1:voice}, ${2:chorus})"
+    },
+    {
+      "trigger": "voice_set_reverb(...)",
+      "contents": "voice_set_reverb(${1:voice}, ${2:room}, ${3:reverb})"
+    },
+    {
+      "trigger": "voice_set_mix_rate(...)",
+      "contents": "voice_set_mix_rate(${1:voice}, ${2:rate})"
+    },
+    {
+      "trigger": "voice_set_positional(...)",
+      "contents": "voice_set_positional(${1:voice}, ${2:enabled})"
+    },
+    {
+      "trigger": "voice_get_volume(...)",
+      "contents": "voice_get_volume(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_pan(...)",
+      "contents": "voice_get_pan(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_pan_height(...)",
+      "contents": "voice_get_pan_height(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_pan_depth(...)",
+      "contents": "voice_get_pan_depth(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_filter_type(...)",
+      "contents": "voice_get_filter_type(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_filter_cutoff(...)",
+      "contents": "voice_get_filter_cutoff(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_filter_resonance(...)",
+      "contents": "voice_get_filter_resonance(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_chorus(...)",
+      "contents": "voice_get_chorus(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_reverb_type(...)",
+      "contents": "voice_get_reverb_type(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_reverb(...)",
+      "contents": "voice_get_reverb(${1:voice})"
+    },
+    {
+      "trigger": "voice_get_mix_rate(...)",
+      "contents": "voice_get_mix_rate(${1:voice})"
+    },
+    {
+      "trigger": "voice_is_positional(...)",
+      "contents": "voice_is_positional(${1:voice})"
+    },
+    {
+      "trigger": "voice_stop(...)",
+      "contents": "voice_stop(${1:voice})"
+    },
+    {
+      "trigger": "free(...)",
+      "contents": "free(${1:rid})"
+    },
+    {
+      "trigger": "set_stream_global_volume_scale(...)",
+      "contents": "set_stream_global_volume_scale(${1:scale})"
+    },
+    {
+      "trigger": "get_stream_global_volume_scale()",
+      "contents": "get_stream_global_volume_scale()"
+    },
+    {
+      "trigger": "set_fx_global_volume_scale(...)",
+      "contents": "set_fx_global_volume_scale(${1:scale})"
+    },
+    {
+      "trigger": "get_fx_global_volume_scale()",
+      "contents": "get_fx_global_volume_scale()"
+    },
+    {
+      "trigger": "set_event_voice_global_volume_scale(...)",
+      "contents": "set_event_voice_global_volume_scale(${1:scale})"
+    },
+    {
+      "trigger": "get_event_voice_global_volume_scale()",
+      "contents": "get_event_voice_global_volume_scale()"
+    },
+    "SAMPLE_FORMAT_PCM8",
+    "SAMPLE_FORMAT_PCM16",
+    "SAMPLE_FORMAT_IMA_ADPCM",
+    "SAMPLE_LOOP_NONE",
+    "SAMPLE_LOOP_FORWARD",
+    "SAMPLE_LOOP_PING_PONG",
+    "FILTER_NONE",
+    "FILTER_LOWPASS",
+    "FILTER_BANDPASS",
+    "FILTER_HIPASS",
+    "FILTER_NOTCH",
+    "FILTER_BANDLIMIT",
+    "REVERB_SMALL",
+    "REVERB_MEDIUM",
+    "REVERB_LARGE",
+    "REVERB_HALL"
+  ]
+}

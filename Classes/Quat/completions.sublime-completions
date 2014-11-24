@@ -1,0 +1,41 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "cubic_slerp(...)",
+      "contents": "cubic_slerp(${1:b}, ${2:pre_a}, ${3:post_b}, ${4:t})"
+    },
+    {
+      "trigger": "dot(...)",
+      "contents": "dot(${1:b})"
+    },
+    {
+      "trigger": "inverse()",
+      "contents": "inverse()"
+    },
+    {
+      "trigger": "length()",
+      "contents": "length()"
+    },
+    {
+      "trigger": "length_squared()",
+      "contents": "length_squared()"
+    },
+    {
+      "trigger": "slerp(...)",
+      "contents": "slerp(${1:b}, ${2:t})"
+    },
+    {
+      "trigger": "slerpni(...)",
+      "contents": "slerpni(${1:b}, ${2:t})"
+    },
+    {
+      "trigger": "Quat(...)",
+      "contents": "Quat(${1:x}, ${2:y}, ${3:z}, ${4:w})"
+    },
+    {
+      "trigger": "Quat(...)",
+      "contents": "Quat(${1:from})"
+    }
+  ]
+}

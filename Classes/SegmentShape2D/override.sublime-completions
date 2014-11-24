@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_a",
+    "get_a",
+    "set_b",
+    "get_b"
+  ]
+}

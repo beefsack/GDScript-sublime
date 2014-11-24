@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_param",
+    "get_param",
+    "set_reverb_mode",
+    "get_reverb_mode",
+    "set_force_params_to_all_sources",
+    "is_forcing_params_to_all_sources"
+  ]
+}

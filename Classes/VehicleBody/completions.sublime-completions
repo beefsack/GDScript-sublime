@@ -1,0 +1,29 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_engine_force(...)",
+      "contents": "set_engine_force(${1:engine_force})"
+    },
+    {
+      "trigger": "get_engine_force()",
+      "contents": "get_engine_force()"
+    },
+    {
+      "trigger": "set_brake(...)",
+      "contents": "set_brake(${1:brake})"
+    },
+    {
+      "trigger": "get_brake()",
+      "contents": "get_brake()"
+    },
+    {
+      "trigger": "set_steering(...)",
+      "contents": "set_steering(${1:steering})"
+    },
+    {
+      "trigger": "get_steering()",
+      "contents": "get_steering()"
+    }
+  ]
+}

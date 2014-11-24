@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_bounds(...)",
+      "contents": "set_bounds(${1:bsp_tree})"
+    },
+    {
+      "trigger": "set_geometry_hint(...)",
+      "contents": "set_geometry_hint(${1:triangles})"
+    },
+    {
+      "trigger": "get_geometry_hint()",
+      "contents": "get_geometry_hint()"
+    },
+    {
+      "trigger": "regenerate_bsp()",
+      "contents": "regenerate_bsp()"
+    },
+    {
+      "trigger": "regenerate_bsp_cubic()",
+      "contents": "regenerate_bsp_cubic()"
+    }
+  ]
+}

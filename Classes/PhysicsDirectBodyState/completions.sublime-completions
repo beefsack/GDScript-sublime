@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_force(...)",
+      "contents": "add_force(${1:force}, ${2:pos})"
+    },
+    {
+      "trigger": "apply_impulse(...)",
+      "contents": "apply_impulse(${1:pos}, ${2:j})"
+    }
+  ]
+}

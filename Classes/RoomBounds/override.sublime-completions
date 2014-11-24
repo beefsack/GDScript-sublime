@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_bounds",
+    "get_bounds",
+    "set_geometry_hint",
+    "get_geometry_hint",
+    "regenerate_bsp",
+    "regenerate_bsp_cubic"
+  ]
+}

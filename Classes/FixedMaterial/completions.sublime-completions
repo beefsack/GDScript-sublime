@@ -1,0 +1,77 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_parameter(...)",
+      "contents": "set_parameter(${1:param}, ${2:value})"
+    },
+    {
+      "trigger": "get_parameter(...)",
+      "contents": "get_parameter(${1:param})"
+    },
+    {
+      "trigger": "set_texture(...)",
+      "contents": "set_texture(${1:param}, ${2:texture})"
+    },
+    {
+      "trigger": "get_texture(...)",
+      "contents": "get_texture(${1:param})"
+    },
+    {
+      "trigger": "set_texcoord_mode(...)",
+      "contents": "set_texcoord_mode(${1:param}, ${2:mode})"
+    },
+    {
+      "trigger": "get_texcoord_mode(...)",
+      "contents": "get_texcoord_mode(${1:param})"
+    },
+    {
+      "trigger": "set_fixed_flag(...)",
+      "contents": "set_fixed_flag(${1:flag}, ${2:value})"
+    },
+    {
+      "trigger": "get_fixed_flag(...)",
+      "contents": "get_fixed_flag(${1:flag})"
+    },
+    {
+      "trigger": "set_uv_transform(...)",
+      "contents": "set_uv_transform(${1:transform})"
+    },
+    {
+      "trigger": "get_uv_transform()",
+      "contents": "get_uv_transform()"
+    },
+    {
+      "trigger": "set_light_shader(...)",
+      "contents": "set_light_shader(${1:shader})"
+    },
+    {
+      "trigger": "get_light_shader()",
+      "contents": "get_light_shader()"
+    },
+    {
+      "trigger": "set_point_size(...)",
+      "contents": "set_point_size(${1:size})"
+    },
+    {
+      "trigger": "get_point_size()",
+      "contents": "get_point_size()"
+    },
+    "PARAM_DIFFUSE",
+    "PARAM_DETAIL",
+    "PARAM_SPECULAR",
+    "PARAM_EMISSION",
+    "PARAM_SPECULAR_EXP",
+    "PARAM_GLOW",
+    "PARAM_NORMAL",
+    "PARAM_SHADE_PARAM",
+    "TEXCOORD_SPHERE",
+    "TEXCOORD_UV",
+    "TEXCOORD_UV_TRANSFORM",
+    "TEXCOORD_UV2",
+    "FLAG_USE_ALPHA",
+    "FLAG_USE_COLOR_ARRAY",
+    "FLAG_USE_POINT_SIZE",
+    "FLAG_DISCARD_ALPHA"
+  ]
+}

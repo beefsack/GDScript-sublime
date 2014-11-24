@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "get_val",
+    "get_value",
+    "get_min",
+    "get_max",
+    "get_step",
+    "get_page",
+    "get_unit_value",
+    "get_rounded_values",
+    "set_val",
+    "set_value",
+    "set_min",
+    "set_max",
+    "set_step",
+    "set_page",
+    "set_unit_value",
+    "set_rounded_values",
+    "set_exp_unit_value",
+    "is_unit_value_exp",
+    "share",
+    "unshare"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "affine_inverse",
+    "basis_xform",
+    "basis_xform_inv",
+    "get_origin",
+    "get_rotation",
+    "get_scale",
+    "interpolate_with",
+    "inverse",
+    "orthonormalized",
+    "rotated",
+    "scaled",
+    "translated",
+    "xform",
+    "xform_inv"
+  ]
+}

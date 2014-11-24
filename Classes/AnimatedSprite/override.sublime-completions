@@ -1,0 +1,19 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "set_sprite_frames",
+    "get_sprite_frames",
+    "set_centered",
+    "is_centered",
+    "set_offset",
+    "get_offset",
+    "set_flip_h",
+    "is_flipped_h",
+    "set_flip_v",
+    "is_flipped_v",
+    "set_frame",
+    "get_frame",
+    "set_modulate",
+    "get_modulate"
+  ]
+}

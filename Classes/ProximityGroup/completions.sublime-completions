@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_group_name(...)",
+      "contents": "set_group_name(${1:name})"
+    },
+    {
+      "trigger": "broadcast(...)",
+      "contents": "broadcast(${1:name}, ${2:parameters})"
+    },
+    {
+      "trigger": "set_dispatch_mode(...)",
+      "contents": "set_dispatch_mode(${1:mode})"
+    },
+    {
+      "trigger": "set_grid_radius(...)",
+      "contents": "set_grid_radius(${1:radius})"
+    },
+    {
+      "trigger": "get_grid_radius()",
+      "contents": "get_grid_radius()"
+    }
+  ]
+}

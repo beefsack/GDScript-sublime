@@ -1,0 +1,17 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_point_tilt(...)",
+      "contents": "set_point_tilt(${1:idx}, ${2:tilt})"
+    },
+    {
+      "trigger": "get_point_tilt(...)",
+      "contents": "get_point_tilt(${1:idx})"
+    },
+    {
+      "trigger": "get_baked_tilts()",
+      "contents": "get_baked_tilts()"
+    }
+  ]
+}

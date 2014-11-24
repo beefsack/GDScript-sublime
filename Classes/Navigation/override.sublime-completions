@@ -1,0 +1,14 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "navmesh_create",
+    "navmesh_set_transform",
+    "navmesh_remove",
+    "get_simple_path",
+    "get_closest_point_to_segment",
+    "get_closest_point",
+    "get_closest_point_normal",
+    "set_up_vector",
+    "get_up_vector"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_space_override_mode(...)",
+      "contents": "set_space_override_mode(${1:enable})"
+    },
+    {
+      "trigger": "get_space_override_mode()",
+      "contents": "get_space_override_mode()"
+    },
+    {
+      "trigger": "set_gravity_is_point(...)",
+      "contents": "set_gravity_is_point(${1:enable})"
+    },
+    {
+      "trigger": "is_gravity_a_point()",
+      "contents": "is_gravity_a_point()"
+    },
+    {
+      "trigger": "set_gravity_vector(...)",
+      "contents": "set_gravity_vector(${1:vector})"
+    },
+    {
+      "trigger": "get_gravity_vector()",
+      "contents": "get_gravity_vector()"
+    },
+    {
+      "trigger": "set_gravity(...)",
+      "contents": "set_gravity(${1:gravity})"
+    },
+    {
+      "trigger": "get_gravity()",
+      "contents": "get_gravity()"
+    },
+    {
+      "trigger": "set_density(...)",
+      "contents": "set_density(${1:density})"
+    },
+    {
+      "trigger": "get_density()",
+      "contents": "get_density()"
+    },
+    {
+      "trigger": "set_priority(...)",
+      "contents": "set_priority(${1:priority})"
+    },
+    {
+      "trigger": "get_priority()",
+      "contents": "get_priority()"
+    },
+    {
+      "trigger": "set_enable_monitoring(...)",
+      "contents": "set_enable_monitoring(${1:enable})"
+    },
+    {
+      "trigger": "is_monitoring_enabled()",
+      "contents": "is_monitoring_enabled()"
+    },
+    {
+      "trigger": "get_overlapping_bodies()",
+      "contents": "get_overlapping_bodies()"
+    }
+  ]
+}

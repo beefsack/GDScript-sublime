@@ -1,0 +1,21 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "apply_changes",
+    "clear",
+    "edit",
+    "forward_input_event",
+    "forward_spatial_input_event",
+    "get_breakpoints",
+    "get_name",
+    "get_state",
+    "handles",
+    "has_main_screen",
+    "make_visible",
+    "set_state",
+    "get_undo_redo",
+    "add_custom_control",
+    "add_custom_type",
+    "remove_custom_type"
+  ]
+}

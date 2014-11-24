@@ -1,0 +1,22 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "read",
+    "get_node_type",
+    "get_node_name",
+    "get_node_data",
+    "get_node_offset",
+    "get_attribute_count",
+    "get_attribute_name",
+    "get_attribute_value",
+    "has_attribute",
+    "get_named_attribute_value",
+    "get_named_attribute_value_safe",
+    "is_empty",
+    "get_current_line",
+    "skip_section",
+    "seek",
+    "open",
+    "open_buffer"
+  ]
+}

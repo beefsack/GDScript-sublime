@@ -1,0 +1,22 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "open",
+    "list_dir_begin",
+    "get_next",
+    "current_is_dir",
+    "list_dir_end",
+    "get_drive_count",
+    "get_drive",
+    "change_dir",
+    "get_current_dir",
+    "make_dir",
+    "make_dir_recursive",
+    "file_exists",
+    "dir_exists",
+    "get_space_left",
+    "copy",
+    "rename",
+    "remove"
+  ]
+}

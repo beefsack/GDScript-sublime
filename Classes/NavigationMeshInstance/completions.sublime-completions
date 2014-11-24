@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_navigation_mesh(...)",
+      "contents": "set_navigation_mesh(${1:navmesh})"
+    },
+    {
+      "trigger": "get_navigation_mesh()",
+      "contents": "get_navigation_mesh()"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "pack(...)",
+      "contents": "pack(${1:path})"
+    },
+    {
+      "trigger": "instance(...)",
+      "contents": "instance(${1:arg0})"
+    }
+  ]
+}

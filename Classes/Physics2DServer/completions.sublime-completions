@@ -1,0 +1,361 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "shape_create(...)",
+      "contents": "shape_create(${1:type})"
+    },
+    {
+      "trigger": "shape_set_data(...)",
+      "contents": "shape_set_data(${1:shape}, ${2:data})"
+    },
+    {
+      "trigger": "shape_get_type(...)",
+      "contents": "shape_get_type(${1:shape})"
+    },
+    {
+      "trigger": "shape_get_data(...)",
+      "contents": "shape_get_data(${1:shape})"
+    },
+    {
+      "trigger": "space_create()",
+      "contents": "space_create()"
+    },
+    {
+      "trigger": "space_set_active(...)",
+      "contents": "space_set_active(${1:space}, ${2:active})"
+    },
+    {
+      "trigger": "space_is_active(...)",
+      "contents": "space_is_active(${1:space})"
+    },
+    {
+      "trigger": "space_set_param(...)",
+      "contents": "space_set_param(${1:space}, ${2:param}, ${3:value})"
+    },
+    {
+      "trigger": "space_get_param(...)",
+      "contents": "space_get_param(${1:space}, ${2:param})"
+    },
+    {
+      "trigger": "space_get_direct_state(...)",
+      "contents": "space_get_direct_state(${1:space})"
+    },
+    {
+      "trigger": "area_create()",
+      "contents": "area_create()"
+    },
+    {
+      "trigger": "area_set_space(...)",
+      "contents": "area_set_space(${1:area}, ${2:space})"
+    },
+    {
+      "trigger": "area_get_space(...)",
+      "contents": "area_get_space(${1:area})"
+    },
+    {
+      "trigger": "area_set_space_override_mode(...)",
+      "contents": "area_set_space_override_mode(${1:area}, ${2:mode})"
+    },
+    {
+      "trigger": "area_get_space_override_mode(...)",
+      "contents": "area_get_space_override_mode(${1:area})"
+    },
+    {
+      "trigger": "area_add_shape(...)",
+      "contents": "area_add_shape(${1:area}, ${2:shape}, ${3:transform}, ${4:0}, ${5:0})"
+    },
+    {
+      "trigger": "area_set_shape(...)",
+      "contents": "area_set_shape(${1:area}, ${2:shape_idx}, ${3:shape})"
+    },
+    {
+      "trigger": "area_set_shape_transform(...)",
+      "contents": "area_set_shape_transform(${1:area}, ${2:shape_idx}, ${3:transform})"
+    },
+    {
+      "trigger": "area_get_shape_count(...)",
+      "contents": "area_get_shape_count(${1:area})"
+    },
+    {
+      "trigger": "area_get_shape(...)",
+      "contents": "area_get_shape(${1:area}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "area_get_shape_transform(...)",
+      "contents": "area_get_shape_transform(${1:area}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "area_remove_shape(...)",
+      "contents": "area_remove_shape(${1:area}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "area_clear_shapes(...)",
+      "contents": "area_clear_shapes(${1:area})"
+    },
+    {
+      "trigger": "area_set_param(...)",
+      "contents": "area_set_param(${1:area}, ${2:param}, ${3:value})"
+    },
+    {
+      "trigger": "area_set_transform(...)",
+      "contents": "area_set_transform(${1:area}, ${2:transform})"
+    },
+    {
+      "trigger": "area_get_param(...)",
+      "contents": "area_get_param(${1:area}, ${2:param})"
+    },
+    {
+      "trigger": "area_get_transform(...)",
+      "contents": "area_get_transform(${1:area})"
+    },
+    {
+      "trigger": "area_attach_object_instance_ID(...)",
+      "contents": "area_attach_object_instance_ID(${1:area}, ${2:id})"
+    },
+    {
+      "trigger": "area_get_object_instance_ID(...)",
+      "contents": "area_get_object_instance_ID(${1:area})"
+    },
+    {
+      "trigger": "area_set_monitor_callback(...)",
+      "contents": "area_set_monitor_callback(${1:receiver}, ${2:method}, ${3:arg2})"
+    },
+    {
+      "trigger": "body_create(...)",
+      "contents": "body_create(${1:mode}, ${2:init_sleeping})"
+    },
+    {
+      "trigger": "body_set_space(...)",
+      "contents": "body_set_space(${1:body}, ${2:space})"
+    },
+    {
+      "trigger": "body_get_space(...)",
+      "contents": "body_get_space(${1:body})"
+    },
+    {
+      "trigger": "body_set_mode(...)",
+      "contents": "body_set_mode(${1:body}, ${2:mode})"
+    },
+    {
+      "trigger": "body_get_mode(...)",
+      "contents": "body_get_mode(${1:body})"
+    },
+    {
+      "trigger": "body_add_shape(...)",
+      "contents": "body_add_shape(${1:body}, ${2:shape}, ${3:transform}, ${4:0}, ${5:0})"
+    },
+    {
+      "trigger": "body_set_shape(...)",
+      "contents": "body_set_shape(${1:body}, ${2:shape_idx}, ${3:shape})"
+    },
+    {
+      "trigger": "body_set_shape_transform(...)",
+      "contents": "body_set_shape_transform(${1:body}, ${2:shape_idx}, ${3:transform})"
+    },
+    {
+      "trigger": "body_set_shape_metadata(...)",
+      "contents": "body_set_shape_metadata(${1:body}, ${2:shape_idx}, ${3:metadata})"
+    },
+    {
+      "trigger": "body_get_shape_count(...)",
+      "contents": "body_get_shape_count(${1:body})"
+    },
+    {
+      "trigger": "body_get_shape(...)",
+      "contents": "body_get_shape(${1:body}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "body_get_shape_transform(...)",
+      "contents": "body_get_shape_transform(${1:body}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "body_get_shape_metadata(...)",
+      "contents": "body_get_shape_metadata(${1:body}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "body_remove_shape(...)",
+      "contents": "body_remove_shape(${1:body}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "body_clear_shapes(...)",
+      "contents": "body_clear_shapes(${1:body})"
+    },
+    {
+      "trigger": "body_set_shape_as_trigger(...)",
+      "contents": "body_set_shape_as_trigger(${1:body}, ${2:shape_idx}, ${3:enable})"
+    },
+    {
+      "trigger": "body_is_shape_set_as_trigger(...)",
+      "contents": "body_is_shape_set_as_trigger(${1:body}, ${2:shape_idx})"
+    },
+    {
+      "trigger": "body_attach_object_instance_ID(...)",
+      "contents": "body_attach_object_instance_ID(${1:body}, ${2:id})"
+    },
+    {
+      "trigger": "body_get_object_instance_ID(...)",
+      "contents": "body_get_object_instance_ID(${1:body})"
+    },
+    {
+      "trigger": "body_set_continuous_collision_detection_mode(...)",
+      "contents": "body_set_continuous_collision_detection_mode(${1:body}, ${2:mode})"
+    },
+    {
+      "trigger": "body_get_continuous_collision_detection_mode(...)",
+      "contents": "body_get_continuous_collision_detection_mode(${1:body})"
+    },
+    {
+      "trigger": "body_set_layer_mask(...)",
+      "contents": "body_set_layer_mask(${1:body}, ${2:mask})"
+    },
+    {
+      "trigger": "body_get_layer_mask(...)",
+      "contents": "body_get_layer_mask(${1:body}, ${2:arg1})"
+    },
+    {
+      "trigger": "body_set_user_mask(...)",
+      "contents": "body_set_user_mask(${1:body}, ${2:mask})"
+    },
+    {
+      "trigger": "body_get_user_mask(...)",
+      "contents": "body_get_user_mask(${1:body}, ${2:arg1})"
+    },
+    {
+      "trigger": "body_set_param(...)",
+      "contents": "body_set_param(${1:body}, ${2:param}, ${3:value})"
+    },
+    {
+      "trigger": "body_get_param(...)",
+      "contents": "body_get_param(${1:body}, ${2:param})"
+    },
+    {
+      "trigger": "body_set_state(...)",
+      "contents": "body_set_state(${1:body}, ${2:state}, ${3:value})"
+    },
+    {
+      "trigger": "body_get_state(...)",
+      "contents": "body_get_state(${1:body}, ${2:state})"
+    },
+    {
+      "trigger": "body_apply_impulse(...)",
+      "contents": "body_apply_impulse(${1:body}, ${2:pos}, ${3:impulse})"
+    },
+    {
+      "trigger": "body_set_axis_velocity(...)",
+      "contents": "body_set_axis_velocity(${1:body}, ${2:axis_velocity})"
+    },
+    {
+      "trigger": "body_add_collision_exception(...)",
+      "contents": "body_add_collision_exception(${1:body}, ${2:excepted_body})"
+    },
+    {
+      "trigger": "body_remove_collision_exception(...)",
+      "contents": "body_remove_collision_exception(${1:body}, ${2:excepted_body})"
+    },
+    {
+      "trigger": "body_set_max_contacts_reported(...)",
+      "contents": "body_set_max_contacts_reported(${1:body}, ${2:amount})"
+    },
+    {
+      "trigger": "body_get_max_contacts_reported(...)",
+      "contents": "body_get_max_contacts_reported(${1:body})"
+    },
+    {
+      "trigger": "body_set_omit_force_integration(...)",
+      "contents": "body_set_omit_force_integration(${1:body}, ${2:enable})"
+    },
+    {
+      "trigger": "body_is_omitting_force_integration(...)",
+      "contents": "body_is_omitting_force_integration(${1:body})"
+    },
+    {
+      "trigger": "body_set_force_integration_callback(...)",
+      "contents": "body_set_force_integration_callback(${1:body}, ${2:receiver}, ${3:method}, ${4:arg3})"
+    },
+    {
+      "trigger": "joint_set_param(...)",
+      "contents": "joint_set_param(${1:joint}, ${2:param}, ${3:value})"
+    },
+    {
+      "trigger": "joint_get_param(...)",
+      "contents": "joint_get_param(${1:joint}, ${2:param})"
+    },
+    {
+      "trigger": "pin_joint_create(...)",
+      "contents": "pin_joint_create(${1:anchor}, ${2:body_a}, ${3:body_b})"
+    },
+    {
+      "trigger": "groove_joint_create(...)",
+      "contents": "groove_joint_create(${1:groove1_a}, ${2:groove2_a}, ${3:anchor_b}, ${4:body_a})"
+    },
+    {
+      "trigger": "damped_spring_joint_create(...)",
+      "contents": "damped_spring_joint_create(${1:anchor_a}, ${2:anchor_b}, ${3:body_a}, ${4:body_b})"
+    },
+    {
+      "trigger": "damped_string_joint_set_param(...)",
+      "contents": "damped_string_joint_set_param(${1:joint}, ${2:param}, ${3:value})"
+    },
+    {
+      "trigger": "damped_string_joint_get_param(...)",
+      "contents": "damped_string_joint_get_param(${1:joint}, ${2:param})"
+    },
+    {
+      "trigger": "joint_get_type(...)",
+      "contents": "joint_get_type(${1:joint})"
+    },
+    {
+      "trigger": "free_rid(...)",
+      "contents": "free_rid(${1:rid})"
+    },
+    {
+      "trigger": "get_process_info(...)",
+      "contents": "get_process_info(${1:arg0})"
+    },
+    "SHAPE_LINE",
+    "SHAPE_SEGMENT",
+    "SHAPE_CIRCLE",
+    "SHAPE_RECTANGLE",
+    "SHAPE_CAPSULE",
+    "SHAPE_CONVEX_POLYGON",
+    "SHAPE_CONCAVE_POLYGON",
+    "SHAPE_CUSTOM",
+    "AREA_PARAM_GRAVITY",
+    "AREA_PARAM_GRAVITY_VECTOR",
+    "AREA_PARAM_GRAVITY_IS_POINT",
+    "AREA_PARAM_GRAVITY_POINT_ATTENUATION",
+    "AREA_PARAM_DENSITY",
+    "AREA_PARAM_PRIORITY",
+    "AREA_SPACE_OVERRIDE_COMBINE",
+    "AREA_SPACE_OVERRIDE_DISABLED",
+    "AREA_SPACE_OVERRIDE_REPLACE",
+    "BODY_MODE_STATIC",
+    "BODY_MODE_KINEMATIC",
+    "BODY_MODE_RIGID",
+    "BODY_MODE_CHARACTER",
+    "BODY_PARAM_BOUNCE",
+    "BODY_PARAM_FRICTION",
+    "BODY_PARAM_MASS",
+    "BODY_PARAM_MAX",
+    "BODY_STATE_TRANSFORM",
+    "BODY_STATE_LINEAR_VELOCITY",
+    "BODY_STATE_ANGULAR_VELOCITY",
+    "BODY_STATE_SLEEPING",
+    "BODY_STATE_CAN_SLEEP",
+    "JOINT_PIN",
+    "JOINT_GROOVE",
+    "JOINT_DAMPED_SPRING",
+    "DAMPED_STRING_REST_LENGTH",
+    "DAMPED_STRING_STIFFNESS",
+    "DAMPED_STRING_DAMPING",
+    "CCD_MODE_DISABLED",
+    "CCD_MODE_CAST_RAY",
+    "CCD_MODE_CAST_SHAPE",
+    "AREA_BODY_ADDED",
+    "AREA_BODY_REMOVED",
+    "INFO_ACTIVE_OBJECTS",
+    "INFO_COLLISION_PAIRS",
+    "INFO_ISLAND_COUNT"
+  ]
+}

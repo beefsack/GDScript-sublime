@@ -1,0 +1,13 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_expand(...)",
+      "contents": "set_expand(${1:enable})"
+    },
+    {
+      "trigger": "has_expand()",
+      "contents": "has_expand()"
+    }
+  ]
+}

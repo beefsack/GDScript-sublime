@@ -1,0 +1,25 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "add_frame(...)",
+      "contents": "add_frame(${1:frame}, ${2:atpos})"
+    },
+    {
+      "trigger": "get_frame_count()",
+      "contents": "get_frame_count()"
+    },
+    {
+      "trigger": "get_frame(...)",
+      "contents": "get_frame(${1:idx})"
+    },
+    {
+      "trigger": "set_frame(...)",
+      "contents": "set_frame(${1:idx}, ${2:txt})"
+    },
+    {
+      "trigger": "remove_frame(...)",
+      "contents": "remove_frame(${1:idx})"
+    }
+  ]
+}

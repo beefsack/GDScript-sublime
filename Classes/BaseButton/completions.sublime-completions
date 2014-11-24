@@ -1,0 +1,49 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_pressed(...)",
+      "contents": "set_pressed(${1:pressed})"
+    },
+    {
+      "trigger": "is_pressed()",
+      "contents": "is_pressed()"
+    },
+    {
+      "trigger": "is_hovered()",
+      "contents": "is_hovered()"
+    },
+    {
+      "trigger": "set_toggle_mode(...)",
+      "contents": "set_toggle_mode(${1:enabled})"
+    },
+    {
+      "trigger": "is_toggle_mode()",
+      "contents": "is_toggle_mode()"
+    },
+    {
+      "trigger": "set_disabled(...)",
+      "contents": "set_disabled(${1:disabled})"
+    },
+    {
+      "trigger": "is_disabled()",
+      "contents": "is_disabled()"
+    },
+    {
+      "trigger": "set_click_on_press(...)",
+      "contents": "set_click_on_press(${1:enable})"
+    },
+    {
+      "trigger": "get_click_on_press()",
+      "contents": "get_click_on_press()"
+    },
+    {
+      "trigger": "get_draw_mode()",
+      "contents": "get_draw_mode()"
+    },
+    "DRAW_NORMAL",
+    "DRAW_PRESSED",
+    "DRAW_HOVER",
+    "DRAW_DISABLED"
+  ]
+}

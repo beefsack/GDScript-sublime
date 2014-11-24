@@ -1,0 +1,9 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "start",
+    "get_id",
+    "is_active",
+    "wait_to_finish"
+  ]
+}

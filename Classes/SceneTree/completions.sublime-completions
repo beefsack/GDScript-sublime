@@ -1,0 +1,80 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "notify_group(...)",
+      "contents": "notify_group(${1:call_flags}, ${2:group}, ${3:notification})"
+    },
+    {
+      "trigger": "set_group(...)",
+      "contents": "set_group(${1:call_flags}, ${2:group}, ${3:property}, ${4:value})"
+    },
+    {
+      "trigger": "get_nodes_in_group(...)",
+      "contents": "get_nodes_in_group(${1:arg0})"
+    },
+    {
+      "trigger": "set_auto_accept_quit(...)",
+      "contents": "set_auto_accept_quit(${1:enabled})"
+    },
+    {
+      "trigger": "set_editor_hint(...)",
+      "contents": "set_editor_hint(${1:enable})"
+    },
+    {
+      "trigger": "is_editor_hint()",
+      "contents": "is_editor_hint()"
+    },
+    {
+      "trigger": "set_edited_scene_root(...)",
+      "contents": "set_edited_scene_root(${1:scene})"
+    },
+    {
+      "trigger": "get_edited_scene_root()",
+      "contents": "get_edited_scene_root()"
+    },
+    {
+      "trigger": "set_pause(...)",
+      "contents": "set_pause(${1:enable})"
+    },
+    {
+      "trigger": "is_paused()",
+      "contents": "is_paused()"
+    },
+    {
+      "trigger": "set_input_as_handled()",
+      "contents": "set_input_as_handled()"
+    },
+    {
+      "trigger": "get_node_count()",
+      "contents": "get_node_count()"
+    },
+    {
+      "trigger": "quit()",
+      "contents": "quit()"
+    },
+    {
+      "trigger": "set_screen_stretch(...)",
+      "contents": "set_screen_stretch(${1:mode}, ${2:aspect}, ${3:minsize})"
+    },
+    {
+      "trigger": "queue_delete(...)",
+      "contents": "queue_delete(${1:obj})"
+    },
+    {
+      "trigger": "call_group(...)",
+      "contents": "call_group(${1:flags}, ${2:group}, ${3:method}, ${4:arg0}, ${5:arg1}, ${6:arg2}, ${7:arg3}, ${8:arg4})"
+    },
+    "GROUP_CALL_DEFAULT",
+    "GROUP_CALL_REVERSE",
+    "GROUP_CALL_REALTIME",
+    "GROUP_CALL_UNIQUE",
+    "STRETCH_MODE_DISABLED",
+    "STRETCH_MODE_2D",
+    "STRETCH_MODE_VIEWPORT",
+    "STRETCH_ASPECT_IGNORE",
+    "STRETCH_ASPECT_KEEP",
+    "STRETCH_ASPECT_KEEP_WIDTH",
+    "STRETCH_ASPECT_KEEP_HEIGHT"
+  ]
+}

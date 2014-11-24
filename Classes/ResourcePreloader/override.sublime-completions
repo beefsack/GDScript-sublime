@@ -1,0 +1,11 @@
+{
+  "scope": "entity.name.function.gdscript",
+  "completions": [
+    "add_resource",
+    "remove_resource",
+    "rename_resource",
+    "has_resource",
+    "get_resource",
+    "get_resource_list"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "open(...)",
+      "contents": "open(${1:path})"
+    },
+    {
+      "trigger": "list_dir_begin()",
+      "contents": "list_dir_begin()"
+    },
+    {
+      "trigger": "get_next()",
+      "contents": "get_next()"
+    },
+    {
+      "trigger": "current_is_dir()",
+      "contents": "current_is_dir()"
+    },
+    {
+      "trigger": "list_dir_end()",
+      "contents": "list_dir_end()"
+    },
+    {
+      "trigger": "get_drive_count()",
+      "contents": "get_drive_count()"
+    },
+    {
+      "trigger": "get_drive(...)",
+      "contents": "get_drive(${1:idx})"
+    },
+    {
+      "trigger": "change_dir(...)",
+      "contents": "change_dir(${1:todir})"
+    },
+    {
+      "trigger": "get_current_dir()",
+      "contents": "get_current_dir()"
+    },
+    {
+      "trigger": "make_dir(...)",
+      "contents": "make_dir(${1:name})"
+    },
+    {
+      "trigger": "make_dir_recursive(...)",
+      "contents": "make_dir_recursive(${1:name})"
+    },
+    {
+      "trigger": "file_exists(...)",
+      "contents": "file_exists(${1:name})"
+    },
+    {
+      "trigger": "dir_exists(...)",
+      "contents": "dir_exists(${1:name})"
+    },
+    {
+      "trigger": "get_space_left()",
+      "contents": "get_space_left()"
+    },
+    {
+      "trigger": "copy(...)",
+      "contents": "copy(${1:from}, ${2:to})"
+    },
+    {
+      "trigger": "rename(...)",
+      "contents": "rename(${1:from}, ${2:to})"
+    },
+    {
+      "trigger": "remove(...)",
+      "contents": "remove(${1:file})"
+    }
+  ]
+}

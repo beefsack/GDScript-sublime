@@ -1,0 +1,45 @@
+{
+  "scope": "entity.name.type.class-type.gdscript|entity.name.type.variant.gdscript",
+  "completions": [
+    {
+      "trigger": "set_editor(...)",
+      "contents": "set_editor(${1:name})"
+    },
+    {
+      "trigger": "get_editor()",
+      "contents": "get_editor()"
+    },
+    {
+      "trigger": "add_source(...)",
+      "contents": "add_source(${1:path}, ${2:md5})"
+    },
+    {
+      "trigger": "get_source_path(...)",
+      "contents": "get_source_path(${1:idx})"
+    },
+    {
+      "trigger": "get_source_md5(...)",
+      "contents": "get_source_md5(${1:idx})"
+    },
+    {
+      "trigger": "remove_source(...)",
+      "contents": "remove_source(${1:idx})"
+    },
+    {
+      "trigger": "get_source_count()",
+      "contents": "get_source_count()"
+    },
+    {
+      "trigger": "set_option(...)",
+      "contents": "set_option(${1:key}, ${2:value})"
+    },
+    {
+      "trigger": "get_option(...)",
+      "contents": "get_option(${1:key})"
+    },
+    {
+      "trigger": "get_options()",
+      "contents": "get_options()"
+    }
+  ]
+}
