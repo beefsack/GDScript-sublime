@@ -211,7 +211,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>([a-z][a-zA-Z_0-9]*)</string>
+			<string>([a-z_][a-zA-Z_0-9]*)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
