@@ -1,7 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "set_percent_visible",
-    "is_percent_visible"
-  ]
-}

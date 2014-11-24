@@ -1,8 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "pck_start",
-    "add_file",
-    "flush"
-  ]
-}

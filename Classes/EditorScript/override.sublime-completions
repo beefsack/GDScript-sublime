@@ -1,8 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "_run",
-    "add_root_node",
-    "get_scene"
-  ]
-}
