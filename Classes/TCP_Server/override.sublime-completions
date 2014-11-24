@@ -1,9 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "listen",
-    "is_connection_available",
-    "take_connection",
-    "stop"
-  ]
-}

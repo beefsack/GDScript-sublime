@@ -1,8 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "set_aabb",
-    "get_aabb",
-    "is_on_screen"
-  ]
-}

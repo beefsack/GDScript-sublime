@@ -1,9 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "set_radius",
-    "get_radius",
-    "set_height",
-    "get_height"
-  ]
-}

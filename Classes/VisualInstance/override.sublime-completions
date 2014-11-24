@@ -1,8 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "set_base",
-    "set_layer_mask",
-    "get_layer_mask"
-  ]
-}

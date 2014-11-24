@@ -1,7 +1,0 @@
-{
-  "scope": "entity.name.function.gdscript",
-  "completions": [
-    "variant_to_base64",
-    "base64_to_variant"
-  ]
-}
