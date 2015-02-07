@@ -212,14 +212,8 @@
 		<dict>
 			<key>match</key>
 			<string>([a-z_][a-zA-Z_0-9]*)</string>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.type.variant.gdscript</string>
-				</dict>
-			</dict>
+		   <key>name</key>
+		   <string>entity.name.type.variant.gdscript</string>
 		</dict>
 		<dict>
 			<key>begin</key>

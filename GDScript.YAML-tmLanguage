@@ -66,9 +66,8 @@ patterns:
   match: \b(?i:static|export|tool|yield)\b
 - name: entity.name.type.class-type.gdscript
   match: ([A-Z][a-zA-Z_0-9]*)
-- match: ([a-z_][a-zA-Z_0-9]*)
-  captures:
-    '1': {name: entity.name.type.variant.gdscript}
+- name: entity.name.type.variant.gdscript
+  match: ([a-z_][a-zA-Z_0-9]*)
 - begin: ([a-z][a-zA-Z_0-9]*)\s*\(
   beginCaptures:
     '1': {name: entity.name.function.reference.gdscript}
