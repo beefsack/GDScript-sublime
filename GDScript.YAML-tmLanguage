@@ -1,74 +1,78 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
----
 name: GDScript (Godot Engine)
 scopeName: source.gdscript
-fileTypes:
-- gd
+fileTypes: [gd]
 uuid: e08b7d98-5d50-4aa9-8935-7c759a4a8fdd
-
 patterns:
-- match: "(#).*$\\n?"
-  name: comment.line.number-sign.gdscript
+- name: punctuation.definition.comment.gdscript
+  match: (#).*$\n?
+# - name: comment.line.number-sign.gdscript
+#   match: (#).*$\n?
+#   captures:
+#     '1': {name: punctuation.definition.comment.gdscript}
+- name: string.quoted.double.gdscript
+  begin: '"'
+  end: (?<!\\)"
+- name: string.quoted.single.gdscript
+  begin: "'"
+  end: (?<!\\)'
+- name: constant.numeric.integer.hexadecimal.gdscript
+  match: \b(?i:0x\h*)\b
+- name: constant.numeric.float.gdscript
+  match: \b(?i:(\d+\.\d*(e[\-\+]?\d+)?))\b
+- name: constant.numeric.float.gdscript
+  match: \b(?i:(\.\d+(e[\-\+]?\d+)?))\b
+- name: constant.numeric.float.gdscript
+  match: \b(?i:(\d+e[\-\+]?\d+))\b
+- name: constant.numeric.integer.gdscript
+  match: \b\d+\b
+- name: keyword.control.flow.gdscript
+  match: \b(?i:elif|else|for|if|while|break|continue|pass|return)\b
+- name: keyword.operator.logical.gdscript
+  match: \b(?i:&&|and|in|is|!|not|\|\||or)\b
+- name: keyword.operator.comparison.gdscript
+  match: <=|>=|==|<|>|!=
+- name: keyword.operator.arithmetic.gdscript
+  match: \+=|-=|\*=|/=|%=|&=|\|=|\*|/|%|\+|-|<<|>>|&|\||\^|~
+- name: keyword.operator.assignment.gdscript
+  match: '='
+- match: '^\s*(?i:(class))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*:'
   captures:
-    "1":
-      name: punctuation.definition.comment.gdscript
-- begin: "\""
-  end: "(?<!\\\\)\""
-  name: string.quoted.double.gdscript
-- begin: "'"
-  end: "(?<!\\\\)'"
-  name: string.quoted.single.gdscript
-- match: "\\b(?i:0x\\h*)\\b"
-  name: constant.numeric.integer.hexadecimal.gdscript
-- match: "\\b(?i:(\\d+\\.\\d*(e[\\-\\+]?\\d+)?))\\b"
-  name: constant.numeric.float.gdscript
-- match: "\\b(?i:(\\.\\d+(e[\\-\\+]?\\d+)?))\\b"
-  name: constant.numeric.float.gdscript
-- match: "\\b(?i:(\\d+e[\\-\\+]?\\d+))\\b"
-  name: constant.numeric.float.gdscript
-- match: "\\b\\d+\\b"
-  name: constant.numeric.integer.gdscript
-- match: "\\b(?i:elif|else|for|if|while|break|continue|pass|return)\\b"
-  name: keyword.control.flow.gdscript
-- match: "\\b(?i:&&|and|in|is|!|not|\\|\\||or)\\b"
-  name: keyword.operator.logical.gdscript
-- match: "<=|>=|==|<|>|!="
-  name: keyword.operator.comparison.gdscript
-- match: "\\+=|-=|\\*=|/=|%=|&=|\\|=|\\*|/|%|\\+|-|<<|>>|&|\\||\\^|~"
-  name: keyword.operator.arithmetic.gdscript
-- match: "="
-  name: keyword.operator.assignment.gdscript
-- match: "^\\s*(?i:(class))\\s+([a-zA-Z_][a-zA-Z_0-9]*)\\s*:"
-  captures:
-    "1":
-      name: storage.type.class.gdscript
-    "2":
-      name: entity.name.type.class.gdscript
-- begin: "^\\s*(?i:(func))\\s+([a-zA-Z_][a-zA-Z_0-9]*)\\s*\\("
-  end: "\\)\\s*:"
+    '1': {name: storage.type.class.gdscript}
+    '2': {name: entity.name.type.class.gdscript}
+- begin: ^\s*(?i:(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\(
   beginCaptures:
-    "1":
-      name: storage.type.function.gdscript
-    "2":
-      name: entity.name.function.gdscript
+    '1': {name: storage.type.function.gdscript}
+    '2': {name: entity.name.function.gdscript}
+  end: '\)\s*:'
   patterns:
-  - match: "[a-zA-Z_][a-zA-Z_0-9]*"
-    name: variable.parameter.gdscript
-- match: "\\b(?i:(var))\\s+([a-zA-Z_][a-zA-Z_0-9]*)"
+  - name: variable.parameter.gdscript
+    match: '[a-zA-Z_][a-zA-Z_0-9]*'
+- match: \b(?i:(var))\s+([a-zA-Z_][a-zA-Z_0-9]*)
   captures:
-    "1":
-      name: storage.type.var.gdscript
-    "2":
-      name: variable.other.gdscript
-- match: "^\\s*\\b(?i:(const))\\b"
+    '1': {name: storage.type.var.gdscript}
+    '2': {name: variable.other.gdscript}
+- match: \b(?i:(const))\s+([a-zA-Z_][a-zA-Z_0-9]*)
   captures:
-    "1":
-      name: storage.type.const.gdscript
-- match: "\\b(?i:(?i:extends))\\b"
-  name: keyword.other.gdscript
-- match: "(?<=extends)\\s+[a-zA-Z_][a-zA-Z_0-9]*(\\.([a-zA-Z_][a-zA-Z_0-9]*))?"
-  name: entity.other.inherited-class.gdscript
-- match: "\\b(?i:true|false)\\b"
-  name: constant.language.gdscript
-- match: "\\b(?i:static|export|tool)\\b"
-  name: storage.modifier.static.gdscript
+    '1': {name: storage.type.const.gdscript}
+    '2': {name: variable.other.gdscript}
+- name: keyword.other.gdscript
+  match: \b(?i:(?i:extends))\b
+- name: entity.other.inherited-class.gdscript
+  match: (?<=extends)\s+[a-zA-Z_][a-zA-Z_0-9]*(\.([a-zA-Z_][a-zA-Z_0-9]*))?
+- name: constant.language.gdscript
+  match: \b(?i:true|false)\b
+- name: storage.modifier.static.gdscript
+  match: \b(?i:static|export|tool|yield)\b
+- name: entity.name.type.class-type.gdscript
+  match: ([A-Z][a-zA-Z_0-9]*)
+- match: ([a-z_][a-zA-Z_0-9]*)
+  captures:
+    '1': {name: entity.name.type.variant.gdscript}
+- begin: ([a-z][a-zA-Z_0-9]*)\s*\(
+  beginCaptures:
+    '1': {name: entity.name.function.reference.gdscript}
+  end: \)
+  patterns:
+  - name: variable.parameter.gdscript
+    match: ([a-zA-Z_][a-zA-Z_0-9]*)
