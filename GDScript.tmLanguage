@@ -11,14 +11,6 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<!-- <key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.comment.gdscript</string>
-				</dict>
-			</dict> -->
 			<key>match</key>
 			<string>(#).*$\n?</string>
 			<key>name</key>
@@ -181,7 +173,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:(?i:extends))\b</string>
+			<string>\b(?i:extends|assert)\b</string>
 			<key>name</key>
 			<string>keyword.other.gdscript</string>
 		</dict>
@@ -212,8 +204,8 @@
 		<dict>
 			<key>match</key>
 			<string>([a-z_][a-zA-Z_0-9]*)</string>
-		   <key>name</key>
-		   <string>entity.name.type.variant.gdscript</string>
+			<key>name</key>
+			<string>entity.name.type.variant.gdscript</string>
 		</dict>
 		<dict>
 			<key>begin</key>
