@@ -185,7 +185,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:true|false)\b</string>
+			<string>\b(?i:true|false|null)\b</string>
 			<key>name</key>
 			<string>constant.language.gdscript</string>
 		</dict>
