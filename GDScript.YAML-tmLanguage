@@ -102,7 +102,7 @@ patterns:
 - name: keyword.control.flow.yield.gdscript
   match: \b(?i:yield)\b
 - name: invalid.illegal
-  match: \b(?i:var|const|onready|class|func|signal)
+  match: \b(?i:var|const|onready|class|func|signal)\b
 - name: entity.name.type.class-type.gdscript
   match: ([A-Z][a-zA-Z_0-9]*)
 - name: entity.name.type.variant.gdscript

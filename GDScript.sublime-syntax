@@ -116,7 +116,7 @@ contexts:
         4: entity.name.function.gdscript
     - match: \b(?i:yield)\b
       scope: keyword.control.flow.yield.gdscript
-    - match: \b(?i:var|const|onready|class|func|signal)
+    - match: \b(?i:var|const|onready|class|func|signal)\b
       scope: invalid.illegal
     - match: "([A-Z][a-zA-Z_0-9]*)"
       scope: entity.name.type.class-type.gdscript

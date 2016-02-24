@@ -340,7 +340,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:var|const|onready|class|func|signal)</string>
+			<string>\b(?i:var|const|onready|class|func|signal)\b</string>
 			<key>name</key>
 			<string>invalid.illegal</string>
 		</dict>
