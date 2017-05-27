@@ -28,7 +28,7 @@ patterns:
   begin: '@"'
   end: (?<!\\)"
 - name: constant.numeric.integer.hexadecimal.gdscript
-  match: \b(?i:0x\h*)\b
+  match: \b(?i:0x[0-9A-Fa-f]*)\b
 - name: constant.numeric.float.gdscript
   match: \b(?i:(\d+\.\d*(e[\-\+]?\d+)?))\b
 - name: constant.numeric.float.gdscript
