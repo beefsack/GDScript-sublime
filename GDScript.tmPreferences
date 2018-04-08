@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Comments</string>
+	<string>Miscellaneous</string>
 	<key>scope</key>
 	<string>source.gdscript</string>
 	<key>settings</key>
@@ -14,7 +14,7 @@
 				<key>name</key>
 				<string>TM_COMMENT_START</string>
 				<key>value</key>
-				<string>// </string>
+				<string># </string>
 			</dict>
 			<dict>
 				<key>name</key>
