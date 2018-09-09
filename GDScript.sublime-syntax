@@ -82,10 +82,39 @@ contexts:
           pop: true
         - match: "[a-zA-Z_][a-zA-Z_0-9]*"
           scope: variable.parameter.gdscript
-          
     - match: '^\s*(?i:(?:(remote)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
       captures:
         1: storage.modifier.remote-function.gdscript
+        2: storage.type.function.gdscript
+        3: entity.name.function.gdscript
+      push:
+        - match: '\)\s*:'
+          pop: true
+        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+          scope: variable.parameter.gdscript
+    - match: '^\s*(?i:(?:(sync)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+      captures:
+        1: storage.modifier.sync-function.gdscript
+        2: storage.type.function.gdscript
+        3: entity.name.function.gdscript
+      push:
+        - match: '\)\s*:'
+          pop: true
+        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+          scope: variable.parameter.gdscript
+    - match: '^\s*(?i:(?:(master)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+      captures:
+        1: storage.modifier.master-function.gdscript
+        2: storage.type.function.gdscript
+        3: entity.name.function.gdscript
+      push:
+        - match: '\)\s*:'
+          pop: true
+        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+          scope: variable.parameter.gdscript
+    - match: '^\s*(?i:(?:(slave)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+      captures:
+        1: storage.modifier.slave-function.gdscript
         2: storage.type.function.gdscript
         3: entity.name.function.gdscript
       push:
@@ -98,7 +127,7 @@ contexts:
         1: storage.type.signal.gdscript
         2: entity.name.function.siglan.gdscript
       push:
-        - match: '\)\s*:'
+        - match: '\)\s*'
           pop: true
         - match: "[a-zA-Z_][a-zA-Z_0-9]*"
           scope: variable.parameter.gdscript
