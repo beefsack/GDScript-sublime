@@ -64,7 +64,7 @@ patterns:
     '1': {name: storage.modifier.static-function.gdscript}
     '2': {name: storage.type.function.gdscript}
     '3': {name: entity.name.function.gdscript}
-  end: '\)\s*:'
+  end: '\)\s*((\-\>)\s*([a-zA-Z_][a-zA-Z_0-9]*))?\s*:'
   patterns:
   - name: variable.parameter.gdscript
     match: '[a-zA-Z_][a-zA-Z_0-9]*'
@@ -72,7 +72,7 @@ patterns:
   beginCaptures:
     '1': {name: storage.type.signal.gdscript}
     '2': {name:  entity.name.function.siglan.gdscript}
-  end: '\)\s*:'
+  end: '\)\s*((\-\>)\s*([a-zA-Z_][a-zA-Z_0-9]*))?\s*:'
   patterns:
   - name: variable.parameter.gdscript
     match: '[a-zA-Z_][a-zA-Z_0-9]*'
