@@ -203,7 +203,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>\)\s*:</string>
+			<string>\)\s*((\-\>)\s*([a-zA-Z_][a-zA-Z_0-9]*))?\s*:</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -231,7 +231,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>\)\s*:</string>
+			<string>\)\s*((\-\>)\s*([a-zA-Z_][a-zA-Z_0-9]*))?\s*:</string>
 			<key>patterns</key>
 			<array>
 				<dict>
