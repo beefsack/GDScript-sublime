@@ -61,6 +61,7 @@ contexts:
     - match: '^\s*(?i:(class))\s+({{identifier}})\s*:'
       captures:
         1: storage.type.class.gdscript
+        # todo: should not use 'entity' except where it's declared
         2: entity.name.type.class.gdscript
 
     - include: functions
@@ -90,6 +91,7 @@ contexts:
     - match: '\b((?i:setget))\b\s+(?:,?({{identifier}})|({{identifier}})\s*,\s*({{identifier}}))'
       captures:
         1: keyword.operator.setget.gdscript
+        # todo: should not use 'entity' except where it's declared
         2: entity.name.function.gdscript
         3: entity.name.function.gdscript
         4: entity.name.function.gdscript
@@ -97,8 +99,6 @@ contexts:
       scope: keyword.control.flow.yield.gdscript
     - match: \b(?i:var|const|onready|enum|class|func|signal)\b
       scope: invalid.illegal
-    - match: "([A-Z][a-zA-Z_0-9]*)"
-      scope: entity.name.type.class-type.gdscript
     - match: '([a-z][a-zA-Z_0-9]*)\s*\('
       captures:
         1: entity.name.function.reference.gdscript
