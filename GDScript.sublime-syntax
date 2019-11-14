@@ -61,7 +61,6 @@ contexts:
     - match: '^\s*(?i:(class))\s+({{identifier}})\s*:'
       captures:
         1: storage.type.class.gdscript
-        # todo: should not use 'entity' except where it's declared
         2: entity.name.type.class.gdscript
 
     - include: functions
