@@ -14,11 +14,21 @@
 "escaped quote \" foo"
 #              ^^ constant.character.escape.gdscript
 
-func foo():
+
+func foo(): pass
 # <- storage.type.function.gdscript
 #    ^^^ entity.name.function.gdscript
-    pass
-#   ^^^^ keyword.control.flow.gdscript
+#           ^^^^ keyword.control.flow.gdscript
+static func f(): pass
+# <- storage.modifier.gdscript
+remote func f(): pass
+# <- storage.modifier.gdscript 
+sync func f(): pass
+# <- storage.modifier.gdscript 
+master func f(): pass
+# <- storage.modifier.gdscript 
+slave func f(): pass
+# <- storage.modifier.gdscript 
 
 func foo () :
 #^^^^^^^^ meta.function.gdscript
@@ -32,10 +42,15 @@ func foo(bar,  # something
 #        ^^^ variable.parameter.gdscript
 #           ^ punctuation.separator.parameters.gdscript
 #              ^^^^^^^^^^^ comment.line
-         baz):
+         baz): pass
 # ^^^^^^^^^^^ meta.function.parameters.gdscript 
 #           ^ punctuation.section.parameters.end.gdscript
-    pass
+func foo \
+(): pass
+# <- meta.function.parameters.gdscript 
+func foo \  # nothing allowed after
+#        ^ punctuation.separator.continuation.line.gdscript
+#         ^^^^^^^^^^^^^^^^^^^^^^^^^ invalid.illegal.unexpected-text.gdscript
 
 func foo() -> int:
 #          ^^ keyword.operator.arrow.forward.gdscript
@@ -53,13 +68,24 @@ func foo() -> FuncRef: pass
 
 func foo() -> funcref: pass # todo: illegal
 
-static func f(): pass
-# <- storage.modifier.gdscript
-remote func f(): pass
-# <- storage.modifier.gdscript 
-sync func f(): pass
-# <- storage.modifier.gdscript 
-master func f(): pass
-# <- storage.modifier.gdscript 
-slave func f(): pass
-# <- storage.modifier.gdscript 
+
+
+signal foo
+# <- storage.type.signal.gdscript
+#      ^^^ entity.name.signal.gdscript
+signal foo()
+#^^^^^^^^^ meta.signal.gdscript
+#         ^^ meta.signal.parameters.gdscript
+#         ^  punctuation.section.parameters.begin.gdscript
+#          ^ punctuation.section.parameters.end.gdscript
+signal foo(bar, baz)
+#          ^^^ variable.parameter.gdscript
+#             ^ punctuation.separator.parameters.gdscript
+signal foo \
+()
+# < meta.signal.parameters.gdscript
+
+# todo
+func foo():
+    var x = {func = 1}  
+    var y = {signal = 1} 
