@@ -98,7 +98,7 @@ var x setget set_x ,get_x
 
 func foo():
     bar()
-#   todo meta.function-call.gdscript variable.function.gdscript
+#   ^^^ meta.function-call.gdscript variable.function.gdscript
 
 # todo
 func foo():

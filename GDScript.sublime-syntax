@@ -99,7 +99,7 @@ contexts:
       scope: invalid.illegal
     - match: '([a-z][a-zA-Z_0-9]*)\s*\('
       captures:
-        1: entity.name.function.reference.gdscript
+        1: meta.function-call.gdscript variable.function.gdscript
       push:
         - match: \)
           pop: true
