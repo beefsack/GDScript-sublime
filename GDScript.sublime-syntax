@@ -7,18 +7,16 @@ file_extensions:
 scope: source.gdscript
 
 # todo: insert keyword in scope, e.g. keyword.control.flow.pass
-# todo: function meta scope
 # todo: single underscore isn't allowed as var name
+# todo: String and funcref should be support.class
 
 variables:
   identifier: \b[a-zA-Z_][a-zA-Z_0-9]*\b
 
 contexts:
+  prototype:
+    - include: comments
   main:
-    - match: (#).*$\n?
-      scope: comment.line.number-sign.gdscript
-      captures:
-        1: punctuation.definition.comment.number-sign.gdscript
     - match: ^(""")
       captures:
         1: punctuation.definition.comment.triple-quote.gdscript
@@ -28,16 +26,7 @@ contexts:
           captures:
             1: punctuation.definition.comment.triple-quote.gdscript
           pop: true
-    - match: '"'
-      push:
-        - meta_scope: string.quoted.double.gdscript
-        - match: (?<!\\)"
-          pop: true
-    - match: "'"
-      push:
-        - meta_scope: string.quoted.single.gdscript
-        - match: (?<!\\)'
-          pop: true
+    - include: strings
     - match: '"""'
       push:
         - meta_scope: string.quoted.triple.gdscript
@@ -68,68 +57,16 @@ contexts:
       scope: keyword.operator.arithmetic.gdscript
     - match: "="
       scope: keyword.operator.assignment.gdscript
-    - match: \b(bool|int|float|String|funcref)\b
-      scope: support.type.basic.gdscript
-    - match: '\b(Vector[23]|Rect2|Matrix32?|Plane|Quat|AABB|Transform)\b'
-      scope: support.type.vector.gdscript
-    - match: \b(Color|Image|NodePath|RID|Object|InputEvent)\b
-      scope: support.type.engine.gdscript
-    - match: '\b(Array|Dictionary|ByteArray|IntArray|FloatArray|StringArray|Vector[23]Array|ColorArray)\b'
-      scope: support.type.container.gdscript
+
+    - include: builtin-types
+    
     - match: '^\s*(?i:(class))\s+({{identifier}})\s*:'
       captures:
         1: storage.type.class.gdscript
         2: entity.name.type.class.gdscript
-    - match: '^\s*(?i:(?:(static)\s+)?(func))\s+({{identifier}})\s*\('
-      captures:
-        1: storage.modifier.static-function.gdscript
-        2: storage.type.function.gdscript
-        3: entity.name.function.gdscript
-      push:
-        - match: '\)\s*((\-\>)\s*({{identifier}}))?\s*:'
-          pop: true
-        - match: "{{identifier}}"
-          scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(remote)\s+)?(func))\s+({{identifier}})\s*\('
-      captures:
-        1: storage.modifier.remote-function.gdscript
-        2: storage.type.function.gdscript
-        3: entity.name.function.gdscript
-      push:
-        - match: '\)\s*:'
-          pop: true
-        - match: "{{identifier}}"
-          scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(sync)\s+)?(func))\s+({{identifier}})\s*\('
-      captures:
-        1: storage.modifier.sync-function.gdscript
-        2: storage.type.function.gdscript
-        3: entity.name.function.gdscript
-      push:
-        - match: '\)\s*:'
-          pop: true
-        - match: "{{identifier}}"
-          scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(master)\s+)?(func))\s+({{identifier}})\s*\('
-      captures:
-        1: storage.modifier.master-function.gdscript
-        2: storage.type.function.gdscript
-        3: entity.name.function.gdscript
-      push:
-        - match: '\)\s*:'
-          pop: true
-        - match: "{{identifier}}"
-          scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(slave)\s+)?(func))\s+({{identifier}})\s*\('
-      captures:
-        1: storage.modifier.slave-function.gdscript
-        2: storage.type.function.gdscript
-        3: entity.name.function.gdscript
-      push:
-        - match: '\)\s*:'
-          pop: true
-        - match: "{{identifier}}"
-          scope: variable.parameter.gdscript
+
+    - include: functions
+
     - match: '^\s*(?i:(signal))\s+({{identifier}})\s*\('
       captures:
         1: storage.type.signal.gdscript
@@ -182,3 +119,88 @@ contexts:
           pop: true
         - match: "({{identifier}})"
           scope: variable.parameter.gdscript
+
+  comments:
+    - match: (#).*
+      scope: comment.line.number-sign.gdscript
+      captures:
+        1: punctuation.definition.comment.number-sign.gdscript
+
+  strings:
+    # todo: other character escapes
+    # todo: sprintf language
+    - match: \"
+      scope: punctuation.definition.string.begin.gdscript
+      push:
+        - meta_scope: meta.string.gdscript string.quoted.double.gdscript
+        - meta_include_prototype: false
+        - match: \\\"
+          scope: constant.character.escape.gdscript
+        - match: \"
+          scope: punctuation.definition.string.end.gdscript
+          pop: true
+    - match: \'
+      scope: punctuation.definition.string.begin.gdscript
+      push:
+        - meta_scope: meta.string.gdscript string.quoted.double.gdscript
+        - meta_include_prototype: false
+        - match: \\\'
+          scope: constant.character.escape.gdscript
+        - match: \'
+          scope: punctuation.definition.string.end.gdscript
+          pop: true
+
+  builtin-types:
+    # It's debateable whether these "built-in types" should be categorized as ``storage`` or
+    # ``support``. I chose storage because the default color scheme differentiates it from
+    # support and that's useful because things descended from Object get instantiated by
+    # calling ``new()``, but these don't
+    #
+    # https://docs.godotengine.org/en/3.1/getting_started/scripting/gdscript/gdscript_basics.html#built-in-types
+    - match: \b(?:bool|int|float|String|funcref)\b
+      scope: storage.type.basic.gdscript
+    - match: '\b(?:Vector[23]|Rect2|Matrix32?|Plane|Quat|AABB|Transform)\b'
+      scope: storage.type.vector.gdscript
+    - match: \b(?:Color|Image|NodePath|RID|Object|InputEvent)\b
+      scope: storage.type.engine.gdscript
+    - match: '\b(Array|Dictionary|ByteArray|IntArray|FloatArray|StringArray|Vector[23]Array|ColorArray)\b'
+      scope: storage.type.container.gdscript
+
+  functions:
+    - match: \b(?:(static|remote|sync|master|slave)\s+)?(func)\b
+      captures:
+        1: storage.modifier.gdscript
+        2: storage.type.function.gdscript
+      push:
+        # todo: line-continuation-or-pop (see built-in Python syntax)
+        - meta_scope: meta.function.gdscript
+        - match: '{{identifier}}'
+          scope: entity.name.function.gdscript
+        - match: (?=\()
+          set:
+            # todo: typed params
+            - meta_scope: meta.function.parameters.gdscript
+            - match: \(
+              scope: punctuation.section.parameters.begin.gdscript
+            - match: '{{identifier}}'
+              scope: variable.parameter.gdscript
+            - match: ','
+              scope: punctuation.separator.parameters.gdscript
+            - match: \)
+              scope: punctuation.section.parameters.end.gdscript
+              set:
+                - meta_scope: meta.function.gdscript
+                - include: start-func-body
+                - match: ->
+                  scope: keyword.operator.arrow.forward.gdscript
+                  set: 
+                    - meta_scope: meta.function.return-type
+                    - include: start-func-body
+                    - include: builtin-types
+                    - match: '{{identifier}}'
+                      scope: support.class.gdscript
+
+  start-func-body:
+    - match: ':'
+      scope: punctuation.section.function.begin.gdscript
+      pop: true
