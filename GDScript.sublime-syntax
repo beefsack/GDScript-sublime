@@ -99,8 +99,6 @@ contexts:
       scope: invalid.illegal
     - match: "([A-Z][a-zA-Z_0-9]*)"
       scope: entity.name.type.class-type.gdscript
-    - match: "([a-z_][a-zA-Z_0-9]*)"
-      scope: entity.name.type.variant.gdscript
     - match: '([a-z][a-zA-Z_0-9]*)\s*\('
       captures:
         1: entity.name.function.reference.gdscript
