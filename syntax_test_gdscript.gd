@@ -69,7 +69,6 @@ func foo() -> FuncRef: pass
 func foo() -> funcref: pass # todo: illegal
 
 
-
 signal foo
 # <- storage.type.signal.gdscript
 #      ^^^ entity.name.signal.gdscript
@@ -84,6 +83,22 @@ signal foo(bar, baz)
 signal foo \
 ()
 # < meta.signal.parameters.gdscript
+
+var x setget set_x
+#            ^^^^^ variable.function.setter.gdscript
+var x setget set_x, get_x
+#            ^^^^^ variable.function.setter.gdscript
+#                 ^ punctuation.separator.parameters.gdscript
+#                   ^^^^^ variable.function.getter.gdscript
+var x setget, get_x
+#             ^^^^^ variable.function.getter.gdscript
+var x setget set_x ,get_x
+#            ^^^^^ variable.function.setter.gdscript
+#                   ^^^^^ variable.function.getter.gdscript
+
+func foo():
+    bar()
+#   todo meta.function-call.gdscript variable.function.gdscript
 
 # todo
 func foo():

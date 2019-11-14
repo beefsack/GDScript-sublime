@@ -88,13 +88,12 @@ contexts:
       scope: constant.language.gdscript
     - match: \b(?i:export|tool)\b
       scope: storage.modifier.static.gdscript
-    - match: '\b((?i:setget))\b\s+(?:,?({{identifier}})|({{identifier}})\s*,\s*({{identifier}}))'
+    - match: \b(setget)\b\s*({{identifier}})?\s*(,)?\s*({{identifier}})?
       captures:
         1: keyword.operator.setget.gdscript
-        # todo: should not use 'entity' except where it's declared
-        2: entity.name.function.gdscript
-        3: entity.name.function.gdscript
-        4: entity.name.function.gdscript
+        2: variable.function.setter.gdscript
+        3: punctuation.separator.parameters.gdscript
+        4: variable.function.getter.gdscript
     - match: \b(?i:yield)\b
       scope: keyword.control.flow.yield.gdscript
     - match: \b(?i:var|const|onready|enum|class|func|signal)\b
