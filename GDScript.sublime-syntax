@@ -132,7 +132,7 @@ contexts:
     - match: \'
       scope: punctuation.definition.string.begin.gdscript
       push:
-        - meta_scope: meta.string.gdscript string.quoted.double.gdscript
+        - meta_scope: meta.string.gdscript string.quoted.single.gdscript
         - meta_include_prototype: false
         - match: \\\'
           scope: constant.character.escape.gdscript

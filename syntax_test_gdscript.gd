@@ -5,7 +5,7 @@
 # <- punctuation.definition.string.begin.gdscript
 #                ^ punctuation.definition.string.end.gdscript
 ' # not a comment'
-#^^^^^^^^^^^^^^^^^ meta.string.gdscript string.quoted.double.gdscript
+#^^^^^^^^^^^^^^^^^ meta.string.gdscript string.quoted.single.gdscript
 # <- punctuation.definition.string.begin.gdscript
 #                ^ punctuation.definition.string.end.gdscript
 
