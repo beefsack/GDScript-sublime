@@ -5,6 +5,14 @@ name: GDScript (Godot Engine)
 file_extensions:
   - gd
 scope: source.gdscript
+
+# todo: insert keyword in scope, e.g. keyword.control.flow.pass
+# todo: function meta scope
+# todo: single underscore isn't allowed as var name
+
+variables:
+  identifier: \b[a-zA-Z_][a-zA-Z_0-9]*\b
+
 contexts:
   main:
     - match: (#).*$\n?
@@ -68,21 +76,21 @@ contexts:
       scope: support.type.engine.gdscript
     - match: '\b(Array|Dictionary|ByteArray|IntArray|FloatArray|StringArray|Vector[23]Array|ColorArray)\b'
       scope: support.type.container.gdscript
-    - match: '^\s*(?i:(class))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*:'
+    - match: '^\s*(?i:(class))\s+({{identifier}})\s*:'
       captures:
         1: storage.type.class.gdscript
         2: entity.name.type.class.gdscript
-    - match: '^\s*(?i:(?:(static)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+    - match: '^\s*(?i:(?:(static)\s+)?(func))\s+({{identifier}})\s*\('
       captures:
         1: storage.modifier.static-function.gdscript
         2: storage.type.function.gdscript
         3: entity.name.function.gdscript
       push:
-        - match: '\)\s*((\-\>)\s*([a-zA-Z_][a-zA-Z_0-9]*))?\s*:'
+        - match: '\)\s*((\-\>)\s*({{identifier}}))?\s*:'
           pop: true
-        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+        - match: "{{identifier}}"
           scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(remote)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+    - match: '^\s*(?i:(?:(remote)\s+)?(func))\s+({{identifier}})\s*\('
       captures:
         1: storage.modifier.remote-function.gdscript
         2: storage.type.function.gdscript
@@ -90,9 +98,9 @@ contexts:
       push:
         - match: '\)\s*:'
           pop: true
-        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+        - match: "{{identifier}}"
           scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(sync)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+    - match: '^\s*(?i:(?:(sync)\s+)?(func))\s+({{identifier}})\s*\('
       captures:
         1: storage.modifier.sync-function.gdscript
         2: storage.type.function.gdscript
@@ -100,9 +108,9 @@ contexts:
       push:
         - match: '\)\s*:'
           pop: true
-        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+        - match: "{{identifier}}"
           scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(master)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+    - match: '^\s*(?i:(?:(master)\s+)?(func))\s+({{identifier}})\s*\('
       captures:
         1: storage.modifier.master-function.gdscript
         2: storage.type.function.gdscript
@@ -110,9 +118,9 @@ contexts:
       push:
         - match: '\)\s*:'
           pop: true
-        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+        - match: "{{identifier}}"
           scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(?:(slave)\s+)?(func))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+    - match: '^\s*(?i:(?:(slave)\s+)?(func))\s+({{identifier}})\s*\('
       captures:
         1: storage.modifier.slave-function.gdscript
         2: storage.type.function.gdscript
@@ -120,39 +128,39 @@ contexts:
       push:
         - match: '\)\s*:'
           pop: true
-        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+        - match: "{{identifier}}"
           scope: variable.parameter.gdscript
-    - match: '^\s*(?i:(signal))\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\('
+    - match: '^\s*(?i:(signal))\s+({{identifier}})\s*\('
       captures:
         1: storage.type.signal.gdscript
         2: entity.name.function.siglan.gdscript
       push:
-        - match: '\)\s*((\-\>)\s*([a-zA-Z_][a-zA-Z_0-9]*))?\s*:'
+        - match: '\)\s*((\-\>)\s*({{identifier}}))?\s*:'
           pop: true
-        - match: "[a-zA-Z_][a-zA-Z_0-9]*"
+        - match: "{{identifier}}"
           scope: variable.parameter.gdscript
-    - match: '(?i:\b(?:(onready)\s+)?(var))\s+([a-zA-Z_][a-zA-Z_0-9]*)'
+    - match: '(?i:\b(?:(onready)\s+)?(var))\s+({{identifier}})'
       captures:
         1: keyword.other.onready.gdscript
         2: storage.type.var.gdscript
         3: variable.other.gdscript
-    - match: '\b(?i:(const))\s+([a-zA-Z_][a-zA-Z_0-9]*)'
+    - match: '\b(?i:(const))\s+({{identifier}})'
       captures:
         1: storage.type.const.gdscript
         2: variable.other.gdscript
-    - match: '\b(?i:(enum))\s+([a-zA-Z_][a-zA-Z_0-9]*)'
+    - match: '\b(?i:(enum))\s+({{identifier}})'
       captures:
         1: storage.type.enum.gdscript
         2: variable.other.gdscript
     - match: \b(?i:extends|assert|breakpoint)\b
       scope: keyword.other.gdscript
-    - match: '(?<=extends)\s+[a-zA-Z_][a-zA-Z_0-9]*(\.([a-zA-Z_][a-zA-Z_0-9]*))?'
+    - match: '(?<=extends)\s+{{identifier}}(\.({{identifier}}))?'
       scope: entity.other.inherited-class.gdscript
     - match: \b(?i:true|false|null)\b
       scope: constant.language.gdscript
     - match: \b(?i:export|tool)\b
       scope: storage.modifier.static.gdscript
-    - match: '\b((?i:setget))\b\s+(?:,?([a-zA-Z_][a-zA-Z_0-9]*)|([a-zA-Z_][a-zA-Z_0-9]*)\s*,\s*([a-zA-Z_][a-zA-Z_0-9]*))'
+    - match: '\b((?i:setget))\b\s+(?:,?({{identifier}})|({{identifier}})\s*,\s*({{identifier}}))'
       captures:
         1: keyword.operator.setget.gdscript
         2: entity.name.function.gdscript
@@ -172,5 +180,5 @@ contexts:
       push:
         - match: \)
           pop: true
-        - match: "([a-zA-Z_][a-zA-Z_0-9]*)"
+        - match: "({{identifier}})"
           scope: variable.parameter.gdscript
