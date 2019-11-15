@@ -233,15 +233,17 @@ contexts:
       scope: punctuation.section.mapping.begin.gdscript
       set: dictionary-keys
   dictionary-keys:
-    # todo: why do I see meta.mapping.gdscript twice immediately before delimiter?
+    # Scope meta.mapping.gdscript appears twice immediately before delimiter, why?
     - meta_scope: meta.mapping.gdscript
     - include: dictionary-close-pop
     - match: '[:=]'
       scope: punctuation.separator.mapping.key-value.gdscript
-      set: dictionary-values
+      set: dictionary-values  # prevent infinite loop
     - match: (?=\S)
       set:
         - meta_scope: meta.mapping.key.gdscript
+        - match: '{{identifier}}(?=\s*=)'
+          set: dictionary-keys
         - match: (?=\s*[:=])
           set: dictionary-keys
         - include: expressions
@@ -250,7 +252,7 @@ contexts:
     - include: dictionary-close-pop
     - match: ','
       scope: punctuation.separator.mapping.gdscript
-      set: dictionary-keys
+      set: dictionary-keys  # prevent infinite loop
     - match: (?=\S)
       set:
         - meta_scope: meta.mapping.value.gdscript
@@ -272,7 +274,7 @@ contexts:
         - meta_scope: meta.function-call.arguments.gdscript
         - include: arguments-list
   yields:
-    - match: ^\s*yield\b
+    - match: \byield\b
       scope: keyword.control.flow.yield.gdscript
       push:
         - match: (?=\()

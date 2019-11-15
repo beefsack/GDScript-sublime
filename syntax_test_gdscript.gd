@@ -144,6 +144,9 @@ func foo():
 #              ^ punctuation.separator.arguments.gdscript
 #        ^ punctuation.section.arguments.begin.gdscript
 
+    print(yield())
+#         ^^^^^ keyword.control.flow.yield.gdscript
+
 func foo():
     var a = {}
 #           ^  meta.mapping.gdscript punctuation.section.mapping.begin.gdscript
@@ -162,14 +165,19 @@ func foo():
                 'bar'
 #               ^^^^^ meta.mapping.value.gdscript
             }
+            {int = foo}
+    var e = {yield(): 'foo'}
+#            ^^^^^ keyword.control.flow.yield.gdscript
     var x = {func = 1 + 1,
 #            ^^^^   meta.mapping.key.gdscript
 #                 ^ punctuation.separator.mapping.key-value.gdscript
 #                   ^^^^^ meta.mapping.value.gdscript
 #                        ^ meta.mapping.gdscript punctuation.separator.mapping.gdscript
-             signal = 2 }
+             signal = 2,
 #            ^^^^^^ meta.mapping.key.gdscript
+             yield = 3,
+#            ^^^^^ meta.mapping.key.gdscript
+             int=4 }
+#            ^^^ meta.mapping.key.gdscript
     var y = {signal = 3}
 #            ^^^^^^ meta.mapping.key.gdscript
-    var z = {yield = 4}
-#            ^^^^^ meta.mapping.key.gdscript
