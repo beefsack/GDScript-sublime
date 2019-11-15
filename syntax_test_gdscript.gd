@@ -101,6 +101,21 @@ var x setget set_x ,get_x
 func foo():
     bar()
 #   ^^^ meta.function-call.gdscript variable.function.gdscript
+    bar('foo', 1 + 1)
+#      ^^^^^^^^^^^^^^ meta.function-call.arguments.gdscript
+#       ^^^^^  meta.string.gdscript string.quoted.single.gdscript
+    bar('foo', 1 + 1)
+#                   ^ punctuation.section.arguments.end.gdscript
+#            ^ punctuation.separator.arguments.gdscript
+#      ^ punctuation.section.arguments.begin.gdscript
+    yield()
+#   ^^^^^ keyword.control.flow.yield.gdscript
+    yield('foo', 1 + 1)
+#         ^^^^^  meta.string.gdscript string.quoted.single.gdscript
+    yield('foo', 1 + 1)
+#                     ^ punctuation.section.arguments.end.gdscript
+#              ^ punctuation.separator.arguments.gdscript
+#        ^ punctuation.section.arguments.begin.gdscript
 
 
 func foo():
@@ -130,3 +145,5 @@ func foo():
 #            ^^^^^^ meta.mapping.key.gdscript
     var y = {signal = 3}
 #            ^^^^^^ meta.mapping.key.gdscript
+    var z = {yield = 4}
+#            ^^^^^ meta.mapping.key.gdscript

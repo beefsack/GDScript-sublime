@@ -63,17 +63,8 @@ contexts:
       scope: keyword.operator.comparison.gdscript
     - match: \+=|-=|\*=|/=|%=|&=|\|=|\*|/|%|\+|-|<<|>>|&|\||\^|~
       scope: keyword.operator.arithmetic.gdscript
-    - match: \b(?i:yield)\b
-      scope: keyword.control.flow.yield.gdscript
-    - match: '([a-z][a-zA-Z_0-9]*)\s*\('
-      captures:
-        1: meta.function-call.gdscript variable.function.gdscript
-      push:
-        # todo: expressions in function params aren't highlighted, e.g. foo('bar') string
-        - match: \)
-          pop: true
-        - match: "({{identifier}})"
-          scope: variable.parameter.gdscript
+    - include: yields
+    - include: function-calls
 
   assignments:
     - match: "="
@@ -256,6 +247,35 @@ contexts:
     - match: '\s*(})'
       captures:
         1: punctuation.section.mapping.end.gdscript
+      pop: true
+
+  function-calls:
+    - match: '{{identifier}}\s*(?=\()'
+      scope: meta.function-call.gdscript variable.function.gdscript
+    - match: (?=\()
+      push:
+        - meta_scope: meta.function-call.arguments.gdscript
+        - include: arguments-list
+  yields:
+    - match: ^\s*yield\b
+      scope: keyword.control.flow.yield.gdscript
+      push:
+        - match: (?=\()
+          push:
+            # Not sure if there's an appropriate meta scope for yield args, so
+            # giving them none for now
+            - include: arguments-list
+        - match: ''
+          pop: true
+  arguments-list:
+    # todo: nested parens, e.g. foo((1+1))
+    - match: \(
+      scope: punctuation.section.arguments.begin.gdscript
+    - include: expressions
+    - match: ','
+      scope: punctuation.separator.arguments.gdscript
+    - match: \)
+      scope: punctuation.section.arguments.end.gdscript
       pop: true
 
   line-continuation:
