@@ -1,5 +1,24 @@
 # SYNTAX TEST "Packages/User/GDScript-sublime/GDScript.sublime-syntax"
 
+""" # still a block comment """
+#   ^ comment.block.documentation.gdscript
+
+    """ indented block comment """
+#   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ comment.block.documentation.gdscript
+#   ^^^                            punctuation.definition.comment.begin.gdscript
+#                              ^^^ punctuation.definition.comment.end.gdscript
+
+var x = """ # not a comment """
+#       ^^^^^^^^^^^^^^^^^^^^^^^ meta.string.gdscript string.quoted.double.block.gdscript
+#       ^^^                     punctuation.definition.string.begin.gdscript
+#                           ^^^ punctuation.definition.string.end.gdscript
+var x = """  " lone quote does not end the string
+#            ^ string.quoted.double.block.gdscript
+"""
+var x = """ \""" """
+#           ^^ constant.character.escape.gdscript
+
+
 " # not a comment"
 #^^^^^^^^^^^^^^^^^ meta.string.gdscript string.quoted.double.gdscript
 # <- punctuation.definition.string.begin.gdscript
@@ -14,8 +33,11 @@
 "escaped quote \" foo"
 #              ^^ constant.character.escape.gdscript
 
+
 123  # this actually won't compile outside a function
 # <- constant.numeric.integer.gdscript
+#    ^ punctuation.definition.comment.number-sign.gdscript
+
 
 func foo(): pass
 # <- storage.type.function.gdscript

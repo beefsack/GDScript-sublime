@@ -20,25 +20,24 @@ contexts:
     - include: line-continuation
 
   main:
+    - include: docstrings
     - include: expressions
     - include: assignments
 
-  literals:
-    - match: ^(""")
+  docstrings:
+    - match: ^\s*(""")
       captures:
         1: punctuation.definition.comment.begin.gdscript
       push:
         - meta_scope: comment.block.documentation.gdscript
-        - match: (""")
-          captures:
-            1: punctuation.definition.comment.end.gdscript
+        - meta_include_prototype: false
+        - match: \"""
+          scope: punctuation.definition.comment.end.gdscript
           pop: true
+
+  literals:
     - include: strings
-    - match: '"""'
-      push:
-        - meta_scope: string.quoted.triple.gdscript
-        - match: (?<!\\)"""
-          pop: true
+    # todo: add the '$' symbol
     - match: '@"'
       push:
         - meta_scope: string.quoted.double.node-path.gdscript
@@ -110,7 +109,6 @@ contexts:
         3: punctuation.separator.parameters.gdscript
         4: variable.function.getter.gdscript
 
-
   comments:
     - match: (#).*
       scope: comment.line.number-sign.gdscript
@@ -118,15 +116,23 @@ contexts:
         1: punctuation.definition.comment.number-sign.gdscript
 
   strings:
-    # todo: other character escapes
     # todo: sprintf language
+    - match: \"""
+      scope: punctuation.definition.string.begin.gdscript
+      push:
+        - meta_scope: meta.string.gdscript string.quoted.double.block.gdscript
+        - meta_include_prototype: false
+        - include: character-escapes
+        - match: \"""
+          scope: punctuation.definition.string.end.gdscript
+          pop: true
+    # GDScript has double-quoted multiline strings but not single-quoted
     - match: \"
       scope: punctuation.definition.string.begin.gdscript
       push:
         - meta_scope: meta.string.gdscript string.quoted.double.gdscript
         - meta_include_prototype: false
-        - match: \\\"
-          scope: constant.character.escape.gdscript
+        - include: character-escapes
         - match: \"
           scope: punctuation.definition.string.end.gdscript
           pop: true
@@ -135,11 +141,14 @@ contexts:
       push:
         - meta_scope: meta.string.gdscript string.quoted.single.gdscript
         - meta_include_prototype: false
-        - match: \\\'
-          scope: constant.character.escape.gdscript
+        - include: character-escapes
         - match: \'
           scope: punctuation.definition.string.end.gdscript
           pop: true
+  character-escapes:
+    # Should add the rest of the character escapes here
+    - match: \\["']
+      scope: constant.character.escape.gdscript
 
   builtin-types:
     # It's debateable whether these "built-in types" should be categorized as ``storage`` or
