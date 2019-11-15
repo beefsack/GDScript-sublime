@@ -14,7 +14,13 @@ contexts:
   prototype:
     - include: comments
     - include: line-continuation
+
   main:
+    - include: literals
+    - include: expressions
+    - include: assignments
+
+  literals:
     - match: ^(""")
       captures:
         1: punctuation.definition.comment.triple-quote.gdscript
@@ -45,6 +51,11 @@ contexts:
       scope: constant.numeric.float.gdscript
     - match: \b\d+\b
       scope: constant.numeric.integer.gdscript
+
+  expressions:
+    - include: literals
+    - include: builtin-types
+    - include: dictionaries
     - match: \b(?i:elif|else|for|if|while|break|continue|pass|return)\b
       scope: keyword.control.flow.gdscript
     - match: \b(?i:&&|and|in|is|!|not|\|\||or)\b
@@ -53,11 +64,11 @@ contexts:
       scope: keyword.operator.comparison.gdscript
     - match: \+=|-=|\*=|/=|%=|&=|\|=|\*|/|%|\+|-|<<|>>|&|\||\^|~
       scope: keyword.operator.arithmetic.gdscript
+
+  assignments:
     - match: "="
       scope: keyword.operator.assignment.gdscript
 
-    - include: builtin-types
-    
     - match: '^\s*(?i:(class))\s+({{identifier}})\s*:'
       captures:
         1: storage.type.class.gdscript
@@ -65,7 +76,6 @@ contexts:
 
     - include: functions
     - include: signals
-    - include: dictionaries
 
     - match: '(?i:\b(?:(onready)\s+)?(var))\s+({{identifier}})'
       captures:
