@@ -8,6 +8,9 @@
 #   ^^^                            punctuation.definition.comment.begin.gdscript
 #                              ^^^ punctuation.definition.comment.end.gdscript
 
+""" \" """
+#   ^^ constant.character.escape.gdscript
+
 var x = """ # not a comment """
 #       ^^^^^^^^^^^^^^^^^^^^^^^ meta.string.gdscript string.quoted.double.block.gdscript
 #       ^^^                     punctuation.definition.string.begin.gdscript
