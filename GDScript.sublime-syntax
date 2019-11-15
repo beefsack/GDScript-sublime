@@ -26,12 +26,12 @@ contexts:
   literals:
     - match: ^(""")
       captures:
-        1: punctuation.definition.comment.triple-quote.gdscript
+        1: punctuation.definition.comment.begin.gdscript
       push:
         - meta_scope: comment.block.documentation.gdscript
         - match: (""")
           captures:
-            1: punctuation.definition.comment.triple-quote.gdscript
+            1: punctuation.definition.comment.end.gdscript
           pop: true
     - include: strings
     - match: '"""'
