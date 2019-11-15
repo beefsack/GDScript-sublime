@@ -28,7 +28,7 @@ contexts:
       captures:
         1: punctuation.definition.comment.triple-quote.gdscript
       push:
-        - meta_scope: comment.block.triple-quote
+        - meta_scope: comment.block.documentation.gdscript
         - match: (""")
           captures:
             1: punctuation.definition.comment.triple-quote.gdscript
