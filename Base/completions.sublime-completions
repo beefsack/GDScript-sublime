@@ -3,6 +3,8 @@
 
         "completions":
         [
+                { "trigger": "enum", "contents": "enum " },
+                { "trigger": "onready", "contents": "onready var " },
                 { "trigger": "var", "contents": "var " },
                 { "trigger": "extends", "contents": "extends " },
                 { "trigger": "const", "contents": "const "},
