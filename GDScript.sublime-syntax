@@ -16,7 +16,6 @@ contexts:
     - include: line-continuation
 
   main:
-    - include: literals
     - include: expressions
     - include: assignments
 
@@ -236,10 +235,10 @@ contexts:
       set: dictionary-values
     - match: (?=\S)
       set:
-        # todo: keys can be arbitrary expressions
         - meta_scope: meta.mapping.key.gdscript
         - match: (?=\s*[:=])
           set: dictionary-keys
+        - include: expressions
   dictionary-values:
     - meta_scope: meta.mapping.gdscript
     - include: dictionary-close-pop
@@ -252,6 +251,7 @@ contexts:
         - include: dictionary-close-pop
         - match: (?=\s*,)
           set: dictionary-values
+        - include: expressions
   dictionary-close-pop:
     - match: '\s*(})'
       captures:

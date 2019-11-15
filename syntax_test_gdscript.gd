@@ -14,6 +14,8 @@
 "escaped quote \" foo"
 #              ^^ constant.character.escape.gdscript
 
+123  # this actually won't compile outside a function
+# <- constant.numeric.integer.gdscript
 
 func foo(): pass
 # <- storage.type.function.gdscript
@@ -107,9 +109,9 @@ func foo():
 #            ^ meta.mapping.gdscript punctuation.section.mapping.end.gdscript
 #           ^^ meta.mapping.gdscript
     var b = {'foo': 1}
-#            ^^^^^ meta.mapping.key.gdscript
+#            ^^^^^ meta.mapping.key.gdscript meta.string.gdscript string.quoted.single.gdscript
 #                 ^ meta.mapping.gdscript punctuation.separator.mapping.key-value.gdscript
-#                   ^ meta.mapping.value.gdscript
+#                   ^ meta.mapping.value.gdscript constant.numeric.integer.gdscript
     var c = {key: 1}
 #            ^^^ meta.mapping.key.gdscript
     var d = { # things
