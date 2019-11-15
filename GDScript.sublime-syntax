@@ -1,6 +1,10 @@
 %YAML 1.2
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
+#
+# Useful references for GDScript lexical analysis:
+# - https://github.com/godotengine/godot-docs/blob/master/extensions/gdscript.py
+# - https://github.com/godotengine/godot/blob/master/modules/gdscript/gdscript_tokenizer.cpp
 name: GDScript (Godot Engine)
 file_extensions:
   - gd
