@@ -100,7 +100,31 @@ func foo():
     bar()
 #   ^^^ meta.function-call.gdscript variable.function.gdscript
 
-# todo
+
 func foo():
-    var x = {func = 1}  
-    var y = {signal = 1} 
+    var a = {}
+#           ^  meta.mapping.gdscript punctuation.section.mapping.begin.gdscript
+#            ^ meta.mapping.gdscript punctuation.section.mapping.end.gdscript
+#           ^^ meta.mapping.gdscript
+    var b = {'foo': 1}
+#            ^^^^^ meta.mapping.key.gdscript
+#                 ^ meta.mapping.gdscript punctuation.separator.mapping.key-value.gdscript
+#                   ^ meta.mapping.value.gdscript
+    var c = {key: 1}
+#            ^^^ meta.mapping.key.gdscript
+    var d = { # things
+#             ^^^^^^^^ comment.line
+            'foo':
+#           ^^^^^ meta.mapping.key.gdscript
+                'bar'
+#               ^^^^^ meta.mapping.value.gdscript
+            }
+    var x = {func = 1 + 1,
+#            ^^^^   meta.mapping.key.gdscript
+#                 ^ punctuation.separator.mapping.key-value.gdscript
+#                   ^^^^^ meta.mapping.value.gdscript
+#                        ^ meta.mapping.gdscript punctuation.separator.mapping.gdscript
+             signal = 2 }
+#            ^^^^^^ meta.mapping.key.gdscript
+    var y = {signal = 3}
+#            ^^^^^^ meta.mapping.key.gdscript

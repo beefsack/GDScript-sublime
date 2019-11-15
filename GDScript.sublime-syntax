@@ -65,6 +65,7 @@ contexts:
 
     - include: functions
     - include: signals
+    - include: dictionaries
 
     - match: '(?i:\b(?:(onready)\s+)?(var))\s+({{identifier}})'
       captures:
@@ -101,6 +102,7 @@ contexts:
       captures:
         1: meta.function-call.gdscript variable.function.gdscript
       push:
+        # todo: expressions in function params aren't highlighted, e.g. foo('bar') string
         - match: \)
           pop: true
         - match: "({{identifier}})"
@@ -153,7 +155,7 @@ contexts:
       scope: storage.type.container.gdscript
 
   functions:
-    - match: \b(?:(static|remote|sync|master|slave)\s+)?(func)\b
+    - match: ^\s*(?:(static|remote|sync|master|slave)\s+)?(func)\b
       captures:
         1: storage.modifier.gdscript
         2: storage.type.function.gdscript
@@ -184,14 +186,14 @@ contexts:
                     - include: builtin-types
                     - match: '{{identifier}}'
                       scope: support.class.gdscript
-
   start-func-body:
     - match: ':'
       scope: punctuation.section.function.begin.gdscript
       pop: true
 
+
   signals:
-    - match: \bsignal\b
+    - match: ^\s*signal\b
       scope: storage.type.signal.gdscript
       push:
         # todo: line continuations (see functions)
@@ -212,6 +214,43 @@ contexts:
             - match: \)
               scope: punctuation.section.parameters.end.gdscript
               pop: true
+
+
+  dictionaries:
+    - match: '{'
+      scope: punctuation.section.mapping.begin.gdscript
+      set: dictionary-keys
+  dictionary-keys:
+    # todo: why do I see meta.mapping.gdscript twice immediately before delimiter?
+    - meta_scope: meta.mapping.gdscript
+    - include: dictionary-close-pop
+    - match: '[:=]'
+      scope: punctuation.separator.mapping.key-value.gdscript
+      set: dictionary-values
+    - match: (?=\S)
+      set:
+        # todo: keys can be arbitrary expressions
+        - meta_scope: meta.mapping.key.gdscript
+        - match: (?=\s*[:=])
+          set: dictionary-keys
+  dictionary-values:
+    - meta_scope: meta.mapping.gdscript
+    - include: dictionary-close-pop
+    - match: ','
+      scope: punctuation.separator.mapping.gdscript
+      set: dictionary-keys
+    - match: (?=\S)
+      set:
+        - meta_scope: meta.mapping.value.gdscript
+        - include: dictionary-close-pop
+        - match: (?=\s*,)
+          set: dictionary-values
+  dictionary-close-pop:
+    - match: '\s*(})'
+      captures:
+        1: punctuation.section.mapping.end.gdscript
+      pop: true
+
 
   line-continuation:
     # From Sublime's built-in Python syntax, with slight modification
