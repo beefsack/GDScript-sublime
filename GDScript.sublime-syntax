@@ -11,7 +11,9 @@ file_extensions:
 scope: source.gdscript
 
 variables:
-  # todo: single underscore isn't allowed as var name (Godot bug?)
+  # Godot doesn't allow single underscore as var name, for example, `var x = _`
+  # and `func f(_)` are illegal. `func _()` and `_()`, however, are legal so this
+  # inconsistency might be a Godot bug.
   identifier: \b[a-zA-Z_][a-zA-Z_0-9]*\b
 
 contexts:
@@ -38,10 +40,9 @@ contexts:
 
   literals:
     - include: strings
-    # todo: add the '$' symbol
-    # todo: get the full built-in constant list, e.g. PI and TAU
     - match: '@"'
       push:
+        # Should probably be combined with the strings context
         - meta_scope: string.quoted.double.node-path.gdscript
         - match: (?<!\\)"
           pop: true
@@ -118,7 +119,6 @@ contexts:
         1: punctuation.definition.comment.number-sign.gdscript
 
   strings:
-    # todo: sprintf language
     - match: \"""
       scope: punctuation.definition.string.begin.gdscript
       push:
@@ -160,14 +160,12 @@ contexts:
     #
     # https://docs.godotengine.org/en/3.1/getting_started/scripting/gdscript/gdscript_basics.html#built-in-types
     - match: \b(?:bool|int|float|String|funcref)\b
-      # todo: funcref isn't actually a builtin type, it's a function that returns FuncRef
       scope: storage.type.basic.gdscript
     - match: '\b(?:Vector[23]|Rect2|Matrix32?|Plane|Quat|AABB|Transform)\b'
       scope: storage.type.vector.gdscript
     - match: \b(?:Color|Image|NodePath|RID|Object|InputEvent)\b
       scope: storage.type.engine.gdscript
     - match: '\b(Array|Dictionary|ByteArray|IntArray|FloatArray|StringArray|Vector[23]Array|ColorArray)\b'
-      # todo: Godot 3 versions of these (Pooled...)
       scope: storage.type.container.gdscript
 
   functions:
@@ -181,7 +179,6 @@ contexts:
           scope: entity.name.function.gdscript
         - match: (?=\()
           set:
-            # todo: typed params
             - meta_scope: meta.function.parameters.gdscript
             - match: \(
               scope: punctuation.section.parameters.begin.gdscript
@@ -213,7 +210,6 @@ contexts:
     - match: ^\s*signal\b
       scope: storage.type.signal.gdscript
       push:
-        # todo: line continuations (see functions)
         - meta_scope: meta.signal.gdscript
         - match: '{{identifier}}'
           scope: entity.name.signal.gdscript
@@ -287,7 +283,6 @@ contexts:
         - match: ''
           pop: true
   arguments-list:
-    # todo: nested parens, e.g. foo((1+1))
     - match: \(
       scope: punctuation.section.arguments.begin.gdscript
     - include: expressions
