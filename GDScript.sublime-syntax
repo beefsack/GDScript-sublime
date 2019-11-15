@@ -64,6 +64,17 @@ contexts:
       scope: keyword.operator.comparison.gdscript
     - match: \+=|-=|\*=|/=|%=|&=|\|=|\*|/|%|\+|-|<<|>>|&|\||\^|~
       scope: keyword.operator.arithmetic.gdscript
+    - match: \b(?i:yield)\b
+      scope: keyword.control.flow.yield.gdscript
+    - match: '([a-z][a-zA-Z_0-9]*)\s*\('
+      captures:
+        1: meta.function-call.gdscript variable.function.gdscript
+      push:
+        # todo: expressions in function params aren't highlighted, e.g. foo('bar') string
+        - match: \)
+          pop: true
+        - match: "({{identifier}})"
+          scope: variable.parameter.gdscript
 
   assignments:
     - match: "="
@@ -104,19 +115,7 @@ contexts:
         2: variable.function.setter.gdscript
         3: punctuation.separator.parameters.gdscript
         4: variable.function.getter.gdscript
-    - match: \b(?i:yield)\b
-      scope: keyword.control.flow.yield.gdscript
-    - match: \b(?i:var|const|onready|enum|class|func|signal)\b
-      scope: invalid.illegal
-    - match: '([a-z][a-zA-Z_0-9]*)\s*\('
-      captures:
-        1: meta.function-call.gdscript variable.function.gdscript
-      push:
-        # todo: expressions in function params aren't highlighted, e.g. foo('bar') string
-        - match: \)
-          pop: true
-        - match: "({{identifier}})"
-          scope: variable.parameter.gdscript
+
 
   comments:
     - match: (#).*
@@ -201,7 +200,6 @@ contexts:
       scope: punctuation.section.function.begin.gdscript
       pop: true
 
-
   signals:
     - match: ^\s*signal\b
       scope: storage.type.signal.gdscript
@@ -224,7 +222,6 @@ contexts:
             - match: \)
               scope: punctuation.section.parameters.end.gdscript
               pop: true
-
 
   dictionaries:
     - match: '{'
@@ -260,7 +257,6 @@ contexts:
       captures:
         1: punctuation.section.mapping.end.gdscript
       pop: true
-
 
   line-continuation:
     # From Sublime's built-in Python syntax, with slight modification
