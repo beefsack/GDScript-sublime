@@ -38,6 +38,7 @@ contexts:
   literals:
     - include: strings
     # todo: add the '$' symbol
+    # todo: get the full built-in constant list, e.g. PI and TAU
     - match: '@"'
       push:
         - meta_scope: string.quoted.double.node-path.gdscript
@@ -158,12 +159,14 @@ contexts:
     #
     # https://docs.godotengine.org/en/3.1/getting_started/scripting/gdscript/gdscript_basics.html#built-in-types
     - match: \b(?:bool|int|float|String|funcref)\b
+      # todo: funcref isn't actually a builtin type, it's a function that returns FuncRef
       scope: storage.type.basic.gdscript
     - match: '\b(?:Vector[23]|Rect2|Matrix32?|Plane|Quat|AABB|Transform)\b'
       scope: storage.type.vector.gdscript
     - match: \b(?:Color|Image|NodePath|RID|Object|InputEvent)\b
       scope: storage.type.engine.gdscript
     - match: '\b(Array|Dictionary|ByteArray|IntArray|FloatArray|StringArray|Vector[23]Array|ColorArray)\b'
+      # todo: Godot 3 versions of these (Pooled...)
       scope: storage.type.container.gdscript
 
   functions:
@@ -196,6 +199,8 @@ contexts:
                     - meta_scope: meta.function.return-type
                     - include: start-func-body
                     - include: builtin-types
+                    - match: \bvoid\b
+                      scope: storage.type.basic.gdscript
                     - match: '{{identifier}}'
                       scope: support.class.gdscript
   start-func-body:

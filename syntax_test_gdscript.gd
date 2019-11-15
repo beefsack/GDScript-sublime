@@ -38,7 +38,6 @@ var x = """ \""" """
 # <- constant.numeric.integer.gdscript
 #    ^ punctuation.definition.comment.number-sign.gdscript
 
-
 func foo(): pass
 # <- storage.type.function.gdscript
 #    ^^^ entity.name.function.gdscript
@@ -75,6 +74,8 @@ func foo \
 func foo \  # nothing allowed after
 #        ^ punctuation.separator.continuation.line.gdscript
 #         ^^^^^^^^^^^^^^^^^^^^^^^^^ invalid.illegal.unexpected-text.gdscript
+(): pass  # not actually legal after the bad line continuation
+# <- meta.function.parameters.gdscript 
 
 func foo() -> int:
 #          ^^ keyword.operator.arrow.forward.gdscript
@@ -86,11 +87,11 @@ func foo() -> Vector2:
 #             ^^^^^^^ storage.type.vector.gdscript
     Vector2(1,2)
 #   ^^^^^^^ storage.type.vector.gdscript
+func foo() -> void: pass
+#             ^^^^ storage.type.basic.gdscript
 
 func foo() -> FuncRef: pass
 #             ^^^^^^^ support.class.gdscript
-
-func foo() -> funcref: pass # todo: illegal
 
 
 signal foo
@@ -130,6 +131,7 @@ func foo():
 #                   ^ punctuation.section.arguments.end.gdscript
 #            ^ punctuation.separator.arguments.gdscript
 #      ^ punctuation.section.arguments.begin.gdscript
+
     yield()
 #   ^^^^^ keyword.control.flow.yield.gdscript
     yield('foo', 1 + 1)
@@ -138,7 +140,6 @@ func foo():
 #                     ^ punctuation.section.arguments.end.gdscript
 #              ^ punctuation.separator.arguments.gdscript
 #        ^ punctuation.section.arguments.begin.gdscript
-
 
 func foo():
     var a = {}
