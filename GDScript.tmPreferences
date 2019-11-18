@@ -11,7 +11,7 @@
 		<key>decreaseIndentPattern</key>
 		<string>^\s*(elif|else)\b.*:</string>
 		<key>increaseIndentPattern</key>
-		<string>^\s*(class|elif|else|if|while|([a-z]+\s+)?func)\b.*:\s*$</string>
+		<string>^\s*(class|elif|else|if|for|while|([a-z]+\s+)?func)\b.*:\s*$</string>
 
 		<key>shellVariables</key>
 		<array>
