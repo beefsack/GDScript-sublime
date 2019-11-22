@@ -41,6 +41,7 @@ var x = """ \""" """
 # <- constant.numeric.integer.gdscript
 #    ^ punctuation.definition.comment.number-sign.gdscript
 
+
 func foo(): pass
 # <- storage.type.function.gdscript
 #    ^^^ entity.name.function.gdscript
@@ -181,3 +182,15 @@ func foo():
 #            ^^^ meta.mapping.key.gdscript
     var y = {signal = 3}
 #            ^^^^^^ meta.mapping.key.gdscript
+
+enum {}
+# <- storage.type.enum.gdscript
+enum FOO {BAR}
+#         ^^^ entity.name.enum.gdscript
+#    ^^^ entity.name.type.gdscript
+#^^^ storage.type.enum.gdscript
+enum {X, Y,Z}
+#     ^       meta.mapping.key.gdscript entity.name.enum.gdscript
+#        ^    meta.mapping.key.gdscript entity.name.enum.gdscript
+#         ^   punctuation.separator.mapping.key-value.gdscript
+#           ^ punctuation.section.mapping.end.gdscript
