@@ -93,10 +93,10 @@ contexts:
       captures:
         1: storage.type.const.gdscript
         2: variable.other.gdscript
-    - match: '\b(?i:(enum))\s+({{identifier}})'
+    - match: '\b(?i:(enum))\s+({{identifier}})?'
       captures:
         1: storage.type.enum.gdscript
-        2: variable.other.gdscript
+        2: entity.name.type.gdscript
     - match: \b(?i:extends|assert|breakpoint)\b
       scope: keyword.other.gdscript
     - match: '(?<=extends)\s+{{identifier}}(\.({{identifier}}))?'
@@ -233,15 +233,24 @@ contexts:
       scope: punctuation.section.mapping.begin.gdscript
       set: dictionary-keys
   dictionary-keys:
-    # todo: why do I see meta.mapping.gdscript twice immediately before delimiter?
+    # Scope meta.mapping.gdscript appears twice immediately before delimiter, why?
     - meta_scope: meta.mapping.gdscript
     - include: dictionary-close-pop
     - match: '[:=]'
       scope: punctuation.separator.mapping.key-value.gdscript
-      set: dictionary-values
+      set: dictionary-values  # prevent infinite loop
+    - match: ','  # enum key without an explicit value
+      scope: punctuation.separator.mapping.key-value.gdscript      
     - match: (?=\S)
       set:
         - meta_scope: meta.mapping.key.gdscript
+        - match: '{{identifier}}(?=\s*=)'
+          set: dictionary-keys
+        - match: '{{identifier}}(?=\s*[,}])'
+          # Would be better not to nest enum matching under dictionary since this
+          # won't correctly scope `enum {X=1}`, for example.
+          scope: entity.name.enum.gdscript
+          set: dictionary-keys
         - match: (?=\s*[:=])
           set: dictionary-keys
         - include: expressions
@@ -250,7 +259,7 @@ contexts:
     - include: dictionary-close-pop
     - match: ','
       scope: punctuation.separator.mapping.gdscript
-      set: dictionary-keys
+      set: dictionary-keys  # prevent infinite loop
     - match: (?=\S)
       set:
         - meta_scope: meta.mapping.value.gdscript
@@ -272,7 +281,7 @@ contexts:
         - meta_scope: meta.function-call.arguments.gdscript
         - include: arguments-list
   yields:
-    - match: ^\s*yield\b
+    - match: \byield\b
       scope: keyword.control.flow.yield.gdscript
       push:
         - match: (?=\()
