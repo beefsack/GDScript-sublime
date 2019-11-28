@@ -246,7 +246,7 @@ contexts:
         - meta_scope: meta.mapping.key.gdscript
         - match: '{{identifier}}(?=\s*=)'
           set: dictionary-keys
-        - match: '{{identifier}}(?=\s*[,}])'
+        - match: '{{identifier}}(?=\s*[,}\n])'
           # Would be better not to nest enum matching under dictionary since this
           # won't correctly scope `enum {X=1}`, for example.
           scope: entity.name.enum.gdscript
