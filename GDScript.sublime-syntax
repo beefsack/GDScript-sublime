@@ -61,7 +61,7 @@ contexts:
     - include: literals
     - include: builtin-types
     - include: dictionaries
-    - match: \b(?i:elif|else|for|if|while|break|continue|pass|return)\b
+    - match: \b(?i:elif|else|for|if|while|break|continue|pass|return|match)\b
       scope: keyword.control.flow.gdscript
     - match: \b(?i:&&|and|in|is|!|not|\|\||or)\b
       scope: keyword.operator.logical.gdscript
