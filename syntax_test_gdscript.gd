@@ -194,3 +194,9 @@ enum {X, Y,Z}
 #        ^    meta.mapping.key.gdscript entity.name.enum.gdscript
 #         ^   punctuation.separator.mapping.key-value.gdscript
 #           ^ punctuation.section.mapping.end.gdscript
+enum TEST {
+    A, B, C
+#   ^       meta.mapping.key.gdscript entity.name.enum.gdscript
+#      ^    meta.mapping.key.gdscript entity.name.enum.gdscript
+#         ^ meta.mapping.key.gdscript entity.name.enum.gdscript
+}
