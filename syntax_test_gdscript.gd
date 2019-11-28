@@ -200,3 +200,8 @@ enum TEST {
 #      ^    meta.mapping.key.gdscript entity.name.enum.gdscript
 #         ^ meta.mapping.key.gdscript entity.name.enum.gdscript
 }
+
+  match state:
+# ^^^^^ keyword.control.flow.gdscript
+    STATE.INTRO:
+        print("intro")
