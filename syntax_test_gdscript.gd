@@ -36,6 +36,13 @@ var x = """ \""" """
 "escaped quote \" foo"
 #              ^^ constant.character.escape.gdscript
 
+"\\"
+#^^ constant.character.escape.gdscript
+#  ^ punctuation.definition.string.end.gdscript
+'\\'
+#^^ constant.character.escape.gdscript
+#  ^ punctuation.definition.string.end.gdscript
+
 
 123  # this actually won't compile outside a function
 # <- constant.numeric.integer.gdscript
