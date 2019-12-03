@@ -149,7 +149,7 @@ contexts:
           pop: true
   character-escapes:
     # Should add the rest of the character escapes here
-    - match: \\["']
+    - match: \\["'\\]
       scope: constant.character.escape.gdscript
 
   builtin-types:
