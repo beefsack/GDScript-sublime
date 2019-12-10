@@ -76,7 +76,7 @@ contexts:
     - match: "="
       scope: keyword.operator.assignment.gdscript
 
-    - match: '^\s*(?i:(class))\s+({{identifier}})\s*:'
+    - match: '^\s*(?i:(class))\s+({{identifier}})\s*'
       captures:
         1: storage.type.class.gdscript
         2: entity.name.type.class.gdscript

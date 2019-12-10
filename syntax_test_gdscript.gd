@@ -212,3 +212,13 @@ enum TEST {
 # ^^^^^ keyword.control.flow.gdscript
     STATE.INTRO:
         print("intro")
+
+  class Thing:
+# ^^^^^       storage.type.class.gdscript
+#       ^^^^^ entity.name.type.class.gdscript
+
+  class Thing extends Reference:
+# ^^^^^                         storage.type.class.gdscript
+#       ^^^^^                   entity.name.type.class.gdscript
+#             ^^^^^^            keyword.other.gdscript
+#                     ^^^^^^^^^ entity.other.inherited-class.gdscript
